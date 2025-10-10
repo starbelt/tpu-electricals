@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "sb-cdh")(type "KiCad")(uri "${KIPRJMOD}/sb-cdh.kicad_sym")(options "")(descr ""))
-  (lib (name "sb-tpu")(type "KiCad")(uri "${KIPRJMOD}/sb-tpu.kicad_sym")(options "")(descr ""))
-  (lib (name "sb-tpu-cdh")(type "KiCad")(uri "${KIPRJMOD}/sb-tpu-cdh.kicad_sym")(options "")(descr ""))
-)

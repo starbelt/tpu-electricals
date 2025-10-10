@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "sb-cdh")(type "KiCad")(uri "${KIPRJMOD}/sb-cdh.pretty")(options "")(descr ""))
-)
