@@ -329,45 +329,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "VDD_SNVS_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 0)
-					(length 5.08)
-					(name "VDD_SNVS_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -385,7 +349,7 @@
 				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3595,7 +3559,7 @@
 			(symbol "MIMXRT1176CVM8A__1_9_1"
 				(rectangle
 					(start 0 0)
-					(end 45.72 -39.37)
+					(end 31.75 -74.93)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3605,7 +3569,7 @@
 					)
 				)
 				(text "MIMXRT1176CVM8A"
-					(at 8.89 -40.64 0)
+					(at 8.89 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3613,16 +3577,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -13.97 0)
 					(length 5.08)
-					(name "VDD_SNVS_IN"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3631,16 +3595,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -8.89 0)
+					(at -5.08 -45.72 0)
 					(length 5.08)
-					(name "VDD_SNVS_ANA"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U14"
+					(number "E7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3648,17 +3612,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -15.24 0)
+				(pin bidirectional line
+					(at 36.83 -2.54 180)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "GPIO_DISP_B1_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T14"
+					(number "E13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3666,17 +3630,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -26.67 0)
+				(pin bidirectional line
+					(at 36.83 -5.08 180)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "GPIO_DISP_B1_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U11"
+					(number "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3684,17 +3648,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -2.54 180)
+				(pin bidirectional line
+					(at 36.83 -7.62 180)
 					(length 5.08)
-					(name "ONOFF"
+					(name "GPIO_DISP_B1_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U10"
+					(number "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3702,17 +3666,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -5.08 180)
+				(pin bidirectional line
+					(at 36.83 -10.16 180)
 					(length 5.08)
-					(name "WAKEUP"
+					(name "GPIO_DISP_B1_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T8"
+					(number "E11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3720,17 +3684,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -7.62 180)
+				(pin bidirectional line
+					(at 36.83 -12.7 180)
 					(length 5.08)
-					(name "POR"
+					(name "GPIO_DISP_B1_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T10"
+					(number "E10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3738,17 +3702,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -10.16 180)
+				(pin bidirectional line
+					(at 36.83 -15.24 180)
 					(length 5.08)
-					(name "PMIC_STY_REQ"
+					(name "GPIO_DISP_B1_05"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T9"
+					(number "C11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3756,17 +3720,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -12.7 180)
+				(pin bidirectional line
+					(at 36.83 -17.78 180)
 					(length 5.08)
-					(name "PMIC_ON_REQ"
+					(name "GPIO_DISP_B1_06"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U9"
+					(number "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3774,17 +3738,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -15.24 180)
+				(pin bidirectional line
+					(at 36.83 -20.32 180)
 					(length 5.08)
-					(name "GPIO_SNVS_00"
+					(name "GPIO_DISP_B1_07"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R10"
+					(number "E12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3792,17 +3756,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -17.78 180)
+				(pin bidirectional line
+					(at 36.83 -22.86 180)
 					(length 5.08)
-					(name "GPIO_SNVS_01"
+					(name "GPIO_DISP_B1_08"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P10"
+					(number "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3810,17 +3774,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -20.32 180)
+				(pin bidirectional line
+					(at 36.83 -25.4 180)
 					(length 5.08)
-					(name "GPIO_SNVS_02"
+					(name "GPIO_DISP_B1_09"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "L9"
+					(number "C13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3828,17 +3792,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -22.86 180)
+				(pin bidirectional line
+					(at 36.83 -27.94 180)
 					(length 5.08)
-					(name "GPIO_SNVS_03"
+					(name "GPIO_DISP_B1_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M10"
+					(number "B14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3846,17 +3810,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -25.4 180)
+				(pin bidirectional line
+					(at 36.83 -30.48 180)
 					(length 5.08)
-					(name "GPIO_SNVS_04"
+					(name "GPIO_DISP_B1_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N10"
+					(number "A14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3864,17 +3828,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -27.94 180)
+				(pin bidirectional line
+					(at 36.83 -35.56 180)
 					(length 5.08)
-					(name "GPIO_SNVS_05"
+					(name "GPIO_DISP_B2_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P9"
+					(number "E8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3882,17 +3846,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -30.48 180)
+				(pin bidirectional line
+					(at 36.83 -38.1 180)
 					(length 5.08)
-					(name "GPIO_SNVS_06"
+					(name "GPIO_DISP_B2_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M9"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3900,17 +3864,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -33.02 180)
+				(pin bidirectional line
+					(at 36.83 -40.64 180)
 					(length 5.08)
-					(name "GPIO_SNVS_07"
+					(name "GPIO_DISP_B2_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R9"
+					(number "E9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3918,17 +3882,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -35.56 180)
+				(pin bidirectional line
+					(at 36.83 -43.18 180)
 					(length 5.08)
-					(name "GPIO_SNVS_08"
+					(name "GPIO_DISP_B2_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N9"
+					(number "D7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3936,17 +3900,215 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -38.1 180)
+				(pin bidirectional line
+					(at 36.83 -45.72 180)
 					(length 5.08)
-					(name "GPIO_SNVS_09"
+					(name "GPIO_DISP_B2_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R11"
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -48.26 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -50.8 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -53.34 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -55.88 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -58.42 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -60.96 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -63.5 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -66.04 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -68.58 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -71.12 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -73.66 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4025,45 +4187,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "VDD_SNVS_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 0)
-					(length 5.08)
-					(name "VDD_SNVS_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4081,7 +4207,7 @@
 				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7291,7 +7417,7 @@
 			(symbol "MIMXRT1176CVM8A__2_9_1"
 				(rectangle
 					(start 0 0)
-					(end 45.72 -39.37)
+					(end 31.75 -74.93)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -7301,7 +7427,7 @@
 					)
 				)
 				(text "MIMXRT1176CVM8A"
-					(at 8.89 -40.64 0)
+					(at 8.89 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7309,16 +7435,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -13.97 0)
 					(length 5.08)
-					(name "VDD_SNVS_IN"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7327,16 +7453,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -8.89 0)
+					(at -5.08 -45.72 0)
 					(length 5.08)
-					(name "VDD_SNVS_ANA"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U14"
+					(number "E7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7344,17 +7470,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -15.24 0)
+				(pin bidirectional line
+					(at 36.83 -2.54 180)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "GPIO_DISP_B1_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T14"
+					(number "E13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7362,17 +7488,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -26.67 0)
+				(pin bidirectional line
+					(at 36.83 -5.08 180)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "GPIO_DISP_B1_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U11"
+					(number "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7380,17 +7506,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -2.54 180)
+				(pin bidirectional line
+					(at 36.83 -7.62 180)
 					(length 5.08)
-					(name "ONOFF"
+					(name "GPIO_DISP_B1_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U10"
+					(number "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7398,17 +7524,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -5.08 180)
+				(pin bidirectional line
+					(at 36.83 -10.16 180)
 					(length 5.08)
-					(name "WAKEUP"
+					(name "GPIO_DISP_B1_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T8"
+					(number "E11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7416,17 +7542,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -7.62 180)
+				(pin bidirectional line
+					(at 36.83 -12.7 180)
 					(length 5.08)
-					(name "POR"
+					(name "GPIO_DISP_B1_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T10"
+					(number "E10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7434,17 +7560,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -10.16 180)
+				(pin bidirectional line
+					(at 36.83 -15.24 180)
 					(length 5.08)
-					(name "PMIC_STY_REQ"
+					(name "GPIO_DISP_B1_05"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T9"
+					(number "C11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7452,17 +7578,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -12.7 180)
+				(pin bidirectional line
+					(at 36.83 -17.78 180)
 					(length 5.08)
-					(name "PMIC_ON_REQ"
+					(name "GPIO_DISP_B1_06"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U9"
+					(number "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7470,17 +7596,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -15.24 180)
+				(pin bidirectional line
+					(at 36.83 -20.32 180)
 					(length 5.08)
-					(name "GPIO_SNVS_00"
+					(name "GPIO_DISP_B1_07"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R10"
+					(number "E12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7488,17 +7614,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -17.78 180)
+				(pin bidirectional line
+					(at 36.83 -22.86 180)
 					(length 5.08)
-					(name "GPIO_SNVS_01"
+					(name "GPIO_DISP_B1_08"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P10"
+					(number "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7506,17 +7632,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -20.32 180)
+				(pin bidirectional line
+					(at 36.83 -25.4 180)
 					(length 5.08)
-					(name "GPIO_SNVS_02"
+					(name "GPIO_DISP_B1_09"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "L9"
+					(number "C13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7524,17 +7650,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -22.86 180)
+				(pin bidirectional line
+					(at 36.83 -27.94 180)
 					(length 5.08)
-					(name "GPIO_SNVS_03"
+					(name "GPIO_DISP_B1_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M10"
+					(number "B14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7542,17 +7668,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -25.4 180)
+				(pin bidirectional line
+					(at 36.83 -30.48 180)
 					(length 5.08)
-					(name "GPIO_SNVS_04"
+					(name "GPIO_DISP_B1_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N10"
+					(number "A14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7560,17 +7686,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -27.94 180)
+				(pin bidirectional line
+					(at 36.83 -35.56 180)
 					(length 5.08)
-					(name "GPIO_SNVS_05"
+					(name "GPIO_DISP_B2_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P9"
+					(number "E8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7578,17 +7704,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -30.48 180)
+				(pin bidirectional line
+					(at 36.83 -38.1 180)
 					(length 5.08)
-					(name "GPIO_SNVS_06"
+					(name "GPIO_DISP_B2_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M9"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7596,17 +7722,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -33.02 180)
+				(pin bidirectional line
+					(at 36.83 -40.64 180)
 					(length 5.08)
-					(name "GPIO_SNVS_07"
+					(name "GPIO_DISP_B2_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R9"
+					(number "E9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7614,17 +7740,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -35.56 180)
+				(pin bidirectional line
+					(at 36.83 -43.18 180)
 					(length 5.08)
-					(name "GPIO_SNVS_08"
+					(name "GPIO_DISP_B2_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N9"
+					(number "D7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7632,17 +7758,215 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -38.1 180)
+				(pin bidirectional line
+					(at 36.83 -45.72 180)
 					(length 5.08)
-					(name "GPIO_SNVS_09"
+					(name "GPIO_DISP_B2_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R11"
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -48.26 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -50.8 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -53.34 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -55.88 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -58.42 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -60.96 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -63.5 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -66.04 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -68.58 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -71.12 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -73.66 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7721,45 +8045,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "VDD_SNVS_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 0)
-					(length 5.08)
-					(name "VDD_SNVS_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7777,7 +8065,7 @@
 				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10987,7 +11275,7 @@
 			(symbol "MIMXRT1176CVM8A__3_9_1"
 				(rectangle
 					(start 0 0)
-					(end 45.72 -39.37)
+					(end 31.75 -74.93)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -10997,7 +11285,7 @@
 					)
 				)
 				(text "MIMXRT1176CVM8A"
-					(at 8.89 -40.64 0)
+					(at 8.89 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11005,16 +11293,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -13.97 0)
 					(length 5.08)
-					(name "VDD_SNVS_IN"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11023,16 +11311,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -8.89 0)
+					(at -5.08 -45.72 0)
 					(length 5.08)
-					(name "VDD_SNVS_ANA"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U14"
+					(number "E7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11040,17 +11328,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -15.24 0)
+				(pin bidirectional line
+					(at 36.83 -2.54 180)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "GPIO_DISP_B1_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T14"
+					(number "E13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11058,17 +11346,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -26.67 0)
+				(pin bidirectional line
+					(at 36.83 -5.08 180)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "GPIO_DISP_B1_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U11"
+					(number "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11076,17 +11364,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -2.54 180)
+				(pin bidirectional line
+					(at 36.83 -7.62 180)
 					(length 5.08)
-					(name "ONOFF"
+					(name "GPIO_DISP_B1_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U10"
+					(number "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11094,17 +11382,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -5.08 180)
+				(pin bidirectional line
+					(at 36.83 -10.16 180)
 					(length 5.08)
-					(name "WAKEUP"
+					(name "GPIO_DISP_B1_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T8"
+					(number "E11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11112,17 +11400,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -7.62 180)
+				(pin bidirectional line
+					(at 36.83 -12.7 180)
 					(length 5.08)
-					(name "POR"
+					(name "GPIO_DISP_B1_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T10"
+					(number "E10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11130,17 +11418,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -10.16 180)
+				(pin bidirectional line
+					(at 36.83 -15.24 180)
 					(length 5.08)
-					(name "PMIC_STY_REQ"
+					(name "GPIO_DISP_B1_05"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T9"
+					(number "C11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11148,17 +11436,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -12.7 180)
+				(pin bidirectional line
+					(at 36.83 -17.78 180)
 					(length 5.08)
-					(name "PMIC_ON_REQ"
+					(name "GPIO_DISP_B1_06"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U9"
+					(number "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11166,17 +11454,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -15.24 180)
+				(pin bidirectional line
+					(at 36.83 -20.32 180)
 					(length 5.08)
-					(name "GPIO_SNVS_00"
+					(name "GPIO_DISP_B1_07"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R10"
+					(number "E12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11184,17 +11472,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -17.78 180)
+				(pin bidirectional line
+					(at 36.83 -22.86 180)
 					(length 5.08)
-					(name "GPIO_SNVS_01"
+					(name "GPIO_DISP_B1_08"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P10"
+					(number "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11202,17 +11490,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -20.32 180)
+				(pin bidirectional line
+					(at 36.83 -25.4 180)
 					(length 5.08)
-					(name "GPIO_SNVS_02"
+					(name "GPIO_DISP_B1_09"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "L9"
+					(number "C13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11220,17 +11508,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -22.86 180)
+				(pin bidirectional line
+					(at 36.83 -27.94 180)
 					(length 5.08)
-					(name "GPIO_SNVS_03"
+					(name "GPIO_DISP_B1_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M10"
+					(number "B14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11238,17 +11526,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -25.4 180)
+				(pin bidirectional line
+					(at 36.83 -30.48 180)
 					(length 5.08)
-					(name "GPIO_SNVS_04"
+					(name "GPIO_DISP_B1_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N10"
+					(number "A14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11256,17 +11544,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -27.94 180)
+				(pin bidirectional line
+					(at 36.83 -35.56 180)
 					(length 5.08)
-					(name "GPIO_SNVS_05"
+					(name "GPIO_DISP_B2_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P9"
+					(number "E8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11274,17 +11562,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -30.48 180)
+				(pin bidirectional line
+					(at 36.83 -38.1 180)
 					(length 5.08)
-					(name "GPIO_SNVS_06"
+					(name "GPIO_DISP_B2_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M9"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11292,17 +11580,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -33.02 180)
+				(pin bidirectional line
+					(at 36.83 -40.64 180)
 					(length 5.08)
-					(name "GPIO_SNVS_07"
+					(name "GPIO_DISP_B2_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R9"
+					(number "E9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11310,17 +11598,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -35.56 180)
+				(pin bidirectional line
+					(at 36.83 -43.18 180)
 					(length 5.08)
-					(name "GPIO_SNVS_08"
+					(name "GPIO_DISP_B2_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N9"
+					(number "D7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11328,17 +11616,215 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -38.1 180)
+				(pin bidirectional line
+					(at 36.83 -45.72 180)
 					(length 5.08)
-					(name "GPIO_SNVS_09"
+					(name "GPIO_DISP_B2_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R11"
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -48.26 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -50.8 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -53.34 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -55.88 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -58.42 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -60.96 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -63.5 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -66.04 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -68.58 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -71.12 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -73.66 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14170,45 +14656,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "VDD_SNVS_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 0)
-					(length 5.08)
-					(name "VDD_SNVS_ANA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14226,7 +14676,7 @@
 				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17436,7 +17886,7 @@
 			(symbol "MIMXRT1176CVM8A__9_1"
 				(rectangle
 					(start 0 0)
-					(end 45.72 -39.37)
+					(end 31.75 -74.93)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -17446,7 +17896,7 @@
 					)
 				)
 				(text "MIMXRT1176CVM8A"
-					(at 8.89 -40.64 0)
+					(at 8.89 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17454,16 +17904,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -13.97 0)
 					(length 5.08)
-					(name "VDD_SNVS_IN"
+					(name "NVCC_DISP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U12"
+					(number "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17472,16 +17922,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -8.89 0)
+					(at -5.08 -45.72 0)
 					(length 5.08)
-					(name "VDD_SNVS_ANA"
+					(name "NVCC_DISP2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U14"
+					(number "E7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17489,17 +17939,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -15.24 0)
+				(pin bidirectional line
+					(at 36.83 -2.54 180)
 					(length 5.08)
-					(name "VDD_SNVS_DIG"
+					(name "GPIO_DISP_B1_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T14"
+					(number "E13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17507,17 +17957,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -26.67 0)
+				(pin bidirectional line
+					(at 36.83 -5.08 180)
 					(length 5.08)
-					(name "NVCC_SNVS"
+					(name "GPIO_DISP_B1_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U11"
+					(number "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17525,17 +17975,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -2.54 180)
+				(pin bidirectional line
+					(at 36.83 -7.62 180)
 					(length 5.08)
-					(name "ONOFF"
+					(name "GPIO_DISP_B1_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U10"
+					(number "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17543,17 +17993,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -5.08 180)
+				(pin bidirectional line
+					(at 36.83 -10.16 180)
 					(length 5.08)
-					(name "WAKEUP"
+					(name "GPIO_DISP_B1_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T8"
+					(number "E11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17561,17 +18011,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -7.62 180)
+				(pin bidirectional line
+					(at 36.83 -12.7 180)
 					(length 5.08)
-					(name "POR"
+					(name "GPIO_DISP_B1_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T10"
+					(number "E10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17579,17 +18029,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -10.16 180)
+				(pin bidirectional line
+					(at 36.83 -15.24 180)
 					(length 5.08)
-					(name "PMIC_STY_REQ"
+					(name "GPIO_DISP_B1_05"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T9"
+					(number "C11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17597,17 +18047,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -12.7 180)
+				(pin bidirectional line
+					(at 36.83 -17.78 180)
 					(length 5.08)
-					(name "PMIC_ON_REQ"
+					(name "GPIO_DISP_B1_06"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "U9"
+					(number "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17615,17 +18065,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -15.24 180)
+				(pin bidirectional line
+					(at 36.83 -20.32 180)
 					(length 5.08)
-					(name "GPIO_SNVS_00"
+					(name "GPIO_DISP_B1_07"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R10"
+					(number "E12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17633,17 +18083,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -17.78 180)
+				(pin bidirectional line
+					(at 36.83 -22.86 180)
 					(length 5.08)
-					(name "GPIO_SNVS_01"
+					(name "GPIO_DISP_B1_08"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P10"
+					(number "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17651,17 +18101,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -20.32 180)
+				(pin bidirectional line
+					(at 36.83 -25.4 180)
 					(length 5.08)
-					(name "GPIO_SNVS_02"
+					(name "GPIO_DISP_B1_09"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "L9"
+					(number "C13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17669,17 +18119,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -22.86 180)
+				(pin bidirectional line
+					(at 36.83 -27.94 180)
 					(length 5.08)
-					(name "GPIO_SNVS_03"
+					(name "GPIO_DISP_B1_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M10"
+					(number "B14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17687,17 +18137,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -25.4 180)
+				(pin bidirectional line
+					(at 36.83 -30.48 180)
 					(length 5.08)
-					(name "GPIO_SNVS_04"
+					(name "GPIO_DISP_B1_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N10"
+					(number "A14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17705,17 +18155,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -27.94 180)
+				(pin bidirectional line
+					(at 36.83 -35.56 180)
 					(length 5.08)
-					(name "GPIO_SNVS_05"
+					(name "GPIO_DISP_B2_00"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P9"
+					(number "E8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17723,17 +18173,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -30.48 180)
+				(pin bidirectional line
+					(at 36.83 -38.1 180)
 					(length 5.08)
-					(name "GPIO_SNVS_06"
+					(name "GPIO_DISP_B2_01"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M9"
+					(number "F8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17741,17 +18191,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -33.02 180)
+				(pin bidirectional line
+					(at 36.83 -40.64 180)
 					(length 5.08)
-					(name "GPIO_SNVS_07"
+					(name "GPIO_DISP_B2_02"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R9"
+					(number "E9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17759,17 +18209,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -35.56 180)
+				(pin bidirectional line
+					(at 36.83 -43.18 180)
 					(length 5.08)
-					(name "GPIO_SNVS_08"
+					(name "GPIO_DISP_B2_03"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N9"
+					(number "D7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17777,17 +18227,215 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 50.8 -38.1 180)
+				(pin bidirectional line
+					(at 36.83 -45.72 180)
 					(length 5.08)
-					(name "GPIO_SNVS_09"
+					(name "GPIO_DISP_B2_04"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R11"
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -48.26 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -50.8 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -53.34 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -55.88 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -58.42 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -60.96 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -63.5 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -66.04 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -68.58 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -71.12 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 36.83 -73.66 180)
+					(length 5.08)
+					(name "GPIO_DISP_B2_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -22199,10 +22847,10 @@
 		(pin "H14"
 			(uuid "8dacc9ac-febc-4a51-a34e-98dd0e029777")
 		)
-		(pin "U12"
+		(pin "D11"
 			(uuid "b78a6263-5606-4741-9d5c-a86deb6a4db0")
 		)
-		(pin "U11"
+		(pin "E10"
 			(uuid "3f9aaa3f-4d11-466f-a638-5f843bdbe85d")
 		)
 		(pin "M16"
@@ -22217,7 +22865,7 @@
 		(pin "R13"
 			(uuid "cc6804fe-d937-40bc-b49f-b117b3c5a0e6")
 		)
-		(pin "R10"
+		(pin "F8"
 			(uuid "b78b1e51-eae4-4597-9c73-0f86ecd39e32")
 		)
 		(pin "M12"
@@ -22238,22 +22886,22 @@
 		(pin "P13"
 			(uuid "ab5e9f55-797d-46be-af4f-2a09830099e9")
 		)
-		(pin "N9"
+		(pin "E7"
 			(uuid "9dbddcde-550e-4451-a578-0344c920ed5c")
 		)
 		(pin "P16"
 			(uuid "2fdf5786-3322-4363-a8b3-3414991cfb90")
 		)
-		(pin "M9"
+		(pin "D12"
 			(uuid "0f859c4b-916c-47e0-b5c6-3c050beb9100")
 		)
 		(pin "L12"
 			(uuid "6278814c-c0de-4bd8-b8ab-ed4ddb408f48")
 		)
-		(pin "T14"
+		(pin "B6"
 			(uuid "e01649d5-1593-4de5-a4c1-cd6b77523d0b")
 		)
-		(pin "U14"
+		(pin "E9"
 			(uuid "a524565d-c0db-429c-9b3b-65a928defb4d")
 		)
 		(pin "U10"
@@ -22268,7 +22916,7 @@
 		(pin "U9"
 			(uuid "26b366a9-340d-4f2a-8e55-e04290e92194")
 		)
-		(pin "M10"
+		(pin "E8"
 			(uuid "fb2e4fc4-95c0-4e1c-82cb-72a287d533cb")
 		)
 		(pin "P10"
@@ -22289,7 +22937,7 @@
 		(pin "P9"
 			(uuid "c8c23ef0-2b07-4b3b-a4b0-d068b95bb813")
 		)
-		(pin "P9"
+		(pin "D7"
 			(uuid "1748dfaf-ce5b-4b83-a846-d527d60e0eb3")
 		)
 		(pin "R9"
@@ -22301,10 +22949,10 @@
 		(pin "R9"
 			(uuid "617fc46e-7684-48fc-b8e1-5ae4cd492089")
 		)
-		(pin "R11"
+		(pin "B5"
 			(uuid "4881ce4a-5c65-4ec9-97fd-83af3aec8801")
 		)
-		(pin "U14"
+		(pin "A14"
 			(uuid "becf5e8c-195e-4781-98df-39a6579531e6")
 		)
 		(pin "T14"
@@ -22313,10 +22961,10 @@
 		(pin "M10"
 			(uuid "d2a53d99-73e0-4392-8788-5969a473ae2c")
 		)
-		(pin "P10"
+		(pin "D8"
 			(uuid "61282d4b-fffb-48ea-b145-c885a77ae889")
 		)
-		(pin "N10"
+		(pin "A7"
 			(uuid "191e83a8-1df4-440f-97e3-fb6163d15ea8")
 		)
 		(pin "M9"
@@ -22331,25 +22979,25 @@
 		(pin "K10"
 			(uuid "d03943dd-1113-4550-a211-80cb312ec112")
 		)
-		(pin "U12"
+		(pin "C9"
 			(uuid "579060a8-cb83-4443-9113-5ef7eb642b53")
 		)
-		(pin "T8"
+		(pin "A4"
 			(uuid "8d35dfde-aaed-4326-b5b5-f9851a410661")
 		)
 		(pin "T11"
 			(uuid "4ad4c12b-d91b-44c6-b125-34f303c0853f")
 		)
-		(pin "U9"
+		(pin "A5"
 			(uuid "a3edd7c1-bbed-4ea6-8c71-e19bc878a70a")
 		)
 		(pin "L5"
 			(uuid "ebb21ccd-c838-4a1f-929a-08642861aae7")
 		)
-		(pin "T9"
+		(pin "D9"
 			(uuid "55e11356-38ab-4df8-a626-48e5e35ebabc")
 		)
-		(pin "L9"
+		(pin "C7"
 			(uuid "ec844198-a05a-446d-a966-a9c6834a91d0")
 		)
 		(pin "R7"
@@ -22358,13 +23006,13 @@
 		(pin "U11"
 			(uuid "d70e68f4-dbaf-48b3-a4b7-c1114a443721")
 		)
-		(pin "U10"
+		(pin "A6"
 			(uuid "06d43cd6-2870-4903-93b1-c99ab5f014e4")
 		)
-		(pin "T10"
+		(pin "C6"
 			(uuid "31624514-3cd0-4fb3-9f05-05df8f216471")
 		)
-		(pin "R9"
+		(pin "D6"
 			(uuid "d6916c3c-3cce-4de2-88d7-e67c99aa6d85")
 		)
 		(pin "R10"
@@ -22615,6 +23263,33 @@
 		)
 		(pin "G17"
 			(uuid "a8eb5fe2-318d-4d72-9264-53e8b00ccc47")
+		)
+		(pin "E13"
+			(uuid "8ce83363-621d-471c-a97e-b8a9807ea5cd")
+		)
+		(pin "D13"
+			(uuid "d0018350-0c5b-4833-96dd-ac39c2ce6f1f")
+		)
+		(pin "E11"
+			(uuid "52da6355-762e-4950-b2f9-456625b0b11b")
+		)
+		(pin "D10"
+			(uuid "321c621e-984f-4227-8b01-4f2063b09d7e")
+		)
+		(pin "E12"
+			(uuid "4e9e3d08-6ada-4356-980d-c1c135e9ab03")
+		)
+		(pin "A15"
+			(uuid "df7daeb0-c2b3-4ded-80df-bd51c6bf452c")
+		)
+		(pin "C13"
+			(uuid "bf694a93-57d2-4e84-84e9-3431df243824")
+		)
+		(pin "C11"
+			(uuid "333a8771-b71d-46f6-969f-6d75e5480896")
+		)
+		(pin "B14"
+			(uuid "ae09c784-1342-4438-95fb-7f48438d33ab")
 		)
 		(instances
 			(project ""
@@ -24363,7 +25038,7 @@
 		(pin "U11"
 			(uuid "141cc48d-91f8-4ce9-96bd-13876b530c23")
 		)
-		(pin "T8"
+		(pin "E8"
 			(uuid "d5c550f1-b89a-49de-ad77-4902711b1e64")
 		)
 		(pin "M9"
@@ -24372,7 +25047,7 @@
 		(pin "F16"
 			(uuid "9273e216-fcc0-4dc5-9151-41a4b2b24a45")
 		)
-		(pin "T10"
+		(pin "E12"
 			(uuid "a9ec5aa9-d927-4542-927a-ae957db2b5de")
 		)
 		(pin "R9"
@@ -24381,22 +25056,22 @@
 		(pin "T10"
 			(uuid "373a928c-7ae7-46e8-9671-3bbc72059616")
 		)
-		(pin "T9"
+		(pin "D13"
 			(uuid "cb5e40f4-8f66-49b4-bb97-1954bbc50101")
 		)
-		(pin "U12"
+		(pin "D10"
 			(uuid "545430e8-7ffb-4737-af93-b947561aa9c8")
 		)
 		(pin "U9"
 			(uuid "e08c7fe5-1deb-4992-b633-61f35a65b9fd")
 		)
-		(pin "U14"
+		(pin "E10"
 			(uuid "9a94b3b5-57de-470f-8f24-7ee06a7a06a0")
 		)
-		(pin "R11"
+		(pin "D11"
 			(uuid "fa472429-6dfe-4c9e-8c2f-c78134b23514")
 		)
-		(pin "U12"
+		(pin "A15"
 			(uuid "061af7a5-562d-4303-b834-f82c2f4b7fe8")
 		)
 		(pin "T14"
@@ -24411,22 +25086,22 @@
 		(pin "N9"
 			(uuid "6745b35e-ea39-418f-ba89-84a4ecb260a8")
 		)
-		(pin "U14"
+		(pin "E11"
 			(uuid "7ef0a50f-b0e8-4099-86c0-9c3485014128")
 		)
-		(pin "T14"
+		(pin "C11"
 			(uuid "046f975a-b4f3-4441-9e06-329443bce3a2")
 		)
 		(pin "U10"
 			(uuid "36f5c344-2d03-4935-9ecf-d729dac24c1f")
 		)
-		(pin "U10"
+		(pin "D6"
 			(uuid "f11cba1b-21ab-4b71-bc75-dbe56d53b652")
 		)
 		(pin "T8"
 			(uuid "75718c82-7b5e-4574-aa19-c631f22768d1")
 		)
-		(pin "M9"
+		(pin "C6"
 			(uuid "fb7c78b3-2488-4d12-81b2-f38f47e05cad")
 		)
 		(pin "R10"
@@ -24435,7 +25110,7 @@
 		(pin "M10"
 			(uuid "98e162f8-102e-4b93-802b-ab35abdad461")
 		)
-		(pin "N9"
+		(pin "C13"
 			(uuid "69950f29-382c-4e54-aa8e-c1f2b59852de")
 		)
 		(pin "R11"
@@ -24453,10 +25128,10 @@
 		(pin "P9"
 			(uuid "6e4c2eda-fe62-4ef2-bfc5-f1f6b7630578")
 		)
-		(pin "P10"
+		(pin "D7"
 			(uuid "f106498b-67c5-4f4a-b743-208e7d53cb2e")
 		)
-		(pin "U9"
+		(pin "F8"
 			(uuid "04cfc4ac-9ac6-4b0c-bb61-a09bee400b5b")
 		)
 		(pin "R9"
@@ -24483,7 +25158,7 @@
 		(pin "T17"
 			(uuid "22c353d4-8f99-47f9-b787-e913addd7203")
 		)
-		(pin "U11"
+		(pin "A14"
 			(uuid "f6abc926-8224-43b6-8010-39139c316ce4")
 		)
 		(pin "R6"
@@ -24495,19 +25170,19 @@
 		(pin "P12"
 			(uuid "e56bc37f-b82f-40ba-a61d-d297ee2fa08c")
 		)
-		(pin "P9"
+		(pin "C7"
 			(uuid "af6d6086-c3d9-468f-988e-ed697864f398")
 		)
 		(pin "M13"
 			(uuid "6c74c75e-1baa-460c-b4d6-0270b7bac0c7")
 		)
-		(pin "N10"
+		(pin "C9"
 			(uuid "29bc989f-3606-4695-a171-f9e8af601e4b")
 		)
 		(pin "N13"
 			(uuid "07d1a271-0fd4-471b-a858-03cd16491839")
 		)
-		(pin "R9"
+		(pin "B14"
 			(uuid "87a65f82-5076-4dd1-94bf-8d269a0e77c4")
 		)
 		(pin "P13"
@@ -24516,16 +25191,16 @@
 		(pin "R12"
 			(uuid "2f553f2b-8f34-43bf-bc06-f5e5cdc65c92")
 		)
-		(pin "R10"
+		(pin "E9"
 			(uuid "0fd24754-e6da-4b1d-b1f4-1a95501dba21")
 		)
-		(pin "M10"
+		(pin "D12"
 			(uuid "a2fe7ab5-55fd-4d0f-9249-f0205f1783c1")
 		)
 		(pin "R15"
 			(uuid "bf543437-448a-4284-8842-c2890e5392db")
 		)
-		(pin "L9"
+		(pin "E13"
 			(uuid "96588117-f007-41cc-94b0-f7cae853362d")
 		)
 		(pin "P11"
@@ -24773,6 +25448,33 @@
 		)
 		(pin "G17"
 			(uuid "ed1810f7-13f1-451b-8d8e-16d821556eed")
+		)
+		(pin "E7"
+			(uuid "0ba587e7-1ee7-4e71-bbef-df319266d81a")
+		)
+		(pin "A6"
+			(uuid "230f4d4e-0d11-42f6-a999-28c28dd0071a")
+		)
+		(pin "A7"
+			(uuid "b1337907-6d22-4a7d-a224-8ca77297ba08")
+		)
+		(pin "D9"
+			(uuid "f552e90b-cf35-4651-b538-3e676add2cb2")
+		)
+		(pin "A5"
+			(uuid "d2955787-0cad-445b-94fa-757479f182b7")
+		)
+		(pin "B5"
+			(uuid "9b45e23a-f522-475a-93f4-50b093552ffc")
+		)
+		(pin "A4"
+			(uuid "e991c488-4015-4391-9542-6de4d97c5af1")
+		)
+		(pin "D8"
+			(uuid "63d8fd91-f8a6-42a2-af25-bb807ba85909")
+		)
+		(pin "B6"
+			(uuid "d57b2b59-6095-4bda-93af-3ff62a56aed7")
 		)
 		(instances
 			(project ""
@@ -28765,7 +29467,7 @@
 				(hide yes)
 			)
 		)
-		(pin "U12"
+		(pin "D12"
 			(uuid "8411e2eb-3a2e-4131-97a5-570a63c65ab8")
 		)
 		(pin "T9"
@@ -28795,7 +29497,7 @@
 		(pin "M10"
 			(uuid "8ae45545-8c7b-474f-abc4-e290d0df4b98")
 		)
-		(pin "U14"
+		(pin "D7"
 			(uuid "932eb0ed-a823-4d67-a898-08b0036c4395")
 		)
 		(pin "N9"
@@ -29059,31 +29761,31 @@
 		(pin "E15"
 			(uuid "c85cf188-d0e1-4095-abfc-592d52aef7be")
 		)
-		(pin "N10"
+		(pin "E12"
 			(uuid "b8bebc1b-5191-4e2c-a1e8-5683d8f8db5d")
 		)
-		(pin "M10"
+		(pin "E10"
 			(uuid "6b6f1776-91d6-40aa-982b-fe074885c0e0")
 		)
 		(pin "R8"
 			(uuid "75c0d6a2-b2a6-4d06-bf9f-83ca7102e233")
 		)
-		(pin "U9"
+		(pin "E9"
 			(uuid "93d39f49-2515-49f2-9005-aed681008004")
 		)
-		(pin "T9"
+		(pin "C6"
 			(uuid "6b209af0-5f6f-4198-ac26-d75f49755940")
 		)
-		(pin "T14"
+		(pin "E8"
 			(uuid "dcdb4ed1-a5ab-428f-a74b-b81a97a55c63")
 		)
-		(pin "U10"
+		(pin "A15"
 			(uuid "64d0e626-e334-4978-8f3b-6b2671634fae")
 		)
-		(pin "U12"
+		(pin "B14"
 			(uuid "3678ebc8-3a66-42b1-a5b8-40f30cd862ac")
 		)
-		(pin "T8"
+		(pin "C7"
 			(uuid "9f2bab3f-e0f0-4dc2-9a15-5cc0ce381292")
 		)
 		(pin "R6"
@@ -29092,37 +29794,37 @@
 		(pin "R10"
 			(uuid "d67ae395-0bdd-4eb2-967b-af34033d0c36")
 		)
-		(pin "U14"
+		(pin "E11"
 			(uuid "ec57b776-c485-4efb-90a8-ece83dff3331")
 		)
-		(pin "P10"
+		(pin "C11"
 			(uuid "bf38824a-09d9-499d-9f05-05e54a28f008")
 		)
-		(pin "U11"
+		(pin "D10"
 			(uuid "0e7233b1-8c83-4b81-bfc7-021146ee47a1")
 		)
-		(pin "L9"
+		(pin "D11"
 			(uuid "a8476464-fe7d-4bad-8552-6de5ce442cf3")
 		)
 		(pin "H14"
 			(uuid "812c99b0-a502-4561-8a0a-45284ce044a1")
 		)
-		(pin "P9"
+		(pin "F8"
 			(uuid "b136cd68-8bf2-493a-b825-be586b2bd0ba")
 		)
-		(pin "M9"
+		(pin "E7"
 			(uuid "83e7404e-ed35-4792-94f5-9a17aa7f3b33")
 		)
 		(pin "R9"
 			(uuid "25696a97-b319-43bd-8339-47a721b1fe9e")
 		)
-		(pin "N9"
+		(pin "D9"
 			(uuid "8509e0be-7358-475f-83e6-8348faad3795")
 		)
 		(pin "R7"
 			(uuid "94cdea36-f2f5-4556-aba7-81ac12ec84e6")
 		)
-		(pin "T10"
+		(pin "D8"
 			(uuid "47433194-40a9-4040-aa87-f5b4d289dd4e")
 		)
 		(pin "F16"
@@ -29149,7 +29851,7 @@
 		(pin "P17"
 			(uuid "0138b53b-b966-400b-976f-8ff8edaa2c55")
 		)
-		(pin "R10"
+		(pin "C13"
 			(uuid "6dcb35fe-b6c9-4b34-96ef-7aeddbfa2e8d")
 		)
 		(pin "R14"
@@ -29170,13 +29872,13 @@
 		(pin "R13"
 			(uuid "a9fcf3a6-2419-4725-8a98-06f7a7669561")
 		)
-		(pin "R11"
+		(pin "D13"
 			(uuid "01426ba8-5bae-44f2-ba23-7590022e8f86")
 		)
 		(pin "N13"
 			(uuid "b06e185d-dad5-4949-8f6a-4cd50673e82d")
 		)
-		(pin "R9"
+		(pin "E13"
 			(uuid "3a8aefed-edad-4e2b-82c7-34485dd495a4")
 		)
 		(pin "C8"
@@ -29340,6 +30042,33 @@
 		)
 		(pin "J16"
 			(uuid "157d7b00-277d-4cd7-a9ef-4013247fc93b")
+		)
+		(pin "A6"
+			(uuid "60b192da-a0a9-46d2-a397-977fe071fb73")
+		)
+		(pin "B6"
+			(uuid "919404e6-3e36-4919-9f14-8aad978ffb3a")
+		)
+		(pin "A5"
+			(uuid "2bb120ae-13cd-433d-b9bb-c6ac7930b4b3")
+		)
+		(pin "A14"
+			(uuid "3974f656-5a53-4898-89af-a673b07fc079")
+		)
+		(pin "A7"
+			(uuid "fe1abf21-db01-4931-8529-76b363120f9f")
+		)
+		(pin "A4"
+			(uuid "799b8410-d9ff-4a4c-8bf2-e48714697317")
+		)
+		(pin "C9"
+			(uuid "76c06727-20e0-4fa0-9ba6-0196e5a82c02")
+		)
+		(pin "D6"
+			(uuid "1c9b1b82-b847-4431-af0d-a52c48587cfa")
+		)
+		(pin "B5"
+			(uuid "85e2488e-f962-4b59-8325-e9a916ff4081")
 		)
 		(instances
 			(project ""
@@ -30317,19 +31046,19 @@
 		(pin "R11"
 			(uuid "2ba013a4-4741-4487-8067-35e73735dbdf")
 		)
-		(pin "U12"
+		(pin "E12"
 			(uuid "f43e853a-7d41-4662-af22-5b45bbf70c09")
 		)
-		(pin "U14"
+		(pin "A14"
 			(uuid "79fc4537-a128-4a7e-8332-c7a63a1c254f")
 		)
-		(pin "T14"
+		(pin "E7"
 			(uuid "a9aa33a1-88da-4516-bb1d-4e6f5c5593e3")
 		)
 		(pin "U9"
 			(uuid "ad6cf12f-eda5-499b-9ace-fe1509f3e3a6")
 		)
-		(pin "U12"
+		(pin "E11"
 			(uuid "555f1cf2-6164-46cb-b42e-f2b09ba4cdcf")
 		)
 		(pin "N10"
@@ -30338,7 +31067,7 @@
 		(pin "P9"
 			(uuid "00d2bf05-5de0-4a6a-957d-9f8c6f2aee7c")
 		)
-		(pin "U11"
+		(pin "D10"
 			(uuid "bbe471fe-5a8f-47bf-8f93-a1c796ccc683")
 		)
 		(pin "U11"
@@ -30347,55 +31076,55 @@
 		(pin "T9"
 			(uuid "9c7c73b1-c1c6-4eff-a7bf-ef3a0471a788")
 		)
-		(pin "U14"
+		(pin "D12"
 			(uuid "9f7578d7-23d8-4952-9a4b-c972babf4544")
 		)
-		(pin "T8"
+		(pin "D9"
 			(uuid "fc101bbd-9a85-4561-af89-ca623f9d660b")
 		)
-		(pin "N10"
+		(pin "E10"
 			(uuid "06b1a36e-dc64-4c98-acae-0ce105fafee2")
 		)
-		(pin "N9"
+		(pin "C13"
 			(uuid "e76b7cfd-771e-432b-be76-0a03d754eadc")
 		)
 		(pin "R10"
 			(uuid "1f3af56e-48ff-4b94-a4f6-704500ea0783")
 		)
-		(pin "T10"
+		(pin "B14"
 			(uuid "06040611-455c-4c24-ba05-d5b0a6e6ac00")
 		)
-		(pin "P9"
+		(pin "A15"
 			(uuid "f58c9b4a-970f-4462-90f1-c90b8d26780c")
 		)
 		(pin "T8"
 			(uuid "4a8007a2-24ee-4e89-b377-b29c4877b9c2")
 		)
-		(pin "P10"
+		(pin "D11"
 			(uuid "8930d6dd-9a49-4c18-a258-ade5723463a0")
 		)
-		(pin "L9"
+		(pin "F8"
 			(uuid "e639e194-5651-4297-b3ea-23719afa59db")
 		)
-		(pin "U10"
+		(pin "E9"
 			(uuid "9484f1d1-8ff2-4972-900d-8dcb3ce6db08")
 		)
 		(pin "R9"
 			(uuid "3acd2b10-a437-4eab-94d7-95535be9dffc")
 		)
-		(pin "T9"
+		(pin "C11"
 			(uuid "6f6932c4-dcf6-4dd9-a0ef-7db67a69f9da")
 		)
-		(pin "R11"
+		(pin "D13"
 			(uuid "12905d87-1a39-443d-a69d-9ccbc3fa654b")
 		)
-		(pin "U9"
+		(pin "A7"
 			(uuid "8fdb6563-ddf4-4efa-9356-75bb5faa5733")
 		)
-		(pin "M10"
+		(pin "D7"
 			(uuid "28aafc99-7fbc-4472-806b-8ef6ccf0cbe2")
 		)
-		(pin "M9"
+		(pin "E13"
 			(uuid "4a6fdb67-ac87-41cf-8e80-74de2f64bbd5")
 		)
 		(pin "H10"
@@ -30488,7 +31217,7 @@
 		(pin "T11"
 			(uuid "7b3996c1-985e-4391-ad58-3211d25002a7")
 		)
-		(pin "R10"
+		(pin "C7"
 			(uuid "0b7dc279-6bb9-43ae-a07f-ca6407c7c508")
 		)
 		(pin "R8"
@@ -30509,7 +31238,7 @@
 		(pin "L12"
 			(uuid "84417472-0b2d-4149-afbe-07fbe20ba9f8")
 		)
-		(pin "R9"
+		(pin "D8"
 			(uuid "427a94d0-4264-4e96-b0c8-35d2735c0136")
 		)
 		(pin "R13"
@@ -30685,6 +31414,33 @@
 		)
 		(pin "L13"
 			(uuid "84f3e52e-d176-4e53-990f-58b493c471ac")
+		)
+		(pin "E8"
+			(uuid "269b9fcf-a125-40f6-b0bd-726fd9fda44b")
+		)
+		(pin "C9"
+			(uuid "8b7d8be1-1cf8-44a5-9e50-8301a7650588")
+		)
+		(pin "D6"
+			(uuid "b2f14c26-95ef-47e9-af74-8d550433a096")
+		)
+		(pin "A5"
+			(uuid "2b7ff447-865e-479f-bc92-bdd1fef4cf6c")
+		)
+		(pin "C6"
+			(uuid "503cdc7a-e79a-4594-803d-32957318e6a1")
+		)
+		(pin "A4"
+			(uuid "659757c6-3ccd-4dcf-8b8c-af85f634708e")
+		)
+		(pin "A6"
+			(uuid "8a7483b7-4066-45bc-861d-86673046e055")
+		)
+		(pin "B6"
+			(uuid "87d4a018-2063-40a5-b289-a5e3730acde9")
+		)
+		(pin "B5"
+			(uuid "3aacb5ef-19ae-415d-aa8d-5909500559e0")
 		)
 		(instances
 			(project ""

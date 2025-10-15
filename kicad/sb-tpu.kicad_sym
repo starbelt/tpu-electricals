@@ -3105,6 +3105,354 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "A7101CHUK_T0BC2HAZ"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 31.75 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A7101CHUK_T0BC2HAZ"
+			(at 31.75 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BGA12C50P4X3_206X202X65"
+			(at 31.75 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/A71CH-SDS.pdf"
+			(at 31.75 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SECURITY IC STD TEMP WLCSP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SECURITY IC STD TEMP WLCSP"
+			(at 31.75 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.65"
+			(at 24.13 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-A7101CHUKTBC2HAZ"
+			(at 31.75 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/A7101CHUK-T0BC2HAZ?qs=qSfuJ%252Bfl%2Fd68ivo5vuVXuQ%3D%3D"
+			(at 31.75 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "NXP"
+			(at 24.13 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A7101CHUK/T0BC2HAZ"
+			(at 31.75 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "A7101CHUK_T0BC2HAZ_0_0"
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "N.C._1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "I2C_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "N.C._2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 0 180)
+				(length 5.08)
+				(name "N.C._3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 5.08)
+				(name "IF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -5.08 180)
+				(length 5.08)
+				(name "N.C._4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -7.62 180)
+				(length 5.08)
+				(name "I.C."
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -10.16 180)
+				(length 5.08)
+				(name "RST_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -12.7 180)
+				(length 5.08)
+				(name "IF0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "A7101CHUK_T0BC2HAZ_0_1"
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -15.24) (xy 5.08 -15.24) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ABM8AIG-16.000MHz-12-2Z-T"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6118,6 +6466,194 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CRCW06032K20FKEA"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 13.97 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW06032K20FKEA"
+			(at 13.97 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC1608X50N"
+			(at 13.97 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 13.97 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 2.2k +/-1% 0.1W +/-100ppm/C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 2.2k +/-1% 0.1W +/-100ppm/C"
+			(at 13.97 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 13.97 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 13.97 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06032K20FKEA"
+			(at 13.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-2.2K-E3"
+			(at 13.97 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06032K20FKEA?qs=wckIcdUuIXiMEbhHncbunA%3D%3D"
+			(at 13.97 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW06032K20FKEA"
+			(at 13.97 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06032k20fkea/vishay?utm_currency=USD&region=nac"
+			(at 13.97 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "CRCW06032K20FKEA_0_0"
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW06032K20FKEA_0_1"
+			(polyline
+				(pts
+					(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -15687,45 +16223,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "VDD_SNVS_IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -8.89 0)
-				(length 5.08)
-				(name "VDD_SNVS_ANA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 5.08)
-				(name "VDD_SNVS_DIG"
+				(name "NVCC_DISP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15743,7 +16243,7 @@
 			(pin passive line
 				(at -5.08 -26.67 0)
 				(length 5.08)
-				(name "NVCC_SNVS"
+				(name "NVCC_DISP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18953,7 +19453,7 @@
 		(symbol "MIMXRT1176CVM8A__9_1"
 			(rectangle
 				(start 0 0)
-				(end 45.72 -39.37)
+				(end 31.75 -74.93)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -18963,7 +19463,7 @@
 				)
 			)
 			(text "MIMXRT1176CVM8A"
-				(at 8.89 -40.64 0)
+				(at 8.89 -76.2 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18971,16 +19471,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
+				(at -5.08 -13.97 0)
 				(length 5.08)
-				(name "VDD_SNVS_IN"
+				(name "NVCC_DISP1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "U12"
+				(number "D12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -18989,16 +19489,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -8.89 0)
+				(at -5.08 -45.72 0)
 				(length 5.08)
-				(name "VDD_SNVS_ANA"
+				(name "NVCC_DISP2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "U14"
+				(number "E7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19006,17 +19506,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -15.24 0)
+			(pin bidirectional line
+				(at 36.83 -2.54 180)
 				(length 5.08)
-				(name "VDD_SNVS_DIG"
+				(name "GPIO_DISP_B1_00"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T14"
+				(number "E13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19024,17 +19524,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -26.67 0)
+			(pin bidirectional line
+				(at 36.83 -5.08 180)
 				(length 5.08)
-				(name "NVCC_SNVS"
+				(name "GPIO_DISP_B1_01"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "U11"
+				(number "D13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19042,17 +19542,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -2.54 180)
+			(pin bidirectional line
+				(at 36.83 -7.62 180)
 				(length 5.08)
-				(name "ONOFF"
+				(name "GPIO_DISP_B1_02"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "U10"
+				(number "D11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19060,17 +19560,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -5.08 180)
+			(pin bidirectional line
+				(at 36.83 -10.16 180)
 				(length 5.08)
-				(name "WAKEUP"
+				(name "GPIO_DISP_B1_03"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T8"
+				(number "E11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19078,17 +19578,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -7.62 180)
+			(pin bidirectional line
+				(at 36.83 -12.7 180)
 				(length 5.08)
-				(name "POR"
+				(name "GPIO_DISP_B1_04"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T10"
+				(number "E10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19096,17 +19596,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -10.16 180)
+			(pin bidirectional line
+				(at 36.83 -15.24 180)
 				(length 5.08)
-				(name "PMIC_STY_REQ"
+				(name "GPIO_DISP_B1_05"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T9"
+				(number "C11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19114,17 +19614,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -12.7 180)
+			(pin bidirectional line
+				(at 36.83 -17.78 180)
 				(length 5.08)
-				(name "PMIC_ON_REQ"
+				(name "GPIO_DISP_B1_06"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "U9"
+				(number "D10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19132,17 +19632,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -15.24 180)
+			(pin bidirectional line
+				(at 36.83 -20.32 180)
 				(length 5.08)
-				(name "GPIO_SNVS_00"
+				(name "GPIO_DISP_B1_07"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R10"
+				(number "E12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19150,17 +19650,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -17.78 180)
+			(pin bidirectional line
+				(at 36.83 -22.86 180)
 				(length 5.08)
-				(name "GPIO_SNVS_01"
+				(name "GPIO_DISP_B1_08"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P10"
+				(number "A15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19168,17 +19668,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -20.32 180)
+			(pin bidirectional line
+				(at 36.83 -25.4 180)
 				(length 5.08)
-				(name "GPIO_SNVS_02"
+				(name "GPIO_DISP_B1_09"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L9"
+				(number "C13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19186,17 +19686,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -22.86 180)
+			(pin bidirectional line
+				(at 36.83 -27.94 180)
 				(length 5.08)
-				(name "GPIO_SNVS_03"
+				(name "GPIO_DISP_B1_10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M10"
+				(number "B14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19204,17 +19704,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -25.4 180)
+			(pin bidirectional line
+				(at 36.83 -30.48 180)
 				(length 5.08)
-				(name "GPIO_SNVS_04"
+				(name "GPIO_DISP_B1_11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N10"
+				(number "A14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19222,17 +19722,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -27.94 180)
+			(pin bidirectional line
+				(at 36.83 -35.56 180)
 				(length 5.08)
-				(name "GPIO_SNVS_05"
+				(name "GPIO_DISP_B2_00"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P9"
+				(number "E8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19240,17 +19740,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -30.48 180)
+			(pin bidirectional line
+				(at 36.83 -38.1 180)
 				(length 5.08)
-				(name "GPIO_SNVS_06"
+				(name "GPIO_DISP_B2_01"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M9"
+				(number "F8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19258,17 +19758,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -33.02 180)
+			(pin bidirectional line
+				(at 36.83 -40.64 180)
 				(length 5.08)
-				(name "GPIO_SNVS_07"
+				(name "GPIO_DISP_B2_02"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R9"
+				(number "E9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19276,17 +19776,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -35.56 180)
+			(pin bidirectional line
+				(at 36.83 -43.18 180)
 				(length 5.08)
-				(name "GPIO_SNVS_08"
+				(name "GPIO_DISP_B2_03"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N9"
+				(number "D7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19294,17 +19794,215 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 50.8 -38.1 180)
+			(pin bidirectional line
+				(at 36.83 -45.72 180)
 				(length 5.08)
-				(name "GPIO_SNVS_09"
+				(name "GPIO_DISP_B2_04"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R11"
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -48.26 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -50.8 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -53.34 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -55.88 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -58.42 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -60.96 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -63.5 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -66.04 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -68.58 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -71.12 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -73.66 180)
+				(length 5.08)
+				(name "GPIO_DISP_B2_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
