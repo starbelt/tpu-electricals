@@ -4034,9 +4034,45 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VDD_SNVS_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 0)
+					(length 5.08)
+					(name "VDD_SNVS_ANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 5.08)
-					(name "NVCC_DISP1"
+					(name "VDD_SNVS_DIG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4052,9 +4088,45 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -19.05 0)
+					(length 5.08)
+					(name "RTC_XTALI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -21.59 0)
+					(length 5.08)
+					(name "RTC_XTALO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 5.08)
-					(name "NVCC_DISP2"
+					(name "NVCC_SNVS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5618,114 +5690,6 @@
 						)
 					)
 					(number "R4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -44.45 180)
-					(length 5.08)
-					(name "VSS_35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -46.99 180)
-					(length 5.08)
-					(name "VSS_36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -49.53 180)
-					(length 5.08)
-					(name "VSS_37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -52.07 180)
-					(length 5.08)
-					(name "VSS_38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -54.61 180)
-					(length 5.08)
-					(name "VSS_39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -57.15 180)
-					(length 5.08)
-					(name "VSS_40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9890,6 +9854,10 @@
 		(uuid "f3387c2d-77b0-4c2a-911b-28d49313c355")
 	)
 	(no_connect
+		(at 97.79 173.99)
+		(uuid "0cc8f934-ce2a-4a6f-a124-631be229e5c9")
+	)
+	(no_connect
 		(at 199.39 73.66)
 		(uuid "0fd19612-c400-4295-9d75-a4362b035458")
 	)
@@ -9940,6 +9908,10 @@
 	(no_connect
 		(at 186.69 35.56)
 		(uuid "b2f128d2-3046-410d-9a79-11669bec00b9")
+	)
+	(no_connect
+		(at 97.79 171.45)
+		(uuid "ba7fa1c4-3adb-461d-afc1-6be9e6319eb1")
 	)
 	(no_connect
 		(at 158.75 78.74)
@@ -13113,7 +13085,7 @@
 		(dnp no)
 		(uuid "16fc1616-9e24-4f4d-9f50-138bad41676d")
 		(property "Reference" "U4"
-			(at 118.872 146.304 0)
+			(at 104.648 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,6 +13098,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13458,10 +13431,10 @@
 		(pin "E9"
 			(uuid "ddd6176c-f314-44e9-87d3-6def1bc09b2b")
 		)
-		(pin "R5"
+		(pin "U12"
 			(uuid "6680b5fe-9c2f-41ab-8237-c1d1513119c2")
 		)
-		(pin "R6"
+		(pin "U14"
 			(uuid "09c8daeb-1af1-49e8-b323-70c1c6a220fc")
 		)
 		(pin "D7"
@@ -13470,7 +13443,7 @@
 		(pin "B14"
 			(uuid "0f2db10b-764c-4338-9b16-f9b6755a17c6")
 		)
-		(pin "R8"
+		(pin "U13"
 			(uuid "a3b13bea-443f-4147-923b-7df3fc4e7516")
 		)
 		(pin "R16"
@@ -13524,11 +13497,8 @@
 		(pin "L12"
 			(uuid "e72051f2-be3e-4ec7-996e-2f2a2c14c3b0")
 		)
-		(pin "R9"
+		(pin "T13"
 			(uuid "41e11437-72a9-4757-8a3d-b24c25ab4be7")
-		)
-		(pin "R10"
-			(uuid "2b106b16-1642-4e50-b35f-037517205023")
 		)
 		(pin "A14"
 			(uuid "1cdaa069-1204-4a24-be78-6740ebbe87c3")
@@ -13649,9 +13619,6 @@
 		)
 		(pin "P4"
 			(uuid "45da576f-524c-4b12-aca0-6017725e5243")
-		)
-		(pin "R7"
-			(uuid "b11538e0-7cd2-4eb5-8174-a84ebee7618e")
 		)
 		(pin "U1"
 			(uuid "d209b15b-0b3a-43e4-a4ae-e503a8c6fc00")
@@ -16642,10 +16609,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "633388ae-dda5-4567-97c4-144b1bf4983e")
 		(property "Reference" "IC1"
-			(at 203.2 51.9998 0)
+			(at 197.358 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22745,7 +22711,91 @@
 		)
 	)
 	(sheet
-		(at 11.43 219.71)
+		(at 17.78 847.09)
+		(size 252.73 175.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cbd8157-6fbc-4407-a625-87c269a6acad")
+		(property "Sheetname" "TPU"
+			(at 17.78 846.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TPU.kicad_sch"
+			(at 17.78 1022.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 641.35)
+		(size 254 177.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "731bc1e3-8bd5-4b3c-9046-db96c72a64f2")
+		(property "Sheetname" "RT1176_3"
+			(at 13.97 640.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RT1176_3.kicad_sch"
+			(at 13.97 819.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 10.16 224.79)
 		(size 256.54 191.77)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22761,7 +22811,7 @@
 		)
 		(uuid "b57f2f8d-9711-4a95-be53-e281e02f9ecd")
 		(property "Sheetname" "RT1176_1"
-			(at 11.43 218.9984 0)
+			(at 10.16 224.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22770,7 +22820,7 @@
 			)
 		)
 		(property "Sheetfile" "RT1176_1.kicad_sch"
-			(at 11.43 412.0646 0)
+			(at 10.16 417.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22787,7 +22837,7 @@
 		)
 	)
 	(sheet
-		(at 6.35 425.45)
+		(at 11.43 425.45)
 		(size 256.54 191.77)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22803,7 +22853,7 @@
 		)
 		(uuid "e6a8beee-a9f2-48cd-b131-e75192cf494f")
 		(property "Sheetname" "RT1176_2"
-			(at 6.35 424.7384 0)
+			(at 11.43 424.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22812,7 +22862,7 @@
 			)
 		)
 		(property "Sheetfile" "RT1176_2.kicad_sch"
-			(at 6.35 617.8046 0)
+			(at 11.43 617.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
