@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(lib_symbols)
 	(sheet
-		(at 17.78 847.09)
-		(size 252.73 175.26)
+		(at 184.15 35.56)
+		(size 24.13 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1cbd8157-6fbc-4407-a625-87c269a6acad")
 		(property "Sheetname" "TPU"
-			(at 17.78 846.3784 0)
+			(at 184.15 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "TPU.kicad_sch"
-			(at 17.78 1022.9346 0)
+			(at 184.15 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,50 +48,8 @@
 		)
 	)
 	(sheet
-		(at 13.97 641.35)
-		(size 254 177.8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "731bc1e3-8bd5-4b3c-9046-db96c72a64f2")
-		(property "Sheetname" "RT1176_3"
-			(at 13.97 640.6384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RT1176_3.kicad_sch"
-			(at 13.97 819.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 372.11 74.93)
-		(size 12.7 3.81)
+		(at 19.05 38.1)
+		(size 33.02 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +64,7 @@
 		)
 		(uuid "752f280e-474a-4a7b-b6b2-8dca73e1fe32")
 		(property "Sheetname" "Power_Sys"
-			(at 372.11 74.2184 0)
+			(at 19.05 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,91 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Sys.kicad_sch"
-			(at 372.11 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
-					(page "1")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 19.05 1051.56)
-		(size 255.27 180.34)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "77dc9f66-cf14-4f9d-a05e-a4d244cda799")
-		(property "Sheetname" "BOOT"
-			(at 19.05 1050.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BOOT.kicad_sch"
-			(at 19.05 1232.4846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 10.16 224.79)
-		(size 256.54 191.77)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b57f2f8d-9711-4a95-be53-e281e02f9ecd")
-		(property "Sheetname" "RT1176_1"
-			(at 10.16 224.0784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RT1176_1.kicad_sch"
-			(at 10.16 417.1446 0)
+			(at 19.05 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 11.43 425.45)
-		(size 256.54 191.77)
+		(at 184.15 62.23)
+		(size 24.13 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,9 +104,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e6a8beee-a9f2-48cd-b131-e75192cf494f")
-		(property "Sheetname" "RT1176_2"
-			(at 11.43 424.7384 0)
+		(uuid "77dc9f66-cf14-4f9d-a05e-a4d244cda799")
+		(property "Sheetname" "BOOT"
+			(at 184.15 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,8 +114,50 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RT1176_2.kicad_sch"
-			(at 11.43 617.8046 0)
+		(property "Sheetfile" "BOOT.kicad_sch"
+			(at 184.15 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 105.41)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb6fb841-4f7c-4127-99e5-b5c8e37e20fb")
+		(property "Sheetname" "RT1176"
+			(at 92.71 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RT1176.kicad_sch"
+			(at 92.71 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
