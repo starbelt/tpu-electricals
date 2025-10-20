@@ -622,6 +622,10 @@
       "Root"
     ],
     [
+      "752f280e-474a-4a7b-b6b2-8dca73e1fe32",
+      "Power_Sys"
+    ],
+    [
       "b57f2f8d-9711-4a95-be53-e281e02f9ecd",
       "RT1176_1"
     ],
@@ -636,6 +640,10 @@
     [
       "1cbd8157-6fbc-4407-a625-87c269a6acad",
       "TPU"
+    ],
+    [
+      "77dc9f66-cf14-4f9d-a05e-a4d244cda799",
+      "BOOT"
     ]
   ],
   "text_variables": {}
