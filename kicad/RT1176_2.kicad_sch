@@ -10017,7 +10017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 108.28 59.69 0)
 			(effects
 				(font
@@ -10158,7 +10158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 40.97 130.81 0)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "74AVC9112GTX"
+		(property "Footprint" ""
 			(at 161.29 149.86 0)
 			(effects
 				(font
@@ -10663,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA12C50P4X3_206X202X65"
+		(property "Footprint" ""
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -10824,7 +10824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 109.55 102.87 0)
 			(effects
 				(font
@@ -11164,7 +11164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -11381,7 +11381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 27.94 92.71 0)
 			(effects
 				(font
@@ -11598,7 +11598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -11748,7 +11748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BGA289C80P17X17_1400X1400X152"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -12677,7 +12677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BGA289C80P17X17_1400X1400X152"
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -13607,7 +13607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 109.55 134.62 0)
 			(effects
 				(font
@@ -13948,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 148.59 36.83 0)
 			(effects
 				(font
@@ -14099,7 +14099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 108.28 39.37 0)
 			(effects
 				(font
@@ -14306,7 +14306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 9.22 74.93 0)
 			(effects
 				(font
@@ -14447,7 +14447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -14664,7 +14664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BGA289C80P17X17_1400X1400X152"
 			(at 210.82 20.32 0)
 			(effects
 				(font
@@ -15595,7 +15595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 154.94 36.83 0)
 			(effects
 				(font
@@ -15878,7 +15878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at -58.09 92.71 0)
 			(effects
 				(font
@@ -16283,7 +16283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 167.64 36.83 0)
 			(effects
 				(font
@@ -16434,7 +16434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 142.24 36.83 0)
 			(effects
 				(font
@@ -16586,7 +16586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 173.99 36.83 0)
 			(effects
 				(font
@@ -17001,7 +17001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "74AVC9112GTX"
+		(property "Footprint" ""
 			(at 162.56 99.06 0)
 			(effects
 				(font

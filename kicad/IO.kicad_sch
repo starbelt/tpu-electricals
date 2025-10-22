@@ -234,224 +234,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LTST-C190AKT_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.0348 4.0695 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LTST-C190AKT"
-				(at -2.0324 -3.8107 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LTST-C190AKT:LEDM1608X80"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Lite On"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LTST-C190AKT_1_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 221 133 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 221 133 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 221 133 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy -0.762 3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 2.032) (xy 0.381 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-						(color 221 133 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTST-C190AKT_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 221 133 0 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1940,20 +1722,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at -0.254 19.05 0)
+			(property "Reference" "J"
+				(at -12.7 15.875 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "CX90BW-16P1"
-				(at -0.254 16.764 0)
+				(at -12.7 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "CX90BW-16P1:HIROSE_CX90BW-16P1"
@@ -2054,24 +1838,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "VBUS_B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A9_B4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -17.78 7.62 0)
 					(length 5.08)
@@ -2162,17 +1928,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -17.78 -7.62 0)
+				(pin passive line
+					(at -17.78 -10.16 0)
 					(length 5.08)
-					(name "GND_B"
+					(name "MID_PLATE"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A12_B1"
+					(number "MID1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "MID_PLATE__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MID2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2209,6 +1993,24 @@
 						)
 					)
 					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VBUS_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9_B4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2288,35 +2090,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 -10.16 180)
+				(pin power_in line
+					(at 17.78 -5.08 180)
 					(length 5.08)
-					(name "MID_PLATE"
+					(name "GND_B"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "MID1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(name "MID_PLATE__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "MID2"
+					(number "A12_B1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2958,6 +2742,224 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:LTST-C190AKT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.0348 4.0695 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C190AKT"
+				(at -2.0324 -3.8107 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTST-C190AKT:LEDM1608X80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Lite On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C190AKT_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 221 133 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 221 133 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 221 133 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.032) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 221 133 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTST-C190AKT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 221 133 0 1)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -6173,7 +6175,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LTST-C190AKT_1")
 		(lib_id "sb-tpu:LTST-C190AKT")
 		(at 193.04 53.34 90)
 		(unit 1)
@@ -6282,7 +6283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 289.23 31.75 0)
 			(effects
 				(font
@@ -6423,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 21.59 39.37 0)
 			(effects
 				(font
@@ -6774,7 +6775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 229.54 158.75 0)
 			(effects
 				(font
@@ -6980,7 +6981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 85.42 64.77 0)
 			(effects
 				(font
@@ -7121,7 +7122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at -64.44 100.33 0)
 			(effects
 				(font
@@ -7263,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" ""
 			(at 248.92 167.31 0)
 			(effects
 				(font
@@ -7405,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SKRPADE010_AAL"
+		(property "Footprint" ""
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -7483,7 +7484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" ""
 			(at 137.16 281.61 0)
 			(effects
 				(font
@@ -7609,7 +7610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375aacc1-e3f6-49f2-b7e2-a19d14eb7edd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0104"
 			(at 39.37 95.25 0)
 			(effects
 				(font
@@ -7659,7 +7660,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR?")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at -21.26 140.97 0)
 			(effects
 				(font
@@ -8223,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQR00340HF"
+		(property "Footprint" ""
 			(at 91.44 238.43 0)
 			(effects
 				(font
@@ -8495,7 +8496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" ""
 			(at 9.22 78.74 0)
 			(effects
 				(font
@@ -8703,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PESD3V3L5UF115"
+		(property "Footprint" ""
 			(at 63.5 178.74 0)
 			(effects
 				(font
@@ -8857,7 +8858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" ""
 			(at 196.85 167.31 0)
 			(effects
 				(font
@@ -9129,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SKRPADE010_AAL"
+		(property "Footprint" ""
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -9206,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 134.62 151.13 0)
 			(effects
 				(font
@@ -9617,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTN5150AHXMP"
+		(property "Footprint" ""
 			(at 123.19 178.74 0)
 			(effects
 				(font
@@ -9770,7 +9771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a50f08de-7540-46bf-b78b-bcd46b01f744")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 192.786 27.94 0)
 			(effects
 				(font
@@ -9820,7 +9821,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10101,7 +10102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 341.3 31.75 0)
 			(effects
 				(font
@@ -10308,7 +10309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 7.95 140.97 0)
 			(effects
 				(font
@@ -10449,7 +10450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 40.97 105.41 0)
 			(effects
 				(font
@@ -10785,7 +10786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQR00340HF"
+		(property "Footprint" ""
 			(at 92.71 256.21 0)
 			(effects
 				(font
@@ -11106,7 +11107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98facef-abcc-4c19-9c2b-eaba35260835")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -11156,7 +11157,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11189,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 113.03 173.99 0)
 			(effects
 				(font

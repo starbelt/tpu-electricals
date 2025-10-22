@@ -8527,7 +8527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC3225X60N"
+		(property "Footprint" ""
 			(at 52.4 109.22 0)
 			(effects
 				(font
@@ -8930,7 +8930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P275X110-5N"
+		(property "Footprint" ""
 			(at 226.06 168.58 0)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "G3130632900"
+		(property "Footprint" ""
 			(at 59.69 108.204 0)
 			(effects
 				(font
@@ -9771,7 +9771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 162.89 38.1 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 65.1 162.56 0)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 46.05 162.56 0)
 			(effects
 				(font
@@ -10395,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 77.8 162.56 0)
 			(effects
 				(font
@@ -10666,7 +10666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 27 175.26 0)
 			(effects
 				(font
@@ -10874,7 +10874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" ""
 			(at 243.84 249.86 0)
 			(effects
 				(font
@@ -11082,7 +11082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X60N"
+		(property "Footprint" ""
 			(at 254 172.39 0)
 			(effects
 				(font
@@ -11223,7 +11223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" ""
 			(at 223.52 45.72 0)
 			(effects
 				(font
@@ -11374,7 +11374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 143.84 85.09 0)
 			(effects
 				(font
@@ -11647,7 +11647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 155.27 38.1 0)
 			(effects
 				(font
@@ -11836,7 +11836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84094e9e-35f8-4488-9f31-ef6a81a1ab90")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 227.33 26.67 0)
 			(effects
 				(font
@@ -11887,7 +11887,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -12121,7 +12121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" ""
 			(at 336.22 111.76 0)
 			(effects
 				(font
@@ -12462,7 +12462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 52.4 162.56 0)
 			(effects
 				(font
@@ -12602,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDFN_8DNP-T1-GE4_VIS"
+		(property "Footprint" ""
 			(at 193.04 26.67 0)
 			(effects
 				(font
@@ -12683,7 +12683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTWC193TS5"
+		(property "Footprint" ""
 			(at 333.68 128.27 0)
 			(effects
 				(font
@@ -12892,7 +12892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 71.45 162.56 0)
 			(effects
 				(font
@@ -13228,7 +13228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC3225X60N"
+		(property "Footprint" ""
 			(at 200.66 174.93 0)
 			(effects
 				(font
@@ -13370,7 +13370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 58.75 162.56 0)
 			(effects
 				(font
@@ -13577,7 +13577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" ""
 			(at 82.88 80.01 0)
 			(effects
 				(font
