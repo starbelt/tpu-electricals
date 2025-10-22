@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 68.58 21.59)
-		(size 35.56 24.13)
+		(at 68.58 22.86)
+		(size 52.07 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "166528f6-58e8-4582-8e67-74ac0b447b8a")
 		(property "Sheetname" "RT1176_1"
-			(at 68.58 20.8784 0)
+			(at 68.58 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "RT1176_1.kicad_sch"
-			(at 68.58 46.3046 0)
+			(at 68.58 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 68.58 105.41)
-		(size 49.53 34.29)
+		(at 68.58 96.52)
+		(size 52.07 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "45d83c48-4e34-4ba4-8252-eb2808ba2c55")
 		(property "Sheetname" "RT1176_3"
-			(at 68.58 104.6984 0)
+			(at 68.58 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "RT1176_3.kicad_sch"
-			(at 68.58 140.2846 0)
+			(at 68.58 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 68.58 60.96)
-		(size 36.83 29.21)
+		(at 68.58 58.42)
+		(size 52.07 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "f09b5b7e-6806-4bfa-8499-867719811b8a")
 		(property "Sheetname" "RT1176_2"
-			(at 68.58 60.2484 0)
+			(at 68.58 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
