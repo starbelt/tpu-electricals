@@ -57,10 +57,9 @@ def extract_and_map_footprints(src_dir, dest_dir):
 
 
 def link_symbols_by_folder(base_dir, lib_name, mapping):
-    """Insert (property "Footprint" "<lib_name>:<footprint>") for symbols in same folder."""
+    """Set (property "Footprint" "<lib_name>:<footprint>") for all symbols in same folder."""
     base = Path(base_dir)
     linked = 0
-    skipped = 0
 
     for root, _, files in os.walk(base):
         root_path = Path(root)
@@ -69,7 +68,6 @@ def link_symbols_by_folder(base_dir, lib_name, mapping):
         if not sym_files or not fp_files:
             continue
 
-        # Pick first footprint, then map to renamed filename if available
         chosen_fp = Path(fp_files[0])
         src_fp_path = (root_path / chosen_fp).resolve()
         final_fp_name = mapping.get(src_fp_path, chosen_fp.name)
@@ -79,22 +77,27 @@ def link_symbols_by_folder(base_dir, lib_name, mapping):
             sym_path = root_path / sym_file
             text = sym_path.read_text(encoding="utf-8")
 
-            # Skip if already has a Footprint property
+            # Replace or insert Footprint property
             if re.search(r'\(property\s+"Footprint"\s+"[^"]*"\)', text):
-                skipped += 1
-                continue
+                new_text = re.sub(
+                    r'\(property\s+"Footprint"\s+"[^"]*"\)',
+                    f'(property "Footprint" "{footprint_ref}")',
+                    text,
+                    count=1,
+                )
+            else:
+                new_text = re.sub(
+                    r'(\(symbol\s+"[^"]+"\s*\n)',
+                    r'\1  (property "Footprint" "' + footprint_ref + '")\n',
+                    text,
+                    count=1,
+                )
 
-            new_text = re.sub(
-                r'(\(symbol\s+"[^"]+"\s*\n)',
-                r'\1  (property "Footprint" "' + footprint_ref + '")\n',
-                text,
-                count=1,
-            )
             sym_path.write_text(new_text, encoding="utf-8")
             linked += 1
             print(f"Linked: {sym_path} → {footprint_ref}")
 
-    print(f"Linked {linked} symbols, skipped {skipped} (already had footprints)")
+    print(f"Updated {linked} symbol files with new footprint references.")
 
 
 if __name__ == "__main__":
