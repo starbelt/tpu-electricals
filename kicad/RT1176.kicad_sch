@@ -42,7 +42,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -84,7 +84,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb"
-					(page "9")
+					(page "7")
 				)
 			)
 		)
@@ -126,7 +126,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb"
-					(page "8")
+					(page "6")
 				)
 			)
 		)
