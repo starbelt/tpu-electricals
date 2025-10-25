@@ -6202,7 +6202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190AKT:LEDM1608X80"
+		(property "Footprint" "footprints:LEDM1608X80"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -6283,7 +6283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 289.23 31.75 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 21.59 39.37 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 229.54 158.75 0)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 85.42 64.77 0)
 			(effects
 				(font
@@ -7122,7 +7122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at -64.44 100.33 0)
 			(effects
 				(font
@@ -7264,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 248.92 167.31 0)
 			(effects
 				(font
@@ -7406,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SKRPADE010_AAL"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 137.16 281.61 0)
 			(effects
 				(font
@@ -7756,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CX90BW-16P1:HIROSE_CX90BW-16P1"
+		(property "Footprint" "footprints:HIROSE_CX90BW-16P1"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -7909,7 +7909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APG1608ZGCK:LED_APG1608ZGCK"
+		(property "Footprint" "footprints:LED_APG1608ZGCK"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at -21.26 140.97 0)
 			(effects
 				(font
@@ -8224,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CDBQR00340HF"
 			(at 91.44 238.43 0)
 			(effects
 				(font
@@ -8496,7 +8496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOT95P230X110-3N"
 			(at 9.22 78.74 0)
 			(effects
 				(font
@@ -8704,7 +8704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PESD3V3L5UF115"
 			(at 63.5 178.74 0)
 			(effects
 				(font
@@ -8858,7 +8858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 196.85 167.31 0)
 			(effects
 				(font
@@ -9130,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SKRPADE010_AAL"
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -9207,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X50N"
 			(at 134.62 151.13 0)
 			(effects
 				(font
@@ -9618,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:PTN5150AHXMP"
 			(at 123.19 178.74 0)
 			(effects
 				(font
@@ -9919,7 +9919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DLW21HN900SQ2L:FIL_DLW21HN900SQ2L"
+		(property "Footprint" "footprints:FIL_DLW21HN900SQ2L"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -10102,7 +10102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 341.3 31.75 0)
 			(effects
 				(font
@@ -10309,7 +10309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 7.95 140.97 0)
 			(effects
 				(font
@@ -10450,7 +10450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 40.97 105.41 0)
 			(effects
 				(font
@@ -10786,7 +10786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CDBQR00340HF"
 			(at 92.71 256.21 0)
 			(effects
 				(font
@@ -11190,7 +11190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X50N"
 			(at 113.03 173.99 0)
 			(effects
 				(font

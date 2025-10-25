@@ -5298,23 +5298,13 @@
 	)
 	(text "GOOGLE CORAL ACCELERATOR MODULE\n"
 		(exclude_from_sim no)
-		(at 60.198 51.054 0)
+		(at 57.912 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d07735b2-2384-4034-97df-8024add6063f")
-	)
-	(text "TPU ACCELERATOR MODULE"
-		(exclude_from_sim no)
-		(at 52.832 41.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f3a79aaf-82f2-43d6-bac6-8359f27e1122")
 	)
 	(text "TPU LED\n"
 		(exclude_from_sim no)
@@ -8527,7 +8517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC3225X60N"
 			(at 52.4 109.22 0)
 			(effects
 				(font
@@ -8930,7 +8920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOT95P275X110-5N"
 			(at 226.06 168.58 0)
 			(effects
 				(font
@@ -9143,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:G3130632900"
 			(at 59.69 108.204 0)
 			(effects
 				(font
@@ -9771,7 +9761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 162.89 38.1 0)
 			(effects
 				(font
@@ -9913,7 +9903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 65.1 162.56 0)
 			(effects
 				(font
@@ -10253,7 +10243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 46.05 162.56 0)
 			(effects
 				(font
@@ -10395,7 +10385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 77.8 162.56 0)
 			(effects
 				(font
@@ -10666,7 +10656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 27 175.26 0)
 			(effects
 				(font
@@ -10874,7 +10864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 243.84 249.86 0)
 			(effects
 				(font
@@ -11082,7 +11072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X60N"
 			(at 254 172.39 0)
 			(effects
 				(font
@@ -11223,7 +11213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X50N"
 			(at 223.52 45.72 0)
 			(effects
 				(font
@@ -11374,7 +11364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 143.84 85.09 0)
 			(effects
 				(font
@@ -11647,7 +11637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 155.27 38.1 0)
 			(effects
 				(font
@@ -12121,7 +12111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 336.22 111.76 0)
 			(effects
 				(font
@@ -12462,7 +12452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 52.4 162.56 0)
 			(effects
 				(font
@@ -12602,7 +12592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TDFN_8DNP-T1-GE4_VIS"
 			(at 193.04 26.67 0)
 			(effects
 				(font
@@ -12683,7 +12673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:LTWC193TS5"
 			(at 333.68 128.27 0)
 			(effects
 				(font
@@ -12892,7 +12882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 71.45 162.56 0)
 			(effects
 				(font
@@ -13228,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC3225X60N"
 			(at 200.66 174.93 0)
 			(effects
 				(font
@@ -13370,7 +13360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 58.75 162.56 0)
 			(effects
 				(font
@@ -13577,7 +13567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 82.88 80.01 0)
 			(effects
 				(font

@@ -8412,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BLM21BB050SH1D"
 			(at 87.96 129.54 0)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 99.39 121.92 0)
 			(effects
 				(font
@@ -10061,7 +10061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 85.42 143.51 0)
 			(effects
 				(font
@@ -11326,7 +11326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -12537,7 +12537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 95.58 154.94 0)
 			(effects
 				(font
@@ -12678,7 +12678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BLM21BB050SH1D"
 			(at 107.01 80.01 0)
 			(effects
 				(font
@@ -12799,7 +12799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 105.74 161.29 0)
 			(effects
 				(font
@@ -12940,7 +12940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at -49.2 76.2 0)
 			(effects
 				(font
@@ -13146,7 +13146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:BLM21BB050SH1D"
 			(at 73.99 151.13 0)
 			(effects
 				(font
@@ -13267,7 +13267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 28.27 129.54 0)
 			(effects
 				(font
@@ -13475,7 +13475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 120.98 72.39 0)
 			(effects
 				(font
@@ -13616,7 +13616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -14029,7 +14029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at -46.66 160.02 0)
 			(effects
 				(font
@@ -14235,7 +14235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 119.71 96.52 0)
 			(effects
 				(font
