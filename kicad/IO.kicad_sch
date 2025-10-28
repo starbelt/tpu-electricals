@@ -5,128 +5,6 @@
 	(uuid "4481befa-79db-4c04-a624-c6e49af917c9")
 	(paper "USLetter")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -224,6 +102,206 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1517,6 +1595,638 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:CES-104-02-G-S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CES-104-02-G-S"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CES-104-XX-Y-S"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CES-104-02-G-S"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "200-CES10402GS"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10402GS"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CES-104-02-G-S"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ces-104-02-g-s/samtec"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CES-104-02-G-S_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:CES-116-02-G-S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CES-116-02-G-S"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CES-116-XX-Y-S"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "16 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMTEC"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CES-116-02-G-S"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "200-CES11602GS"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/CES-116-02-G-S?qs=0lQeLiL1qyaUwk%252BbRriGZA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CES-116-02-G-S_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 11.43 -40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4593,19 +5303,6 @@
 		(uuid 055c7f6c-9e6f-4ac5-b0f4-9ccb91ae5d51)
 	)
 	(rectangle
-		(start 185.42 102.87)
-		(end 193.04 139.7)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(uuid 427a1b5a-4b84-4704-9d9f-95c11b0fdb82)
-	)
-	(rectangle
 		(start 13.97 13.97)
 		(end 157.48 72.39)
 		(stroke
@@ -4664,6 +5361,16 @@
 			(type none)
 		)
 		(uuid c239dcd3-58a2-4369-8b67-5742d2067cda)
+	)
+	(text "STANDOFF PINS"
+		(exclude_from_sim no)
+		(at 210.058 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33821298-2fc0-4169-aee0-432b16e4d16b")
 	)
 	(text "USB-C RECEPTACLE"
 		(exclude_from_sim no)
@@ -4796,6 +5503,12 @@
 		(uuid "0d2e5eea-41fb-4344-9166-dd4ab81f404a")
 	)
 	(junction
+		(at 207.01 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a061f83-a9ff-45af-8c53-03df28f53d03")
+	)
+	(junction
 		(at 44.45 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4856,6 +5569,12 @@
 		(uuid "7b8bb625-8810-4258-a771-6ee6342b482a")
 	)
 	(junction
+		(at 207.01 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a6cc91-9ebd-4546-bc98-63b04b873dd5")
+	)
+	(junction
 		(at 104.14 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4890,6 +5609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3df2fc3-05da-475d-9612-91f1307bc546")
+	)
+	(junction
+		(at 207.01 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f032e4b5-0cf8-4c70-ab19-c07240647e48")
 	)
 	(no_connect
 		(at 127 93.98)
@@ -5071,6 +5796,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 134.62) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b1260b-7a80-4d50-850c-856fffa05070")
+	)
+	(wire
+		(pts
 			(xy 111.76 177.8) (xy 114.3 177.8)
 		)
 		(stroke
@@ -5138,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "57ade6d6-4880-4c5f-9395-569d674e737b")
+	)
+	(wire
+		(pts
+			(xy 207.01 137.16) (xy 207.01 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cc7b03-622f-45c0-989b-ed160c4fac1f")
 	)
 	(wire
 		(pts
@@ -5541,6 +6286,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 129.54) (xy 207.01 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eebf51-30f3-488f-8b27-37664fdbdf31")
+	)
+	(wire
+		(pts
 			(xy 80.01 83.82) (xy 83.82 83.82)
 		)
 		(stroke
@@ -5598,6 +6353,16 @@
 			(type default)
 		)
 		(uuid "eb598e90-90f9-4f95-b99e-a10ea5bdf11d")
+	)
+	(wire
+		(pts
+			(xy 207.01 132.08) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed54cc26-0c45-4c17-86f1-488296f1c02f")
 	)
 	(wire
 		(pts
@@ -5823,6 +6588,28 @@
 			)
 		)
 	)
+	(global_label "LPUART6_RXD"
+		(shape input)
+		(at 217.17 97.79 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f14147b-4d27-445b-81bf-0df1bb9d4237")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 113.6566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USER_BUTTON"
 		(shape output)
 		(at 107.95 144.78 0)
@@ -5933,68 +6720,24 @@
 			)
 		)
 	)
-	(global_label "LPUART6_RTS"
-		(shape input)
-		(at 193.04 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77d8389e-4398-4a9a-ac32-4443c4d67da9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6042 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LPUART6_TXD"
 		(shape input)
-		(at 193.04 110.49 0)
+		(at 219.71 97.79 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9c49169c-0c7c-4a10-9c64-6af4cf2891be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6042 110.49 0)
+			(at 219.71 113.3542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPUART6_CTS"
-		(shape input)
-		(at 193.04 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2e89404-b6db-4b25-baf2-351aa70e65d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6042 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6087,93 +6830,6 @@
 			)
 		)
 	)
-	(global_label "LPUART6_TXD"
-		(shape input)
-		(at 193.04 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e700b2bd-87ea-4eff-a5db-b41211383991")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6042 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 187.96 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036656f6-63eb-4d6f-a26b-d650b67903e8")
-		(property "Reference" "J5"
-			(at 188.595 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 188.595 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4440756-42ac-4310-a07e-a96fae0c3102")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "sb-tpu:LTST-C190AKT")
 		(at 193.04 53.34 90)
@@ -6202,7 +6858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:LEDM1608X80"
+		(property "Footprint" "LTST-C190AKT:LEDM1608X80"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -6283,7 +6939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 289.23 31.75 0)
 			(effects
 				(font
@@ -6424,7 +7080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 21.59 39.37 0)
 			(effects
 				(font
@@ -6543,6 +7199,151 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CES-104-02-G-S")
+		(at 170.18 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13fca1c7-1973-47ea-9fb7-9333dcf7e4cd")
+		(property "Reference" "J9"
+			(at 161.798 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CES-104-02-G-S"
+			(at 169.926 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CES-104-XX-Y-S"
+			(at 153.67 5.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 153.67 -94.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 153.67 -294.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 153.67 -394.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-104-02-G-S"
+			(at 153.67 -494.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES10402GS"
+			(at 153.67 -594.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10402GS"
+			(at 153.67 -694.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CES-104-02-G-S"
+			(at 153.67 -794.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ces-104-02-g-s/samtec"
+			(at 153.67 -894.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afbc79c0-cfb7-4b47-abe8-16a56aa3037c")
+		)
+		(pin "3"
+			(uuid "72dfb550-1cd9-426a-b028-edfef871f629")
+		)
+		(pin "2"
+			(uuid "c9b9f302-7aa9-4d11-a984-7c1cf9bad701")
+		)
+		(pin "4"
+			(uuid "e4630b5f-db18-4b67-b8f9-b122decedb9f")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6775,7 +7576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 229.54 158.75 0)
 			(effects
 				(font
@@ -6890,71 +7691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 187.96 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24a16c6f-0bd4-42ad-b1a3-86f4d98344e2")
-		(property "Reference" "J2"
-			(at 188.595 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 188.595 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b48d2b0-c99b-4059-9988-81ceb24db3c7")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:MCT0603PD1003DP500")
 		(at 181.61 50.8 270)
 		(unit 1)
@@ -6981,7 +7717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 85.42 64.77 0)
 			(effects
 				(font
@@ -7122,7 +7858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at -64.44 100.33 0)
 			(effects
 				(font
@@ -7237,6 +7973,187 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:CES-116-02-G-S")
+		(at 233.68 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29134056-70a9-4275-a01c-2d0c3fc72ba7")
+		(property "Reference" "J11"
+			(at 194.056 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CES-116-02-G-S"
+			(at 227.33 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CES-116-XX-Y-S"
+			(at 138.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 38.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "16 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -161.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at -261.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-116-02-G-S"
+			(at -361.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES11602GS"
+			(at -461.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/CES-116-02-G-S?qs=0lQeLiL1qyaUwk%252BbRriGZA%3D%3D"
+			(at -561.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -661.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -761.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f8d73f-b7b2-4315-83fb-7e7f41a52593")
+		)
+		(pin "1"
+			(uuid "67b8e01f-8e03-4bed-ab71-6c649146b4c2")
+		)
+		(pin "3"
+			(uuid "71c83f7b-5cc6-44a1-8a7b-19d07433f636")
+		)
+		(pin "5"
+			(uuid "1bdc6010-f5b0-45fa-a45f-1fa2c5d58a2b")
+		)
+		(pin "4"
+			(uuid "0badc188-3000-4876-88dd-e58a596c5a2b")
+		)
+		(pin "9"
+			(uuid "c1fbc887-74dc-4d44-b0c7-6abac22b7e01")
+		)
+		(pin "10"
+			(uuid "a34f05a5-e2f6-467d-82ab-36d5f9a148ce")
+		)
+		(pin "6"
+			(uuid "cc63fe09-b6b4-4c81-88b4-3024d05e91f0")
+		)
+		(pin "11"
+			(uuid "b1e4f14f-bf0a-4165-979f-5b9369e9939a")
+		)
+		(pin "13"
+			(uuid "bf0613d4-3096-448d-863b-bf384c3626c8")
+		)
+		(pin "12"
+			(uuid "99536a0c-dd5d-4b28-bad5-72f7eb9f18f9")
+		)
+		(pin "7"
+			(uuid "24d91333-21e6-4917-96c8-dc420df02005")
+		)
+		(pin "8"
+			(uuid "a9b9daec-a857-4eb0-ad54-5199df915f36")
+		)
+		(pin "14"
+			(uuid "c8497a0e-5014-420c-9611-1f834b8beda9")
+		)
+		(pin "15"
+			(uuid "ec321e54-4154-4a4a-9605-a9109ed29ab3")
+		)
+		(pin "16"
+			(uuid "3c36f06f-69c3-45ec-a5ae-6e1a86abfd84")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:DMN3900UFA-7B")
 		(at 237.49 68.58 0)
 		(unit 1)
@@ -7264,7 +8181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DMN3900UFA7B"
+		(property "Footprint" "DMN3900UFA7B"
 			(at 248.92 167.31 0)
 			(effects
 				(font
@@ -7406,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SKRPADE010_AAL"
+		(property "Footprint" "SKRPADE010_AAL"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -7484,7 +8401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DMN3900UFA7B"
+		(property "Footprint" "DMN3900UFA7B"
 			(at 137.16 281.61 0)
 			(effects
 				(font
@@ -7756,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:HIROSE_CX90BW-16P1"
+		(property "Footprint" "CX90BW-16P1:HIROSE_CX90BW-16P1"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -7909,7 +8826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:LED_APG1608ZGCK"
+		(property "Footprint" "APG1608ZGCK:LED_APG1608ZGCK"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -8019,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at -21.26 140.97 0)
 			(effects
 				(font
@@ -8135,6 +9052,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 234.95 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5452ffa9-6df3-411d-b2e3-276a1d656aa9")
+		(property "Reference" "#PWR078"
+			(at 234.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.696 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c836ef0b-b484-44ac-94d7-2b5cd62f39c9")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 130.81 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8224,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CDBQR00340HF"
+		(property "Footprint" "CDBQR00340HF"
 			(at 91.44 238.43 0)
 			(effects
 				(font
@@ -8404,71 +9386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 187.96 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68b28f7a-1ff9-49c9-94c1-9ab20eef1174")
-		(property "Reference" "J3"
-			(at 188.595 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 188.595 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab6a4ed3-6e69-4c22-9ecb-7bb8bb3a141b")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:PESD5V0S2BT,215")
 		(at 104.14 34.29 270)
 		(unit 1)
@@ -8496,7 +9413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SOT95P230X110-3N"
+		(property "Footprint" "SOT95P230X110-3N"
 			(at 9.22 78.74 0)
 			(effects
 				(font
@@ -8704,7 +9621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PESD3V3L5UF115"
+		(property "Footprint" "PESD3V3L5UF115"
 			(at 63.5 178.74 0)
 			(effects
 				(font
@@ -8858,7 +9775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DMN3900UFA7B"
+		(property "Footprint" "DMN3900UFA7B"
 			(at 196.85 167.31 0)
 			(effects
 				(font
@@ -9041,6 +9958,153 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:CES-104-02-G-S")
+		(at 256.54 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "762821fd-00d7-4c72-83dd-b7b9354f1de6")
+		(property "Reference" "J8"
+			(at 261.366 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CES-104-02-G-S"
+			(at 247.396 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CES-104-XX-Y-S"
+			(at 273.05 252.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 273.05 352.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 273.05 552.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 273.05 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-104-02-G-S"
+			(at 273.05 752.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES10402GS"
+			(at 273.05 852.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10402GS"
+			(at 273.05 952.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CES-104-02-G-S"
+			(at 273.05 1052.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ces-104-02-g-s/samtec"
+			(at 273.05 1152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f328c05e-7072-46cd-80cf-06a681a2ca22")
+		)
+		(pin "3"
+			(uuid "7e55cfb1-4341-4a2a-9ce2-fdbf3310457c")
+		)
+		(pin "2"
+			(uuid "b24d5ba6-191a-44ef-a77b-6405bc92f71f")
+		)
+		(pin "4"
+			(uuid "0e53c77a-6e4a-45db-9a95-0b65ec623c31")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 189.23 0)
 		(unit 1)
@@ -9130,7 +10194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SKRPADE010_AAL"
+		(property "Footprint" "SKRPADE010_AAL"
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -9207,7 +10271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 134.62 151.13 0)
 			(effects
 				(font
@@ -9326,6 +10390,332 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CES-116-02-G-S")
+		(at 196.85 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f6666e-ec8c-42c9-88e1-6c8d271e62cd")
+		(property "Reference" "J12"
+			(at 196.088 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CES-116-02-G-S"
+			(at 228.346 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CES-116-XX-Y-S"
+			(at 291.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 391.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "16 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 591.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 691.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-116-02-G-S"
+			(at 791.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES11602GS"
+			(at 891.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/CES-116-02-G-S?qs=0lQeLiL1qyaUwk%252BbRriGZA%3D%3D"
+			(at 991.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1091.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "f9951bfa-8790-495f-93dd-eaa67937b872")
+		)
+		(pin "16"
+			(uuid "a9610733-3357-4f0e-a0ef-cfc2f14d55b1")
+		)
+		(pin "14"
+			(uuid "6b5f850a-b217-417e-a761-faa357887f5c")
+		)
+		(pin "11"
+			(uuid "13bfde85-dd02-4a47-b4b6-cdbf56ac1d4c")
+		)
+		(pin "4"
+			(uuid "f73d18d6-231e-438e-8956-72ba98e341cf")
+		)
+		(pin "3"
+			(uuid "eb7c8fa8-556b-448c-8509-2f0e4dc57f70")
+		)
+		(pin "1"
+			(uuid "5535235f-34a2-4251-980b-ad2c67e74c0b")
+		)
+		(pin "9"
+			(uuid "7f03ac5a-d288-4b3a-9399-62278befc7a4")
+		)
+		(pin "5"
+			(uuid "99c41103-7c87-4b3d-90d4-f03b4b25b6bc")
+		)
+		(pin "7"
+			(uuid "9cf84f44-2ee4-411c-a2c0-c0b16df5392f")
+		)
+		(pin "10"
+			(uuid "051d41b6-9292-4ca3-8aac-51020cd025a8")
+		)
+		(pin "2"
+			(uuid "800990d5-d0a7-4634-80c8-986c70ad8ed7")
+		)
+		(pin "8"
+			(uuid "66051d9a-f9cf-4f7e-b2cd-811a2721be19")
+		)
+		(pin "6"
+			(uuid "7e60695f-1984-4bd4-ad7a-8ea9d8e384d5")
+		)
+		(pin "12"
+			(uuid "6c7e57e8-65aa-4c1b-8013-9153362227d8")
+		)
+		(pin "15"
+			(uuid "4278d4f1-ae77-4524-9dd3-24fa651c57ff")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CES-104-02-G-S")
+		(at 168.91 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94853901-a2e5-409a-898c-b0ad4b6d3e4b")
+		(property "Reference" "J7"
+			(at 161.036 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CES-104-02-G-S"
+			(at 168.91 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CES-104-XX-Y-S"
+			(at 152.4 71.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 152.4 -28.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 168.91 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 152.4 -228.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 152.4 -328.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-104-02-G-S"
+			(at 152.4 -428.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES10402GS"
+			(at 152.4 -528.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10402GS"
+			(at 152.4 -628.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CES-104-02-G-S"
+			(at 152.4 -728.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ces-104-02-g-s/samtec"
+			(at 152.4 -828.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb33bc8b-a695-4907-8812-e1d7eed4eb37")
+		)
+		(pin "3"
+			(uuid "896e2f4f-a02a-43a9-8f1e-44d4238005c1")
+		)
+		(pin "2"
+			(uuid "3ce08c15-0dd0-4ed5-a1d6-d29fcdd2fd6d")
+		)
+		(pin "4"
+			(uuid "b714d10e-6748-4aa6-98e8-253cb34ce6de")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9618,7 +11008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PTN5150AHXMP"
+		(property "Footprint" "PTN5150AHXMP"
 			(at 123.19 178.74 0)
 			(effects
 				(font
@@ -9919,7 +11309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:FIL_DLW21HN900SQ2L"
+		(property "Footprint" "DLW21HN900SQ2L:FIL_DLW21HN900SQ2L"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -10102,7 +11492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 341.3 31.75 0)
 			(effects
 				(font
@@ -10309,7 +11699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 7.95 140.97 0)
 			(effects
 				(font
@@ -10450,7 +11840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 40.97 105.41 0)
 			(effects
 				(font
@@ -10559,6 +11949,219 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11878e3-f45d-48ff-b427-5808a07fe6be")
+		(property "Reference" "#PWR077"
+			(at 207.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fcc9b4a-2e7d-4f7c-911d-6e7d6e0791d0")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CES-104-02-G-S")
+		(at 256.54 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d432e075-801a-4f80-9266-8d291b2ef171")
+		(property "Reference" "J10"
+			(at 261.366 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CES-104-02-G-S"
+			(at 247.142 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CES-104-XX-Y-S"
+			(at 273.05 185.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
+			(at 273.05 285.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 Position, .100&quot; Closed Entry Low Profile Socket Strip"
+			(at 256.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 273.05 485.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 273.05 585.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CES-104-02-G-S"
+			(at 273.05 685.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-CES10402GS"
+			(at 273.05 785.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-CES10402GS"
+			(at 273.05 885.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CES-104-02-G-S"
+			(at 273.05 985.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ces-104-02-g-s/samtec"
+			(at 273.05 1085.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f5c75d-5d06-4976-aea0-0cbc3acaf1d5")
+		)
+		(pin "3"
+			(uuid "5f3808ef-09ca-4786-bbbf-ab40a66f740f")
+		)
+		(pin "2"
+			(uuid "f656c886-80df-4028-8ca7-8b3f767c6a39")
+		)
+		(pin "4"
+			(uuid "0ae2146c-adfa-4c04-8160-8fae8f0ce4e8")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10786,7 +12389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CDBQR00340HF"
+		(property "Footprint" "CDBQR00340HF"
 			(at 92.71 256.21 0)
 			(effects
 				(font
@@ -11033,71 +12636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 187.96 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e966c100-0b45-4689-803e-59bd5afe36e6")
-		(property "Reference" "J4"
-			(at 188.595 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 188.595 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3241bf93-ae89-4ae9-bc5b-127263dae632")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 73.66 0)
 		(unit 1)
@@ -11164,6 +12702,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 212.09 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eccbd3ff-081d-4490-b252-a3345cbc0eef")
+		(property "Reference" "J6"
+			(at 214.63 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 214.63 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 212.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb548f7d-cf3a-4664-9ca1-37cfbca04444")
+		)
+		(pin "4"
+			(uuid "30135518-3e0d-4b6b-acc8-bbae19ff8a17")
+		)
+		(pin "1"
+			(uuid "72b81ae6-fa04-4b22-a0df-53caeb1fefca")
+		)
+		(pin "3"
+			(uuid "8bb38540-721f-4b95-9b7b-4de217ebf0ab")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:CRCW06034K70JNEC")
 		(at 111.76 160.02 270)
 		(unit 1)
@@ -11190,7 +12804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 113.03 173.99 0)
 			(effects
 				(font

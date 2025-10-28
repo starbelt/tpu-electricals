@@ -3271,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 176.2 163.83 0)
 			(effects
 				(font
@@ -3544,7 +3544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 171.12 163.83 0)
 			(effects
 				(font
@@ -3686,7 +3686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 160.96 163.83 0)
 			(effects
 				(font
@@ -3827,7 +3827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 125.4 163.83 0)
 			(effects
 				(font
@@ -3969,7 +3969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 73.66 111.76 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -4273,7 +4273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 135.56 163.83 0)
 			(effects
 				(font
@@ -4415,7 +4415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 48.26 111.76 0)
 			(effects
 				(font
@@ -4632,7 +4632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 53.34 111.76 0)
 			(effects
 				(font
@@ -4784,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 145.72 163.83 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 33.02 111.76 0)
 			(effects
 				(font
@@ -5230,7 +5230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 155.88 163.83 0)
 			(effects
 				(font
@@ -5437,7 +5437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at -3.48 64.77 0)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 27.94 111.76 0)
 			(effects
 				(font
@@ -5882,7 +5882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC3225X60N"
+		(property "Footprint" "RESC3225X60N"
 			(at -58.09 67.31 0)
 			(effects
 				(font
@@ -6090,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 120.32 163.83 0)
 			(effects
 				(font
@@ -6232,7 +6232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -6384,7 +6384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 166.04 163.83 0)
 			(effects
 				(font
@@ -6526,7 +6526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 43.18 111.76 0)
 			(effects
 				(font
@@ -6678,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 22.86 111.76 0)
 			(effects
 				(font
@@ -6830,7 +6830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 140.64 163.83 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 150.8 163.83 0)
 			(effects
 				(font
@@ -7111,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SON127P800X600X65-8N"
+		(property "Footprint" "SON127P800X600X65-8N"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -7280,7 +7280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -7432,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 130.48 163.83 0)
 			(effects
 				(font
@@ -7574,7 +7574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 38.1 111.76 0)
 			(effects
 				(font

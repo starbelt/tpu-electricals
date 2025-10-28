@@ -5266,6 +5266,18 @@
 		)
 		(uuid f20dd289-c20d-4300-a94f-5fd3679e4bc1)
 	)
+	(rectangle
+		(start 167.64 96.52)
+		(end 208.28 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f88a8b77-8366-4dbd-9dfe-4327c9bb7b0b)
+	)
 	(text "90 OHM DIFF"
 		(exclude_from_sim no)
 		(at 31.496 91.694 90)
@@ -5555,6 +5567,12 @@
 		(uuid "423e5e84-4cb8-436e-b48a-f0fcc240f870")
 	)
 	(junction
+		(at 102.87 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445628fc-9923-472c-a825-19f463c347a3")
+	)
+	(junction
 		(at 154.94 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5565,12 +5583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474d7073-9d1e-4e78-aeef-80b31b703e88")
-	)
-	(junction
-		(at 115.57 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ab22fe2-a5e3-40d7-9cd1-8ce1afd9a6fb")
 	)
 	(junction
 		(at 88.9 44.45)
@@ -6080,18 +6092,6 @@
 		(at 140.97 90.17)
 		(uuid "1fc9e762-1435-4de9-b372-8885c87949ac")
 	)
-	(no_connect
-		(at 110.49 158.75)
-		(uuid "87a4b429-b701-4ec4-9e67-3b02abec76e0")
-	)
-	(no_connect
-		(at 132.08 153.67)
-		(uuid "db1634b2-c0ee-42ed-b9cd-8debec18b96c")
-	)
-	(no_connect
-		(at 107.95 158.75)
-		(uuid "f4827b97-37d1-450f-9e8c-e769c49a73bd")
-	)
 	(wire
 		(pts
 			(xy 87.63 153.67) (xy 90.17 153.67)
@@ -6111,16 +6111,6 @@
 			(type default)
 		)
 		(uuid "04c44737-c452-4b98-82dc-82046dda2b47")
-	)
-	(wire
-		(pts
-			(xy 113.03 148.59) (xy 115.57 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e01e55-d2d1-457c-a279-b023a3ca0829")
 	)
 	(wire
 		(pts
@@ -6221,6 +6211,16 @@
 			(type default)
 		)
 		(uuid "0e517f60-5ae6-4190-895f-19a3cd9d5f4a")
+	)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 113.03 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e71bfa7-9d76-4aef-a82d-dd70850b8f3d")
 	)
 	(wire
 		(pts
@@ -6354,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 77.47) (xy 147.32 77.47)
+			(xy 146.05 78.74) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6524,6 +6524,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 153.67) (xy 102.87 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32422c22-af35-4a5c-9bbf-a7c7e7d27f4b")
+	)
+	(wire
+		(pts
 			(xy 33.02 100.33) (xy 34.29 100.33)
 		)
 		(stroke
@@ -6561,6 +6571,26 @@
 			(type default)
 		)
 		(uuid "35b500f2-3d82-4d30-80b5-ff2ed1225fab")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3742cf83-9f05-4901-9cbe-f2350c5e10dc")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3839f923-ab72-401f-96fd-07d37d814fda")
 	)
 	(wire
 		(pts
@@ -6861,16 +6891,6 @@
 			(type default)
 		)
 		(uuid "575df7a4-ef35-4f1b-bb37-31be4705002f")
-	)
-	(wire
-		(pts
-			(xy 101.6 148.59) (xy 102.87 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5792f302-dfbe-428f-90a2-9e5e923151b9")
 	)
 	(wire
 		(pts
@@ -7194,6 +7214,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 78.74) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82730d24-2d54-4e43-aa31-db42d225a836")
+	)
+	(wire
+		(pts
 			(xy 107.95 148.59) (xy 107.95 166.37)
 		)
 		(stroke
@@ -7374,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 147.32 74.93)
+			(xy 146.05 76.2) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7451,6 +7481,16 @@
 			(type default)
 		)
 		(uuid "a5149df3-ab00-40c3-9dd2-9cf7561073f8")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 146.05 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e26b4f-075f-42a0-9ce9-5cfce83d4bab")
 	)
 	(wire
 		(pts
@@ -7544,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 74.93) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53aa577-8a34-45b9-aab8-81154232e343")
+	)
+	(wire
+		(pts
 			(xy 73.66 44.45) (xy 71.12 44.45)
 		)
 		(stroke
@@ -7574,6 +7624,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 105.41) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7574ded-f09a-4895-8f5b-a0c24fec2e6a")
+	)
+	(wire
+		(pts
 			(xy 74.93 148.59) (xy 74.93 153.67)
 		)
 		(stroke
@@ -7594,7 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 153.67) (xy 95.25 153.67)
+			(xy 102.87 153.67) (xy 95.25 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7894,7 +7954,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 148.59) (xy 101.6 153.67)
+			(xy 102.87 148.59) (xy 102.87 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8302,6 +8362,46 @@
 		)
 		(uuid "fd85bab3-6d65-4a93-b6cf-a9c6a96ca665")
 	)
+	(label "MCM_USB_SEL"
+		(at 147.32 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09de01eb-5555-4216-b0d3-835163a98361")
+	)
+	(label "MCM_BT_PHY_PRG"
+		(at 147.32 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d28ebf2-7d84-49b0-b903-eeded10d7727")
+	)
+	(label "MCM_BT_PHY_PRG"
+		(at 186.69 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73fb4594-851c-4b62-9d23-c7eae139ffac")
+	)
+	(label "MCM_USB_SEL"
+		(at 187.96 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87e285f4-3eee-4a24-82cd-f4d5ec21c644")
+	)
 	(global_label "FLEXPWM1_PWM1_A"
 		(shape input)
 		(at 232.41 151.13 180)
@@ -8527,7 +8627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC3225X60N"
+		(property "Footprint" "RESC3225X60N"
 			(at 52.4 109.22 0)
 			(effects
 				(font
@@ -8707,73 +8807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03aa3c1d-a6d1-4aaf-90f3-f4e7245fd23e")
-		(property "Reference" "TP26"
-			(at 151.384 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 152.4 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d98543c8-fed9-4793-96b4-e6c1c716ebe8")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 153.67 0)
 		(unit 1)
@@ -8930,7 +8963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOT95P275X110-5N"
+		(property "Footprint" "SOT95P275X110-5N"
 			(at 226.06 168.58 0)
 			(effects
 				(font
@@ -9143,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:G3130632900"
+		(property "Footprint" "G3130632900"
 			(at 59.69 108.204 0)
 			(effects
 				(font
@@ -9771,7 +9804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 162.89 38.1 0)
 			(effects
 				(font
@@ -9913,7 +9946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 65.1 162.56 0)
 			(effects
 				(font
@@ -10253,7 +10286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 46.05 162.56 0)
 			(effects
 				(font
@@ -10395,7 +10428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 77.8 162.56 0)
 			(effects
 				(font
@@ -10666,7 +10699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 27 175.26 0)
 			(effects
 				(font
@@ -10874,7 +10907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DMN3900UFA7B"
+		(property "Footprint" "DMN3900UFA7B"
 			(at 243.84 249.86 0)
 			(effects
 				(font
@@ -11082,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X60N"
+		(property "Footprint" "RESC1608X60N"
 			(at 254 172.39 0)
 			(effects
 				(font
@@ -11197,6 +11230,72 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:MCM_1V8")
+		(at 175.26 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c6010f-7ec9-445f-acb3-ea211edf5d1c")
+		(property "Reference" "#PWR074"
+			(at 175.006 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MCM_1V8"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fdc27d07-5840-41ef-b16f-a4c7b8165b31")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:CRCW06034K70JNEC")
 		(at 222.25 31.75 270)
 		(unit 1)
@@ -11223,7 +11322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 223.52 45.72 0)
 			(effects
 				(font
@@ -11374,7 +11473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 143.84 85.09 0)
 			(effects
 				(font
@@ -11554,73 +11653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "749822f2-a6ae-49e3-b6a4-e088eb746036")
-		(property "Reference" "TP27"
-			(at 151.384 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 152.4 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d98543c8-fed9-4793-96b4-e6c1c716ebe9")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:0603ZD226MAT2A")
 		(at 251.46 29.21 270)
 		(unit 1)
@@ -11647,7 +11679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 155.27 38.1 0)
 			(effects
 				(font
@@ -12121,7 +12153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 336.22 111.76 0)
 			(effects
 				(font
@@ -12462,7 +12494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 52.4 162.56 0)
 			(effects
 				(font
@@ -12602,7 +12634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TDFN_8DNP-T1-GE4_VIS"
+		(property "Footprint" "TDFN_8DNP-T1-GE4_VIS"
 			(at 193.04 26.67 0)
 			(effects
 				(font
@@ -12683,7 +12715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:LTWC193TS5"
+		(property "Footprint" "LTWC193TS5"
 			(at 333.68 128.27 0)
 			(effects
 				(font
@@ -12892,7 +12924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 71.45 162.56 0)
 			(effects
 				(font
@@ -13073,6 +13105,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca053b91-d4aa-4ddc-8234-6704074b5af2")
+		(property "Reference" "#PWR075"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ea23c0-7e2b-45aa-bcbf-b128ec790920")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:MCM_1V8")
 		(at 259.08 69.85 0)
 		(unit 1)
@@ -13228,7 +13326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC3225X60N"
+		(property "Footprint" "RESC3225X60N"
 			(at 200.66 174.93 0)
 			(effects
 				(font
@@ -13370,7 +13468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 58.75 162.56 0)
 			(effects
 				(font
@@ -13577,7 +13675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 82.88 80.01 0)
 			(effects
 				(font
@@ -13753,6 +13851,148 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW121010K0JNTA")
+		(at 175.26 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc9a0911-7a45-4292-88e9-34cd47e087a7")
+		(property "Reference" "R66"
+			(at 177.8 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW121010K0JNTA"
+			(at 177.8 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC3225X60N"
+			(at 79.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/CRCW121010K0JNTA.pdf"
+			(at -20.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/2watt 10Kohms 5%"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at -220.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -320.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW121010K0JNTA"
+			(at -420.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210J-10K"
+			(at -520.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1210J-10K"
+			(at -620.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -720.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -820.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d3302b8-91c8-4507-8c4f-7439fc16a17b")
+		)
+		(pin "1"
+			(uuid "ddbc9974-65bd-42db-a773-296b95413a13")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "R66")
 					(unit 1)
 				)
 			)

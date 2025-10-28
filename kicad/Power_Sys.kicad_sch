@@ -11685,6 +11685,16 @@
 		)
 		(uuid 73b1da6e-9e53-486e-a1d2-f3da5295a339)
 	)
+	(text "ERC THINKS UNUSED\n"
+		(exclude_from_sim no)
+		(at 230.378 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d41390e-ed5f-4e01-91e2-f8922b9782d2")
+	)
 	(junction
 		(at 190.5 29.21)
 		(diameter 0)
@@ -11722,6 +11732,12 @@
 		(uuid "0f24b391-6dbc-489d-bc79-4b69a0c696cd")
 	)
 	(junction
+		(at 113.03 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d4c67a-11a6-4c3f-8966-08a767a2b96f")
+	)
+	(junction
 		(at 130.81 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11746,6 +11762,12 @@
 		(uuid "1e558267-6b7b-4ba6-a9a7-f71fbdb5ef72")
 	)
 	(junction
+		(at 232.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229d5de4-5ba4-4d2f-a3c1-1132d629bb99")
+	)
+	(junction
 		(at 92.71 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11764,7 +11786,7 @@
 		(uuid "3994e767-5c38-457b-bafe-b7e1e301690f")
 	)
 	(junction
-		(at 250.19 118.11)
+		(at 251.46 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bd53c28-b06c-4feb-a511-8415aaa4d78b")
@@ -11806,6 +11828,12 @@
 		(uuid "4c2d5945-ce29-449c-a598-3f2ac598fd39")
 	)
 	(junction
+		(at 171.45 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ded373a-9892-4df8-b4a3-73fdeaaa2a06")
+	)
+	(junction
 		(at 38.1 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11824,7 +11852,7 @@
 		(uuid "61788022-eef5-4f2d-be91-07ffdc6e382a")
 	)
 	(junction
-		(at 250.19 105.41)
+		(at 251.46 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66d60e32-877b-4bf9-bba7-73d4f65acfc1")
@@ -11842,12 +11870,6 @@
 		(uuid "801b645d-0b3e-4a24-a3f7-b94d5bdcf2f2")
 	)
 	(junction
-		(at 113.03 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "843205d1-2d76-463d-bd42-19e4cad2af82")
-	)
-	(junction
 		(at 204.47 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11860,7 +11882,7 @@
 		(uuid "8f47f1dc-4367-41c1-8803-53d2f186c3c6")
 	)
 	(junction
-		(at 105.41 162.56)
+		(at 93.98 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ffea44d-a110-46bd-bf5b-f7a85508e02a")
@@ -11914,19 +11936,13 @@
 		(uuid "a11f0c24-a15a-451d-9a75-8ca953b366e5")
 	)
 	(junction
-		(at 86.36 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5fbc1d5-ee9f-4dc8-963e-7f44d253ea5c")
-	)
-	(junction
 		(at 80.01 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6351f34-1ddc-419a-a50f-f57b5803cd9d")
 	)
 	(junction
-		(at 238.76 105.41)
+		(at 240.03 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac01a6e5-2415-4023-821a-7549161a7574")
@@ -11962,7 +11978,7 @@
 		(uuid "cc30cdfe-6701-4e03-8160-ae872612f409")
 	)
 	(junction
-		(at 240.03 105.41)
+		(at 241.3 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d233dee1-5ce8-4684-90ee-7f9b8209e736")
@@ -11972,6 +11988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58aaa9d-09ea-47b7-beff-b7ba66c7d702")
+	)
+	(junction
+		(at 96.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7fc86f3-0259-408a-afac-68c9793e0ab9")
 	)
 	(junction
 		(at 66.04 149.86)
@@ -12022,10 +12044,10 @@
 		(uuid "e89b0de0-609e-4ce8-8e93-0831e0554296")
 	)
 	(junction
-		(at 95.25 156.21)
+		(at 85.09 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6a10cc0-6518-4762-9a27-ea45b473bcfe")
+		(uuid "f5c017ce-28f2-4ab1-8358-a834ed53079f")
 	)
 	(no_connect
 		(at 175.26 72.39)
@@ -12048,10 +12070,6 @@
 		(uuid "4ef7b2ca-1af5-4ea7-96f1-056758dae997")
 	)
 	(no_connect
-		(at 114.3 166.37)
-		(uuid "5edaff73-5188-43ad-9856-0bc586e5dfe4")
-	)
-	(no_connect
 		(at 175.26 62.23)
 		(uuid "5f22a1dd-4b19-4c56-805b-4a646286e40f")
 	)
@@ -12068,10 +12086,6 @@
 		(uuid "714aef76-8a8e-4fa2-af36-135a59f70b5e")
 	)
 	(no_connect
-		(at 215.9 72.39)
-		(uuid "75eedbbd-37a6-4e37-a1fa-25cd79b397eb")
-	)
-	(no_connect
 		(at 203.2 36.83)
 		(uuid "80da91b7-671a-4e17-bb50-e51838c0a220")
 	)
@@ -12080,20 +12094,22 @@
 		(uuid "84c5ea8d-9910-4c9a-8892-a915b6e01918")
 	)
 	(no_connect
-		(at 114.3 168.91)
-		(uuid "abfca63a-46e1-4b85-b005-3370f0aa12f2")
-	)
-	(no_connect
-		(at 215.9 74.93)
-		(uuid "b1468c3d-df53-419e-b70d-9913bdc1912e")
-	)
-	(no_connect
 		(at 198.12 36.83)
 		(uuid "d2e7c28d-e36a-495e-80aa-fe3978bb09a7")
 	)
 	(no_connect
 		(at 208.28 36.83)
 		(uuid "f2a752ea-f9f8-4821-9917-ebd246192c1c")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016ab3c3-6436-4d3a-9efb-59300a55eb20")
 	)
 	(wire
 		(pts
@@ -12187,6 +12203,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 176.53) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e849d5-f3a1-4b4c-94e4-c82bc8a67793")
+	)
+	(wire
+		(pts
 			(xy 215.9 110.49) (xy 222.25 110.49)
 		)
 		(stroke
@@ -12194,6 +12220,26 @@
 			(type default)
 		)
 		(uuid "16d9e891-4fac-4ff7-9884-eb1e080bc0ff")
+	)
+	(wire
+		(pts
+			(xy 232.41 105.41) (xy 232.41 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172e418e-0854-44f0-8f64-9e10924b3427")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1844a4fc-898c-42dc-88d0-865e0d51e2d2")
 	)
 	(wire
 		(pts
@@ -12254,6 +12300,16 @@
 			(type default)
 		)
 		(uuid "2ce295a0-ca4e-41c7-9ff9-42fddd61307f")
+	)
+	(wire
+		(pts
+			(xy 113.03 156.21) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d45f487-92c7-4f08-8610-4fe5d8f0455a")
 	)
 	(wire
 		(pts
@@ -12387,16 +12443,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 105.41) (xy 238.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4528655a-46be-457a-b2ca-edb4bdcd01ee")
-	)
-	(wire
-		(pts
 			(xy 80.01 93.98) (xy 82.55 93.98)
 		)
 		(stroke
@@ -12404,16 +12450,6 @@
 			(type default)
 		)
 		(uuid "46dfea69-9015-4a78-bede-10e02d2e14c8")
-	)
-	(wire
-		(pts
-			(xy 187.96 123.19) (xy 198.12 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471c8354-eb8c-4813-a491-cf7ec8f60602")
 	)
 	(wire
 		(pts
@@ -12437,6 +12473,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 149.86) (xy 114.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b88de4-c1eb-4f1e-bc07-d4fed7b7f9f2")
+	)
+	(wire
+		(pts
 			(xy 81.28 55.88) (xy 81.28 53.34)
 		)
 		(stroke
@@ -12444,6 +12490,16 @@
 			(type default)
 		)
 		(uuid "4a947471-02ef-4163-9bb0-8c6f08257d83")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1ad38c-f087-4889-81cb-5977020397a2")
 	)
 	(wire
 		(pts
@@ -12517,16 +12573,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 149.86) (xy 114.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68611b09-4705-45df-aed8-268394cd50c1")
-	)
-	(wire
-		(pts
 			(xy 203.2 113.03) (xy 209.55 113.03)
 		)
 		(stroke
@@ -12537,7 +12583,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 105.41) (xy 240.03 105.41)
+			(xy 240.03 105.41) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12547,7 +12593,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 118.11) (xy 250.19 118.11)
+			(xy 241.3 118.11) (xy 251.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -12564,16 +12610,6 @@
 			(type default)
 		)
 		(uuid "6ec56cd3-a329-426c-9db2-d914cad93692")
-	)
-	(wire
-		(pts
-			(xy 95.25 156.21) (xy 113.03 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7033c93e-3614-4ca9-8bf2-75fa0a842632")
 	)
 	(wire
 		(pts
@@ -12597,6 +12633,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 168.91) (xy 114.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7839e96a-ac48-4d2e-bfd2-2b954bd685d4")
+	)
+	(wire
+		(pts
 			(xy 181.61 163.83) (xy 181.61 160.02)
 		)
 		(stroke
@@ -12614,6 +12660,16 @@
 			(type default)
 		)
 		(uuid "7ab8d7c1-183a-4fed-8520-0df10323ef16")
+	)
+	(wire
+		(pts
+			(xy 229.87 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d937b3f-4115-4f06-812a-b99c3cca4d9f")
 	)
 	(wire
 		(pts
@@ -12647,6 +12703,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 166.37) (xy 114.3 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803aa202-da80-48b2-a72b-e83e3a4ba3f4")
+	)
+	(wire
+		(pts
 			(xy 212.09 113.03) (xy 212.09 110.49)
 		)
 		(stroke
@@ -12664,6 +12730,26 @@
 			(type default)
 		)
 		(uuid "832a6b2d-448e-4ee5-8432-f9039ccd5d7a")
+	)
+	(wire
+		(pts
+			(xy 104.14 176.53) (xy 107.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee8825-d8d7-494e-bd6a-78f0b5dd3a4b")
+	)
+	(wire
+		(pts
+			(xy 218.44 74.93) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d9b49a-dd3d-4cdb-96ba-af04b4e42157")
 	)
 	(wire
 		(pts
@@ -12704,6 +12790,16 @@
 			(type default)
 		)
 		(uuid "8ea59e43-5b27-40df-b688-4cfa26f19d19")
+	)
+	(wire
+		(pts
+			(xy 171.45 125.73) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee46085-6b87-4ffa-9521-785d0c21450d")
 	)
 	(wire
 		(pts
@@ -12797,7 +12893,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 105.41) (xy 255.27 105.41)
+			(xy 251.46 105.41) (xy 256.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12867,7 +12963,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 105.41) (xy 215.9 105.41)
+			(xy 232.41 105.41) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecbfcb7-1406-4ab3-8d5c-46b183a63b37")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 209.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12947,13 +13053,33 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 105.41) (xy 278.13 105.41)
+			(xy 113.03 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97f86d3-bab2-42ef-b705-2b13a2ee0489")
+	)
+	(wire
+		(pts
+			(xy 274.32 105.41) (xy 279.4 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b998304b-fe2b-46ea-ae67-0b0c19e06b03")
+	)
+	(wire
+		(pts
+			(xy 196.85 123.19) (xy 198.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45e7eb-21f2-4c85-9a72-08c73cf8bf02")
 	)
 	(wire
 		(pts
@@ -13087,6 +13213,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 76.2) (xy 218.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da81ee1e-cefc-4c04-b7e3-0b7f81fcd6eb")
+	)
+	(wire
+		(pts
 			(xy 73.66 93.98) (xy 77.47 93.98)
 		)
 		(stroke
@@ -13127,7 +13263,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 149.86) (xy 86.36 149.86)
+			(xy 83.82 149.86) (xy 85.09 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13157,7 +13293,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 162.56) (xy 114.3 162.56)
+			(xy 93.98 162.56) (xy 114.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13207,7 +13343,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 250.19 105.41)
+			(xy 241.3 105.41) (xy 251.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -13267,6 +13403,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 129.54) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5747149-e896-40e5-8ccd-58a0347a4094")
+	)
+	(wire
+		(pts
 			(xy 148.59 135.89) (xy 158.75 135.89)
 		)
 		(stroke
@@ -13297,13 +13443,53 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 167.64 123.19)
+			(xy 162.56 123.19) (xy 171.45 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fdb04cd5-aa23-44fd-99a3-e32b5984f8b3")
+	)
+	(label "VBUCK3"
+		(at 218.44 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f0bcc51-2ae8-498b-8174-9ce36d6bccfb")
+	)
+	(label "VBUCK2"
+		(at 232.41 107.95 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42af253e-aa78-4776-b511-94a381a6aa07")
+	)
+	(label "VBUCK2"
+		(at 218.44 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8ca3cb8-8e0e-4dfc-868b-752080919c05")
+	)
+	(label "VBUCK3"
+		(at 171.45 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e020a2d6-87bf-419c-8db6-a8dabd3d6081")
 	)
 	(global_label "DA_nIRQ"
 		(shape output)
@@ -13948,7 +14134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 60.02 78.74 0)
 			(effects
 				(font
@@ -14154,7 +14340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 137.49 36.83 0)
 			(effects
 				(font
@@ -14296,7 +14482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 166.7 36.83 0)
 			(effects
 				(font
@@ -14438,7 +14624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at -18.72 90.17 0)
 			(effects
 				(font
@@ -14646,7 +14832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 188.9 52.07 0)
 			(effects
 				(font
@@ -14786,7 +14972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:VREG_TCR2LN33"
+		(property "Footprint" "TCR2LN33:VREG_TCR2LN33"
 			(at 35.814 130.81 0)
 			(effects
 				(font
@@ -14960,7 +15146,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:WSLP0603R0100FEA")
-		(at 255.27 105.41 0)
+		(at 256.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14968,7 +15154,7 @@
 		(dnp no)
 		(uuid "12bdbc5b-ceef-4e52-9bb4-23e603039326")
 		(property "Reference" "R4"
-			(at 264.414 103.124 0)
+			(at 265.684 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,15 +15162,15 @@
 			)
 		)
 		(property "Value" "WSLP0603R0100FEA"
-			(at 264.414 107.696 0)
+			(at 265.684 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X60N"
-			(at 269.24 201.6 0)
+		(property "Footprint" "RESC1608X60N"
+			(at 270.51 201.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +15180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 301.6 0)
+			(at 270.51 301.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,7 +15190,7 @@
 			)
 		)
 		(property "Description" "RESISTOR, 0603 .01 Ohm +/- 1.0 % 0.4W"
-			(at 255.27 105.41 0)
+			(at 256.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15013,7 +15199,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 269.24 501.6 0)
+			(at 270.51 501.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,7 +15209,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 269.24 601.6 0)
+			(at 270.51 601.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15033,7 +15219,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WSLP0603R0100FEA"
-			(at 269.24 701.6 0)
+			(at 270.51 701.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15229,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-WSLP0603R0100FEA"
-			(at 269.24 801.6 0)
+			(at 270.51 801.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15053,7 +15239,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R0100FEA?qs=d9nEWKVlhwurXMV2GPI1Lw%3D%3D"
-			(at 269.24 901.6 0)
+			(at 270.51 901.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15063,7 +15249,7 @@
 			)
 		)
 		(property "Arrow Part Number" "WSLP0603R0100FEA"
-			(at 269.24 1001.6 0)
+			(at 270.51 1001.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15073,7 +15259,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r0100fea/vishay?region=nac"
-			(at 269.24 1101.6 0)
+			(at 270.51 1101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16160,7 +16346,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:06036C105MAT2A")
-		(at 86.36 149.86 270)
+		(at 85.09 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16168,7 +16354,7 @@
 		(dnp no)
 		(uuid "173c6327-863b-4c02-ab54-c5cd7131fc9c")
 		(property "Reference" "C64"
-			(at 87.122 154.432 90)
+			(at 85.344 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16177,7 +16363,7 @@
 			)
 		)
 		(property "Value" "06036C105MAT2A"
-			(at 83.058 150.622 0)
+			(at 81.788 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,8 +16371,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
-			(at -9.83 158.75 0)
+		(property "Footprint" "CAPC1608X90N"
+			(at -11.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16196,7 +16382,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -109.83 158.75 0)
+			(at -111.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +16392,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
-			(at 86.36 149.86 0)
+			(at 85.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,7 +16401,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -309.83 158.75 0)
+			(at -311.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,7 +16411,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -409.83 158.75 0)
+			(at -411.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16235,7 +16421,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06036C105MAT2A"
-			(at -509.83 158.75 0)
+			(at -511.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16245,7 +16431,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06036C105MAT2A"
-			(at -609.83 158.75 0)
+			(at -611.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16255,7 +16441,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
-			(at -709.83 158.75 0)
+			(at -711.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,7 +16451,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06036C105MAT2A"
-			(at -809.83 158.75 0)
+			(at -811.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +16461,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
-			(at -909.83 158.75 0)
+			(at -911.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,6 +16480,147 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:FC-135_32.7680KA-AG3")
+		(at 104.14 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18e9e399-b10f-498b-b83b-56ab21d9ef71")
+		(property "Reference" "Y2"
+			(at 104.648 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FC-135_32.7680KA-AG3"
+			(at 99.314 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FC135327680KAAG3"
+			(at 200.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/ds/2/137/C-135R_en-1109071.pdf"
+			(at 300.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystals 32.768KHz 20ppm 7.0pF -40C +85C"
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 500.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Epson Timing"
+			(at 600.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FC-135 32.7680KA-AG3"
+			(at 700.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "732-FC135-32.76KAAG3"
+			(at 800.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Epson-Timing/FC-135-32.7680KA-AG3?qs=l3LL3yk8ONbdhVAPUR8zug%3D%3D"
+			(at 900.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FC-135 32.7680KA-AG3"
+			(at 1000.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fc-13532.7680ka-ag3/epson-electronics-america?utm_currency=USD&region=nac"
+			(at 1100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "94c53e16-4336-4a16-9dea-79c527d53cb9")
+		)
+		(pin "2"
+			(uuid "64ea8547-936f-4ced-9c8a-cb72dc5c1125")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -16593,7 +16920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 150.19 36.83 0)
 			(effects
 				(font
@@ -16734,7 +17061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at -78.41 160.02 0)
 			(effects
 				(font
@@ -16940,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RBS2MM40CTR"
+		(property "Footprint" "RBS2MM40CTR"
 			(at 67.31 -37.77 0)
 			(effects
 				(font
@@ -17188,7 +17515,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:WLPH201610M1R0PS")
-		(at 215.9 105.41 0)
+		(at 209.55 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17197,7 +17524,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e1006ff-c2d2-4385-8f2c-fdae4f387545")
 		(property "Reference" "L1"
-			(at 226.06 99.06 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17205,15 +17532,15 @@
 			)
 		)
 		(property "Value" "WLPH201610M1R0PS"
-			(at 226.06 101.6 0)
+			(at 219.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:WLPH201610M1R0PS"
-			(at 232.41 201.6 0)
+		(property "Footprint" "WLPH201610M1R0PS"
+			(at 226.06 201.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17223,7 +17550,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/inductor/WLPH201610_S.pdf"
-			(at 232.41 301.6 0)
+			(at 226.06 301.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17233,7 +17560,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors Power choke,Molded,1.0uH,M,3.9A"
-			(at 215.9 105.41 0)
+			(at 209.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17242,7 +17569,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 232.41 501.6 0)
+			(at 226.06 501.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17252,7 +17579,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kamaya"
-			(at 232.41 601.6 0)
+			(at 226.06 601.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17262,7 +17589,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WLPH201610M1R0PS"
-			(at 232.41 701.6 0)
+			(at 226.06 701.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17272,7 +17599,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-WLPH201610M1R0PS"
-			(at 232.41 801.6 0)
+			(at 226.06 801.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17282,7 +17609,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kamaya/WLPH201610M1R0PS?qs=B6kkDfuK7%2FAS4GmpLCY3AA%3D%3D"
-			(at 232.41 901.6 0)
+			(at 226.06 901.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17292,7 +17619,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 232.41 1001.6 0)
+			(at 226.06 1001.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17302,7 +17629,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 232.41 1101.6 0)
+			(at 226.06 1101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17328,7 +17655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 168.91 0)
+		(at 96.52 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17337,7 +17664,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f720ffc-015d-485b-9395-cc00cc680e67")
 		(property "Reference" "#PWR86"
-			(at 95.25 175.26 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,7 +17673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 173.99 0)
+			(at 96.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17354,7 +17681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 168.91 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,7 +17690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 168.91 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17372,7 +17699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 168.91 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 130.81 27 0)
 			(effects
 				(font
@@ -18019,7 +18346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 34.62 73.66 0)
 			(effects
 				(font
@@ -18332,7 +18659,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:06036C225MAT2A")
-		(at 105.41 162.56 270)
+		(at 93.98 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18340,7 +18667,7 @@
 		(dnp no)
 		(uuid "54e568a6-fffd-4c70-9f36-a92bb0f7ba18")
 		(property "Reference" "C66"
-			(at 105.41 167.132 90)
+			(at 93.98 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18349,7 +18676,7 @@
 			)
 		)
 		(property "Value" "06036C225MAT2A"
-			(at 102.108 160.02 0)
+			(at 90.678 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18357,8 +18684,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
-			(at 9.22 171.45 0)
+		(property "Footprint" "CAPC1608X90N"
+			(at -2.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,7 +18695,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -90.78 171.45 0)
+			(at -102.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18705,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 2.2uF X7R 0603 0.2"
-			(at 105.41 162.56 0)
+			(at 93.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +18714,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -290.78 171.45 0)
+			(at -302.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18397,7 +18724,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -390.78 171.45 0)
+			(at -402.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,7 +18734,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06036C225MAT2A"
-			(at -490.78 171.45 0)
+			(at -502.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18417,7 +18744,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06036C225MAT2A"
-			(at -590.78 171.45 0)
+			(at -602.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18427,7 +18754,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-06036C225MAT2A"
-			(at -690.78 171.45 0)
+			(at -702.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18437,7 +18764,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -790.78 171.45 0)
+			(at -802.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,7 +18774,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -890.78 171.45 0)
+			(at -902.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18496,7 +18823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 175.26 -73.33 0)
 			(effects
 				(font
@@ -18703,7 +19030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 52.4 132.08 0)
 			(effects
 				(font
@@ -18819,7 +19146,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:0603ZD226MAT2A")
-		(at 240.03 105.41 270)
+		(at 241.3 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18827,7 +19154,7 @@
 		(dnp no)
 		(uuid "57fb61a5-e0ce-4737-b690-4c75cf9c8f41")
 		(property "Reference" "C15"
-			(at 240.538 109.728 90)
+			(at 241.808 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18836,7 +19163,7 @@
 			)
 		)
 		(property "Value" "0603ZD226MAT2A"
-			(at 236.474 105.41 0)
+			(at 237.744 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18844,8 +19171,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
-			(at 143.84 114.3 0)
+		(property "Footprint" "CAPC1608X90N"
+			(at 145.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +19182,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 43.84 114.3 0)
+			(at 45.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18865,7 +19192,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0603 20% HIGH CV"
-			(at 240.03 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18874,7 +19201,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -156.16 114.3 0)
+			(at -154.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18884,7 +19211,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -256.16 114.3 0)
+			(at -254.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18894,7 +19221,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
-			(at -356.16 114.3 0)
+			(at -354.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18904,7 +19231,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-0603ZD226MAT2A"
-			(at -456.16 114.3 0)
+			(at -454.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18914,7 +19241,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
-			(at -556.16 114.3 0)
+			(at -554.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18924,7 +19251,7 @@
 			)
 		)
 		(property "Arrow Part Number" "0603ZD226MAT2A"
-			(at -656.16 114.3 0)
+			(at -654.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18934,7 +19261,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
-			(at -756.16 114.3 0)
+			(at -754.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19051,7 +19378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 205.41 52.07 0)
 			(effects
 				(font
@@ -19190,7 +19517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P600X600X90-41N"
+		(property "Footprint" "QFN50P600X600X90-41N"
 			(at 212.09 139.37 0)
 			(effects
 				(font
@@ -19581,7 +19908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 196.52 52.07 0)
 			(effects
 				(font
@@ -19789,7 +20116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 54.94 81.28 0)
 			(effects
 				(font
@@ -19905,7 +20232,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:WLPH201610M1R0PS")
-		(at 187.96 123.19 180)
+		(at 196.85 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19913,7 +20240,7 @@
 		(dnp no)
 		(uuid "687a251f-5dc8-4a56-8b30-a009c7fae37a")
 		(property "Reference" "L2"
-			(at 177.8 122.174 0)
+			(at 186.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19921,15 +20248,15 @@
 			)
 		)
 		(property "Value" "WLPH201610M1R0PS"
-			(at 177.8 125.984 0)
+			(at 186.69 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:WLPH201610M1R0PS"
-			(at 171.45 27 0)
+		(property "Footprint" "WLPH201610M1R0PS"
+			(at 180.34 27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19939,7 +20266,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/inductor/WLPH201610_S.pdf"
-			(at 171.45 -73 0)
+			(at 180.34 -73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19949,7 +20276,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors Power choke,Molded,1.0uH,M,3.9A"
-			(at 187.96 123.19 0)
+			(at 196.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19958,7 +20285,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 171.45 -273 0)
+			(at 180.34 -273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19968,7 +20295,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kamaya"
-			(at 171.45 -373 0)
+			(at 180.34 -373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +20305,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WLPH201610M1R0PS"
-			(at 171.45 -473 0)
+			(at 180.34 -473 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19988,7 +20315,7 @@
 			)
 		)
 		(property "Mouser Part Number" "791-WLPH201610M1R0PS"
-			(at 171.45 -573 0)
+			(at 180.34 -573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19998,7 +20325,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kamaya/WLPH201610M1R0PS?qs=B6kkDfuK7%2FAS4GmpLCY3AA%3D%3D"
-			(at 171.45 -673 0)
+			(at 180.34 -673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,7 +20335,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 171.45 -773 0)
+			(at 180.34 -773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20018,7 +20345,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 171.45 -873 0)
+			(at 180.34 -873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20069,7 +20396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 65.1 55.88 0)
 			(effects
 				(font
@@ -20208,7 +20535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 123.19 144.45 0)
 			(effects
 				(font
@@ -20388,146 +20715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:FC-135_32.7680KA-AG3")
-		(at 69.85 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7413c42a-fd5b-4415-a3bc-0181ad034c44")
-		(property "Reference" "Y2"
-			(at 74.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FC-135_32.7680KA-AG3"
-			(at 74.93 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:FC135327680KAAG3"
-			(at 78.74 285.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/137/C-135R_en-1109071.pdf"
-			(at 78.74 385.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystals 32.768KHz 20ppm 7.0pF -40C +85C"
-			(at 69.85 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 78.74 585.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Epson Timing"
-			(at 78.74 685.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FC-135 32.7680KA-AG3"
-			(at 78.74 785.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "732-FC135-32.76KAAG3"
-			(at 78.74 885.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Epson-Timing/FC-135-32.7680KA-AG3?qs=l3LL3yk8ONbdhVAPUR8zug%3D%3D"
-			(at 78.74 985.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "FC-135 32.7680KA-AG3"
-			(at 78.74 1085.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fc-13532.7680ka-ag3/epson-electronics-america?utm_currency=USD&region=nac"
-			(at 78.74 1185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31c1e5e1-535f-42a1-a676-0d033a321d4d")
-		)
-		(pin ""
-			(uuid "06d2da70-63de-4959-872c-fa70e72a1b5c")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:VSYS")
 		(at 92.71 48.26 0)
 		(unit 1)
@@ -20621,7 +20808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 46.05 102.87 0)
 			(effects
 				(font
@@ -20737,16 +20924,15 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 278.13 105.41 0)
+		(at 279.4 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79e67595-15f0-4b9c-a84d-a46200fed16e")
 		(property "Reference" "#PWR21"
-			(at 277.876 105.41 0)
+			(at 279.146 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20755,7 +20941,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 278.13 100.33 0)
+			(at 279.146 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20763,7 +20949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 105.41 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20772,7 +20958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 105.41 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20781,7 +20967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 105.41 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20936,7 +21122,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_SNVS_DIG")
-		(at 105.41 162.56 0)
+		(at 93.98 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20944,7 +21130,7 @@
 		(dnp no)
 		(uuid "7d260f99-48c0-47d6-8b91-801425f1e47b")
 		(property "Reference" "#PWR87"
-			(at 105.156 162.306 0)
+			(at 93.726 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20953,7 +21139,7 @@
 			)
 		)
 		(property "Value" "VDD_SNVS_DIG"
-			(at 105.41 159.004 0)
+			(at 94.488 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20961,7 +21147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 162.56 0)
+			(at 93.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20970,7 +21156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 162.56 0)
+			(at 93.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +21165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 162.56 0)
+			(at 93.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21027,7 +21213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 143.84 36.83 0)
 			(effects
 				(font
@@ -21299,7 +21485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 160.35 36.83 0)
 			(effects
 				(font
@@ -21505,7 +21691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 63.83 31.75 0)
 			(effects
 				(font
@@ -21687,7 +21873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 118.11 0)
+		(at 251.46 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21696,7 +21882,7 @@
 		(fields_autoplaced yes)
 		(uuid "96da07ce-0f47-42d7-beb0-5d7b7d98034e")
 		(property "Reference" "#PWR22"
-			(at 250.19 124.46 0)
+			(at 251.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,7 +21891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 123.19 0)
+			(at 251.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21713,7 +21899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 118.11 0)
+			(at 251.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21722,7 +21908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 118.11 0)
+			(at 251.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21731,7 +21917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 118.11 0)
+			(at 251.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,7 +21964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at -46.66 162.56 0)
 			(effects
 				(font
@@ -21918,7 +22104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 55.88 152.07 0)
 			(effects
 				(font
@@ -22123,7 +22309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 80.01 148.59 0)
 			(effects
 				(font
@@ -22275,7 +22461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 113.36 121.92 0)
 			(effects
 				(font
@@ -22391,7 +22577,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 162.56 0)
+		(at 85.09 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22400,7 +22586,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4b3f360-e395-480a-b0ef-1f6b250b1b1d")
 		(property "Reference" "#PWR84"
-			(at 86.36 168.91 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22409,7 +22595,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 167.64 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,7 +22603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 162.56 0)
+			(at 85.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22426,7 +22612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 162.56 0)
+			(at 85.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22435,7 +22621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 162.56 0)
+			(at 85.09 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22679,7 +22865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 176.86 36.83 0)
 			(effects
 				(font
@@ -22862,7 +23048,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:06036C105MAT2A")
-		(at 95.25 156.21 270)
+		(at 96.52 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22870,7 +23056,7 @@
 		(dnp no)
 		(uuid "ba5b336e-cbd9-4f83-b265-6a020a8c73f6")
 		(property "Reference" "C65"
-			(at 99.568 160.274 90)
+			(at 100.838 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22879,7 +23065,7 @@
 			)
 		)
 		(property "Value" "06036C105MAT2A"
-			(at 91.694 170.434 0)
+			(at 92.964 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,8 +23073,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
-			(at -0.94 165.1 0)
+		(property "Footprint" "CAPC1608X90N"
+			(at 0.33 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22898,7 +23084,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -100.94 165.1 0)
+			(at -99.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22908,7 +23094,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
-			(at 95.25 156.21 0)
+			(at 96.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22917,7 +23103,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -300.94 165.1 0)
+			(at -299.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22927,7 +23113,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -400.94 165.1 0)
+			(at -399.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22937,7 +23123,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06036C105MAT2A"
-			(at -500.94 165.1 0)
+			(at -499.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22947,7 +23133,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06036C105MAT2A"
-			(at -600.94 165.1 0)
+			(at -599.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22957,7 +23143,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
-			(at -700.94 165.1 0)
+			(at -699.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22967,7 +23153,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06036C105MAT2A"
-			(at -800.94 165.1 0)
+			(at -799.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22977,7 +23163,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
-			(at -900.94 165.1 0)
+			(at -899.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23029,7 +23215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 126.06 121.92 0)
 			(effects
 				(font
@@ -23168,7 +23354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CDBQR00340HF"
+		(property "Footprint" "CDBQR00340HF"
 			(at 54.61 56.21 0)
 			(effects
 				(font
@@ -23309,7 +23495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 107.01 121.92 0)
 			(effects
 				(font
@@ -23449,7 +23635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at 59.69 -2.21 0)
 			(effects
 				(font
@@ -23695,7 +23881,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_SNVS_ANA")
-		(at 95.25 156.21 0)
+		(at 96.52 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23703,7 +23889,7 @@
 		(dnp no)
 		(uuid "e4bbb9ff-8d9f-4fe7-a2cb-248c37e54f60")
 		(property "Reference" "#PWR85"
-			(at 94.996 155.956 0)
+			(at 96.266 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23712,7 +23898,7 @@
 			)
 		)
 		(property "Value" "VDD_SNVS_ANA"
-			(at 96.012 152.146 0)
+			(at 97.282 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,7 +23906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 156.21 0)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23729,7 +23915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 156.21 0)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23738,7 +23924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 156.21 0)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23786,7 +23972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 119.71 121.92 0)
 			(effects
 				(font
@@ -24034,7 +24220,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:0603ZD226MAT2A")
-		(at 250.19 105.41 270)
+		(at 251.46 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24042,7 +24228,7 @@
 		(dnp no)
 		(uuid "e7c75ea2-aaf1-40cd-9765-8a525844bd34")
 		(property "Reference" "C16"
-			(at 250.698 109.728 90)
+			(at 251.968 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24051,7 +24237,7 @@
 			)
 		)
 		(property "Value" "0603ZD226MAT2A"
-			(at 245.872 105.41 0)
+			(at 247.142 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,8 +24246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
-			(at 154 114.3 0)
+		(property "Footprint" "CAPC1608X90N"
+			(at 155.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24071,7 +24257,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 54 114.3 0)
+			(at 55.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24081,7 +24267,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0603 20% HIGH CV"
-			(at 250.19 105.41 0)
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24090,7 +24276,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -146 114.3 0)
+			(at -144.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24100,7 +24286,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -246 114.3 0)
+			(at -244.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24110,7 +24296,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
-			(at -346 114.3 0)
+			(at -344.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24120,7 +24306,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-0603ZD226MAT2A"
-			(at -446 114.3 0)
+			(at -444.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24130,7 +24316,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
-			(at -546 114.3 0)
+			(at -544.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24140,7 +24326,7 @@
 			)
 		)
 		(property "Arrow Part Number" "0603ZD226MAT2A"
-			(at -646 114.3 0)
+			(at -644.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24150,7 +24336,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
-			(at -746 114.3 0)
+			(at -744.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24200,7 +24386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X55N"
+		(property "Footprint" "RESC1608X55N"
 			(at 200.66 246.05 0)
 			(effects
 				(font
@@ -24333,7 +24519,7 @@
 			)
 		)
 		(property "Value" "06033C104JAT4A"
-			(at 108.966 173.482 0)
+			(at 109.474 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24341,7 +24527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 16.84 182.88 0)
 			(effects
 				(font
@@ -24465,7 +24651,7 @@
 		(dnp no)
 		(uuid "eccea902-bcdb-4436-96b8-06e623ab344f")
 		(property "Reference" "TP15"
-			(at 84.328 144.526 0)
+			(at 80.264 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24617,7 +24803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RESC1608X50N"
+		(property "Footprint" "RESC1608X50N"
 			(at -16.18 107.95 0)
 			(effects
 				(font
@@ -24799,7 +24985,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 238.76 105.41 0)
+		(at 240.03 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24807,7 +24993,7 @@
 		(dnp no)
 		(uuid "f1cc7697-5a0d-4c73-ba8f-c071f6d9efdc")
 		(property "Reference" "TP5"
-			(at 239.522 100.838 0)
+			(at 240.792 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24816,7 +25002,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 241.3 103.3779 0)
+			(at 242.57 103.3779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24826,7 +25012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 105.41 0)
+			(at 245.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24835,7 +25021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 105.41 0)
+			(at 245.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24844,7 +25030,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 238.76 105.41 0)
+			(at 240.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25066,7 +25252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 175.26 0)
+		(at 93.98 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25075,7 +25261,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa4fb571-94f0-4ea1-ac83-d253b8f1c253")
 		(property "Reference" "#PWR88"
-			(at 105.41 181.61 0)
+			(at 93.98 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25084,7 +25270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 180.34 0)
+			(at 93.98 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25092,7 +25278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 175.26 0)
+			(at 93.98 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25101,7 +25287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 175.26 0)
+			(at 93.98 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25110,7 +25296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 175.26 0)
+			(at 93.98 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25158,7 +25344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 340.03 81.28 0)
 			(effects
 				(font
@@ -25300,7 +25486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 62.56 132.08 0)
 			(effects
 				(font
