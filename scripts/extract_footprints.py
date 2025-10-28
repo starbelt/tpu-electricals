@@ -1,25 +1,16 @@
 import os
 import re
 import shutil
-import hashlib
 from pathlib import Path
-
-def hash_file(path):
-    h = hashlib.sha256()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
-            h.update(chunk)
-    return h.hexdigest()
 
 
 def extract_and_map_footprints(src_dir, dest_dir):
-    """Flatten all .kicad_mod files, deduplicate by content, and record mapping."""
+    """Copy all .kicad_mod files flat into dest_dir. No renaming or deduplication."""
     src = Path(src_dir)
     dest = Path(dest_dir)
     dest.mkdir(parents=True, exist_ok=True)
 
-    seen_hashes = {}
-    mapping = {}  # src_path -> final filename
+    mapping = {}  # src_path -> filename
     copied = 0
 
     for root, _, files in os.walk(src):
@@ -28,31 +19,12 @@ def extract_and_map_footprints(src_dir, dest_dir):
                 continue
 
             src_file = Path(root) / f
-            file_hash = hash_file(src_file)
-            base = Path(f).stem
-            ext = ".kicad_mod"
-
-            # If identical content already exists, reuse that name
-            if file_hash in seen_hashes:
-                mapping[src_file.resolve()] = seen_hashes[file_hash]
-                continue
-
             dest_file = dest / f
-            if dest_file.exists() and hash_file(dest_file) != file_hash:
-                i = 1
-                while True:
-                    candidate = dest / f"{base}_{i}{ext}"
-                    if not candidate.exists():
-                        dest_file = candidate
-                        break
-                    i += 1
-
             shutil.copy2(src_file, dest_file)
-            seen_hashes[file_hash] = dest_file.name
-            mapping[src_file.resolve()] = dest_file.name
+            mapping[src_file.resolve()] = f
             copied += 1
 
-    print(f"Copied {copied} unique footprints → {dest.resolve()}")
+    print(f"Copied {copied} footprints → {dest.resolve()}")
     return mapping
 
 
@@ -103,7 +75,7 @@ def link_symbols_by_folder(base_dir, lib_name, mapping):
 if __name__ == "__main__":
     components_root = Path("C:/Users/jackr/Downloads/Components")
     footprints_target = Path("C:/Users/jackr/Repos/tpu-electricals/kicad/footprints.pretty")
-    lib_nickname = "footprints"  # must match KiCad library nickname
+    lib_nickname = "footprints"
 
     mapping = extract_and_map_footprints(components_root, footprints_target)
     link_symbols_by_folder(components_root, lib_nickname, mapping)

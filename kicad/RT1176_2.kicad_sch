@@ -2026,7 +2026,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11757,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 43.18 48.26 0)
 			(effects
 				(font
@@ -12686,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -14673,7 +14673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 210.82 20.32 0)
 			(effects
 				(font

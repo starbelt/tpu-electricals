@@ -3046,7 +3046,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9292,6 +9292,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:XRCGB24M000F1H02R0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XRCGB24M000F1H02R0"
+				(at -5.0944 -5.0944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XRCGB24M000F1H02R0:OSC_XRCGB24M000F1H02R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XRCGB24M000F1H02R0_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 92.71 63.5)
@@ -9328,6 +9533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "101611f5-be10-45a0-897e-57ffa12a61b2")
+	)
+	(junction
+		(at 248.92 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10bf5935-46a6-41c5-a094-0170b8e9869c")
 	)
 	(junction
 		(at 83.82 63.5)
@@ -9702,12 +9913,6 @@
 		(uuid "8f1d97cc-5443-4cab-9da1-ceec1c0afe04")
 	)
 	(junction
-		(at 233.68 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94dd4576-075c-4004-ac3a-34cf27b04c96")
-	)
-	(junction
 		(at 146.05 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9960,11 +10165,11 @@
 		(uuid "ffc20b5f-f4dd-4024-bca9-f9e8ff3c6308")
 	)
 	(no_connect
-		(at 177.8 138.43)
+		(at 200.66 140.97)
 		(uuid "3bb154ba-9e02-4f59-a99a-9cd175497904")
 	)
 	(no_connect
-		(at 177.8 132.08)
+		(at 200.66 134.62)
 		(uuid "825be78a-cee6-4708-a709-3af8b3e05007")
 	)
 	(wire
@@ -10226,16 +10431,6 @@
 			(type default)
 		)
 		(uuid "2a20e416-c086-4a45-8984-fd3203e425ce")
-	)
-	(wire
-		(pts
-			(xy 215.9 146.05) (xy 233.68 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a37bc72-99c2-4588-8b06-476b960f21cd")
 	)
 	(wire
 		(pts
@@ -10819,7 +11014,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 146.05) (xy 237.49 146.05)
+			(xy 248.92 148.59) (xy 252.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11749,6 +11944,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 148.59) (xy 248.92 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd379698-d947-4ab5-bd7d-e5796053230c")
+	)
+	(wire
+		(pts
 			(xy 152.4 99.06) (xy 167.64 99.06)
 		)
 		(stroke
@@ -11869,7 +12074,7 @@
 	)
 	(global_label "DAC_OUT"
 		(shape output)
-		(at 237.49 146.05 0)
+		(at 252.73 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11879,7 +12084,7 @@
 		)
 		(uuid "60d76489-5956-4822-9b76-3b13dfb479e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.7 146.05 0)
+			(at 263.94 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +12825,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 215.9 160.02 270)
+		(at 238.76 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12628,7 +12833,7 @@
 		(dnp no)
 		(uuid "0619c10c-6ac9-4dd9-b06f-a04125d2ca13")
 		(property "Reference" "TP39"
-			(at 221.234 157.734 0)
+			(at 244.094 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12842,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 217.9321 162.56 0)
+			(at 240.7921 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 165.1 0)
+			(at 238.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +12861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 165.1 0)
+			(at 238.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12870,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 215.9 160.02 0)
+			(at 238.76 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13793,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:MIMXRT1176CVM8A_")
-		(at 182.88 129.54 0)
+		(at 205.74 132.08 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13596,7 +13801,7 @@
 		(dnp no)
 		(uuid "2b7d276e-d815-4f3b-9022-5359a930f923")
 		(property "Reference" "U2"
-			(at 184.658 128.27 0)
+			(at 207.518 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13604,7 +13809,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 196.85 127 0)
+			(at 219.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13613,7 +13818,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BGA289C80P17X17_1400X1400X152"
-			(at 182.88 129.54 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13621,8 +13826,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 129.54 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 129.54 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14887,7 +15092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 34.29 144.78 0)
 			(effects
 				(font
@@ -15982,7 +16187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 161.29 0)
+		(at 248.92 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15991,7 +16196,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b53a2e-c997-4a6e-a617-58d0262978fb")
 		(property "Reference" "#PWR0171"
-			(at 233.68 167.64 0)
+			(at 248.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16000,7 +16205,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 166.37 0)
+			(at 248.92 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +16213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 161.29 0)
+			(at 248.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +16222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 161.29 0)
+			(at 248.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 161.29 0)
+			(at 248.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17404,7 +17609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -19549,7 +19754,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:ESD9R3.3ST5G")
-		(at 233.68 146.05 270)
+		(at 248.92 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19558,7 +19763,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d9e1464-0dc4-4d65-86f9-5a03760288c5")
 		(property "Reference" "D3"
-			(at 237.49 152.3999 90)
+			(at 252.73 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19567,7 +19772,7 @@
 			)
 		)
 		(property "Value" "ESD9R3.3ST5G"
-			(at 237.49 154.9399 90)
+			(at 252.73 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19576,7 +19781,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SODFL1006X40N"
-			(at 233.68 157.48 0)
+			(at 248.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19586,7 +19791,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9R3.3S-D.PDF"
-			(at 231.14 157.48 0)
+			(at 246.38 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19596,7 +19801,7 @@
 			)
 		)
 		(property "Description" "Low Body Height: 0.016 (0.4 mm); Small Body Outline Dimensions: 0.039 x 0.024 (1.00 mm x 0.60 mm); UltraLow Leakage < 1 nA; UltraLow Capacitance 0.5 pF; Low Clamping Voltage; Standoff Voltage: 3.3 V; Response Time < 1.0 ns; IEC6100042 Level 4 ESD Protection; This is a PbFree and HalogenFree Device"
-			(at 233.68 146.05 0)
+			(at 248.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +19810,7 @@
 			)
 		)
 		(property "Description_1" "Low Body Height: 0.016 (0.4 mm); Small Body Outline Dimensions: 0.039 x 0.024 (1.00 mm x 0.60 mm); UltraLow Leakage < 1 nA; UltraLow Capacitance 0.5 pF; Low Clamping Voltage; Standoff Voltage: 3.3 V; Response Time < 1.0 ns; IEC6100042 Level 4 ESD Protection; This is a PbFree and HalogenFree Device"
-			(at 228.6 157.48 0)
+			(at 243.84 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19615,7 +19820,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 226.06 157.48 0)
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,7 +19830,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 223.52 157.48 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19840,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESD9R3.3ST5G"
-			(at 220.98 157.48 0)
+			(at 236.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +19850,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-ESD9R3.3ST5G"
-			(at 218.44 157.48 0)
+			(at 233.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19655,7 +19860,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/ESD9R3.3ST5G?qs=N5dOQkml4H9504itvxWhoA%3D%3D"
-			(at 215.9 157.48 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19665,7 +19870,7 @@
 			)
 		)
 		(property "Arrow Part Number" "ESD9R3.3ST5G"
-			(at 213.36 157.48 0)
+			(at 228.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19675,7 +19880,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/esd9r3.3st5g/on-semiconductor?region=nac"
-			(at 210.82 157.48 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22784,7 +22989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 132.08 25.4 0)
 			(effects
 				(font
@@ -24328,6 +24533,115 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:XRCGB24M000F1H02R0")
+		(at 172.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9b69110-36fd-42cc-b663-ff62aff66f8f")
+		(property "Reference" "Y1"
+			(at 172.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XRCGB24M000F1H02R0"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:OSC_XRCGB24M000F1H02R0"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08a3018-36c4-4799-89c5-cd8fb8496a21")
+		)
+		(pin "3"
+			(uuid "9b04daee-470e-41c9-81e5-1717fad559be")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 127 177.8 0)
 		(unit 1)
@@ -24396,7 +24710,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 215.9 153.67 270)
+		(at 238.76 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24404,7 +24718,7 @@
 		(dnp no)
 		(uuid "e4d22eb1-47f2-40c5-a399-8c8895df86b0")
 		(property "Reference" "TP38"
-			(at 221.234 151.384 0)
+			(at 244.094 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24413,7 +24727,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 217.9321 156.21 0)
+			(at 240.7921 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24423,7 +24737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 158.75 0)
+			(at 238.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24432,7 +24746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 158.75 0)
+			(at 238.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24441,7 +24755,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 215.9 153.67 0)
+			(at 238.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24704,7 +25018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/IMXRT1170CEC.pdf"
 			(at 113.03 88.9 0)
 			(effects
 				(font
