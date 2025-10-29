@@ -744,7 +744,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "0320d138-3ecf-4753-8081-3f2130b1a1e6")
-		(at 78.035 111.15)
+		(at 83.409861 120.690758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C54"
@@ -1014,7 +1014,7 @@
 	(footprint "footprints:RESC1608X60N"
 		(layer "F.Cu")
 		(uuid "03490afa-e9fe-40cd-abd9-3c236c6f6a73")
-		(at 94.0792 116.5514)
+		(at 99.454061 126.092158)
 		(descr "RESC1608X60N")
 		(tags "Resistor")
 		(property "Reference" "R43"
@@ -1224,7 +1224,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "0400efb1-81b4-45a3-bf83-8fe5ec6e5c1e")
-		(at 78.035 115.85)
+		(at 83.409861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C56"
@@ -1873,7 +1873,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "0689396c-6b36-4f91-9cae-8e71d47b1d7e")
-		(at 43.465 103.7)
+		(at 79.476035 96.899428)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R65"
@@ -2153,7 +2153,7 @@
 	(footprint "footprints:BGA12C50P4X3_206X202X65"
 		(layer "F.Cu")
 		(uuid "089abc26-6a23-4e60-accb-597246eceed6")
-		(at 103.87 67.084)
+		(at 115.579649 69.875165)
 		(descr "wlcsp12")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
@@ -2571,7 +2571,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "08afc2c6-703f-4b0d-91b7-2f8e6a4ee009")
-		(at 103.085 115.85)
+		(at 108.459861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C95"
@@ -2894,6 +2894,8 @@
 		(path "/752f280e-474a-4a7b-b6b2-8dca73e1fe32/16fc1616-9e24-4f4d-9f50-138bad41676d")
 		(sheetname "/Power_Sys/")
 		(sheetfile "Power_Sys.kicad_sch")
+		(solder_mask_margin 0.01143)
+		(clearance 0.00889)
 		(attr smd)
 		(fp_line
 			(start 7 7)
@@ -5674,7 +5676,7 @@
 	(footprint "footprints:LED_APG1608ZGCK"
 		(layer "F.Cu")
 		(uuid "0faebec9-e9fe-46fb-af70-8da3249f8287")
-		(at 48.5 115)
+		(at 84.511035 108.199428)
 		(property "Reference" "D8"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -5902,7 +5904,7 @@
 	(footprint "footprints:RESC1608X60N"
 		(layer "F.Cu")
 		(uuid "10060ab8-550c-4220-97b5-2d2ca8a37096")
-		(at 94.0792 118.669)
+		(at 99.454061 128.209758)
 		(descr "RESC1608X60N")
 		(tags "Resistor")
 		(property "Reference" "R47"
@@ -6771,7 +6773,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "14cd2a20-2f7e-4c7c-b81d-4f78a57de842")
-		(at 88.835 123.35)
+		(at 94.209861 132.890758)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R45"
@@ -7062,7 +7064,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "17e58b67-ceae-4548-88cd-6be5dcc5d18a")
-		(at 99.555 108.8)
+		(at 104.929861 118.340758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C86"
@@ -7343,7 +7345,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "1810c1a8-f671-44b6-9e59-e358c56cff26")
-		(at 144.31 26.57)
+		(at 142.469354 54.884473)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C23"
@@ -7883,7 +7885,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "1d17a003-6f07-4625-9e0e-3bcece3a0060")
-		(at 74.505 113.5)
+		(at 79.879861 123.040758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C46"
@@ -8153,7 +8155,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "1d9114b4-6dd0-466a-a83c-8c0472967375")
-		(at 236 119 -90)
+		(at 182.753144 123.528356 -90)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R39"
@@ -8434,7 +8436,7 @@
 	(footprint "footprints:SODFL1006X40N"
 		(layer "F.Cu")
 		(uuid "1fb13619-74ac-40eb-9d79-f39bb4e6ee41")
-		(at 88.29 125.625)
+		(at 93.664861 135.165758)
 		(descr "SOD-923 CASE 514AB")
 		(tags "Diode")
 		(property "Reference" "D3"
@@ -9015,7 +9017,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "213fc01d-3c16-43e0-b89f-21dabb76fda9")
-		(at 103.085 113.5)
+		(at 108.459861 123.040758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C94"
@@ -9285,7 +9287,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "21b6b1e2-8068-48f0-9dbe-426088c60112")
-		(at 144.37 24.92)
+		(at 142.529354 53.234473)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C22"
@@ -9555,7 +9557,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "225f1bf2-faa1-4941-bea6-ed0b4944f416")
-		(at 91.366081 76.192997)
+		(at 103.07573 78.984162)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R56"
@@ -9836,7 +9838,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "229e48f0-aa5f-4ae7-ae6e-440c211dc734")
-		(at 85.095 113.5)
+		(at 90.469861 123.040758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C75"
@@ -10106,7 +10108,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "23d00271-7ca9-4d12-9021-a03bf1dfc492")
-		(at 85.095 115.85)
+		(at 90.469861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C76"
@@ -10376,7 +10378,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "23e3bdd1-6dc1-4f80-8831-dff4c1f28518")
-		(at 144.79 34.55)
+		(at 142.949354 62.864473)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C28"
@@ -12464,7 +12466,7 @@
 	(footprint "footprints:DMN3900UFA7B"
 		(layer "F.Cu")
 		(uuid "30c23cd8-c0b7-4aa9-9108-5f8722bbe95c")
-		(at 58.4 102.945)
+		(at 94.411035 96.144428)
 		(descr "X2-DFN0806-3(H=0.4mm)")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
@@ -12785,7 +12787,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "31b4f485-d96b-4a0c-9dce-abe92588a147")
-		(at 74.505 127.6)
+		(at 79.879861 137.140758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C52"
@@ -13055,7 +13057,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "31f63c75-eb15-4ef5-abb1-dce1a8b904f6")
-		(at 95.462258 64.627605)
+		(at 107.171907 67.41877)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R50"
@@ -13336,7 +13338,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "327cd92d-be17-4112-bb1c-2d44afd03677")
-		(at 78.035 118.2)
+		(at 83.409861 127.740758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C57"
@@ -13606,7 +13608,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "32e6c080-bf88-4f29-b917-a86555a5aeb8")
-		(at 81.565 113.5)
+		(at 86.939861 123.040758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C64"
@@ -13887,7 +13889,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "378aae20-6023-4d3f-abe5-7be1c5f6559e")
-		(at 81.565 125.25)
+		(at 86.939861 134.790758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C71"
@@ -14157,7 +14159,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "38a7e2f8-e709-4073-aae1-89f74592ebce")
-		(at 99.535 62.6)
+		(at 111.244649 65.391165)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C80"
@@ -14684,7 +14686,7 @@
 	(footprint "footprints:SOT95P230X110-3N"
 		(layer "F.Cu")
 		(uuid "3ba479bd-aaae-4c89-b4e8-46253b2b281a")
-		(at 62.5 94.5)
+		(at 98.511035 87.699428)
 		(descr "SOT23")
 		(tags "Diode")
 		(property "Reference" "D6"
@@ -15373,7 +15375,7 @@
 	(footprint "footprints:BLM21BB050SH1D"
 		(layer "F.Cu")
 		(uuid "3e1a8996-adf6-4375-a882-b01ddb910f3f")
-		(at 105.5 132.5)
+		(at 110.874861 142.040758)
 		(descr "BLM21_1 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "FL2"
@@ -15627,7 +15629,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "3e33ee97-07fe-436c-bb7d-7907112d09a9")
-		(at 204.85 33.45 90)
+		(at 175.607508 80.465527 90)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R1"
@@ -15897,7 +15899,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "3edab04e-054b-4105-8b89-570579003bd7")
-		(at 92.76 125.9)
+		(at 98.134861 135.440758)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R46"
@@ -16459,7 +16461,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "405cfcdb-d6ca-4d5f-8617-8669cdccc05d")
-		(at 99.555 120.55)
+		(at 104.929861 130.090758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C91"
@@ -17561,7 +17563,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "466ff3cc-2820-492f-b2b7-f5b5c9bd1648")
-		(at 74.505 120.55)
+		(at 79.879861 130.090758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C49"
@@ -18681,7 +18683,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "48604572-7e6f-4e07-81c7-cf3131351b46")
-		(at 85.095 108.8)
+		(at 90.469861 118.340758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C73"
@@ -18951,7 +18953,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "4c3a000a-b6e2-4378-9fea-96ecc4f9a8cd")
-		(at 143.67 42.25)
+		(at 141.829354 70.564473)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C30"
@@ -19221,7 +19223,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "4dd0c9cd-111d-4ed1-9379-260462e1c0e2")
-		(at 81.565 108.8)
+		(at 86.939861 118.340758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C62"
@@ -19772,7 +19774,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "522a61f4-7905-4048-9840-4035f287dcef")
-		(at 99.535 74.35)
+		(at 111.244649 77.141165)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C85"
@@ -20042,7 +20044,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "5606dc1d-da04-4915-b805-94bd9567af1e")
-		(at 43.465 106.25)
+		(at 79.476035 99.449428)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R66"
@@ -20603,7 +20605,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "59a4973d-f280-4042-85a6-6864c459ea38")
-		(at 81.565 127.6)
+		(at 86.939861 137.140758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C72"
@@ -20873,7 +20875,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "5e3fa142-ff1c-4d00-90ea-9bc2006eea8d")
-		(at 81.565 111.15)
+		(at 86.939861 120.690758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C63"
@@ -21154,7 +21156,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "5f689878-e517-425a-9fa6-a34315066196")
-		(at 91.366081 71.351718)
+		(at 103.07573 74.142883)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R53"
@@ -21715,7 +21717,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "6061b68e-06f5-4a90-9198-e812fc9259a0")
-		(at 99.555 115.85)
+		(at 104.929861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C89"
@@ -22255,7 +22257,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "62c57099-7235-475c-b0ef-5854ee551a41")
-		(at 78.035 120.55)
+		(at 83.409861 130.090758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C58"
@@ -22893,7 +22895,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "680cfa73-1599-4fda-9180-9c803d697747")
-		(at 99.535 67.3)
+		(at 111.244649 70.091165)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C82"
@@ -23433,7 +23435,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "69ea2a5b-d716-4cef-9a2c-637599602a91")
-		(at 187.33 44.15)
+		(at 160.726546 68.514085)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R9"
@@ -23713,7 +23715,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "6a0fb7bb-ff7a-49f6-aa01-bcd40d267668")
-		(at 91.366081 69.737958)
+		(at 103.07573 72.529123)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R52"
@@ -23994,7 +23996,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "6a18f927-ce08-45a6-8020-7c86e6edee4f")
-		(at 99.535 60.25)
+		(at 111.244649 63.041165)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C79"
@@ -24815,7 +24817,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "6de70d47-2d26-4cf8-9ee1-2a970b2d45e3")
-		(at 85.095 120.55)
+		(at 90.469861 130.090758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C78"
@@ -25096,7 +25098,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "6e23d3e9-47bc-42d1-a7f7-82dd1c34efe6")
-		(at 187.365 51.62)
+		(at 160.761546 75.984085)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C9"
@@ -26316,7 +26318,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "763f3f6f-2919-40f2-8b2c-1abe12cb5a4e")
-		(at 78.035 127.6)
+		(at 83.409861 137.140758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C61"
@@ -26586,7 +26588,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "78130837-32bd-4900-92bc-3d1f7efa6e0b")
-		(at 85.095 111.15)
+		(at 90.469861 120.690758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C74"
@@ -26856,7 +26858,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "7ba07b8c-1db0-4719-ac4e-1f2942c49b11")
-		(at 187.365 46.92)
+		(at 160.761546 71.284085)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C6"
@@ -27126,7 +27128,7 @@
 	(footprint "footprints:FC135327680KAAG3"
 		(layer "F.Cu")
 		(uuid "7c021ec7-e438-4ba8-8f5d-5f210eec3fdb")
-		(at 227.27 74.68)
+		(at 148.825899 75.850388)
 		(descr "FC-135 32.7680KA-AG3-3")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "Y1"
@@ -27457,7 +27459,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "7e109a61-f7bd-465c-9078-3d1d0f7b5cd4")
-		(at 74.505 125.25)
+		(at 79.879861 134.790758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C51"
@@ -28129,7 +28131,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "874e4498-3509-4893-9d1f-27558d2e6d9d")
-		(at 99.535 69.65)
+		(at 111.244649 72.441165)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C83"
@@ -28399,7 +28401,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "8a221057-1394-4c9c-a590-428cb8b3490c")
-		(at 108.415 65.81)
+		(at 120.124649 68.601165)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R51"
@@ -28679,7 +28681,7 @@
 	(footprint "footprints:BLM21BB050SH1D"
 		(layer "F.Cu")
 		(uuid "8bbd3531-af53-4d58-b22e-bd73f85ae6fd")
-		(at 107.6 114.15)
+		(at 112.974861 123.690758)
 		(descr "BLM21_1 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "FL4"
@@ -28933,7 +28935,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "8bccc5d6-413e-4e66-b81a-c244dfc4e7d6")
-		(at 144.24 28.46)
+		(at 142.399354 56.774473)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C26"
@@ -30291,7 +30293,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "94485b9d-dd2b-4da5-873b-5a08e7027e86")
-		(at 91.366081 77.806757)
+		(at 103.07573 80.597922)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R57"
@@ -31411,7 +31413,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "9cdacd73-3022-4d20-80de-ed352e490f6f")
-		(at 74.505 115.85)
+		(at 79.879861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C47"
@@ -31681,7 +31683,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "9e187e9d-9e05-417b-ab55-eb82088278b0")
-		(at 103.085 111.15)
+		(at 108.459861 120.690758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C93"
@@ -31951,7 +31953,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "9e557c68-4198-4108-b671-1a12e939466e")
-		(at 103.085 118.2)
+		(at 108.459861 127.740758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C96"
@@ -32221,7 +32223,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "a3dde35e-3e3c-49fa-8578-7c61ba2ff69a")
-		(at 85.095 118.2)
+		(at 90.469861 127.740758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C77"
@@ -32812,7 +32814,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "a49d038d-75b5-4679-a5d7-c038255ec2cb")
-		(at 81.565 122.9)
+		(at 86.939861 132.440758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C70"
@@ -33082,7 +33084,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "a56df893-0f6e-44f2-9c5b-19a5203d7042")
-		(at 81.565 120.55)
+		(at 86.939861 130.090758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C69"
@@ -33352,7 +33354,7 @@
 	(footprint "footprints:LEDM1608X80"
 		(layer "F.Cu")
 		(uuid "a5dae24a-3358-422c-af5b-f07e310b69cb")
-		(at 55.177 113.77)
+		(at 91.188035 106.969428)
 		(property "Reference" "D7"
 			(at -0.504288 -0.88871 0)
 			(layer "F.SilkS")
@@ -33665,7 +33667,7 @@
 	(footprint "footprints:BLM21BB050SH1D"
 		(layer "F.Cu")
 		(uuid "a63ed64a-b7e4-43e4-be52-aefe12fe27a1")
-		(at 89.61 115.55)
+		(at 94.984861 125.090758)
 		(descr "BLM21_1 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "FL1"
@@ -34706,7 +34708,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "ae7e6e70-cae9-4538-bd03-2fd7042f3532")
-		(at 74.505 108.8)
+		(at 79.879861 118.340758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C44"
@@ -35618,7 +35620,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "b0322c13-25c8-455d-ac3a-9ad58f50d738")
-		(at 78.035 108.8)
+		(at 83.409861 118.340758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C53"
@@ -36439,7 +36441,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "b1bfe301-4a83-4f48-8281-023488af3a6b")
-		(at 62.865 106.17)
+		(at 98.876035 99.369428)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C97"
@@ -36990,7 +36992,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "b285f10a-0c25-4776-b227-1d5457879dfb")
-		(at 81.565 115.85)
+		(at 86.939861 125.390758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C65"
@@ -37260,7 +37262,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "b319e2ce-aa3a-4caf-bbf4-9f495c0c8772")
-		(at 74.505 111.15)
+		(at 79.879861 120.690758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C45"
@@ -37530,7 +37532,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "b4c9f821-dfbc-4d03-af6c-7c07a8707f99")
-		(at 187.365 49.27)
+		(at 160.761546 73.634085)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C5"
@@ -38413,7 +38415,7 @@
 	(footprint "footprints:RESC1608X60N"
 		(layer "F.Cu")
 		(uuid "bbac0c39-80b9-4623-85e6-5ff77a6fb59a")
-		(at 94.0792 114.4338)
+		(at 99.454061 123.974558)
 		(descr "RESC1608X60N")
 		(tags "Resistor")
 		(property "Reference" "R42"
@@ -39455,7 +39457,7 @@
 	(footprint "footprints:BLM21BB050SH1D"
 		(layer "F.Cu")
 		(uuid "c597253c-762c-4585-9058-71c33d7515d8")
-		(at 107.6 109.8)
+		(at 112.974861 119.340758)
 		(descr "BLM21_1 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "FL3"
@@ -40030,7 +40032,7 @@
 	(footprint "footprints:BLM21BB050SH1D"
 		(layer "F.Cu")
 		(uuid "c5f36d98-f0aa-430a-8836-a9310a625eb4")
-		(at 107.6 118.5)
+		(at 112.974861 128.040758)
 		(descr "BLM21_1 L=2.0 W=1.25 T=0.85")
 		(tags "Filter")
 		(property "Reference" "FL5"
@@ -40554,7 +40556,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "c7cc8504-6d47-4452-8919-e81b3b1e3e3c")
-		(at 78.035 125.25)
+		(at 83.409861 134.790758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C60"
@@ -41105,7 +41107,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "c81fe6a5-874b-4d82-be84-aee21ef2695d")
-		(at 91.366081 74.579237)
+		(at 103.07573 77.370402)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R55"
@@ -41386,7 +41388,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "ca97d74b-7768-4af6-a5b7-cd57b5ff8e9b")
-		(at 78.035 122.9)
+		(at 83.409861 132.440758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C59"
@@ -42198,7 +42200,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "cb912019-6998-4b03-9650-8d538c6b2da4")
-		(at 95.062703 62.462242)
+		(at 106.772352 65.253407)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R49"
@@ -42468,7 +42470,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "cbd25697-5f07-4bab-8d8d-5e1192f9aad7")
-		(at 103.085 108.8)
+		(at 108.459861 118.340758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C92"
@@ -42738,7 +42740,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "cc745362-df71-471d-b9c9-349705f86575")
-		(at 78.035 113.5)
+		(at 83.409861 123.040758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C55"
@@ -44098,7 +44100,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "d9b7c907-04f5-4da2-9e7a-1d105ed03d00")
-		(at 81.565 118.2)
+		(at 86.939861 127.740758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C68"
@@ -44368,7 +44370,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "d9b98b98-087c-47e0-b3ac-8029c861160f")
-		(at 144.7 36.24)
+		(at 142.859354 64.554473)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C29"
@@ -44638,7 +44640,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "da8b1f86-b5c5-48b4-a99f-dffbe291f8bf")
-		(at 74.505 122.9)
+		(at 79.879861 132.440758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C50"
@@ -44919,7 +44921,7 @@
 	(footprint "footprints:RBS2MM40CTR"
 		(layer "F.Cu")
 		(uuid "dada52e7-64be-430d-9b06-96dc8284e180")
-		(at 204.85 29.05)
+		(at 175.607508 76.065527)
 		(descr "SOD-123FL")
 		(tags "Schottky Diode")
 		(property "Reference" "D2"
@@ -46076,7 +46078,7 @@
 	(footprint "kicad:CRCW0402200KFKED"
 		(layer "F.Cu")
 		(uuid "e068ce40-094b-48a5-89e0-f45f2a48fd3b")
-		(at 85.865 76.5)
+		(at 97.574649 79.291165)
 		(descr "CRCW0402")
 		(tags "Resistor")
 		(property "Reference" "R17"
@@ -46709,7 +46711,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "e74e5ba2-9061-4640-aa41-cfc2a9796381")
-		(at 91.366081 72.965478)
+		(at 103.07573 75.756643)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R54"
@@ -47304,7 +47306,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "e93cab62-f5f6-4a47-b903-d7e1b8ad8454")
-		(at 99.535 72)
+		(at 111.244649 74.791165)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C84"
@@ -48244,7 +48246,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "F.Cu")
 		(uuid "f0308a99-8a06-4325-9485-2f1e0f59110b")
-		(at 99.555 113.5)
+		(at 104.929861 123.040758)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C88"
@@ -48514,7 +48516,7 @@
 	(footprint "footprints:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "f0c70229-59dc-4bd6-ba4c-c3adc12815bd")
-		(at 43.465 108.8)
+		(at 79.476035 101.999428)
 		(descr "MCT0603")
 		(tags "Resistor")
 		(property "Reference" "R64"
@@ -48794,7 +48796,7 @@
 	(footprint "footprints:DMN3900UFA7B"
 		(layer "F.Cu")
 		(uuid "f1828ac9-880f-4e8d-917e-e43ed3ae57f2")
-		(at 62.1 102.945)
+		(at 98.111035 96.144428)
 		(descr "X2-DFN0806-3(H=0.4mm)")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q4"
@@ -49706,7 +49708,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "f24f7dbb-92f1-42a9-a193-bbce32d8691e")
-		(at 99.535 64.95)
+		(at 111.244649 67.741165)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C81"
@@ -49987,7 +49989,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "f2c7e3fe-4a72-4b8d-99ca-995788815555")
-		(at 99.555 118.2)
+		(at 104.929861 127.740758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C90"
@@ -50538,7 +50540,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "F.Cu")
 		(uuid "f54213d3-943e-47e2-8e9e-299cabfa6bf0")
-		(at 92.76 123.35)
+		(at 98.134861 132.890758)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R44"
@@ -51458,7 +51460,7 @@
 	(footprint "footprints:RESC1608X60N"
 		(layer "F.Cu")
 		(uuid "fe263be6-89d9-4604-9747-cb73ceaa0b29")
-		(at 94.0792 120.7866)
+		(at 99.454061 130.327358)
 		(descr "RESC1608X60N")
 		(tags "Resistor")
 		(property "Reference" "R48"
@@ -51938,7 +51940,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "feb28652-86af-4e41-8679-01dd002bd724")
-		(at 99.555 111.15)
+		(at 104.929861 120.690758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C87"
@@ -52219,7 +52221,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "ff581542-c3cf-4616-b93f-946ded6b0052")
-		(at 74.505 118.2)
+		(at 79.879861 127.740758)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C48"
@@ -57232,7 +57234,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "B.Cu")
 		(uuid "2967de86-1062-427e-8de8-4748c760626c")
-		(at 122.797057 104.440275 180)
+		(at 122.59895 104.950709 180)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C4"
@@ -57514,7 +57516,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "B.Cu")
 		(uuid "2d9d58e3-e1d6-40b0-bd91-5824f4d38e32")
-		(at 122.491745 103.234839 180)
+		(at 122.293638 103.745273 180)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C7"
@@ -59216,7 +59218,7 @@
 	(footprint "footprints:CRCW0402200KFKED"
 		(layer "B.Cu")
 		(uuid "74bf656a-4a94-4827-baa9-082357c9e8be")
-		(at 254.5 141 180)
+		(at 182.389189 128.760501 180)
 		(descr "CRCW0402")
 		(tags "Resistor")
 		(property "Reference" "R36"
@@ -59540,7 +59542,7 @@
 	(footprint "footprints:RESC1608X50N"
 		(layer "B.Cu")
 		(uuid "7671316f-622a-45d5-9bbc-3c5265f4ef0a")
-		(at 122.33251 99.299828)
+		(at 122.228078 100.840691)
 		(descr "CRCW0603")
 		(tags "Resistor")
 		(property "Reference" "R6"
@@ -62078,7 +62080,7 @@
 	(footprint "footprints:CAPC1608X90N"
 		(layer "B.Cu")
 		(uuid "c0b0458d-1e7c-4ddd-b337-8afbcfca9bab")
-		(at 122.500997 101.839876 180)
+		(at 122.30289 102.35031 180)
 		(descr "0603-1")
 		(tags "Capacitor")
 		(property "Reference" "C8"
@@ -62642,7 +62644,7 @@
 	(footprint "footprints:CAPC1005X56N"
 		(layer "B.Cu")
 		(uuid "c76d8d3a-e7e7-4754-a35b-18613337cb50")
-		(at 217.76 115.42 -90)
+		(at 176.362389 122.99784 -90)
 		(descr "AVX0402(THICKNESS 0.56MM)")
 		(tags "Capacitor")
 		(property "Reference" "C33"
@@ -63770,7 +63772,7 @@
 	(footprint "footprints:CRCW0402200KFKED"
 		(layer "B.Cu")
 		(uuid "e61f046b-87d7-435b-949b-6301cee7df9d")
-		(at 245.5 146 -90)
+		(at 177.299633 127.893681 -90)
 		(descr "CRCW0402")
 		(tags "Resistor")
 		(property "Reference" "R37"
@@ -64793,14 +64795,6 @@
 		(uuid "afef858b-19dc-4ee1-be26-ab7b4235a9e8")
 	)
 	(segment
-		(start 135.88 95.5)
-		(end 136 95.5)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "b283d47e-23a9-44b9-8ea0-9b1078248882")
-	)
-	(segment
 		(start 130.44 98.185)
 		(end 129.945 98.185)
 		(width 0.15)
@@ -65329,12 +65323,60 @@
 		(uuid "139c9c9f-4747-4564-bece-e593e5e0a84b")
 	)
 	(segment
+		(start 149.650414 117.553365)
+		(end 149.150414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "20d3e84b-abe8-487d-b327-18c7867453cd")
+	)
+	(segment
+		(start 144.150414 108.753365)
+		(end 144.150414 110.453365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "2656ecff-b938-4ab5-bfdd-03d5a94217ad")
+	)
+	(segment
+		(start 144.150414 110.453365)
+		(end 144.450414 110.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "2a19fe15-c81c-4568-9712-9bda35078199")
+	)
+	(segment
 		(start 129.84396 103.216107)
 		(end 131.072517 103.216107)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 280)
 		(uuid "2acaa3aa-e32e-4a80-92a6-6d62699dc32d")
+	)
+	(segment
+		(start 138.050414 112.353365)
+		(end 149.250414 112.353365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "32bbf0d5-6d37-489c-9e30-ae3d56623cd6")
+	)
+	(segment
+		(start 136.850414 108.753365)
+		(end 140.650414 108.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "396a885d-d40a-40b5-b719-695b34a33922")
+	)
+	(segment
+		(start 149.250414 113.953365)
+		(end 149.250414 112.353365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "3b2210ee-82c7-4105-8e46-a860c6633600")
 	)
 	(segment
 		(start 122.503992 112.962254)
@@ -65369,12 +65411,44 @@
 		(uuid "3eed6f0a-d2e0-42e7-be2d-e0cb3f041125")
 	)
 	(segment
+		(start 138.050414 112.353365)
+		(end 137.350414 111.653365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "448e263c-280a-4a45-84e6-9a270b11fc73")
+	)
+	(segment
+		(start 137.750414 113.653365)
+		(end 136.750414 113.653365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "483810f2-c8e4-4aa3-bb33-670bf365981d")
+	)
+	(segment
+		(start 142.650414 117.553365)
+		(end 143.150414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "4a7fe0dc-d6bb-4303-8850-e1a16c3a2e92")
+	)
+	(segment
 		(start 127 104.65575)
 		(end 127 100.34425)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 280)
 		(uuid "4bb51350-c433-41c3-b169-d4377650d589")
+	)
+	(segment
+		(start 149.250414 115.553365)
+		(end 149.250414 117.453365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "59baa07a-9fde-45aa-8b18-6d52648ba11e")
 	)
 	(segment
 		(start 125.47 88.97)
@@ -65391,6 +65465,14 @@
 		(layer "F.Cu")
 		(net 280)
 		(uuid "639128bd-4053-4713-97d7-75428ea0d772")
+	)
+	(segment
+		(start 137.350414 111.653365)
+		(end 136.750414 111.653365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "64585c60-2c64-44fd-b306-ec1aef0cd140")
 	)
 	(segment
 		(start 125.1375 106.51825)
@@ -65425,12 +65507,28 @@
 		(uuid "6e2b72b9-eb6c-404e-8fad-1f70a95409b9")
 	)
 	(segment
+		(start 142.650414 117.553365)
+		(end 139.650414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "7a3b7449-4bb3-42b2-85aa-f20416512dfe")
+	)
+	(segment
 		(start 126.624 98.50475)
 		(end 125.1375 97.01825)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 280)
 		(uuid "7ed9d1ee-027a-41ea-b037-5a41dbc736f7")
+	)
+	(segment
+		(start 144.150414 108.753365)
+		(end 141.650414 108.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "7f512017-81b8-4cb0-9a22-500ac69a04e6")
 	)
 	(segment
 		(start 126.624 99.510729)
@@ -65449,6 +65547,14 @@
 		(uuid "83dda02f-b302-4588-9ea5-5bbc85a13b0c")
 	)
 	(segment
+		(start 149.250414 112.353365)
+		(end 149.250414 110.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "8432a8ea-10af-47a6-b93e-3527d78807d7")
+	)
+	(segment
 		(start 126.037499 92.578335)
 		(end 125.032095 92.578335)
 		(width 0.2)
@@ -65465,6 +65571,14 @@
 		(uuid "92958f72-87fc-4845-b209-04cb83d5b545")
 	)
 	(segment
+		(start 149.150414 117.553365)
+		(end 148.650414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "9b9b816e-816e-46b2-9fe5-fb0efef04d8c")
+	)
+	(segment
 		(start 129.29 97.18)
 		(end 131.24 97.18)
 		(width 0.15)
@@ -65473,12 +65587,44 @@
 		(uuid "a533a722-25af-4e71-a414-609686f1c44c")
 	)
 	(segment
+		(start 149.250414 115.553365)
+		(end 138.050414 115.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "ac24be64-2e7c-4328-abb0-ac590a7a6460")
+	)
+	(segment
+		(start 138.050414 110.753365)
+		(end 137.450414 110.153365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "ad3c5d13-79e4-421f-80fa-1881e204aec5")
+	)
+	(segment
 		(start 125.032095 92.578335)
 		(end 125.023692 92.569932)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 280)
 		(uuid "af72d7eb-0ede-4f9b-9bf7-da1308ffdd09")
+	)
+	(segment
+		(start 141.250414 115.553365)
+		(end 141.250414 117.453365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "b2b53f7c-1b9d-44e8-b9a6-6de1b33de919")
+	)
+	(segment
+		(start 149.250414 117.453365)
+		(end 149.150414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "ba87957a-2336-4871-ae84-6e35d0557433")
 	)
 	(segment
 		(start 129.112 97.358)
@@ -65553,6 +65699,14 @@
 		(uuid "cdc6dd30-dd5d-46ce-a2ed-1cfec9928607")
 	)
 	(segment
+		(start 141.250414 117.453365)
+		(end 141.150414 117.553365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "cee8195b-dd5a-4858-a24b-839ed0fffb87")
+	)
+	(segment
 		(start 131.24 97.18)
 		(end 131.24 98.185)
 		(width 0.15)
@@ -65593,6 +65747,30 @@
 		(uuid "da2690be-0c76-45f3-919b-e38be965f83e")
 	)
 	(segment
+		(start 138.050414 113.953365)
+		(end 149.250414 113.953365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "db2d43ab-c612-4f4a-b8cc-da6048a3b4da")
+	)
+	(segment
+		(start 138.050414 115.553365)
+		(end 138.050414 113.953365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "dc280a0c-8470-4925-bc2f-8aa4c48f66ae")
+	)
+	(segment
+		(start 136.750414 110.153365)
+		(end 136.750414 108.653365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "dd88ae5d-8cb7-43ed-b1d7-d1332ab03adf")
+	)
+	(segment
 		(start 124.593624 93)
 		(end 124.402692 93)
 		(width 0.2)
@@ -65609,6 +65787,22 @@
 		(uuid "e48240bd-5743-44ac-b508-122060880ab9")
 	)
 	(segment
+		(start 138.050414 113.953365)
+		(end 137.750414 113.653365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "e8fdc755-c939-4f3b-a22f-5e7d1446f212")
+	)
+	(segment
+		(start 137.450414 110.153365)
+		(end 136.750414 110.153365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "ef659de6-b46e-46cc-aab0-d0f2a79b7e1b")
+	)
+	(segment
 		(start 125.1375 106.51825)
 		(end 127.3125 104.34325)
 		(width 0.2)
@@ -65623,6 +65817,22 @@
 		(layer "F.Cu")
 		(net 280)
 		(uuid "f2bdfa1f-4b38-46a4-afd2-6f11f02b0afe")
+	)
+	(segment
+		(start 136.750414 108.653365)
+		(end 136.850414 108.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "f5201737-252a-49c8-9c6c-78ec01632844")
+	)
+	(segment
+		(start 149.250414 110.753365)
+		(end 138.050414 110.753365)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 280)
+		(uuid "f5b116c1-0908-4a2d-a202-8cba95c1127e")
 	)
 	(segment
 		(start 124.402692 96.283442)
