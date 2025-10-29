@@ -1,7 +1,7 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 components
-
+imported sb-tpu
 # Temporary files
 *.000
 *.bak

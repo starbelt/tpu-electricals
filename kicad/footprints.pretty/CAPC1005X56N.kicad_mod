@@ -1,29 +1,171 @@
-(module "CAPC1005X56N" (layer F.Cu)
-  (descr "AVX0402(THICKNESS 0.56MM)")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC1005X56N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -0.925 -0.47) (end 0.925 -0.47) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.925 -0.47) (end 0.925 0.47) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.925 0.47) (end -0.925 0.47) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.925 0.47) (end -0.925 -0.47) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -0.45 0 90) (size 0.64 0.65) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.45 0 90) (size 0.64 0.65) (layers F.Cu F.Paste F.Mask))
-  (model 04025A160JAT2A.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC1005X56N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AVX0402(THICKNESS 0.56MM)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c81f5891-34f4-4787-84be-7d37bee2b4ba")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "CAPC1005X56N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e2126b4c-aac3-484e-be69-c7d038574990")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdfcce64-f167-4d20-af53-6f43ba612b62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f34b44aa-a17a-42ed-a206-c796dee23fd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.925 -0.47)
+		(end 0.925 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ce68b9c-2552-485b-99a3-d50fb147b91b")
+	)
+	(fp_line
+		(start -0.925 0.47)
+		(end -0.925 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b9dc9b1-b0a0-4ded-8d13-ac707f3ad218")
+	)
+	(fp_line
+		(start 0.925 -0.47)
+		(end 0.925 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81b30b44-4e94-44d8-9d8c-b2da95ee951f")
+	)
+	(fp_line
+		(start 0.925 0.47)
+		(end -0.925 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a18e30d-47b6-404f-9c87-a6521bfe810f")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da7af006-bf99-48e0-8952-74d71c48ca35")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7c8aa82-caf5-4836-92da-e3db3983f81f")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0040fc5e-ef9a-4283-83c2-15c660b59da1")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e13c9379-36a2-480f-a4d3-9245b84e3758")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8d4d5d3a-a837-4ffd-a2ea-a40526ac8f16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.45 0 90)
+		(size 0.64 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c269aca0-e9f4-4ded-a1d1-a7916b7db4aa")
+	)
+	(pad "2" smd rect
+		(at 0.45 0 90)
+		(size 0.64 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa88e512-9707-4350-8df7-53d35a171b1a")
+	)
+	(embedded_fonts no)
+	(model "04025A160JAT2A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
