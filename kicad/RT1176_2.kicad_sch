@@ -8043,6 +8043,10 @@
 		(uuid "23ddd8a0-53b8-4289-9548-1661dd9222ac")
 	)
 	(no_connect
+		(at 77.47 119.38)
+		(uuid "28bb780a-1e83-44d1-ad16-3ce3b305bff9")
+	)
+	(no_connect
 		(at 77.47 106.68)
 		(uuid "2c686125-076c-42d1-bd8d-2a6c5ee0cb78")
 	)
@@ -8225,6 +8229,10 @@
 	(no_connect
 		(at 133.35 82.55)
 		(uuid "e71a35c6-188f-44a1-8c49-7ffa9b2a6e0b")
+	)
+	(no_connect
+		(at 77.47 116.84)
+		(uuid "eaafead3-755c-4898-a990-a67b7ad34878")
 	)
 	(no_connect
 		(at 77.47 114.3)
@@ -10137,8 +10145,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "18619381-8a84-42bc-af68-f9e519c154c3")
 		(property "Reference" "R51"
 			(at 139.7 124.4599 90)
@@ -10644,7 +10652,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "27a2fa67-61cd-40aa-9edc-59653c7504f0")
 		(property "Reference" "IC4"
@@ -16979,10 +16987,10 @@
 		(lib_id "sb-tpu:74LVC2G66GT,115")
 		(at 140.97 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f39894ce-8d99-4b30-9237-7b200272abf1")
 		(property "Reference" "IC6"

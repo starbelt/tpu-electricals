@@ -3480,7 +3480,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "24e768e5-91e7-4417-8567-2c8919ea11ec")
 		(property "Reference" "R33"
@@ -4057,7 +4057,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "30dbe23e-d246-4524-820b-a8a87c05fcdc")
 		(property "Reference" "R28"
@@ -4351,7 +4351,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "339e0ab3-7cac-4df1-946a-ba6842bbc7ef")
 		(property "Reference" "R22"
@@ -4720,7 +4720,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "5c26c249-1630-493e-a973-841fb0023917")
 		(property "Reference" "R34"
@@ -5014,7 +5014,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "6a3dc0a4-d895-4145-b53e-ef6da2fe5ad1")
 		(property "Reference" "R15"
@@ -5166,7 +5166,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "6aed7e1a-0ef7-482b-8707-b540bc189766")
 		(property "Reference" "R27"
@@ -5667,7 +5667,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "9db015b5-96e6-4593-ab03-502fae6883df")
 		(property "Reference" "R13"
@@ -6168,7 +6168,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "b56279de-c9bc-4ca4-875b-c43553d53aee")
 		(property "Reference" "R30"
@@ -6462,7 +6462,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "c2b07d07-200e-4ca6-a13c-6cec57ab0c69")
 		(property "Reference" "R20"
@@ -6614,7 +6614,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "c6e2c734-faa4-40bb-b0de-82da966917b5")
 		(property "Reference" "R11"
@@ -6908,7 +6908,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "e71be224-642b-4bb8-b032-97ff935ca1d6")
 		(property "Reference" "R25"
@@ -7510,7 +7510,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "fd5fa878-4215-406b-8197-948beab6210f")
 		(property "Reference" "R18"

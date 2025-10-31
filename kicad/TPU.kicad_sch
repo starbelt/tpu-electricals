@@ -5465,7 +5465,7 @@
 	)
 	(text "3.3V TO 1.8V LDO FOR TPU\n"
 		(exclude_from_sim no)
-		(at 183.134 63.246 0)
+		(at 182.626 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
