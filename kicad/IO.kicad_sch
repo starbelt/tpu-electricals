@@ -538,7 +538,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:06033C104JAT4A"
+		(symbol "sb-tpu:04023C104MAT2A"
 			(pin_names
 				(hide yes)
 			)
@@ -554,7 +554,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "06033C104JAT4A"
+			(property "Value" "04023C104MAT2A"
 				(at 8.89 3.81 0)
 				(effects
 					(font
@@ -563,7 +563,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "CAPC1608X90N"
+			(property "Footprint" "footprints:CAPC1005X56N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -573,7 +573,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 				(at 8.89 -196.19 0)
 				(effects
 					(font
@@ -583,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -662,7 +662,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "06033C104JAT4A_1_1"
+			(symbol "04023C104MAT2A_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -2362,7 +2362,357 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:CRCW06034K70JNEC"
+		(symbol "sb-tpu:CRCW0402100KJNED"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW0402100KJNED"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CRCW0402200KFKED"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CRCW0402100KJNED"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0402100KJNED_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:CRCW0402100RFKEE"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW0402100RFKEE"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CRCW0402200KFKED"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CRCW0402100RFKEE"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0402100RFKEE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:CRCW04024K70JNEE"
 			(pin_names
 				(offset 0.762)
 			)
@@ -2378,7 +2728,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CRCW06034K70JNEC"
+			(property "Value" "CRCW04024K70JNEE"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -2387,7 +2737,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RESC1608X50N"
+			(property "Footprint" "footprints:CRCW0402200KFKED"
 				(at 13.97 1.27 0)
 				(effects
 					(font
@@ -2397,7 +2747,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 				(at 13.97 -1.27 0)
 				(effects
 					(font
@@ -2407,7 +2757,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5%"
+			(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2446,57 +2796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CRCW06034K70JNEC"
-				(at 13.97 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "71-CRCW06034K70JNEC"
-				(at 13.97 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06034K70JNEC?qs=L%252B14cgJd8NPUpqX5YO5a8w%3D%3D"
-				(at 13.97 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "CRCW06034K70JNEC"
-				(at 13.97 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06034k70jnec/vishay?utm_currency=USD&region=nac"
-				(at 13.97 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW06034K70JNEC_0_0"
+			(symbol "CRCW04024K70JNEE_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -2534,7 +2834,7 @@
 					)
 				)
 			)
-			(symbol "CRCW06034K70JNEC_0_1"
+			(symbol "CRCW04024K70JNEE_0_1"
 				(polyline
 					(pts
 						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
@@ -3800,181 +4100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:MCT0603PD1003DP500"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MCT0603PD1003DP500"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RESC1608X55N"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thin Film Resistors - SMD .250W 100Kohms .5% 0603 25ppm Hi Power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.55"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MCT0603PD1003DP500"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "594-MCT0603PD1003DP5"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT0603PD1003DP5"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "MCT0603PD1003DP500"
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mct0603pd1003dp500/vishay"
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MCT0603PD1003DP500_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "sb-tpu:PESD5V0S2BT,215"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4507,181 +4632,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sb-tpu:RK73B1JRTTD101J"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "RK73B1JRTTD101J"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RESC1608X55N"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.55"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KOA Speer"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "660-RK73B1JRTTD101J"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "RK73B1JRTTD101J"
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "RK73B1JRTTD101J_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5610,16 +5560,16 @@
 		(uuid "0920a740-1e27-4d19-97ef-aa7f67c8acc0")
 	)
 	(junction
+		(at 133.35 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a3d07b6-8858-4d91-8660-a81f072569c4")
+	)
+	(junction
 		(at 35.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b1fbdea-f29f-4f49-8785-070104983048")
-	)
-	(junction
-		(at 137.16 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b3396d1-44da-4c39-954e-a54b599f257f")
 	)
 	(junction
 		(at 114.3 177.8)
@@ -5632,6 +5582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a061f83-a9ff-45af-8c53-03df28f53d03")
+	)
+	(junction
+		(at 74.93 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ed8f0c-4bd3-4af4-a222-4192a3d6fba5")
 	)
 	(junction
 		(at 35.56 30.48)
@@ -5658,40 +5614,34 @@
 		(uuid "434d0ea2-904f-45ba-80d6-eb182c0f759f")
 	)
 	(junction
+		(at 137.16 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441e07ee-092d-468e-a854-74ae8f78f9b1")
+	)
+	(junction
 		(at 127 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4afc30ee-2b4f-4ba5-ab75-1a1867507bee")
 	)
 	(junction
-		(at 31.75 86.36)
+		(at 104.14 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bae926a-c895-402f-8321-3c50be8d9538")
+		(uuid "5dd2ee57-57b5-4b53-b726-5e6ecc45ebc3")
 	)
 	(junction
-		(at 111.76 177.8)
+		(at 181.61 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c8ba232-b2cd-4783-9d89-84b10d5e6f98")
+		(uuid "5f6455e1-14e1-4555-9658-664e9c050c8e")
 	)
 	(junction
 		(at 20.32 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6905a1f6-88db-4424-a1df-a9c0a2995f4f")
-	)
-	(junction
-		(at 133.35 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f7af4d1-87d3-4924-961e-aa702319afa1")
-	)
-	(junction
-		(at 74.93 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b8bb625-8810-4258-a771-6ee6342b482a")
 	)
 	(junction
 		(at 207.01 137.16)
@@ -5712,12 +5662,6 @@
 		(uuid "8d1dc0da-51ef-4dc1-8454-af35dee5602a")
 	)
 	(junction
-		(at 181.61 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "909fa303-6935-44be-9148-191996fc42d1")
-	)
-	(junction
 		(at 57.15 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5730,16 +5674,22 @@
 		(uuid "befdfcae-2a49-448c-bc09-cc46e4de4a7f")
 	)
 	(junction
-		(at 104.14 144.78)
+		(at 111.76 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d33c3377-256d-4e54-b731-60eb6de5e6e9")
+		(uuid "c90f0cfb-191c-4021-b17d-4e923b2efa4f")
 	)
 	(junction
 		(at 67.31 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3df2fc3-05da-475d-9612-91f1307bc546")
+	)
+	(junction
+		(at 31.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fa7811-e88a-41af-8e4c-8cb1c919eae0")
 	)
 	(junction
 		(at 207.01 132.08)
@@ -5819,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 137.16 96.52)
+			(xy 127 96.52) (xy 137.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5829,13 +5779,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 39.37 86.36)
+			(xy 111.76 177.8) (xy 114.3 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "111b2665-211b-49ac-a391-986e7e875f91")
+		(uuid "1226ca69-bb2c-47da-b5db-8f63c63205e7")
 	)
 	(wire
 		(pts
@@ -5869,6 +5819,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 144.78) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf1d2b4-4270-45ff-a046-166f8ab6d4db")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0854d4-e215-46aa-b48f-244454f5a414")
+	)
+	(wire
+		(pts
 			(xy 35.56 30.48) (xy 38.1 30.48)
 		)
 		(stroke
@@ -5896,6 +5866,16 @@
 			(type default)
 		)
 		(uuid "22067720-6970-4d77-b863-e443e813358c")
+	)
+	(wire
+		(pts
+			(xy 137.16 96.52) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a03d3-a41a-451f-9828-b66f76056600")
 	)
 	(wire
 		(pts
@@ -5969,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 144.78) (xy 96.52 144.78)
+			(xy 96.52 144.78) (xy 104.14 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5986,16 +5966,6 @@
 			(type default)
 		)
 		(uuid "40b1260b-7a80-4d50-850c-856fffa05070")
-	)
-	(wire
-		(pts
-			(xy 111.76 177.8) (xy 114.3 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466141c3-26ca-419a-ad60-9c147da5d2cf")
 	)
 	(wire
 		(pts
@@ -6189,16 +6159,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 144.78) (xy 74.93 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9adb12-7b48-43b7-8731-4688092ea030")
-	)
-	(wire
-		(pts
 			(xy 46.99 154.94) (xy 57.15 154.94)
 		)
 		(stroke
@@ -6369,6 +6329,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 86.36) (xy 39.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4db605-b2ff-4db5-9f6b-b68207b4254a")
+	)
+	(wire
+		(pts
 			(xy 33.02 172.72) (xy 53.34 172.72)
 		)
 		(stroke
@@ -6416,16 +6386,6 @@
 			(type default)
 		)
 		(uuid "a4cd99db-d572-4bf0-b1cc-bcf1e683b71a")
-	)
-	(wire
-		(pts
-			(xy 180.34 68.58) (xy 181.61 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5679503-0d2c-4259-95db-8ca333217e9c")
 	)
 	(wire
 		(pts
@@ -6489,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 185.42 68.58)
+			(xy 180.34 68.58) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6506,16 +6466,6 @@
 			(type default)
 		)
 		(uuid "c61f3714-da28-4885-b603-033c14bf3db3")
-	)
-	(wire
-		(pts
-			(xy 104.14 144.78) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6249f74-81e9-451d-a648-0380bbdcbbbb")
 	)
 	(wire
 		(pts
@@ -6566,16 +6516,6 @@
 			(type default)
 		)
 		(uuid "db900420-4a48-4708-996f-59e0783cbcfa")
-	)
-	(wire
-		(pts
-			(xy 137.16 96.52) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd1e530d-d42f-423b-ba7b-f3024d0e8e0b")
 	)
 	(wire
 		(pts
@@ -6646,6 +6586,16 @@
 			(type default)
 		)
 		(uuid "eea3d34c-e02a-4bba-b6bc-924f4d481ce5")
+	)
+	(wire
+		(pts
+			(xy 104.14 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb71238-4afd-4362-ba9c-c102a28460ff")
 	)
 	(wire
 		(pts
@@ -7175,148 +7125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:RK73B1JRTTD101J")
-		(at 193.04 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0422c9b5-52df-4711-8c37-9832dc433cf7")
-		(property "Reference" "R65"
-			(at 195.58 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RK73B1JRTTD101J"
-			(at 195.58 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 289.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
-			(at 389.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 589.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 689.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
-			(at 789.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "660-RK73B1JRTTD101J"
-			(at 889.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
-			(at 989.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RK73B1JRTTD101J"
-			(at 1089.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
-			(at 1189.23 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a83a252-94c1-4dd4-9b03-41756917756a")
-		)
-		(pin "1"
-			(uuid "a9e8beda-9aaa-4e9d-adb4-150e2a557bf7")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 161.29 0)
 		(unit 1)
@@ -7325,7 +7133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c5baa4-7dc7-450d-9f9f-ed0d841419dd")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR183"
 			(at 176.53 167.64 0)
 			(effects
 				(font
@@ -7375,7 +7183,289 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0183")
+					(reference "#PWR183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100RFKEE")
+		(at 245.11 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0971947f-a535-4588-a668-58a4ebd69c85")
+		(property "Reference" "R63"
+			(at 245.364 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100RFKEE"
+			(at 242.316 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 341.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 441.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
+			(at 245.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 641.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 741.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+			(at 841.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+			(at 941.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+			(at 1041.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100RFKEE"
+			(at 1141.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+			(at 1241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5e4df8-16cf-4e2f-82f7-d81e2edba2d6")
+		)
+		(pin "2"
+			(uuid "15509384-fc8e-4ae9-9f2a-c79120f7376d")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100RFKEE")
+		(at 193.04 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e32e5b7-fe44-447a-bf2c-f51abe93a22d")
+		(property "Reference" "R48"
+			(at 193.294 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100RFKEE"
+			(at 190.246 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 289.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 389.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 589.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 689.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+			(at 789.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+			(at 889.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+			(at 989.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100RFKEE"
+			(at 1089.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+			(at 1189.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d3e9f2-d577-46dc-a086-52f2dd721591")
+		)
+		(pin "2"
+			(uuid "40c4ea8c-ec94-492d-be22-6f7027982ab9")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "06036D475KAT4A"
+		(property "Value" "04026D475KAT2A"
 			(at 16.256 27.432 0)
 			(effects
 				(font
@@ -7754,7 +7844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b9bb7a9-266c-43b9-b4f9-8bae2e7411d1")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR168"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -7804,7 +7894,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0168")
+					(reference "#PWR168")
 					(unit 1)
 				)
 			)
@@ -7820,7 +7910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f665a65-ef98-4d2f-a27e-b5874763b8cb")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR172"
 			(at 69.596 82.55 0)
 			(effects
 				(font
@@ -7870,149 +7960,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:RK73B1JRTTD101J")
-		(at 133.35 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1feba1be-86bb-4c6e-b111-9bc4150b2cca")
-		(property "Reference" "R63"
-			(at 135.89 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RK73B1JRTTD101J"
-			(at 135.89 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 229.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
-			(at 329.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
-			(at 133.35 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 529.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 629.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
-			(at 729.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "660-RK73B1JRTTD101J"
-			(at 829.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
-			(at 929.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RK73B1JRTTD101J"
-			(at 1029.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
-			(at 1129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea2bd752-5ee9-4602-a0ac-7fc88bb89db9")
-		)
-		(pin "1"
-			(uuid "5461d348-95cf-48d1-93b6-6d878c2c1f9d")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R63")
+					(reference "#PWR172")
 					(unit 1)
 				)
 			)
@@ -8028,7 +7976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27720ff0-ad93-4398-9e3b-ce5d2328b658")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR196"
 			(at 73.66 54.61 0)
 			(effects
 				(font
@@ -8078,289 +8026,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0196")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:MCT0603PD1003DP500")
-		(at 181.61 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2872de00-89eb-4e1f-a8e8-657a63027e47")
-		(property "Reference" "R64"
-			(at 183.388 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCT0603PD1003DP500"
-			(at 176.022 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 85.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-			(at -14.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thin Film Resistors - SMD .250W 100Kohms .5% 0603 25ppm Hi Power"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at -214.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -314.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCT0603PD1003DP500"
-			(at -414.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "594-MCT0603PD1003DP5"
-			(at -514.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT0603PD1003DP5"
-			(at -614.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MCT0603PD1003DP500"
-			(at -714.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mct0603pd1003dp500/vishay"
-			(at -814.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25d372c1-0ac9-4f55-ae27-c0122d4fb997")
-		)
-		(pin "1"
-			(uuid "56e6a34a-fbeb-4d5d-a73c-9d962cd21afb")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:MCT0603PD1003DP500")
-		(at 31.75 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28aca1ed-9710-48a0-b5c4-dc65edc22ada")
-		(property "Reference" "R58"
-			(at 32.512 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCT0603PD1003DP500"
-			(at 33.782 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at -64.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-			(at -164.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thin Film Resistors - SMD .250W 100Kohms .5% 0603 25ppm Hi Power"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at -364.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at -464.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCT0603PD1003DP500"
-			(at -564.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "594-MCT0603PD1003DP5"
-			(at -664.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT0603PD1003DP5"
-			(at -764.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MCT0603PD1003DP500"
-			(at -864.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mct0603pd1003dp500/vishay"
-			(at -964.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b580775e-fe64-4834-9ca0-26df65b3e74c")
-		)
-		(pin "1"
-			(uuid "c003b59d-c6b9-47df-9b75-7a4fbcb4a2a9")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R58")
+					(reference "#PWR196")
 					(unit 1)
 				)
 			)
@@ -8777,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9c0f6d-2eaf-4c2d-823d-bc44b9c44c8e")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR182"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -8827,7 +8493,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0182")
+					(reference "#PWR182")
 					(unit 1)
 				)
 			)
@@ -8987,7 +8653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375aacc1-e3f6-49f2-b7e2-a19d14eb7edd")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR170"
 			(at 39.37 95.25 0)
 			(effects
 				(font
@@ -9037,7 +8703,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0170")
+					(reference "#PWR170")
 					(unit 1)
 				)
 			)
@@ -9052,7 +8718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38f63fc3-07f2-4b06-8a0a-2ba562596321")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR171"
 			(at 44.45 199.39 0)
 			(effects
 				(font
@@ -9102,7 +8768,148 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0171")
+					(reference "#PWR171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100KJNED")
+		(at 104.14 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4205ae27-bbd7-4dbc-b657-7ce27bd959a6")
+		(property "Reference" "R59"
+			(at 104.394 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100KJNED"
+			(at 105.41 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 200.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 300.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+			(at 104.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 500.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 600.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+			(at 700.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+			(at 800.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+			(at 900.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100KJNED"
+			(at 1000.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+			(at 1100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efd6feac-0eee-4405-9580-ef697e014781")
+		)
+		(pin "1"
+			(uuid "e6e34715-e9be-45da-be30-eef74d1df5d2")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -9370,44 +9177,34 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:MCT0603PD1003DP500")
-		(at 74.93 127 270)
+		(lib_id "sb-tpu:CRCW0402100RFKEE")
+		(at 133.35 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5234d759-47d6-4c72-85a3-2f9d3c21a2a4")
-		(property "Reference" "R59"
-			(at 76.454 132.08 90)
+		(uuid "51d78e36-a7b9-4ef7-9a3f-12656d0d2ff8")
+		(property "Reference" "R64"
+			(at 133.604 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MCT0603PD1003DP500"
-			(at 76.454 133.858 90)
+		(property "Value" "CRCW0402100RFKEE"
+			(at 130.556 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at -21.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-			(at -121.26 140.97 0)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 229.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,8 +9213,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD .250W 100Kohms .5% 0603 25ppm Hi Power"
-			(at 74.93 127 0)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 329.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,8 +9232,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at -321.26 140.97 0)
+		(property "Height" "0.4"
+			(at 529.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +9243,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -421.26 140.97 0)
+			(at 629.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,8 +9252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MCT0603PD1003DP500"
-			(at -521.26 140.97 0)
+		(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+			(at 729.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,8 +9262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "594-MCT0603PD1003DP5"
-			(at -621.26 140.97 0)
+		(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+			(at 829.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,8 +9272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT0603PD1003DP5"
-			(at -721.26 140.97 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+			(at 929.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,8 +9282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "MCT0603PD1003DP500"
-			(at -821.26 140.97 0)
+		(property "Arrow Part Number" "CRCW0402100RFKEE"
+			(at 1029.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,8 +9292,149 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mct0603pd1003dp500/vishay"
-			(at -921.26 140.97 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+			(at 1129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5cf40ba-f179-482d-9bab-c75b34cf6b28")
+		)
+		(pin "2"
+			(uuid "bc61f2d1-8bfe-43c7-9056-fca9a1e8c4de")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 137.16 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5261b570-b911-41fd-a50b-bb1db204035c")
+		(property "Reference" "C52"
+			(at 137.668 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "04023C104MAT2A"
+			(at 133.858 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 233.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 333.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 533.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 633.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(at 733.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06033C104JAT4A"
+			(at 833.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(at 933.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "06033C104JAT4A"
+			(at 1033.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(at 1133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,15 +9444,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0c33eb5-263c-4ac5-a13d-0fc32ae26d29")
+			(uuid "70c467b5-030b-419b-b573-88797d14f0d4")
 		)
 		(pin "1"
-			(uuid "9fbf285e-92fe-4720-8922-dad10fc43926")
+			(uuid "e1045cde-668b-4183-9619-69d55e1f5888")
 		)
 		(instances
-			(project ""
+			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R59")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9519,7 +9467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5308bf02-4cce-40d4-9de4-66c2af94026b")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR185"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -9569,7 +9517,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0185")
+					(reference "#PWR185")
 					(unit 1)
 				)
 			)
@@ -9584,7 +9532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5452ffa9-6df3-411d-b2e3-276a1d656aa9")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR189"
 			(at 234.95 104.14 0)
 			(effects
 				(font
@@ -9634,7 +9582,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0189")
+					(reference "#PWR189")
 					(unit 1)
 				)
 			)
@@ -9649,7 +9597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58857378-a554-438f-834e-b9eebc9e3caa")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR177"
 			(at 130.81 97.79 0)
 			(effects
 				(font
@@ -9699,7 +9647,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0177")
+					(reference "#PWR177")
 					(unit 1)
 				)
 			)
@@ -9715,7 +9663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a116535-21ff-4b5b-8a67-d51b6468f594")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR190"
 			(at 237.49 161.29 0)
 			(effects
 				(font
@@ -9765,7 +9713,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0190")
+					(reference "#PWR190")
 					(unit 1)
 				)
 			)
@@ -9920,7 +9868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6471507f-1241-457a-8a76-0b42ad296bac")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR176"
 			(at 111.252 160.274 0)
 			(effects
 				(font
@@ -9970,7 +9918,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0176")
+					(reference "#PWR176")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68f294ca-1d77-4219-9bd9-2c275bed89ec")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR167"
 			(at 31.75 110.49 0)
 			(effects
 				(font
@@ -10180,7 +10128,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0167")
+					(reference "#PWR167")
 					(unit 1)
 				)
 			)
@@ -10333,6 +10281,147 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100KJNED")
+		(at 31.75 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5475fc-8bbc-4680-94b9-340915f9f5a4")
+		(property "Reference" "R67"
+			(at 32.004 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100KJNED"
+			(at 33.02 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 127.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 227.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 427.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 527.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+			(at 627.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+			(at 727.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+			(at 827.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100KJNED"
+			(at 927.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+			(at 1027.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c231ad4-4915-4e2d-b7e2-d927091dc345")
+		)
+		(pin "1"
+			(uuid "e512ca93-ab22-4e5d-be4f-4c219c30202c")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -10492,7 +10581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "703344e6-fdf3-437e-b1c2-e88c14a5d414")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR173"
 			(at 72.136 127.508 0)
 			(effects
 				(font
@@ -10542,7 +10631,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0173")
+					(reference "#PWR173")
 					(unit 1)
 				)
 			)
@@ -10704,7 +10793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a13fcd3-244f-46b1-9185-eb4e1067ff3a")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR179"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -10754,7 +10843,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0179")
+					(reference "#PWR179")
 					(unit 1)
 				)
 			)
@@ -10836,157 +10925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW06034K70JNEC")
-		(at 133.35 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89a1497d-7a4f-4396-a3a1-9a14b6b9575b")
-		(property "Reference" "R62"
-			(at 134.62 141.732 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CRCW06034K70JNEC"
-			(at 130.302 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1608X50N"
-			(at 134.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 132.08 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 133.35 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 124.46 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06034K70JNEC"
-			(at 121.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW06034K70JNEC"
-			(at 119.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06034K70JNEC?qs=L%252B14cgJd8NPUpqX5YO5a8w%3D%3D"
-			(at 116.84 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW06034K70JNEC"
-			(at 114.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06034k70jnec/vishay?utm_currency=USD&region=nac"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4fd00fc-6677-4873-b808-eb7e7c17f31c")
-		)
-		(pin "2"
-			(uuid "f9eddbe4-77d0-41b1-b6e2-e32f6b603f18")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 256.54 97.79 90)
 		(unit 1)
@@ -10996,7 +10934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af97a67-ef72-4046-95d8-0114b9309914")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR197"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -11047,7 +10985,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0197")
+					(reference "#PWR197")
 					(unit 1)
 				)
 			)
@@ -11388,7 +11326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c905d7-e7a9-459b-8efb-8b73c14aba8e")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR174"
 			(at 104.14 59.69 0)
 			(effects
 				(font
@@ -11438,7 +11376,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0174")
+					(reference "#PWR174")
 					(unit 1)
 				)
 			)
@@ -11453,7 +11391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99692fc7-afbe-4e9d-95b1-9682452f3234")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR178"
 			(at 132.842 137.414 0)
 			(effects
 				(font
@@ -11503,7 +11441,148 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0178")
+					(reference "#PWR178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100KJNED")
+		(at 74.93 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aee27bf-896f-411e-b224-af499ca7b443")
+		(property "Reference" "R58"
+			(at 75.184 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100KJNED"
+			(at 76.2 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 171.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 271.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 471.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 571.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+			(at 671.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+			(at 771.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+			(at 871.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100KJNED"
+			(at 971.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+			(at 1071.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac745ae9-6e22-4551-ac6d-2da16048145a")
+		)
+		(pin "1"
+			(uuid "f4120a85-c59e-4c3e-ae23-ccaba5484584")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -11518,7 +11597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c324b9c-5829-4bf7-a37a-9d1b7513fc00")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR191"
 			(at 244.856 27.94 0)
 			(effects
 				(font
@@ -11568,7 +11647,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0191")
+					(reference "#PWR191")
 					(unit 1)
 				)
 			)
@@ -11584,7 +11663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdd2bc9-24ee-4926-9911-7b7dce6f7970")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR181"
 			(at 140.97 96.266 0)
 			(effects
 				(font
@@ -11635,7 +11714,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0181")
+					(reference "#PWR181")
 					(unit 1)
 				)
 			)
@@ -11819,7 +11898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a50f08de-7540-46bf-b78b-bcd46b01f744")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR186"
 			(at 192.786 27.94 0)
 			(effects
 				(font
@@ -11869,7 +11948,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0186")
+					(reference "#PWR186")
 					(unit 1)
 				)
 			)
@@ -11885,7 +11964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8f62074-34cc-4626-899d-9829b11c77d9")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR165"
 			(at 20.066 27.94 0)
 			(effects
 				(font
@@ -11935,7 +12014,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0165")
+					(reference "#PWR165")
 					(unit 1)
 				)
 			)
@@ -11951,7 +12030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b975b8-46e4-4e29-be7d-84a42dfa5e40")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR195"
 			(at 57.15 161.29 0)
 			(effects
 				(font
@@ -12001,7 +12080,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0195")
+					(reference "#PWR195")
 					(unit 1)
 				)
 			)
@@ -12132,7 +12211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac88c564-e4fe-413c-96b4-cf8e2a2b5c6f")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR169"
 			(at 36.322 84.074 0)
 			(effects
 				(font
@@ -12182,149 +12261,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:RK73B1JRTTD101J")
-		(at 245.11 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad660271-266c-40fc-aa79-6760f0785c13")
-		(property "Reference" "R66"
-			(at 247.65 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RK73B1JRTTD101J"
-			(at 247.65 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 341.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
-			(at 441.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
-			(at 245.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 641.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 741.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
-			(at 841.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "660-RK73B1JRTTD101J"
-			(at 941.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
-			(at 1041.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RK73B1JRTTD101J"
-			(at 1141.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
-			(at 1241.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "857300bd-1d6d-4468-9609-4eb41063ec67")
-		)
-		(pin "1"
-			(uuid "413300c0-98a9-404b-a79e-8af9ec8d2fc4")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R66")
+					(reference "#PWR169")
 					(unit 1)
 				)
 			)
@@ -12340,7 +12277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b08d06f3-aacb-4d9d-895e-3124ccbbf8de")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR194"
 			(at 251.46 166.37 0)
 			(effects
 				(font
@@ -12390,7 +12327,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0194")
+					(reference "#PWR194")
 					(unit 1)
 				)
 			)
@@ -12406,7 +12343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28b8e47-71ca-48b7-8a1e-a4765b1f69d7")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR193"
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -12456,7 +12393,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0193")
+					(reference "#PWR193")
 					(unit 1)
 				)
 			)
@@ -12472,7 +12409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9552478-b188-4b3d-af29-aa22188e7be5")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR166"
 			(at 20.32 49.53 0)
 			(effects
 				(font
@@ -12522,51 +12459,41 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0166")
+					(reference "#PWR166")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:MCT0603PD1003DP500")
-		(at 104.14 127 270)
+		(lib_id "sb-tpu:CRCW0402100KJNED")
+		(at 181.61 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c1e45897-256f-44bb-8233-5ea386dd54dd")
+		(uuid "c32778b2-c732-4076-a77e-ab189b40a840")
 		(property "Reference" "R60"
-			(at 105.41 131.572 90)
+			(at 181.864 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MCT0603PD1003DP500"
-			(at 105.664 133.858 90)
+		(property "Value" "CRCW0402100KJNED"
+			(at 182.88 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 7.95 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-			(at -92.05 140.97 0)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 277.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,8 +12502,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD .250W 100Kohms .5% 0603 25ppm Hi Power"
-			(at 104.14 127 0)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 377.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+			(at 181.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,8 +12521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at -292.05 140.97 0)
+		(property "Height" "0.4"
+			(at 577.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12532,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -392.05 140.97 0)
+			(at 677.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,8 +12541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MCT0603PD1003DP500"
-			(at -492.05 140.97 0)
+		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+			(at 777.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,8 +12551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "594-MCT0603PD1003DP5"
-			(at -592.05 140.97 0)
+		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+			(at 877.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12624,8 +12561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=594-MCT0603PD1003DP5"
-			(at -692.05 140.97 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+			(at 977.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12634,8 +12571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "MCT0603PD1003DP500"
-			(at -792.05 140.97 0)
+		(property "Arrow Part Number" "CRCW0402100KJNED"
+			(at 1077.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,8 +12581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mct0603pd1003dp500/vishay"
-			(at -892.05 140.97 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+			(at 1177.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,10 +12592,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "86d25688-165a-49b9-bc6d-af4b43fa4155")
+			(uuid "084cc24f-3bcd-4a24-ae50-26efa8707494")
 		)
 		(pin "1"
-			(uuid "d92773fb-4e90-4a8a-8142-a466ef9077f2")
+			(uuid "387f357a-9356-4163-9963-fcb48c276296")
 		)
 		(instances
 			(project "sb-tpu"
@@ -12670,54 +12607,54 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 137.16 96.52 270)
+		(lib_id "sb-tpu:CRCW04024K70JNEE")
+		(at 111.76 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd97d07a-0609-422a-bc6f-fe64df6b6bc7")
-		(property "Reference" "C98"
-			(at 137.414 100.838 90)
+		(uuid "cb12b6ab-efee-4570-9053-2e25d4ebcbe9")
+		(property "Reference" "R44"
+			(at 114.3 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW04024K70JNEE"
+			(at 109.474 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 110.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "04023C104MAT2A"
-			(at 133.604 97.536 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 40.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -59.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 137.16 96.52 0)
+		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
+			(at 111.76 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,86 +12662,54 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at -259.03 105.41 0)
+		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
+			(at 115.57 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -359.03 105.41 0)
+		(property "Height" "0.5"
+			(at 118.11 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -459.03 105.41 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 120.65 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -559.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -659.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -759.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -859.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "01beabb6-9248-4473-b1d6-2929f5ba5975")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
 		)
 		(pin "2"
-			(uuid "b796dd88-eda3-4e0b-9373-794c8147338d")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
 		)
 		(instances
 			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "C98")
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12820,7 +12725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11878e3-f45d-48ff-b427-5808a07fe6be")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR188"
 			(at 207.01 144.78 0)
 			(effects
 				(font
@@ -12870,7 +12775,116 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0188")
+					(reference "#PWR188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW04024K70JNEE")
+		(at 133.35 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3c8ec51-8764-4987-baa7-405a3459aff3")
+		(property "Reference" "R61"
+			(at 133.604 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW04024K70JNEE"
+			(at 130.302 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+		)
+		(pin "2"
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -13033,7 +13047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51a0359-625d-455c-9367-2b34bc586b07")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR187"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -13083,7 +13097,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0187")
+					(reference "#PWR187")
 					(unit 1)
 				)
 			)
@@ -13098,7 +13112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9801ac7-913f-4fce-9ae1-7d8d0910ef3c")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR175"
 			(at 103.886 126.746 0)
 			(effects
 				(font
@@ -13148,7 +13162,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0175")
+					(reference "#PWR175")
 					(unit 1)
 				)
 			)
@@ -13163,7 +13177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2985a83-064e-4328-8ff1-c3d7b39f5c55")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR180"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -13213,7 +13227,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0180")
+					(reference "#PWR180")
 					(unit 1)
 				)
 			)
@@ -13368,7 +13382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e697fa71-f5fb-4213-a1ea-6cceb8925963")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR184"
 			(at 181.102 51.054 0)
 			(effects
 				(font
@@ -13418,7 +13432,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0184")
+					(reference "#PWR184")
 					(unit 1)
 				)
 			)
@@ -13434,7 +13448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98facef-abcc-4c19-9c2b-eaba35260835")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR192"
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -13484,7 +13498,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0192")
+					(reference "#PWR192")
 					(unit 1)
 				)
 			)
@@ -13561,157 +13575,6 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW06034K70JNEC")
-		(at 111.76 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe2c2362-4474-49a3-8c65-4db2e7167a1d")
-		(property "Reference" "R61"
-			(at 113.03 164.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CRCW06034K70JNEC"
-			(at 107.95 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1608X50N"
-			(at 113.03 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 110.49 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 111.76 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 107.95 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 105.41 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 102.87 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06034K70JNEC"
-			(at 100.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW06034K70JNEC"
-			(at 97.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06034K70JNEC?qs=L%252B14cgJd8NPUpqX5YO5a8w%3D%3D"
-			(at 95.25 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW06034K70JNEC"
-			(at 92.71 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06034k70jnec/vishay?utm_currency=USD&region=nac"
-			(at 90.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4fd00fc-6677-4873-b808-eb7e7c17f31d")
-		)
-		(pin "2"
-			(uuid "f9eddbe4-77d0-41b1-b6e2-e32f6b603f19")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R61")
 					(unit 1)
 				)
 			)

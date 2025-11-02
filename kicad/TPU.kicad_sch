@@ -213,7 +213,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:06033C104JAT4A"
+		(symbol "sb-tpu:04023C104MAT2A"
 			(pin_names
 				(hide yes)
 			)
@@ -229,7 +229,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "06033C104JAT4A"
+			(property "Value" "04023C104MAT2A"
 				(at 8.89 3.81 0)
 				(effects
 					(font
@@ -238,7 +238,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "CAPC1608X90N"
+			(property "Footprint" "footprints:CAPC1005X56N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -248,7 +248,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 				(at 8.89 -196.19 0)
 				(effects
 					(font
@@ -258,7 +258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "06033C104JAT4A_1_1"
+			(symbol "04023C104MAT2A_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -637,15 +637,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:0603ZD226MAT2A"
+		(symbol "sb-tpu:CRCW0402100RFKEE"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -653,8 +653,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "0603ZD226MAT2A"
-				(at 8.89 3.81 0)
+			(property "Value" "CRCW0402100RFKEE"
+				(at 13.97 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -662,18 +662,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "CAPC1608X90N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-				(at 8.89 -196.19 0)
+			(property "Footprint" "CRCW0402200KFKED"
+				(at 13.97 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -682,7 +672,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0603 20% HIGH CV"
+			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -691,8 +691,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.9"
-				(at 8.89 -396.19 0)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -701,8 +701,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Kyocera AVX"
-				(at 8.89 -496.19 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -711,8 +711,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
-				(at 8.89 -596.19 0)
+			(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+				(at 13.97 -596.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -721,8 +721,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "581-0603ZD226MAT2A"
-				(at 8.89 -696.19 0)
+			(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+				(at 13.97 -696.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -731,8 +731,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
-				(at 8.89 -796.19 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+				(at 13.97 -796.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -741,8 +741,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "0603ZD226MAT2A"
-				(at 8.89 -896.19 0)
+			(property "Arrow Part Number" "CRCW0402100RFKEE"
+				(at 13.97 -896.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -751,8 +751,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
-				(at 8.89 -996.19 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+				(at 13.97 -996.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -761,53 +761,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603ZD226MAT2A_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
+			(symbol "CRCW0402100RFKEE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
@@ -829,7 +792,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1024,7 +987,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:CRCW06034K70JNEC"
+		(symbol "sb-tpu:CRCW04024K70JNEE"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1040,7 +1003,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CRCW06034K70JNEC"
+			(property "Value" "CRCW04024K70JNEE"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -1049,7 +1012,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RESC1608X50N"
+			(property "Footprint" "footprints:CRCW0402200KFKED"
 				(at 13.97 1.27 0)
 				(effects
 					(font
@@ -1059,7 +1022,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 				(at 13.97 -1.27 0)
 				(effects
 					(font
@@ -1069,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5%"
+			(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1108,57 +1071,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CRCW06034K70JNEC"
-				(at 13.97 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "71-CRCW06034K70JNEC"
-				(at 13.97 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06034K70JNEC?qs=L%252B14cgJd8NPUpqX5YO5a8w%3D%3D"
-				(at 13.97 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "CRCW06034K70JNEC"
-				(at 13.97 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06034k70jnec/vishay?utm_currency=USD&region=nac"
-				(at 13.97 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW06034K70JNEC_0_0"
+			(symbol "CRCW04024K70JNEE_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -1196,7 +1109,7 @@
 					)
 				)
 			)
-			(symbol "CRCW06034K70JNEC_0_1"
+			(symbol "CRCW04024K70JNEE_0_1"
 				(polyline
 					(pts
 						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
@@ -4008,6 +3921,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:GRM158R61A226ME15J"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM158R61A226ME15J"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X56N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0402 20% HIGH CV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-0603ZD226MAT2A"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "0603ZD226MAT2A"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM158R61A226ME15J_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:LTW-C193TS5"
 			(pin_names
 				(hide yes)
@@ -4749,7 +4874,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:RK73B1JRTTD101J"
+		(symbol "sb-tpu:RCWE0402R100JNEA"
 			(pin_names
 				(hide yes)
 			)
@@ -4765,7 +4890,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "RK73B1JRTTD101J"
+			(property "Value" "RCWE0402R100JNEA"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -4774,7 +4899,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "RESC1608X55N"
+			(property "Footprint" "RESC1006X45N"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -4784,7 +4909,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
 				(at 13.97 -196.19 0)
 				(effects
 					(font
@@ -4794,7 +4919,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
+			(property "Description" "Thick Film Surface Mount Chip Resistors,"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4803,7 +4928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
+			(property "Height" "0.45"
 				(at 13.97 -396.19 0)
 				(effects
 					(font
@@ -4813,7 +4938,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "KOA Speer"
+			(property "Manufacturer_Name" "Vishay"
 				(at 13.97 -496.19 0)
 				(effects
 					(font
@@ -4823,7 +4948,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
+			(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
 				(at 13.97 -596.19 0)
 				(effects
 					(font
@@ -4833,7 +4958,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "660-RK73B1JRTTD101J"
+			(property "Mouser Part Number" ""
 				(at 13.97 -696.19 0)
 				(effects
 					(font
@@ -4843,7 +4968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 13.97 -796.19 0)
 				(effects
 					(font
@@ -4853,7 +4978,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "RK73B1JRTTD101J"
+			(property "Arrow Part Number" ""
 				(at 13.97 -896.19 0)
 				(effects
 					(font
@@ -4863,7 +4988,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
+			(property "Arrow Price/Stock" ""
 				(at 13.97 -996.19 0)
 				(effects
 					(font
@@ -4873,7 +4998,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RK73B1JRTTD101J_1_1"
+			(symbol "RCWE0402R100JNEA_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -5229,181 +5354,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:WSLP0603R0100FEA"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "WSLP0603R0100FEA"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RESC1608X60N"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, 0603 .01 Ohm +/- 1.0 % 0.4W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "WSLP0603R0100FEA"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "71-WSLP0603R0100FEA"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R0100FEA?qs=d9nEWKVlhwurXMV2GPI1Lw%3D%3D"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "WSLP0603R0100FEA"
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r0100fea/vishay?region=nac"
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "WSLP0603R0100FEA_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 209.55 96.52)
@@ -5520,6 +5470,12 @@
 		(uuid "00bfb7c9-77ed-4ce6-98e9-b574cece5a80")
 	)
 	(junction
+		(at 123.19 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05992ea8-6bf3-47ba-99f5-e8b48ea69974")
+	)
+	(junction
 		(at 96.52 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5550,22 +5506,10 @@
 		(uuid "083f9d3e-04c6-437b-b87b-51ee766e6f0f")
 	)
 	(junction
-		(at 154.94 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ac0e4cc-b02b-447b-b161-ee88ed7b9396")
-	)
-	(junction
 		(at 144.78 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0adcfea0-5924-4479-9f9b-de85fdbdbb25")
-	)
-	(junction
-		(at 148.59 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bdeae5d-51b6-4c42-b452-089f96c637f5")
 	)
 	(junction
 		(at 144.78 67.31)
@@ -5586,10 +5530,22 @@
 		(uuid "1028a79e-ece1-49db-a69e-1b51cb3050c1")
 	)
 	(junction
+		(at 259.08 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1128fec7-6fcf-4855-9e94-8f95f0c74711")
+	)
+	(junction
 		(at 144.78 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1297996b-5c36-46ca-a172-634ebbf2f04c")
+	)
+	(junction
+		(at 148.59 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13883e71-c26f-48f8-b935-694edb47e7ee")
 	)
 	(junction
 		(at 104.14 44.45)
@@ -5640,10 +5596,10 @@
 		(uuid "2570f693-4bbe-468c-bc07-7d0652b871a3")
 	)
 	(junction
-		(at 173.99 153.67)
+		(at 167.64 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "283f9cf8-1aaf-4033-928d-55807b063b20")
+		(uuid "27fccefa-5c1c-4063-9c0f-71786896e100")
 	)
 	(junction
 		(at 33.02 74.93)
@@ -5670,22 +5626,10 @@
 		(uuid "2beee828-5e89-4eec-b84b-cc42d65622a5")
 	)
 	(junction
-		(at 123.19 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d5abd41-8718-4ee5-99cd-863823855564")
-	)
-	(junction
 		(at 55.88 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e170e29-e9a6-467c-a583-fe1ccfc91f89")
-	)
-	(junction
-		(at 251.46 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30e15f8c-9256-4f2b-8dc3-35d76b68bed9")
 	)
 	(junction
 		(at 144.78 113.03)
@@ -5730,6 +5674,12 @@
 		(uuid "406d7b51-54d5-4755-a1da-cb5fe9b69e5a")
 	)
 	(junction
+		(at 154.94 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41cc99f0-c5f3-4951-a5a1-30d37984f3b6")
+	)
+	(junction
 		(at 33.02 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5742,16 +5692,16 @@
 		(uuid "445628fc-9923-472c-a825-19f463c347a3")
 	)
 	(junction
-		(at 154.94 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45312fe1-b138-4ce6-84d8-2bb154f7879d")
-	)
-	(junction
 		(at 140.97 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474d7073-9d1e-4e78-aeef-80b31b703e88")
+	)
+	(junction
+		(at 148.59 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f698c0-b9c1-4600-ade2-7e579cc647c6")
 	)
 	(junction
 		(at 88.9 44.45)
@@ -5790,12 +5740,6 @@
 		(uuid "5a811c2d-52c1-4ab8-bfff-0a83b40fcd0b")
 	)
 	(junction
-		(at 161.29 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b639c06-495f-477c-aec5-e49c59806302")
-	)
-	(junction
 		(at 33.02 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5808,10 +5752,22 @@
 		(uuid "5cbbef93-d772-4da4-b737-e85940798654")
 	)
 	(junction
-		(at 161.29 166.37)
+		(at 240.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cca8893-ba58-4129-bd2b-442b6b04bb74")
+		(uuid "5e63af6d-2a5c-4cfc-9886-b473e60615eb")
+	)
+	(junction
+		(at 173.99 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60cd9292-8cb8-4ec4-8ae1-5525b0b7b5cc")
+	)
+	(junction
+		(at 167.64 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b31ccc-4e7a-4401-a086-e2a9364ddd4e")
 	)
 	(junction
 		(at 33.02 107.95)
@@ -5832,12 +5788,6 @@
 		(uuid "68a0599d-4c4e-4bea-9ab5-99253bd2bc9f")
 	)
 	(junction
-		(at 240.03 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a18bf08-feee-4a9d-975c-912226723c29")
-	)
-	(junction
 		(at 83.82 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5850,16 +5800,22 @@
 		(uuid "6ab6f501-bbcc-43c7-866a-fd381258f6e1")
 	)
 	(junction
-		(at 148.59 166.37)
+		(at 251.46 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c3f081f-830d-48d5-b901-26026c04ee86")
+		(uuid "6f2cf34b-f124-4ac2-bcb6-b5a1b73f1cc1")
 	)
 	(junction
 		(at 123.19 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7088124e-8384-49de-8520-085282b227f2")
+	)
+	(junction
+		(at 154.94 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e2f69c-b636-48e9-bae0-deceb863edd2")
 	)
 	(junction
 		(at 64.77 153.67)
@@ -5874,6 +5830,12 @@
 		(uuid "77920b61-8b5f-401e-8d5f-e8f84017d154")
 	)
 	(junction
+		(at 251.46 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78a9b0b2-a81d-48bd-b50f-3d915c39eca1")
+	)
+	(junction
 		(at 62.23 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5884,12 +5846,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b18a946-aa3c-4f85-baff-8aa1c79f72d8")
-	)
-	(junction
-		(at 251.46 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c28190a-8ac8-4fb9-8e99-ee5c54584e71")
 	)
 	(junction
 		(at 107.95 166.37)
@@ -5908,12 +5864,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8190cb85-e2b0-4203-b577-dbb57d9074bf")
-	)
-	(junction
-		(at 173.99 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81e35f24-fd0e-4902-bdfd-c4edae415d11")
 	)
 	(junction
 		(at 77.47 153.67)
@@ -5970,22 +5920,22 @@
 		(uuid "8fa222f1-2d91-4368-8958-a7d2cdc6708f")
 	)
 	(junction
-		(at 167.64 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fa79d67-7bb6-43bf-9bee-904bff163a6e")
-	)
-	(junction
-		(at 259.08 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92c619f4-6b50-496b-9129-2e987699f712")
-	)
-	(junction
 		(at 99.06 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92d536a8-1ae8-43b4-8863-b98175a4f195")
+	)
+	(junction
+		(at 222.25 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "969cdf0b-7880-4fc3-a547-3b44311672a5")
+	)
+	(junction
+		(at 173.99 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97cf3c51-e714-4a48-9fd0-e5d92974d988")
 	)
 	(junction
 		(at 73.66 44.45)
@@ -6084,16 +6034,10 @@
 		(uuid "b8c107b1-c0bc-4e3e-9b1f-06fb4ecf2a82")
 	)
 	(junction
-		(at 167.64 153.67)
+		(at 142.24 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bccf40c4-d23f-4163-8495-90b7ab99b167")
-	)
-	(junction
-		(at 222.25 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd8dd183-b635-41c5-9904-920d45ac650f")
+		(uuid "beaa2a84-0e7d-4492-b507-06e9c10f4525")
 	)
 	(junction
 		(at 100.33 158.75)
@@ -6120,6 +6064,12 @@
 		(uuid "c56263cb-4450-4bb6-aa8d-0317a9f52c14")
 	)
 	(junction
+		(at 161.29 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73ff1ce-23d3-468a-a497-d39c9203e207")
+	)
+	(junction
 		(at 144.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6130,6 +6080,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca5adc4c-fa10-4eff-8a9c-aa4d7eef2f0a")
+	)
+	(junction
+		(at 161.29 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1db3848-4863-4b67-9001-80cbea228a21")
 	)
 	(junction
 		(at 85.09 153.67)
@@ -6196,12 +6152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7d29e81-3260-4635-ae19-ed2511a158f7")
-	)
-	(junction
-		(at 142.24 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8853faf-556d-4543-b894-22d4a7277f2f")
 	)
 	(junction
 		(at 148.59 95.25)
@@ -6279,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 153.67) (xy 154.94 153.67)
+			(xy 142.24 153.67) (xy 148.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6416,6 +6366,16 @@
 			(type default)
 		)
 		(uuid "0f7e7020-9cb3-4e53-b868-92273d61d808")
+	)
+	(wire
+		(pts
+			(xy 251.46 29.21) (xy 259.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa302b-a44c-4263-bd64-353eee420014")
 	)
 	(wire
 		(pts
@@ -6586,16 +6546,6 @@
 			(type default)
 		)
 		(uuid "26218637-2bee-4229-8dc7-d98910801e7a")
-	)
-	(wire
-		(pts
-			(xy 222.25 31.75) (xy 224.79 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d02105-d97f-49e6-92eb-42014a08c5aa")
 	)
 	(wire
 		(pts
@@ -6869,6 +6819,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 153.67) (xy 173.99 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428d625f-f330-4bc6-af00-03ca8165bc2c")
+	)
+	(wire
+		(pts
 			(xy 54.61 148.59) (xy 54.61 153.67)
 		)
 		(stroke
@@ -6989,6 +6949,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 166.37) (xy 173.99 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4c4d3b-b7d9-4b67-a9ae-fa4712a87e7e")
+	)
+	(wire
+		(pts
 			(xy 33.02 69.85) (xy 34.29 69.85)
 		)
 		(stroke
@@ -7026,6 +6996,16 @@
 			(type default)
 		)
 		(uuid "545baa7d-ac2e-460e-97ec-814d2ea3ac44")
+	)
+	(wire
+		(pts
+			(xy 154.94 153.67) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5470cc66-cd55-4ee5-8549-a448e291af12")
 	)
 	(wire
 		(pts
@@ -7076,16 +7056,6 @@
 			(type default)
 		)
 		(uuid "58315581-f627-4d80-bec4-cd3515c7781e")
-	)
-	(wire
-		(pts
-			(xy 161.29 153.67) (xy 167.64 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5952ecf1-cedd-4bd6-a563-8b71585c9402")
 	)
 	(wire
 		(pts
@@ -7159,16 +7129,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 29.21) (xy 251.46 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f9c989-f1c9-40b3-8142-c00b2f771892")
-	)
-	(wire
-		(pts
 			(xy 140.97 67.31) (xy 144.78 67.31)
 		)
 		(stroke
@@ -7206,16 +7166,6 @@
 			(type default)
 		)
 		(uuid "6c00dbbb-7cc7-4c4f-b201-9c26a5511ce3")
-	)
-	(wire
-		(pts
-			(xy 140.97 153.67) (xy 142.24 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d8790af-0453-4ff7-8dc0-b4314e1a7f12")
 	)
 	(wire
 		(pts
@@ -7279,13 +7229,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 166.37) (xy 173.99 166.37)
+			(xy 161.29 166.37) (xy 167.64 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7750fc93-8221-4a57-bbfe-593b9b79a844")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 224.79 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fde93c-a3ea-41ec-8033-14e523f0c1f0")
 	)
 	(wire
 		(pts
@@ -7619,6 +7579,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 166.37) (xy 161.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20bc90d-dd3b-4c33-aa2a-7dc045570de9")
+	)
+	(wire
+		(pts
 			(xy 54.61 153.67) (xy 52.07 153.67)
 		)
 		(stroke
@@ -7689,7 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 153.67) (xy 161.29 153.67)
+			(xy 148.59 153.67) (xy 154.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7939,7 +7909,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 153.67) (xy 148.59 153.67)
+			(xy 140.97 153.67) (xy 142.24 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8009,16 +7979,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 166.37) (xy 154.94 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cad12b07-ec9c-449e-9316-3d9bbe319950")
-	)
-	(wire
-		(pts
 			(xy 140.97 110.49) (xy 144.78 110.49)
 		)
 		(stroke
@@ -8069,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 153.67) (xy 173.99 153.67)
+			(xy 161.29 153.67) (xy 167.64 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8289,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 166.37) (xy 161.29 166.37)
+			(xy 148.59 166.37) (xy 154.94 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8409,16 +8369,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 166.37) (xy 167.64 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33bb69b-6213-48cc-bad7-3c628f5c1a37")
-	)
-	(wire
-		(pts
 			(xy 33.02 64.77) (xy 33.02 67.31)
 		)
 		(stroke
@@ -8449,7 +8399,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 29.21) (xy 259.08 29.21)
+			(xy 240.03 29.21) (xy 251.46 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8784,7 +8734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023b32cf-8ebd-4d0a-a942-2248b741a2e0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -8834,7 +8784,148 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR063")
+					(reference "#PWR63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100RFKEE")
+		(at 240.03 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07fdbe2d-679a-4398-85c8-7cfb04cbc74b")
+		(property "Reference" "R41"
+			(at 240.284 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100RFKEE"
+			(at 237.236 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CRCW0402200KFKED"
+			(at 336.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 436.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - CRCW0402100RFKEE - RES, AEC-Q200, THICK FILM, 100R, 0402"
+			(at 240.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 636.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 736.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100RFKEE"
+			(at 836.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402100RFKEE"
+			(at 936.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100RFKEE?qs=ca425bTw5eOjj9gqUmwQ%2FQ%3D%3D"
+			(at 1036.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100RFKEE"
+			(at 1136.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100rfkee/vishay"
+			(at 1236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd05fb87-1e6f-4fcd-857b-dfe69f8a2815")
+		)
+		(pin "2"
+			(uuid "933a1db7-b695-4b6a-bd26-22b5957c21a7")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -8849,7 +8940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ccaaf6f-8330-46d2-bdb3-e1637f1409fc")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR52"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -8899,7 +8990,148 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR052")
+					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 154.94 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e1898e2-5901-4324-a329-0135249075d0")
+		(property "Reference" "C35"
+			(at 155.448 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "04023C104MAT2A"
+			(at 151.638 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 251.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 351.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 154.94 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 551.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 651.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(at 751.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06033C104JAT4A"
+			(at 851.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(at 951.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "06033C104JAT4A"
+			(at 1051.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(at 1151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cfc28bc-092f-4332-9057-68e9f8229567")
+		)
+		(pin "1"
+			(uuid "c89c57d7-6658-4ff9-aba6-554b819dff36")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -8915,7 +9147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10241851-9eaf-4939-a063-1782510255d7")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 240.03 162.56 0)
 			(effects
 				(font
@@ -8965,7 +9197,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR072")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -9129,7 +9361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11681009-6a68-487a-ab26-4cd9c9d28876")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR69"
 			(at 239.776 29.21 0)
 			(effects
 				(font
@@ -9179,7 +9411,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR069")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -9687,7 +9919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c08dce0-f08f-41af-ac8c-0688f1778650")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR55"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -9737,7 +9969,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR055")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -9811,16 +10043,16 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:0603ZD226MAT2A")
-		(at 259.08 29.21 270)
+		(lib_id "sb-tpu:GRM158R61A226ME15J")
+		(at 251.46 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1d57cf4e-13b5-4769-b8de-83d5606c139d")
-		(property "Reference" "C43"
-			(at 259.588 33.782 90)
+		(uuid "214c5175-60b2-4719-9f57-ab4a608f2a4c")
+		(property "Reference" "C8"
+			(at 251.4011 33.7618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,18 +10060,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0603ZD226MAT2A"
-			(at 255.778 29.21 0)
+		(property "Value" "GRM158R61A226ME15J"
+			(at 247.65 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 162.89 38.1 0)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 155.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,8 +10079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 62.89 38.1 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 55.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,8 +10089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0603 20% HIGH CV"
-			(at 259.08 29.21 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0402 20% HIGH CV"
+			(at 251.46 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +10099,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -137.11 38.1 0)
+			(at -144.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +10109,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -237.11 38.1 0)
+			(at -244.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +10119,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
-			(at -337.11 38.1 0)
+			(at -344.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +10129,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-0603ZD226MAT2A"
-			(at -437.11 38.1 0)
+			(at -444.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10139,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
-			(at -537.11 38.1 0)
+			(at -544.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10149,7 @@
 			)
 		)
 		(property "Arrow Part Number" "0603ZD226MAT2A"
-			(at -637.11 38.1 0)
+			(at -644.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +10159,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
-			(at -737.11 38.1 0)
+			(at -744.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,61 +10168,49 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "78ff6e48-9364-4b10-875d-406e6ffd8f62")
-		)
 		(pin "1"
-			(uuid "0b4eb21d-4d0e-44bf-894c-6214debb5f0e")
+			(uuid "f563621e-09bf-4041-a030-0dbbaef3619c")
+		)
+		(pin "2"
+			(uuid "a337fa92-7436-4a34-8251-677e47687f8d")
 		)
 		(instances
-			(project ""
+			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C43")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 161.29 153.67 270)
+		(lib_id "sb-tpu:RCWE0402R100JNEA")
+		(at 240.03 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2924caf4-fd33-4bb9-9f25-7b91f1b1d0b9")
-		(property "Reference" "C37"
-			(at 161.544 157.988 90)
+		(fields_autoplaced yes)
+		(uuid "225e62a9-0cd2-4589-80fe-c493ed6590ab")
+		(property "Reference" "R40"
+			(at 248.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "06033C104JAT4A"
-			(at 157.988 154.432 0)
+		(property "Value" "RCWE0402R100JNEA"
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 65.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -34.9 162.56 0)
+		(property "Footprint" "RESC1006X45N"
+			(at 254 172.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,17 +10219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 161.29 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -234.9 162.56 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+			(at 254 272.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,8 +10229,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -334.9 162.56 0)
+		(property "Description" "Thick Film Surface Mount Chip Resistors,"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.45"
+			(at 254 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,8 +10248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -434.9 162.56 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 254 572.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,8 +10258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -534.9 162.56 0)
+		(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
+			(at 254 672.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,8 +10268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -634.9 162.56 0)
+		(property "Mouser Part Number" ""
+			(at 254 772.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,8 +10278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -734.9 162.56 0)
+		(property "Mouser Price/Stock" ""
+			(at 254 872.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,8 +10288,18 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -834.9 162.56 0)
+		(property "Arrow Part Number" ""
+			(at 254 972.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 254 1072.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,15 +10309,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "39927933-d940-46a4-a6b7-8b07c653bb76")
+			(uuid "bc800c44-f97d-4ece-a19f-ead337b23acd")
 		)
 		(pin "2"
-			(uuid "bcf8dbd8-b9f7-4015-9792-bed8416a0016")
+			(uuid "71d6327d-000a-449e-b2d3-54ed4733307e")
 		)
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10170,7 +10399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39510408-a73d-4531-8347-d9f9b5eef906")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 240.03 95.25 0)
 			(effects
 				(font
@@ -10220,7 +10449,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -10294,34 +10523,34 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 142.24 153.67 270)
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 123.19 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "464ed421-d060-4cdf-922c-af881a3a66cc")
-		(property "Reference" "C34"
-			(at 142.494 157.988 90)
+		(uuid "4634c986-17b2-4bf2-866c-d3d3ec233253")
+		(property "Reference" "C32"
+			(at 123.698 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "04023C104MAT2A"
-			(at 141.732 168.148 90)
+			(at 119.888 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 46.05 162.56 0)
+			(at 219.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,8 +10559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -53.95 162.56 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 319.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,8 +10569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 142.24 153.67 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 123.19 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10579,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -253.95 162.56 0)
+			(at 519.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10589,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -353.95 162.56 0)
+			(at 619.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +10599,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -453.95 162.56 0)
+			(at 719.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +10609,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -553.95 162.56 0)
+			(at 819.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10619,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -653.95 162.56 0)
+			(at 919.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10629,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -753.95 162.56 0)
+			(at 1019.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10639,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -853.95 162.56 0)
+			(at 1119.38 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,61 +10648,50 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "25131f94-ff6c-4c7e-bf1d-1d26431680a4")
-		)
 		(pin "2"
-			(uuid "82e67c66-3b12-471e-8595-24e5387e5784")
+			(uuid "0347df77-075b-41e3-bc85-704f2d49e03a")
+		)
+		(pin "1"
+			(uuid "5518e70b-7391-435c-9178-39485f2bed5f")
 		)
 		(instances
-			(project ""
+			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C34")
+					(reference "C32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 173.99 153.67 270)
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 161.29 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4cedba9f-ed06-4cb4-8b00-d5a8809c4dc7")
-		(property "Reference" "C39"
-			(at 174.244 157.988 90)
+		(uuid "4c3026da-500c-4d82-9c78-e0855ba2260e")
+		(property "Reference" "C36"
+			(at 161.798 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "06033C104JAT4A"
-			(at 170.688 154.432 0)
+		(property "Value" "04023C104MAT2A"
+			(at 157.988 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 77.8 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -22.2 162.56 0)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 257.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,8 +10700,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 173.99 153.67 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 357.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 161.29 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10720,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -222.2 162.56 0)
+			(at 557.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +10730,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -322.2 162.56 0)
+			(at 657.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10740,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -422.2 162.56 0)
+			(at 757.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10750,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -522.2 162.56 0)
+			(at 857.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10760,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -622.2 162.56 0)
+			(at 957.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10770,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -722.2 162.56 0)
+			(at 1057.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10780,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -822.2 162.56 0)
+			(at 1157.48 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,16 +10789,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "50c9d6f1-153a-4320-ade7-fee12e5a1e9c")
-		)
 		(pin "2"
-			(uuid "a47d1cf4-5d74-4d54-b1c3-782c43d12843")
+			(uuid "841b803d-96e1-4cf5-8d65-16d9a7edf350")
+		)
+		(pin "1"
+			(uuid "b5011ead-147e-4e2b-91f2-e2a945522ad4")
 		)
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C39")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10585,7 +10813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52c91c0c-28b9-4d76-8477-688eb0e8772f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR71"
 			(at 239.776 107.95 0)
 			(effects
 				(font
@@ -10635,7 +10863,148 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR071")
+					(reference "#PWR71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 148.59 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5796e4dc-c7db-4e8d-90cb-f702f7844486")
+		(property "Reference" "C34"
+			(at 149.098 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "04023C104MAT2A"
+			(at 145.288 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 244.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 344.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 148.59 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 544.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 644.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(at 744.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06033C104JAT4A"
+			(at 844.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(at 944.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "06033C104JAT4A"
+			(at 1044.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(at 1144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "843e9246-6ca1-460a-8598-cff1a3644f73")
+		)
+		(pin "1"
+			(uuid "c50ba474-bc91-4823-a3cc-2f26e5a2eaee")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10650,7 +11019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57d7a9d6-d73e-4d40-81f8-60b59215a919")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR59"
 			(at 173.99 172.72 0)
 			(effects
 				(font
@@ -10700,148 +11069,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 123.19 166.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "596ee7ee-9651-4802-ac32-f130a58f899a")
-		(property "Reference" "C33"
-			(at 123.444 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "04023C104MAT2A"
-			(at 118.872 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 123.19 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -273 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -373 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -473 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -573 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -673 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -773 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -873 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b37f6c91-c93d-48e9-bd41-9f8b5fa176a1")
-		)
-		(pin "2"
-			(uuid "67d5a5a6-66a4-4e39-bd7a-9148a071396a")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C33")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -10857,7 +11085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ac4f8f7-3b19-4f3c-bf7e-87cc3faecc18")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 176.276 71.12 0)
 			(effects
 				(font
@@ -10907,7 +11135,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e70cae5-6017-463b-9819-5a6957d0c77d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR58"
 			(at 173.736 153.67 0)
 			(effects
 				(font
@@ -11117,50 +11345,41 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR058")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:WSLP0603R0100FEA")
-		(at 240.03 76.2 0)
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 142.24 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a7ab4f-6bce-4530-b8ca-a0a7caf6d8f0")
-		(property "Reference" "R40"
-			(at 248.92 69.85 0)
+		(uuid "63798646-82b3-43b9-a47f-dbb8a32668ba")
+		(property "Reference" "C33"
+			(at 142.748 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "WSLP0603R0100FEA"
-			(at 248.92 72.39 0)
+		(property "Value" "04023C104MAT2A"
+			(at 138.938 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X60N"
-			(at 254 172.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 272.39 0)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 238.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,17 +11388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RESISTOR, 0603 .01 Ohm +/- 1.0 % 0.4W"
-			(at 240.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 254 472.39 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 338.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,8 +11398,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 254 572.39 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 538.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,8 +11417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "WSLP0603R0100FEA"
-			(at 254 672.39 0)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 638.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,8 +11427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-WSLP0603R0100FEA"
-			(at 254 772.39 0)
+		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(at 738.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,8 +11437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R0100FEA?qs=d9nEWKVlhwurXMV2GPI1Lw%3D%3D"
-			(at 254 872.39 0)
+		(property "Mouser Part Number" "581-06033C104JAT4A"
+			(at 838.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,8 +11447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "WSLP0603R0100FEA"
-			(at 254 972.39 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(at 938.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,8 +11457,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r0100fea/vishay?region=nac"
-			(at 254 1072.39 0)
+		(property "Arrow Part Number" "06033C104JAT4A"
+			(at 1038.43 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,16 +11467,26 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6aef115f-0173-4658-96ca-4a3f23a412cb")
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(at 1138.43 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "fd2dfd55-c2e7-4d8d-ae20-d5766f226c89")
+			(uuid "95de820f-99a9-40ec-b94e-eb339c218607")
+		)
+		(pin "1"
+			(uuid "9c73d0eb-1303-497f-bef7-4ba23edb3785")
 		)
 		(instances
-			(project ""
+			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "R40")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11273,7 +11502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c6010f-7ec9-445f-acb3-ea211edf5d1c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR60"
 			(at 175.006 105.664 0)
 			(effects
 				(font
@@ -11323,158 +11552,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW06034K70JNEC")
-		(at 222.25 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64524ba6-e5d3-4800-b36c-4343b24bfab8")
-		(property "Reference" "R39"
-			(at 223.774 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CRCW06034K70JNEC"
-			(at 219.202 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RESC1608X50N"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 220.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 222.25 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 218.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 215.9 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 213.36 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06034K70JNEC"
-			(at 210.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW06034K70JNEC"
-			(at 208.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06034K70JNEC?qs=L%252B14cgJd8NPUpqX5YO5a8w%3D%3D"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW06034K70JNEC"
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06034k70jnec/vishay?utm_currency=USD&region=nac"
-			(at 200.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3460b19-7cdf-42dd-92d0-1c6e62e1003f")
-		)
-		(pin "1"
-			(uuid "f34de16b-32e3-4743-a281-f090f8b2a6c1")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "R39")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73ce8d63-25a0-4e03-9437-12913058d071")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR57"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -11680,148 +11758,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:0603ZD226MAT2A")
-		(at 251.46 29.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7cf648f5-4451-4334-af85-98029613b3da")
-		(property "Reference" "C42"
-			(at 251.714 33.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GRM158R61A226ME15J"
-			(at 247.396 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 155.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 55.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0603 20% HIGH CV"
-			(at 251.46 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -144.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -244.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
-			(at -344.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0603ZD226MAT2A"
-			(at -444.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
-			(at -544.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0603ZD226MAT2A"
-			(at -644.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
-			(at -744.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78ff6e48-9364-4b10-875d-406e6ffd8f63")
-		)
-		(pin "1"
-			(uuid "0b4eb21d-4d0e-44bf-894c-6214debb5f0f")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C42")
+					(reference "#PWR57")
 					(unit 1)
 				)
 			)
@@ -11837,7 +11774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da5635f-a4c1-4f12-8e0c-0145b2dc2a72")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 222.25 55.88 0)
 			(effects
 				(font
@@ -11887,7 +11824,109 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR068")
+					(reference "#PWR68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW04024K70JNEE")
+		(at 222.25 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa98055-3240-48e7-8b2d-926add04f2c9")
+		(property "Reference" "R34"
+			(at 224.79 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW04024K70JNEE"
+			(at 224.79 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
+			(at 226.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 231.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+		)
+		(pin "2"
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11902,7 +11941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84094e9e-35f8-4488-9f31-ef6a81a1ab90")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 227.33 26.67 0)
 			(effects
 				(font
@@ -11953,7 +11992,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -12036,7 +12075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88342cce-bc43-47a8-9761-90d6d846c721")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR73"
 			(at 251.46 48.26 0)
 			(effects
 				(font
@@ -12086,7 +12125,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -12102,7 +12141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f897842-cebb-4d25-8559-055e69ebbb2f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 198.12 76.2 0)
 			(effects
 				(font
@@ -12153,149 +12192,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:RK73B1JRTTD101J")
-		(at 240.03 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a2a56b-8206-4a72-b916-bcbb9a1e6220")
-		(property "Reference" "R41"
-			(at 242.57 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RK73B1JRTTD101J"
-			(at 242.57 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 336.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
-			(at 436.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/8W 100 Ohms 5% Ant"
-			(at 240.03 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 636.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 736.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73B1JRTTD101J"
-			(at 836.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "660-RK73B1JRTTD101J"
-			(at 936.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JRTTD101J?qs=2ze4xrILTqAds0kGbSpeUw%3D%3D"
-			(at 1036.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RK73B1JRTTD101J"
-			(at 1136.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rk73b1jrttd101j/koa-speer-electronics?utm_currency=USD&region=nac"
-			(at 1236.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0919cad2-b8cd-49e4-8fcb-8299377d8d17")
-		)
-		(pin "1"
-			(uuid "57c342df-614b-4285-abc2-876e96058769")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "R41")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -12311,7 +12208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92337851-e67b-4467-93ed-1ce48463c991")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -12361,7 +12258,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a519b41-4c93-4d19-8a7f-ac7edf7d8803")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR74"
 			(at 258.826 29.21 0)
 			(effects
 				(font
@@ -12427,7 +12324,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR074")
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
@@ -12643,45 +12540,34 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 148.59 153.67 270)
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 173.99 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b82c7dee-0944-4d8f-bc93-7acb9a1208f0")
-		(property "Reference" "C35"
-			(at 148.844 157.988 90)
+		(uuid "a37e745d-c86a-4ca9-b66c-963097a94bce")
+		(property "Reference" "C38"
+			(at 174.498 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "06033C104JAT4A"
-			(at 145.288 154.432 0)
+		(property "Value" "04023C104MAT2A"
+			(at 170.688 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 52.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -47.6 162.56 0)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 270.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12690,8 +12576,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 148.59 153.67 0)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 370.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 173.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12700,7 +12596,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -247.6 162.56 0)
+			(at 570.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12710,7 +12606,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -347.6 162.56 0)
+			(at 670.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12720,7 +12616,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -447.6 162.56 0)
+			(at 770.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12626,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -547.6 162.56 0)
+			(at 870.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12636,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -647.6 162.56 0)
+			(at 970.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12750,7 +12646,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -747.6 162.56 0)
+			(at 1070.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +12656,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -847.6 162.56 0)
+			(at 1170.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,16 +12665,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8682422e-7f05-46ce-ac34-7ce9a1d7949e")
-		)
 		(pin "2"
-			(uuid "b04a60f9-8508-4124-88d7-47aeeb76dffd")
+			(uuid "25df4e16-1a61-4ac7-be6e-a07acd73da62")
+		)
+		(pin "1"
+			(uuid "6548283a-bf00-4d80-b64a-67b7b03e999e")
 		)
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C35")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -13073,148 +12969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 167.64 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7fa9e3a-30df-4cd6-a1ca-7fdde7d133ba")
-		(property "Reference" "C38"
-			(at 167.894 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "06033C104JAT4A"
-			(at 164.338 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 71.45 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -28.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 167.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -228.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -328.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -428.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -528.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -628.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -728.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -828.55 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfa6a060-7db7-4a57-9eea-41f80b89a61e")
-		)
-		(pin "2"
-			(uuid "f2c69f76-747c-44af-b346-6fd925a56895")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 30.48 0)
 		(unit 1)
@@ -13224,7 +12978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9077201-4abf-4b56-8215-f916d46e8959")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR65"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -13274,7 +13028,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR065")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca053b91-d4aa-4ddc-8234-6704074b5af2")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 175.26 133.35 0)
 			(effects
 				(font
@@ -13340,7 +13094,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8fbe56-735f-45d8-948a-34a38d65b16f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 258.826 70.104 0)
 			(effects
 				(font
@@ -13406,7 +13160,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -13421,7 +13175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdc5b272-7a09-4e92-bdf5-784e98d7a1fc")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR56"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -13471,7 +13225,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR056")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -13617,148 +13371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06033C104JAT4A")
-		(at 154.94 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd31c7d1-4884-42ff-8bbb-eeb4f528d8e5")
-		(property "Reference" "C36"
-			(at 155.194 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "06033C104JAT4A"
-			(at 151.638 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 58.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -41.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R"
-			(at 154.94 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -241.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -341.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -441.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -541.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -641.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -741.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -841.25 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "511c9b32-5c1c-4118-9802-6c2c88643c72")
-		)
-		(pin "2"
-			(uuid "7ec5e29a-7c31-4633-9f0a-287b118bf7f7")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
 		(at 187.96 26.67 0)
 		(unit 1)
@@ -13768,7 +13380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e010795f-b822-4d70-9443-6f34f209bf7b")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR64"
 			(at 187.706 26.67 0)
 			(effects
 				(font
@@ -13818,7 +13430,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR064")
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
@@ -13960,6 +13572,147 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:04023C104MAT2A")
+		(at 167.64 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3da519c-dc50-4376-810d-bc7556be0709")
+		(property "Reference" "C37"
+			(at 168.148 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "04023C104MAT2A"
+			(at 164.338 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 263.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at 363.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 563.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 663.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(at 763.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06033C104JAT4A"
+			(at 863.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(at 963.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "06033C104JAT4A"
+			(at 1063.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(at 1163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e12c2e54-087d-4509-9185-aacb57d8bb86")
+		)
+		(pin "1"
+			(uuid "0e5db9ee-1cb5-463d-81ce-fc1942ddab17")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -14175,6 +13928,148 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:GRM158R61A226ME15J")
+		(at 259.08 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd1b53e5-8ba2-4a6e-9fd8-1033b2e62a67")
+		(property "Reference" "C42"
+			(at 259.0211 33.7618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM158R61A226ME15J"
+			(at 255.27 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:CAPC1005X56N"
+			(at 162.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM158R61A226ME15-01A.pdf"
+			(at 62.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 22uF X5R 0402 20% HIGH CV"
+			(at 259.08 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at -137.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -237.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0603ZD226MAT2A"
+			(at -337.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0603ZD226MAT2A"
+			(at -437.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/0603ZD226MAT2A?qs=sSYV1F9c5cE%2FKdrrBmQkqw%3D%3D"
+			(at -537.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0603ZD226MAT2A"
+			(at -637.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zd226mat2a/avx?region=nac"
+			(at -737.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25848dd2-6a21-494c-810c-dcb3a8503d35")
+		)
+		(pin "2"
+			(uuid "ba6b973e-6fa6-4bb5-890d-de5596e29365")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:MCM_1V8")
 		(at 123.19 165.1 0)
 		(unit 1)
@@ -14183,7 +14078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff30be9a-a366-445c-b137-cce5275569f9")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR53"
 			(at 122.936 165.354 0)
 			(effects
 				(font
@@ -14233,7 +14128,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "#PWR053")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
