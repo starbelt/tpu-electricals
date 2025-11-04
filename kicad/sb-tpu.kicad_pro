@@ -760,6 +760,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VENDOR",
+          "name": "VENDOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
         }
       ],
       "filter_string": "",

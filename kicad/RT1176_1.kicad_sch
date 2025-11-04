@@ -637,6 +637,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:04026D475KAT2A"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "04026D475KAT2A"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X56N"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 8.89 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "06036D475KAT4A"
+				(at 8.89 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-06036D475KAT4A"
+				(at 8.89 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+				(at 8.89 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "04026D475KAT2A_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "04026D475KAT2A_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:06036C105MAT2A"
 			(pin_names
 				(hide yes)
@@ -1268,230 +1492,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sb-tpu:06036D475KAT4A"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "06036D475KAT4A"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "CAPC1608X90N"
-				(at 8.89 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-				(at 8.89 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
-				(at 8.89 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 8.89 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Kyocera AVX"
-				(at 8.89 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "06036D475KAT4A"
-				(at 8.89 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "581-06036D475KAT4A"
-				(at 8.89 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
-				(at 8.89 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "06036D475KAT4A_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "06036D475KAT4A_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -12960,7 +12960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -13242,7 +13242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -13458,7 +13458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1006X45N"
+		(property "Footprint" "footprints:RESC1006X45N"
 			(at 63.5 116.51 0)
 			(effects
 				(font
@@ -13937,7 +13937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1006X45N"
+		(property "Footprint" "footprints:RESC1006X45N"
 			(at 226.06 176.2 0)
 			(effects
 				(font
@@ -15006,7 +15006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1006X45N"
+		(property "Footprint" "footprints:RESC1006X45N"
 			(at 41.91 182.55 0)
 			(effects
 				(font
@@ -16477,7 +16477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1005X56N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 89.23 153.67 0)
 			(effects
 				(font
@@ -17191,7 +17191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 74.93 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17200,7 +17200,7 @@
 		(dnp no)
 		(uuid "4923b75c-31ed-4814-813a-9c51ecba4e9e")
 		(property "Reference" "C50"
-			(at 75.184 55.118 90)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17209,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 71.374 51.054 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17217,7 +17217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 76.2 59.69 0)
 			(effects
 				(font
@@ -17237,7 +17237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 74.93 50.8 0)
 			(effects
 				(font
@@ -17246,7 +17246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 71.12 59.69 0)
 			(effects
 				(font
@@ -17296,7 +17296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -17624,7 +17624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 68.58 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17633,24 +17633,24 @@
 		(dnp no)
 		(uuid "513454f5-d8c6-41cb-a721-30b6920e35ef")
 		(property "Reference" "C48"
-			(at 69.088 90.932 90)
+			(at 62.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 65.278 86.614 0)
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 67.31 90.17 0)
 			(effects
 				(font
@@ -17670,7 +17670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 68.58 99.06 0)
 			(effects
 				(font
@@ -17679,7 +17679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -17729,7 +17729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 85.09 90.17 0)
 			(effects
 				(font
@@ -19348,7 +19348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1006X45N"
+		(property "Footprint" "footprints:RESC1006X45N"
 			(at 217.17 195.25 0)
 			(effects
 				(font
@@ -19970,7 +19970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 179.07 88.9 0)
 			(effects
 				(font
@@ -20394,7 +20394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SODFL1006X40N"
+		(property "Footprint" "footprints:SODFL1006X40N"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -20998,7 +20998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at -3.48 101.6 0)
 			(effects
 				(font
@@ -21139,7 +21139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "INDPM4040X120N"
+		(property "Footprint" "footprints:INDPM4040X120N"
 			(at 101.6 110.49 0)
 			(effects
 				(font
@@ -21244,7 +21244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 113.03 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21253,7 +21253,7 @@
 		(dnp no)
 		(uuid "8e751348-d262-4fdb-9015-1169cc4d34ff")
 		(property "Reference" "C58"
-			(at 113.284 55.372 90)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21262,7 +21262,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 109.22 50.8 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21270,7 +21270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -21290,7 +21290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -21299,7 +21299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 109.22 59.69 0)
 			(effects
 				(font
@@ -21349,7 +21349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 96.52 59.69 0)
 			(effects
 				(font
@@ -21683,7 +21683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLM21BB050SH1D"
+		(property "Footprint" "footprints:BLM21BB050SH1D"
 			(at 151.46 44.45 0)
 			(effects
 				(font
@@ -22332,7 +22332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 248.92 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22341,7 +22341,7 @@
 		(dnp no)
 		(uuid "ba1f3591-fb38-4a80-b80e-2a84409a5315")
 		(property "Reference" "C78"
-			(at 249.174 59.182 90)
+			(at 255.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22350,7 +22350,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 254 52.324 0)
+			(at 252.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22358,7 +22358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 250.19 63.5 0)
 			(effects
 				(font
@@ -22378,7 +22378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -22387,7 +22387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -22437,7 +22437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 232.41 63.5 0)
 			(effects
 				(font
@@ -22509,7 +22509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLM21BB050SH1D"
+		(property "Footprint" "footprints:BLM21BB050SH1D"
 			(at 142.57 71.12 0)
 			(effects
 				(font
@@ -22734,7 +22734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 123.19 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22743,7 +22743,7 @@
 		(dnp no)
 		(uuid "bfb29379-63fe-41c9-ab00-871fb58c7184")
 		(property "Reference" "C59"
-			(at 123.444 55.626 90)
+			(at 129.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22752,7 +22752,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 119.38 50.8 0)
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22760,7 +22760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 124.46 59.69 0)
 			(effects
 				(font
@@ -22780,7 +22780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -22789,7 +22789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -22839,7 +22839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 106.68 59.69 0)
 			(effects
 				(font
@@ -23944,7 +23944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 74.93 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23953,7 +23953,7 @@
 		(dnp no)
 		(uuid "cd1bb05c-817e-4eda-9f27-7548b49e78c8")
 		(property "Reference" "C49"
-			(at 75.184 24.638 90)
+			(at 81.28 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23962,7 +23962,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 71.374 20.574 0)
+			(at 78.74 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +23970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -23990,7 +23990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 74.93 20.32 0)
 			(effects
 				(font
@@ -23999,7 +23999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 71.12 29.21 0)
 			(effects
 				(font
@@ -24049,7 +24049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 58.42 29.21 0)
 			(effects
 				(font
@@ -24095,7 +24095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 85.09 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24104,7 +24104,7 @@
 		(dnp no)
 		(uuid "d4221cf8-6dd3-4998-8b7b-d85e31bbec92")
 		(property "Reference" "C53"
-			(at 85.344 30.988 90)
+			(at 91.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24113,7 +24113,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 81.534 26.924 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24121,7 +24121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 86.36 35.56 0)
 			(effects
 				(font
@@ -24141,7 +24141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -24150,7 +24150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -24200,7 +24200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -24273,7 +24273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC1005X56N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 281.61 125.73 0)
 			(effects
 				(font

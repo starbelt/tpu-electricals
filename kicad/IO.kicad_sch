@@ -750,7 +750,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:06036D475KAT4A"
+		(symbol "sb-tpu:04026D475KAT2A"
 			(pin_names
 				(offset 0.762)
 			)
@@ -766,7 +766,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "06036D475KAT4A"
+			(property "Value" "04026D475KAT2A"
 				(at 8.89 3.81 0)
 				(effects
 					(font
@@ -775,7 +775,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "CAPC1608X90N"
+			(property "Footprint" "footprints:CAPC1005X56N"
 				(at 8.89 1.27 0)
 				(effects
 					(font
@@ -795,7 +795,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -804,7 +804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+			(property "Description_1" ""
 				(at 8.89 -3.81 0)
 				(effects
 					(font
@@ -854,7 +854,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+			(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 				(at 8.89 -16.51 0)
 				(effects
 					(font
@@ -884,7 +884,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "06036D475KAT4A_0_0"
+			(symbol "04026D475KAT2A_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
@@ -922,7 +922,7 @@
 					)
 				)
 			)
-			(symbol "06036D475KAT4A_0_1"
+			(symbol "04026D475KAT2A_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -7071,7 +7071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190AKT:LEDM1608X80"
+		(property "Footprint" "footprints:LEDM1608X80"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -7216,7 +7216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 341.3 31.75 0)
 			(effects
 				(font
@@ -7357,7 +7357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 289.23 31.75 0)
 			(effects
 				(font
@@ -7472,7 +7472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036D475KAT4A")
+		(lib_id "sb-tpu:04026D475KAT2A")
 		(at 20.32 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7481,7 +7481,7 @@
 		(dnp no)
 		(uuid "13337d0e-847d-4c1c-9c67-ca12426e9ebb")
 		(property "Reference" "C97"
-			(at 20.574 35.052 90)
+			(at 26.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7490,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 16.256 27.432 0)
+			(at 24.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1005X56N"
 			(at 21.59 39.37 0)
 			(effects
 				(font
@@ -7518,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 10% Tol"
 			(at 20.32 30.48 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0603 10% Tol"
+		(property "Description_1" ""
 			(at 16.51 39.37 0)
 			(effects
 				(font
@@ -7577,7 +7577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06036D475KAT4A?qs=Q5Oar%2FnnWZYQ5N3tKG3HJg%3D%3D"
+		(property "Mouser Price/Stock" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0024462281/AVXC-S-A0024462283-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
 			(at 3.81 39.37 0)
 			(effects
 				(font
@@ -7647,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CES-104-XX-Y-S"
+		(property "Footprint" "footprints:CES-104-XX-Y-S"
 			(at 153.67 5.41 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CES-116-XX-Y-S"
+		(property "Footprint" "footprints:CES-116-XX-Y-S"
 			(at 138.76 173.99 0)
 			(effects
 				(font
@@ -8241,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 248.92 167.31 0)
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SKRPADE010_AAL"
+		(property "Footprint" "footprints:SKRPADE010_AAL"
 			(at 46.99 144.78 0)
 			(effects
 				(font
@@ -8527,7 +8527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 137.16 281.61 0)
 			(effects
 				(font
@@ -8801,7 +8801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 200.33 130.81 0)
 			(effects
 				(font
@@ -8940,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CX90BW-16P1:HIROSE_CX90BW-16P1"
+		(property "Footprint" "footprints:HIROSE_CX90BW-16P1"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -9093,7 +9093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APG1608ZGCK:LED_APG1608ZGCK"
+		(property "Footprint" "footprints:LED_APG1608ZGCK"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -9203,7 +9203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 229.54 158.75 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQR00340HF"
+		(property "Footprint" "footprints:CDBQR00340HF"
 			(at 91.44 238.43 0)
 			(effects
 				(font
@@ -9952,7 +9952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "footprints:SOT95P230X110-3N"
 			(at 9.22 78.74 0)
 			(effects
 				(font
@@ -10160,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PESD3V3L5UF115"
+		(property "Footprint" "footprints:PESD3V3L5UF115"
 			(at 63.5 178.74 0)
 			(effects
 				(font
@@ -10313,7 +10313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 127.94 90.17 0)
 			(effects
 				(font
@@ -10455,7 +10455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 196.85 167.31 0)
 			(effects
 				(font
@@ -10664,7 +10664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CES-104-XX-Y-S"
+		(property "Footprint" "footprints:CES-104-XX-Y-S"
 			(at 273.05 252.4 0)
 			(effects
 				(font
@@ -10874,7 +10874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SKRPADE010_AAL"
+		(property "Footprint" "footprints:SKRPADE010_AAL"
 			(at 33.02 177.8 0)
 			(effects
 				(font
@@ -11016,7 +11016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CES-116-XX-Y-S"
+		(property "Footprint" "footprints:CES-116-XX-Y-S"
 			(at 291.77 81.28 0)
 			(effects
 				(font
@@ -11197,7 +11197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CES-104-XX-Y-S"
+		(property "Footprint" "footprints:CES-104-XX-Y-S"
 			(at 152.4 71.45 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 171.12 130.81 0)
 			(effects
 				(font
@@ -11745,7 +11745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTN5150AHXMP"
+		(property "Footprint" "footprints:PTN5150AHXMP"
 			(at 123.19 178.74 0)
 			(effects
 				(font
@@ -12112,7 +12112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DLW21HN900SQ2L:FIL_DLW21HN900SQ2L"
+		(property "Footprint" "footprints:FIL_DLW21HN900SQ2L"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -12492,7 +12492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 277.8 54.61 0)
 			(effects
 				(font
@@ -12868,10 +12868,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4224")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871836")
 		)
 		(instances
 			(project ""
@@ -12917,7 +12917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CES-104-XX-Y-S"
+		(property "Footprint" "footprints:CES-104-XX-Y-S"
 			(at 273.05 185.09 0)
 			(effects
 				(font
@@ -13259,7 +13259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQR00340HF"
+		(property "Footprint" "footprints:CDBQR00340HF"
 			(at 92.71 256.21 0)
 			(effects
 				(font

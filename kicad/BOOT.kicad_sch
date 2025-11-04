@@ -3696,10 +3696,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4224")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871836")
 		)
 		(instances
 			(project "sb-tpu"
@@ -3798,10 +3798,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4225")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871837")
 		)
 		(instances
 			(project "sb-tpu"
@@ -3840,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -56.82 173.99 0)
 			(effects
 				(font
@@ -4184,10 +4184,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4226")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871838")
 		)
 		(instances
 			(project "sb-tpu"
@@ -4368,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -16.18 173.99 0)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -66.98 173.99 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -31.42 173.99 0)
 			(effects
 				(font
@@ -4920,10 +4920,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4227")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb871839")
 		)
 		(instances
 			(project "sb-tpu"
@@ -4962,7 +4962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -26.34 173.99 0)
 			(effects
 				(font
@@ -5164,10 +5164,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4228")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183a")
 		)
 		(instances
 			(project "sb-tpu"
@@ -5206,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -51.74 173.99 0)
 			(effects
 				(font
@@ -5347,7 +5347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad:CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -58.09 67.31 0)
 			(effects
 				(font
@@ -5549,10 +5549,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b4229")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183b")
 		)
 		(instances
 			(project "sb-tpu"
@@ -5590,7 +5590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -72.06 173.99 0)
 			(effects
 				(font
@@ -5858,10 +5858,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b422a")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183c")
 		)
 		(instances
 			(project "sb-tpu"
@@ -5960,10 +5960,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b422b")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183d")
 		)
 		(instances
 			(project "sb-tpu"
@@ -6002,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -61.9 173.99 0)
 			(effects
 				(font
@@ -6346,10 +6346,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b422c")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183e")
 		)
 		(instances
 			(project "sb-tpu"
@@ -6549,10 +6549,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
+			(uuid "164d70e2-4894-48c3-8308-84d63d1b422d")
 		)
 		(pin "2"
-			(uuid "d0527f20-870f-4dae-96ad-13edbb871835")
+			(uuid "d0527f20-870f-4dae-96ad-13edbb87183f")
 		)
 		(instances
 			(project "sb-tpu"
@@ -6588,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON127P800X600X65-8N"
+		(property "Footprint" "footprints:SON127P800X600X65-8N"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -6757,7 +6757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at -46.66 173.99 0)
 			(effects
 				(font

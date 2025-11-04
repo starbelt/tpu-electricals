@@ -8817,7 +8817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 336.22 111.76 0)
 			(effects
 				(font
@@ -9229,7 +9229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P275X110-5N"
+		(property "Footprint" "footprints:SOT95P275X110-5N"
 			(at 226.06 168.58 0)
 			(effects
 				(font
@@ -9442,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "G3130632900"
+		(property "Footprint" "footprints:G3130632900"
 			(at 59.69 108.204 0)
 			(effects
 				(font
@@ -10209,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1006X45N"
+		(property "Footprint" "footprints:RESC1006X45N"
 			(at 254 172.39 0)
 			(effects
 				(font
@@ -11169,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMN3900UFA7B"
+		(property "Footprint" "footprints:DMN3900UFA7B"
 			(at 243.84 249.86 0)
 			(effects
 				(font
@@ -12706,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TDFN_8DNP-T1-GE4_VIS"
+		(property "Footprint" "footprints:TDFN_8DNP-T1-GE4_VIS"
 			(at 193.04 26.67 0)
 			(effects
 				(font
@@ -12787,7 +12787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTWC193TS5"
+		(property "Footprint" "footprints:LTWC193TS5"
 			(at 333.68 128.27 0)
 			(effects
 				(font
