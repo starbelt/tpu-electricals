@@ -966,49 +966,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:BLM21BB121SZ1D"
+		(symbol "sb-tpu:BLM15AG121SN1D"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FL"
-				(at 16.51 7.62 0)
+			(property "Reference" "L"
+				(at 6.985 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "BLM21BB121SZ1D"
-				(at 16.51 5.08 0)
+			(property "Value" "BLM15AG121SN1D"
+				(at 6.985 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "BLM21BB050SH1D"
-				(at 16.51 -94.92 0)
+			(property "Footprint" "IND_BLM15_0402_MUR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB121SZ1%23"
-				(at 16.51 -194.92 0)
+			(property "Datasheet" "BLM15AG121SN1D"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "BLM21_Z1D Series EMI Suppression Filter 120+/-25% at 100MHz 600mA @85"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1017,71 +1018,162 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.05"
-				(at 16.51 -394.92 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "81-BLM21BB121SZ1D"
-				(at 16.51 -494.92 0)
+			(property "ki_keywords" "BLM15AG121SN1D"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB121SZ1D?qs=lEfY3O89AqkCB5%252BvXDR1jQ%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "ki_fp_filters" "IND_BLM15_0402_MUR IND_BLM15_0402_MUR-M IND_BLM15_0402_MUR-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Murata Electronics"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "BLM15AG121SN1D_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BLM21BB121SZ1D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
 					)
-					(justify left top)
-					(hide yes)
+					(fill
+						(type none)
+					)
 				)
-			)
-			(symbol "BLM21BB121SZ1D_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 12.7 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
 					(at 0 0 0)
-					(length 5.08)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -1097,9 +1189,137 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
+			)
+			(symbol "BLM15AG121SN1D_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -7267,10 +7487,10 @@
 		(uuid "237a2a6c-e526-4f00-bcba-141635a5a552")
 	)
 	(junction
-		(at 195.58 113.03)
+		(at 181.61 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27ea193d-0380-47c0-a016-feb60cc19c20")
+		(uuid "4d37fafb-45ec-4a1a-8aef-cc694637846b")
 	)
 	(junction
 		(at 52.07 151.13)
@@ -7291,28 +7511,28 @@
 		(uuid "727acd92-73ba-4cf8-a6c4-5d17423c33c0")
 	)
 	(junction
+		(at 195.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82636da1-df8c-420d-8958-ce1dd5edb2db")
+	)
+	(junction
 		(at 201.93 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "919ac100-1ddc-41eb-84b5-ba910ffd51f4")
 	)
 	(junction
+		(at 217.17 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93028de6-ec77-4d5c-8cf1-2c93545cbcae")
+	)
+	(junction
 		(at 36.83 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a97dca29-eb61-413e-b5e6-4b23f998b1eb")
-	)
-	(junction
-		(at 181.61 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e414063b-09c2-478d-9edc-9feb96917251")
-	)
-	(junction
-		(at 217.17 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0b5f2a6-2dee-4988-a2e7-6e7106db07b7")
 	)
 	(junction
 		(at 49.53 151.13)
@@ -7578,6 +7798,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 63.5) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b8996d-04ef-4760-ab4e-607bd08ade83")
+	)
+	(wire
+		(pts
 			(xy 201.93 152.4) (xy 205.74 152.4)
 		)
 		(stroke
@@ -7595,6 +7825,16 @@
 			(type default)
 		)
 		(uuid "11ae56ee-e5dc-433b-be07-a18796a017fc")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e16e4f-a27a-4deb-82cb-1eed6ab3e9d5")
 	)
 	(wire
 		(pts
@@ -7668,6 +7908,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 111.76) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9cebde-93cb-4e09-807b-ba877766a101")
+	)
+	(wire
+		(pts
 			(xy 36.83 67.31) (xy 46.99 67.31)
 		)
 		(stroke
@@ -7678,13 +7928,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 133.35) (xy 205.74 113.03)
+			(xy 175.26 134.62) (xy 181.61 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "413766fa-c1be-4d8d-898f-d282653b125e")
+		(uuid "41af44b9-f083-4122-8a77-06a02d4745f0")
 	)
 	(wire
 		(pts
@@ -7708,7 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 113.03) (xy 195.58 113.03)
+			(xy 205.74 111.76) (xy 195.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7738,6 +7988,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 111.76) (xy 168.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b1f1cc-c053-402e-92aa-b76c6fe3fd08")
+	)
+	(wire
+		(pts
 			(xy 181.61 134.62) (xy 201.93 134.62)
 		)
 		(stroke
@@ -7745,6 +8005,16 @@
 			(type default)
 		)
 		(uuid "6aa2953c-2830-42c3-a838-d9b2ed7393b0")
+	)
+	(wire
+		(pts
+			(xy 180.34 63.5) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5b65df-c7e7-4b19-a711-9939180f8e94")
 	)
 	(wire
 		(pts
@@ -7798,6 +8068,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 111.76) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b91f3b-4fbc-4f1b-bd5e-f5e96b9fdb34")
+	)
+	(wire
+		(pts
 			(xy 52.07 69.85) (xy 52.07 72.39)
 		)
 		(stroke
@@ -7818,16 +8098,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 134.62) (xy 168.91 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb77c65-2a2a-43a9-83a7-6273642c9486")
-	)
-	(wire
-		(pts
 			(xy 193.04 87.63) (xy 215.9 87.63)
 		)
 		(stroke
@@ -7835,16 +8105,6 @@
 			(type default)
 		)
 		(uuid "a309421e-974a-413d-803f-1ac97e10d1f2")
-	)
-	(wire
-		(pts
-			(xy 193.04 63.5) (xy 199.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec0366a-d87d-4bc1-b1a9-4e5ff43ff7be")
 	)
 	(wire
 		(pts
@@ -7865,36 +8125,6 @@
 			(type default)
 		)
 		(uuid "b44442d6-f9cd-421e-95b4-1784dfb91c97")
-	)
-	(wire
-		(pts
-			(xy 156.21 134.62) (xy 166.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b861eea9-78ae-4a60-a30c-12cd596f263d")
-	)
-	(wire
-		(pts
-			(xy 182.88 113.03) (xy 195.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf252169-f048-46b5-87fa-844edc82cf62")
-	)
-	(wire
-		(pts
-			(xy 176.53 113.03) (xy 180.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c125265c-5fa8-4b56-88a5-a4367ffc5002")
 	)
 	(wire
 		(pts
@@ -7965,16 +8195,6 @@
 			(type default)
 		)
 		(uuid "e414b3e4-d6c1-46ee-8e98-582e578135fe")
-	)
-	(wire
-		(pts
-			(xy 201.93 63.5) (xy 217.17 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddd0e84-754c-48f3-8fb4-1231a4588e00")
 	)
 	(wire
 		(pts
@@ -8283,121 +8503,69 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:BLM21BB121SZ1D")
-		(at 182.88 113.03 270)
+		(lib_id "sb-tpu:BLM15AG121SN1D")
+		(at 160.02 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0670a68d-11d7-4ef9-96c7-d4e2b624a635")
-		(property "Reference" "FL4"
-			(at 186.69 121.9199 90)
+		(uuid "15f12306-d1e5-4da4-975b-c576e0dd50d3")
+		(property "Reference" "L8"
+			(at 164.084 128.016 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BLM21BB121SZ1D"
-			(at 176.276 113.284 0)
+		(property "Value" "BLM15AG121SN1D"
+			(at 164.846 130.302 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:BLM21BB050SH1D"
-			(at 87.96 129.54 0)
+		(property "Footprint" "footprints:IND_BLM15_0402_MUR"
+			(at 160.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB121SZ1%23"
-			(at -12.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "BLM21_Z1D Series EMI Suppression Filter 120+/-25% at 100MHz 600mA @85"
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Height" "1.05"
-			(at -212.04 129.54 0)
+		(property "Datasheet" "BLM15AG121SN1D"
+			(at 160.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-BLM21BB121SZ1D"
-			(at -312.04 129.54 0)
+		(property "Description" ""
+			(at 160.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB121SZ1D?qs=lEfY3O89AqkCB5%252BvXDR1jQ%3D%3D"
-			(at -412.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at -512.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BLM21BB121SZ1D"
-			(at -612.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "3b6d6e89-ac18-425f-835b-b6bc5bd4889a")
+			(uuid "1bcbab06-b7e5-4454-816c-e8df483c0d6d")
 		)
 		(pin "2"
-			(uuid "ce2aff43-4651-4f12-b83c-99bf2f5f90f6")
+			(uuid "6198459d-10c9-470e-9eac-eb01e504ab05")
 		)
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
-					(reference "FL4")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -8405,7 +8573,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:06036C105MAT2A")
-		(at 195.58 113.03 270)
+		(at 195.58 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8413,7 +8581,7 @@
 		(dnp no)
 		(uuid "18f65473-5a67-4630-9656-63c4a48d8811")
 		(property "Reference" "C93"
-			(at 195.834 117.602 90)
+			(at 195.834 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8590,7 @@
 			)
 		)
 		(property "Value" "04026D105KAT2A"
-			(at 192.532 114.046 0)
+			(at 192.532 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8599,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 99.39 121.92 0)
+			(at 99.39 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -0.61 121.92 0)
+			(at -0.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,7 +8619,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
-			(at 195.58 113.03 0)
+			(at 195.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8628,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -200.61 121.92 0)
+			(at -200.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8638,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -300.61 121.92 0)
+			(at -300.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8648,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06036C105MAT2A"
-			(at -400.61 121.92 0)
+			(at -400.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8658,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06036C105MAT2A"
-			(at -500.61 121.92 0)
+			(at -500.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8668,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
-			(at -600.61 121.92 0)
+			(at -600.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8678,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06036C105MAT2A"
-			(at -700.61 121.92 0)
+			(at -700.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8688,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
-			(at -800.61 121.92 0)
+			(at -800.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 125.73 0)
+		(at 195.58 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,7 +8787,7 @@
 		(dnp no)
 		(uuid "27511908-4c32-4179-8679-423de96bbc2d")
 		(property "Reference" "#PWR160"
-			(at 195.58 132.08 0)
+			(at 195.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 129.54 0)
+			(at 195.58 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 125.73 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,7 +8813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 125.73 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 125.73 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,6 +9897,75 @@
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
 					(reference "U2")
 					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:BLM15AG121SN1D")
+		(at 195.58 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5395d7e8-2420-4758-bea2-9bf02d02c342")
+		(property "Reference" "L6"
+			(at 199.644 56.896 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BLM15AG121SN1D"
+			(at 200.406 59.182 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:IND_BLM15_0402_MUR"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "BLM15AG121SN1D"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc68d73e-c85f-49b9-9a78-91816f63571f")
+		)
+		(pin "2"
+			(uuid "8b77be7b-7f64-4354-8d34-f420d84c6447")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
+					(reference "L6")
+					(unit 1)
 				)
 			)
 		)
@@ -12276,7 +12513,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_1V8")
-		(at 176.53 113.03 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12285,7 +12522,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b95ebf2-9576-4904-8970-810dd924aab8")
 		(property "Reference" "#PWR154"
-			(at 176.022 113.284 0)
+			(at 156.972 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,7 +12531,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8"
-			(at 176.53 107.95 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,7 +12539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 113.03 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,7 +12548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 113.03 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12320,7 +12557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 113.03 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,127 +12713,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
 					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:BLM21BB121SZ1D")
-		(at 201.93 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93145ba1-40de-4d3d-b513-7d418af55982")
-		(property "Reference" "FL5"
-			(at 205.74 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BLM21BB121SZ1D"
-			(at 195.326 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:BLM21BB050SH1D"
-			(at 107.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB121SZ1%23"
-			(at 7.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "BLM21_Z1D Series EMI Suppression Filter 120+/-25% at 100MHz 600mA @85"
-			(at 201.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.05"
-			(at -192.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-BLM21BB121SZ1D"
-			(at -292.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB121SZ1D?qs=lEfY3O89AqkCB5%252BvXDR1jQ%3D%3D"
-			(at -392.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at -492.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BLM21BB121SZ1D"
-			(at -592.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6222bb6-9f5f-4f69-a8b2-6f001c7bc9a8")
-		)
-		(pin "2"
-			(uuid "41729b58-8eeb-416e-b6dd-547040088e4c")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
-					(reference "FL5")
 					(unit 1)
 				)
 			)
@@ -12950,121 +13066,69 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:BLM21BB121SZ1D")
-		(at 168.91 134.62 270)
+		(lib_id "sb-tpu:BLM15AG121SN1D")
+		(at 168.91 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab8c6470-af58-4681-9f45-e01a9eb7f061")
-		(property "Reference" "FL3"
-			(at 172.72 143.5099 90)
+		(uuid "9d0fd361-fa66-41eb-a8e3-86d667608c78")
+		(property "Reference" "L7"
+			(at 172.974 105.156 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BLM21BB121SZ1D"
-			(at 162.306 134.874 0)
+		(property "Value" "BLM15AG121SN1D"
+			(at 173.736 107.442 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:BLM21BB050SH1D"
-			(at 73.99 151.13 0)
+		(property "Footprint" "footprints:IND_BLM15_0402_MUR"
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BB121SZ1%23"
-			(at -26.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "BLM21_Z1D Series EMI Suppression Filter 120+/-25% at 100MHz 600mA @85"
-			(at 168.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Height" "1.05"
-			(at -226.01 151.13 0)
+		(property "Datasheet" "BLM15AG121SN1D"
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-BLM21BB121SZ1D"
-			(at -326.01 151.13 0)
+		(property "Description" ""
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BB121SZ1D?qs=lEfY3O89AqkCB5%252BvXDR1jQ%3D%3D"
-			(at -426.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at -526.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BLM21BB121SZ1D"
-			(at -626.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "922efb46-77f1-470e-a611-c4d5803c988b")
+			(uuid "e39cd138-3a24-4be4-9c74-b0b33e5667df")
 		)
 		(pin "2"
-			(uuid "fbaaccda-a59b-41ce-9947-c0ad804b1b7f")
+			(uuid "43c4444d-8fa3-427a-bf94-87d5e2787f53")
 		)
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
-					(reference "FL3")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -13572,7 +13636,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 156.21 134.62 0)
+		(at 148.59 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13581,7 +13645,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2d6bcb9-3900-482d-bfdc-4855d836b62b")
 		(property "Reference" "#PWR153"
-			(at 155.956 134.62 0)
+			(at 148.336 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +13654,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 156.21 129.54 0)
+			(at 148.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +13662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 134.62 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 134.62 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 134.62 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,7 +13702,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_1V8")
-		(at 193.04 63.5 0)
+		(at 180.34 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13647,7 +13711,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4e633fa-172d-4f2c-b910-d308a05bc24f")
 		(property "Reference" "#PWR158"
-			(at 192.532 63.754 0)
+			(at 179.832 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +13720,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8"
-			(at 193.04 58.42 0)
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 63.5 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 63.5 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 63.5 0)
+			(at 180.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

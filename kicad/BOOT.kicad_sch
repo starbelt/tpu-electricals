@@ -1533,7 +1533,7 @@
 	)
 	(text "BOOT PULLUPS"
 		(exclude_from_sim no)
-		(at 24.13 95.758 0)
+		(at 23.622 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)

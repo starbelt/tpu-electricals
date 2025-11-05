@@ -9083,7 +9083,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10c1c50a-e665-43ef-9fb0-37be3408088d")
 		(property "Reference" "IC3"
 			(at 212.09 67.31 0)

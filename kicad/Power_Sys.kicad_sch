@@ -17427,7 +17427,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "22552a8f-4bf1-4a72-9a7b-75838a1696e2")
 		(property "Reference" "R7"
 			(at 138.43 118.11 0)
