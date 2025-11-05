@@ -4204,8 +4204,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c3a1a43-c8e1-4267-87af-448f51793d17")
 		(property "Reference" "C30"
@@ -5326,8 +5326,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "a2770e7f-ad21-4089-9dc5-1198bc9b8fd1")
 		(property "Reference" "R17"
 			(at 40.64 60.9599 90)
@@ -6569,8 +6569,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f049cfaf-fe7c-4c6a-be3a-fa9bccf2991b")
 		(property "Reference" "U3"
 			(at 45.72 67.564 0)
@@ -6588,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SON127P800X600X65-8N"
+		(property "Footprint" "SON127P800X600X65-8N"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -6736,8 +6736,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f39e78ff-a0f1-4a66-a9d4-d7074ed9753b")
 		(property "Reference" "C31"
 			(at 82.55 60.706 90)
@@ -6757,7 +6757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "CAPC1608X90N"
 			(at 83.82 64.77 0)
 			(effects
 				(font
