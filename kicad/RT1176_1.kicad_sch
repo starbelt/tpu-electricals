@@ -17192,7 +17192,7 @@
 		(dnp no)
 		(uuid "4923b75c-31ed-4814-813a-9c51ecba4e9e")
 		(property "Reference" "C50"
-			(at 81.28 59.69 0)
+			(at 74.93 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17625,7 +17625,7 @@
 		(dnp no)
 		(uuid "513454f5-d8c6-41cb-a721-30b6920e35ef")
 		(property "Reference" "C48"
-			(at 62.23 90.17 0)
+			(at 72.39 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17634,7 +17634,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 64.77 90.17 0)
+			(at 65.278 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21178,7 +21178,7 @@
 		(dnp no)
 		(uuid "8e751348-d262-4fdb-9015-1169cc4d34ff")
 		(property "Reference" "C58"
-			(at 119.38 59.69 0)
+			(at 113.284 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21187,7 +21187,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 116.84 59.69 0)
+			(at 109.474 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22426,7 +22426,7 @@
 		(dnp no)
 		(uuid "bfb29379-63fe-41c9-ab00-871fb58c7184")
 		(property "Reference" "C59"
-			(at 129.54 59.69 0)
+			(at 123.19 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22435,7 +22435,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 127 59.69 0)
+			(at 119.634 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)

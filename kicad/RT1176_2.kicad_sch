@@ -9958,9 +9958,9 @@
 		(lib_id "sb-tpu:CRCW0402100KJNED")
 		(at 137.16 134.62 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "0c5e90bb-2c29-42c7-a16f-5f356e66cc6a")
 		(property "Reference" "R51"
@@ -11327,7 +11327,7 @@
 			)
 		)
 		(property "Value" "04026D475KAT2A"
-			(at 30.48 92.71 0)
+			(at 22.86 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
