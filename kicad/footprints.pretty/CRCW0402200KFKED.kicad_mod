@@ -168,4 +168,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/3dmodels/CRCW0402100RFKEE.stp"
+		(offset
+			(xyz 0.5 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

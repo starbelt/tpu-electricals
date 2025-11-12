@@ -534,4 +534,15 @@
 		(uuid "7aa7569a-7534-463b-925c-8272655c08bf")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/CX90BW-16P1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

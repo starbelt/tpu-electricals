@@ -168,4 +168,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/3dmodels/04026D475KAT2A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

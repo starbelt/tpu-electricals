@@ -1,29 +1,171 @@
-(module "CAPC1608X90N" (layer F.Cu)
-  (descr "0603-1")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC1608X90N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.24 -0.65) (end 1.24 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.24 -0.65) (end 1.24 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.24 0.65) (end -1.24 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.24 0.65) (end -1.24 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.405) (end 0.8 -0.405) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.405) (end 0.8 0.405) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.405) (end -0.8 0.405) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.405) (end -0.8 -0.405) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -0.7 0 0) (size 0.78 0.99) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.7 0 0) (size 0.78 0.99) (layers F.Cu F.Paste F.Mask))
-  (model 06033A100FAT2A.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC1608X90N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0603-1")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "41f7941e-2be7-4c55-85aa-eb7a883a8c26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X90N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "736085b6-f447-404b-bda6-a09cdd4a11a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "806c2853-5d9a-4205-a162-c42537998276")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ddab3e0-a627-417f-b421-a3ea6e176c08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.24 -0.65)
+		(end 1.24 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74610bf4-bfab-425b-ac65-d50b311d4448")
+	)
+	(fp_line
+		(start -1.24 0.65)
+		(end -1.24 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec10f3ce-0b99-4805-b4f0-c45ccbdad6a9")
+	)
+	(fp_line
+		(start 1.24 -0.65)
+		(end 1.24 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f99f0a3f-f054-4f53-bfba-0519b400ae97")
+	)
+	(fp_line
+		(start 1.24 0.65)
+		(end -1.24 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16ba3eda-b9b5-43d5-a475-f8a5a9da0525")
+	)
+	(fp_line
+		(start -0.8 -0.405)
+		(end 0.8 -0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3309f732-b61b-4bd7-8b28-63950d722399")
+	)
+	(fp_line
+		(start -0.8 0.405)
+		(end -0.8 -0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45b6ad8e-c027-494b-934a-f23cee107952")
+	)
+	(fp_line
+		(start 0.8 -0.405)
+		(end 0.8 0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b99f5cce-994e-4f0c-ad3c-df6a2cfdc869")
+	)
+	(fp_line
+		(start 0.8 0.405)
+		(end -0.8 0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "030997ac-fddf-4981-a591-ef715ff95730")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6cc769b1-fe5f-4c18-8fff-8c2c406da6c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.78 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f830d11e-c0b7-4cb0-aa6e-596d04900da7")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 0.78 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70199d83-4e40-4b04-bfe0-22d15f5b7a59")
+	)
+	(embedded_fonts no)
+	(model "06033A100FAT2A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
