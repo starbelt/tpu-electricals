@@ -10407,7 +10407,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "703344e6-fdf3-437e-b1c2-e88c14a5d414")
 		(property "Reference" "#PWR173"
@@ -11282,8 +11282,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9aee27bf-896f-411e-b224-af499ca7b443")
 		(property "Reference" "R58"
 			(at 75.184 131.064 90)
@@ -11295,7 +11295,7 @@
 			)
 		)
 		(property "Value" "CRCW0402100KJNED"
-			(at 76.2 137.414 90)
+			(at 76.454 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)

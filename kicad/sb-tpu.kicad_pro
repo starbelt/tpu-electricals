@@ -56,14 +56,14 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.15,
+          "width": 0.1554
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|146950000|108300000|F.Cu|4|bdf4738e-ec22-4dc9-80d6-a2bfb877cce4|ae12c299-4701-4798-a5e4-fc7b1b8c40d3",
-          "AON Domain Not Needed"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
