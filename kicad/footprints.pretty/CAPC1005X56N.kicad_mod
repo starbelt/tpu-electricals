@@ -157,26 +157,15 @@
 		(uuid "aa88e512-9707-4350-8df7-53d35a171b1a")
 	)
 	(embedded_fonts no)
-	(model "04025A160JAT2A.stp"
+	(model "${MODELS}/04026D105KAT2A.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.28 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/3dmodels/04026D475KAT2A.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

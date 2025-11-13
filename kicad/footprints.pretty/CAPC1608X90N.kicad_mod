@@ -157,7 +157,7 @@
 		(uuid "70199d83-4e40-4b04-bfe0-22d15f5b7a59")
 	)
 	(embedded_fonts no)
-	(model "06033A100FAT2A.stp"
+	(model "${KIPRJMOD}/3dmodels/06036D224KAT2A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

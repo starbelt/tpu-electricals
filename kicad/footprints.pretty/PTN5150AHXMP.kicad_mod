@@ -259,7 +259,7 @@
 		(uuid "b41d680f-f027-4f60-8ea5-1badc04c8e1a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/SOT1355-1_X2QFN12_NXP.step"
+	(model "${KIPRJMOD}/3dmodels/PTN5150AHXMP.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -267,7 +267,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

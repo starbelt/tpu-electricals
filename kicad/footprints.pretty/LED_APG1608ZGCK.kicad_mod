@@ -1,23 +1,181 @@
-
-(footprint LED_APG1608ZGCK (layer F.Cu) (tedit 68F8E188)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 1.7 -2.285 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value LED_APG1608ZGCK (at 8.05 2.285 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.825 0.0) (size 0.8 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.825 0.0) (size 0.8 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.475 -0.65) (end -1.475 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.475 0.65) (end 1.475 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 0.65) (end 1.475 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 -0.65) (end -1.475 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -2.225 0.0) (end -2.125 0.0) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -2.225 0.0) (end -2.125 0.0) (layer F.Fab) (width 0.2))
+(footprint "LED_APG1608ZGCK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "19be1ccb-1fc2-42d7-9a96-81e6f2a26cf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_APG1608ZGCK"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "b1c95eb3-66d5-4c5d-bb16-821033294d26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f53ae946-3ae5-4653-84c0-a5796d33788c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "682a00bc-75d4-41e2-ba36-647173fe0095")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.225 0)
+		(end -2.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aefe53c4-855c-4056-8d40-0ae4834cc36d")
+	)
+	(fp_line
+		(start -1.475 -0.65)
+		(end -1.475 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44904b36-8efe-4fdf-a7c1-dd0484ac7a83")
+	)
+	(fp_line
+		(start -1.475 0.65)
+		(end 1.475 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f7a9992-60b1-4415-96f9-d96ab1c029d9")
+	)
+	(fp_line
+		(start 1.475 -0.65)
+		(end -1.475 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0e1f54e-5cb1-4293-86d6-9e8f8689044b")
+	)
+	(fp_line
+		(start 1.475 0.65)
+		(end 1.475 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8677fe74-964f-4d94-aa67-805f891b16ce")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "413a78a6-de2c-4831-93bc-8f84c91e3fcb")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba478dac-518c-4d06-adb9-39c227f1ebe9")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4e55328-4ae3-4924-bcfb-5bedd5a1418b")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9db2412-717f-481b-8265-1974d7791d68")
+	)
+	(fp_circle
+		(center -2.225 0)
+		(end -2.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9be9f998-413c-4288-b6ef-ef74168b6dc3")
+	)
+	(pad "1" smd rect
+		(at -0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "09f62e38-d8d7-4c72-8b67-e9682421d505")
+	)
+	(pad "2" smd rect
+		(at 0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f2261aac-3fc1-49aa-ac10-6c404707408a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/APG1608ZGCK.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
