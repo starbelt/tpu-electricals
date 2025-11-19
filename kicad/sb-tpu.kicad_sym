@@ -12477,7 +12477,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "DX07S016JA1R1500:JAE_DX07S016JA1R1500"
+		(property "Footprint" "footprints:JAE_DX07S016JA1R1500"
 			(at 0 0 0)
 			(effects
 				(font
