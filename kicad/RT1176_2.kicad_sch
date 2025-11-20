@@ -7939,24 +7939,6 @@
 		(uuid "2c8c7eb8-3c05-495d-be8b-cecb0de13a0f")
 	)
 	(junction
-		(at 140.97 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31fd31ea-4d54-4a37-9d4b-a4a153dcdbd5")
-	)
-	(junction
-		(at 160.02 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58733ac7-08a6-4df4-aaeb-884aae6c1b4e")
-	)
-	(junction
-		(at 147.32 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7531e235-6ee0-4411-b1dc-239d28780d1f")
-	)
-	(junction
 		(at 205.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7997,12 +7979,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e701ebfb-3eec-465d-b272-d2f1ce220178")
-	)
-	(junction
-		(at 166.37 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f334e1cf-b94a-4497-9bff-edef70697ab4")
 	)
 	(junction
 		(at 205.74 125.73)
@@ -8284,7 +8260,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 160.02 40.64)
+			(xy 160.02 41.91) (xy 160.02 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8314,16 +8290,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 153.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280bacfc-cf6d-4bbd-ae60-18cda91e57bc")
-	)
-	(wire
-		(pts
 			(xy 95.25 78.74) (xy 105.41 78.74)
 		)
 		(stroke
@@ -8331,26 +8297,6 @@
 			(type default)
 		)
 		(uuid "2aad3035-ec33-4b34-9298-ffe49bb07196")
-	)
-	(wire
-		(pts
-			(xy 140.97 22.86) (xy 147.32 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca6c9d4-fbf6-44c1-82e8-77946d050813")
-	)
-	(wire
-		(pts
-			(xy 139.7 43.18) (xy 147.32 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30e470e3-a82a-4f87-95c0-e802088ce952")
 	)
 	(wire
 		(pts
@@ -8444,16 +8390,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 22.86) (xy 153.67 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59eeabe0-84c0-45f6-bfb5-5488955790a0")
-	)
-	(wire
-		(pts
 			(xy 166.37 106.68) (xy 179.07 106.68)
 		)
 		(stroke
@@ -8461,26 +8397,6 @@
 			(type default)
 		)
 		(uuid "5a60ffaf-b043-4c66-a8e6-e09f4add3aa3")
-	)
-	(wire
-		(pts
-			(xy 172.72 53.34) (xy 172.72 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5afe7a96-787a-43c6-8e39-467b4d812187")
-	)
-	(wire
-		(pts
-			(xy 139.7 48.26) (xy 160.02 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e535ecd-c304-4199-8e7a-be3882dafc0b")
 	)
 	(wire
 		(pts
@@ -8511,16 +8427,6 @@
 			(type default)
 		)
 		(uuid "6b9c3fbd-5094-43ed-8b89-df5993a6c894")
-	)
-	(wire
-		(pts
-			(xy 139.7 53.34) (xy 172.72 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb4bd73-3ed7-48db-935a-f528c2adc096")
 	)
 	(wire
 		(pts
@@ -8614,36 +8520,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 22.86) (xy 172.72 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61417f0-6f18-4e75-89ec-c91ec5d64772")
-	)
-	(wire
-		(pts
-			(xy 160.02 22.86) (xy 166.37 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb3617f-9d6b-4445-9343-f439bea8ed57")
-	)
-	(wire
-		(pts
-			(xy 139.7 40.64) (xy 140.97 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4d7645-1219-49e3-a499-865d4885d423")
-	)
-	(wire
-		(pts
 			(xy 204.47 50.8) (xy 205.74 50.8)
 		)
 		(stroke
@@ -8704,33 +8580,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 147.32 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ce1408-53e9-466e-a0b8-293503a6c43a")
-	)
-	(wire
-		(pts
-			(xy 140.97 20.32) (xy 140.97 22.86)
+			(xy 144.78 22.86) (xy 153.67 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb73abde-10ef-400d-a39d-0221e91b67f0")
-	)
-	(wire
-		(pts
-			(xy 166.37 50.8) (xy 166.37 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6da5f2-81fe-42df-b44c-e7e21b5f7f04")
 	)
 	(polyline
 		(pts
@@ -8754,17 +8610,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 166.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde94109-861e-4412-91bc-377cdcc2804b")
-	)
-	(wire
-		(pts
-			(xy 153.67 45.72) (xy 153.67 40.64)
+			(xy 153.67 41.91) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8940,28 +8786,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
-		(shape bidirectional)
-		(at 139.7 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ed2210e-e5b4-4a3f-84da-8b2f2662848c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.774 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9276,7 +9100,7 @@
 	)
 	(global_label "I2C5_SCL"
 		(shape bidirectional)
-		(at 139.7 48.26 180)
+		(at 160.02 41.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9286,7 +9110,7 @@
 		)
 		(uuid "59a7f66c-853f-4f45-ade9-51b6560d8326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8345 48.26 0)
+			(at 160.02 54.7755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9188,7 @@
 	)
 	(global_label "I2C5_SDA"
 		(shape bidirectional)
-		(at 139.7 45.72 180)
+		(at 153.67 41.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9374,29 +9198,7 @@
 		)
 		(uuid "74cc77fa-1487-4051-a551-5d8556db645a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.774 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C6_SCL"
-		(shape bidirectional)
-		(at 139.7 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "813739de-d0b7-4d23-91e6-243465dbedc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8345 53.34 0)
+			(at 153.67 54.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,28 +9538,6 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL"
-		(shape bidirectional)
-		(at 139.7 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d966ff3c-c9f9-413a-abeb-58df6722263f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8345 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FlexSPI_A_D2"
 		(shape input)
 		(at 247.65 66.04 0)
@@ -9974,28 +9754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C6_SDA"
-		(shape bidirectional)
-		(at 139.7 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8f47e94-3382-4b80-9eaa-8d87f3061da3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.774 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10417,7 +10175,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_1V8")
-		(at 140.97 20.32 0)
+		(at 144.78 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10425,7 +10183,7 @@
 		(dnp no)
 		(uuid "2319879b-1c0a-4b4e-8d9f-7e306a8cadb6")
 		(property "Reference" "#PWR0137"
-			(at 140.462 20.574 0)
+			(at 145.034 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10192,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8"
-			(at 140.208 16.51 0)
+			(at 137.668 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +10200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 20.32 0)
+			(at 144.78 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +10209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 20.32 0)
+			(at 144.78 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10218,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 20.32 0)
+			(at 144.78 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,148 +13454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW04022K20FKEDHP")
-		(at 172.72 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "912ab856-ce05-4bee-902f-45dc585feb75")
-		(property "Reference" "R56"
-			(at 173.228 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW04022K20FKEDHP"
-			(at 175.514 21.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprints:RESC1005X40N"
-			(at 268.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 368.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Power Resistor 0402 Case 2.2k +/-1% 0.125W +/-100ppm/K"
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 568.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 668.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K20FKEDHP"
-			(at 768.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04022K20FKEDH"
-			(at 868.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K20FKEDHP?qs=VtqDKwJMr4Eb5xHPdQK8cw%3D%3D"
-			(at 968.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW04022K20FKEDHP"
-			(at 1068.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw04022k20fkedhp/vishay?region=europe"
-			(at 1168.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2322c2c5-2aad-4d86-b9d2-af919a0959f2")
-		)
-		(pin "1"
-			(uuid "468033d3-2733-4caf-a3b2-64808b8899b2")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:06036C225MAT2A")
 		(at 205.74 125.73 270)
 		(unit 1)
@@ -16210,289 +15826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW04022K20FKEDHP")
-		(at 140.97 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4475d39-e1e7-45b9-a155-45fbd96d2efd")
-		(property "Reference" "R51"
-			(at 141.478 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW04022K20FKEDHP"
-			(at 143.764 21.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:RESC1005X40N"
-			(at 237.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 337.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Power Resistor 0402 Case 2.2k +/-1% 0.125W +/-100ppm/K"
-			(at 140.97 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 537.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 637.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K20FKEDHP"
-			(at 737.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04022K20FKEDH"
-			(at 837.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K20FKEDHP?qs=VtqDKwJMr4Eb5xHPdQK8cw%3D%3D"
-			(at 937.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW04022K20FKEDHP"
-			(at 1037.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw04022k20fkedhp/vishay?region=europe"
-			(at 1137.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d8f3282-7109-4db2-a06a-9e312bf20b14")
-		)
-		(pin "1"
-			(uuid "90703581-e042-45cf-ad47-252c1dcc10b7")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04022K20FKEDHP")
-		(at 166.37 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e87781a0-8a2e-4efa-ad6d-3b93541e103d")
-		(property "Reference" "R55"
-			(at 166.878 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW04022K20FKEDHP"
-			(at 169.164 21.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprints:RESC1005X40N"
-			(at 262.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 362.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Power Resistor 0402 Case 2.2k +/-1% 0.125W +/-100ppm/K"
-			(at 166.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 562.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 662.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K20FKEDHP"
-			(at 762.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04022K20FKEDH"
-			(at 862.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K20FKEDHP?qs=VtqDKwJMr4Eb5xHPdQK8cw%3D%3D"
-			(at 962.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW04022K20FKEDHP"
-			(at 1062.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw04022k20fkedhp/vishay?region=europe"
-			(at 1162.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c9c9ba37-45de-4000-979f-b2a7b2f8a96a")
-		)
-		(pin "1"
-			(uuid "bc985964-65a6-433a-82ba-9755de12f0cc")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:VDD_1V8")
 		(at 133.35 82.55 90)
 		(unit 1)
@@ -16752,148 +16085,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
 					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04022K20FKEDHP")
-		(at 147.32 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f02bafeb-a122-4b52-b30c-513634a833fa")
-		(property "Reference" "R52"
-			(at 147.828 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW04022K20FKEDHP"
-			(at 150.114 21.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprints:RESC1005X40N"
-			(at 243.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 343.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Power Resistor 0402 Case 2.2k +/-1% 0.125W +/-100ppm/K"
-			(at 147.32 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 543.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 643.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04022K20FKEDHP"
-			(at 743.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04022K20FKEDH"
-			(at 843.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW04022K20FKEDHP?qs=VtqDKwJMr4Eb5xHPdQK8cw%3D%3D"
-			(at 943.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW04022K20FKEDHP"
-			(at 1043.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw04022k20fkedhp/vishay?region=europe"
-			(at 1143.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1ed92ea-e4d1-4471-a1b9-29a61f1ef715")
-		)
-		(pin "1"
-			(uuid "34b18186-aeec-43d4-be9d-1c0a44487d4d")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
-					(reference "R52")
 					(unit 1)
 				)
 			)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,16 @@
           "width": 0.1554
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|144978764|98242874|F.Cu|4|977e9860-2c8d-4da3-b174-2318c9bd5443|f1b962e2-50c0-4ef9-84f8-d567d13d9e72",
+          ""
+        ],
+        [
+          "unconnected_items|146950000|108300000|F.Cu|4|bdf4738e-ec22-4dc9-80d6-a2bfb877cce4|ae12c299-4701-4798-a5e4-fc7b1b8c40d3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -581,6 +590,10 @@
       {
         "netclass": "90ohmdiff",
         "pattern": "USB2_TPU_N"
+      },
+      {
+        "netclass": "90ohmdiff",
+        "pattern": "I2C5_SDA"
       }
     ]
   },

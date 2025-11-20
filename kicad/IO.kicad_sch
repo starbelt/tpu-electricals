@@ -6025,16 +6025,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 97.79) (xy 234.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36435a81-d732-42a7-b2c8-17497e742762")
-	)
-	(wire
-		(pts
 			(xy 30.48 44.45) (xy 33.02 44.45)
 		)
 		(stroke
@@ -6135,6 +6125,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 101.6) (xy 238.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c36c20b-0302-47e3-8c7a-f8b5cdb76392")
+	)
+	(wire
+		(pts
 			(xy 46.99 144.78) (xy 46.99 139.7)
 		)
 		(stroke
@@ -6232,6 +6232,16 @@
 			(type default)
 		)
 		(uuid "834897b8-4d4a-41ee-af02-cb7bff55739c")
+	)
+	(wire
+		(pts
+			(xy 238.76 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b706e6-065d-43c7-b3f4-67b11c68a26d")
 	)
 	(wire
 		(pts
@@ -6753,28 +6763,6 @@
 		)
 		(uuid "fd4583a2-6647-405a-887d-ba64cb01e1df")
 	)
-	(global_label "I2C6_SDA"
-		(shape bidirectional)
-		(at 224.79 97.79 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0b492c1a-28a2-492a-a22f-221db5bbc52a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 110.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_PORT_RT"
 		(shape input)
 		(at 30.48 86.36 180)
@@ -6815,28 +6803,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape bidirectional)
-		(at 227.33 97.79 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e6d6557-3d6b-404c-91a9-1d3a14590a2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 110.6555 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6973,7 +6939,7 @@
 			)
 		)
 	)
-	(global_label "I2C6_SCL"
+	(global_label "LPSPI6_CS0"
 		(shape bidirectional)
 		(at 222.25 97.79 270)
 		(fields_autoplaced yes)
@@ -6985,7 +6951,7 @@
 		)
 		(uuid "7dadb07c-c819-4429-b455-9901468b7357")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 110.6555 90)
+			(at 222.25 113.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,6 +7049,28 @@
 			)
 		)
 	)
+	(global_label "LPSPI6_SDI"
+		(shape bidirectional)
+		(at 229.87 97.79 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c29839ce-7be5-4d64-aae7-304581a71423")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.87 112.5303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT_MODE1"
 		(shape output)
 		(at 115.57 195.58 0)
@@ -7105,9 +7093,9 @@
 			)
 		)
 	)
-	(global_label "I2C1_SDA"
+	(global_label "LPSPI6_SDO"
 		(shape bidirectional)
-		(at 229.87 97.79 270)
+		(at 227.33 97.79 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7115,9 +7103,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d531ebee-24f0-41ff-bceb-e278bbb5ec94")
+		(uuid "d41beb4e-75be-448a-92df-00d89c6c91b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 110.716 90)
+			(at 227.33 113.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,6 +7128,28 @@
 		(uuid "d9fc3cbd-a91c-4777-9a95-42017ba0db87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.8179 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPSPI6_SCK"
+		(shape bidirectional)
+		(at 224.79 97.79 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8f89e87-8136-4f7f-aaa2-223b4dcdeef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 113.1955 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 97.79 0)
+		(at 238.76 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9139,7 +9149,7 @@
 		(dnp no)
 		(uuid "5452ffa9-6df3-411d-b2e3-276a1d656aa9")
 		(property "Reference" "#PWR0197"
-			(at 236.22 104.14 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.966 101.854 0)
+			(at 238.506 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 97.79 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 97.79 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 97.79 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

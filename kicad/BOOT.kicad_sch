@@ -5637,7 +5637,7 @@
 			)
 		)
 	)
-	(global_label "FlexSPI_A_D1"
+	(global_label "FlexSPI_A_D3"
 		(shape input)
 		(at 78.74 73.66 0)
 		(fields_autoplaced yes)
