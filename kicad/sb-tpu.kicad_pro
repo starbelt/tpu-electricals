@@ -65,6 +65,14 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|125134639|90076558|cae9327d-9ef5-470c-853f-19a7d749add5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|153298781|102767847|118dc45c-3c24-4f7e-8cd0-4e5f7814f96b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "unconnected_items|144978764|98242874|F.Cu|4|977e9860-2c8d-4da3-b174-2318c9bd5443|f1b962e2-50c0-4ef9-84f8-d567d13d9e72",
           ""
         ],
@@ -143,16 +151,16 @@
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.127,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.051,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.0,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -603,7 +611,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../gerbers/",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

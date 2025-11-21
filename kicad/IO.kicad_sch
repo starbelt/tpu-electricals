@@ -431,7 +431,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:04023C104MAT2A"
+		(symbol "sb-tpu:04023C104JAT2A"
 			(pin_names
 				(hide yes)
 			)
@@ -447,7 +447,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "04023C104MAT2A"
+			(property "Value" "04023C104JAT2A"
 				(at 8.89 3.81 0)
 				(effects
 					(font
@@ -555,7 +555,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "04023C104MAT2A_1_1"
+			(symbol "04023C104JAT2A_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -867,12 +867,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:74AXP1T34GMH"
+		(symbol "sb-tpu:0402WGF4701TCE"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -880,8 +883,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "74AXP1T34GMH"
-				(at 24.13 5.08 0)
+			(property "Value" "0402WGF4701TCE"
+				(at 13.97 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -889,18 +892,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "PESD3V3L5UF115"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T34.pdf"
-				(at 24.13 -194.92 0)
+			(property "Footprint" "RESC1005X40N"
+				(at 13.97 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -909,7 +902,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "74AXP1T34 - Dual supply translating buffer@en-us"
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Resistor - Surface Mount 4.7KOhms +/-1% 1/16W 0402 RoHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -918,8 +921,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.5"
-				(at 24.13 -394.92 0)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -928,8 +931,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 24.13 -494.92 0)
+			(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+				(at 13.97 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -938,8 +941,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "74AXP1T34GMH"
-				(at 24.13 -594.92 0)
+			(property "Manufacturer_Part_Number" "0402WGF4701TCE"
+				(at 13.97 -596.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -948,8 +951,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "771-74AXP1T34GMH"
-				(at 24.13 -694.92 0)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -958,8 +961,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AXP1T34GMH?qs=64Y9EYqwa9hz4MxtKQGkpQ%3D%3D"
-				(at 24.13 -794.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -968,8 +971,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "74AXP1T34GMH"
-				(at 24.13 -894.92 0)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -978,8 +981,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74axp1t34gmh/nexperia"
-				(at 24.13 -994.92 0)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -988,10 +991,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "74AXP1T34GMH_1_1"
+			(symbol "0402WGF4701TCE_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1003,7 +1006,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "VCCI"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1019,9 +1022,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 17.78 0 180)
 					(length 5.08)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1029,78 +1032,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "VCCO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "n.c."
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,52 +1294,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:CDBQR00340-HF"
+		(symbol "sb-tpu:CDBQR00340"
 			(pin_names
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 12.7 8.89 0)
+			(property "Reference" "U"
+				(at 5.08 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "CDBQR00340-HF"
-				(at 12.7 6.35 0)
+			(property "Value" "CDBQR00340"
+				(at 5.08 -4.445 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "CDBQR00340HF"
-				(at 12.7 -93.65 0)
+			(property "Footprint" "footprints:CDBQR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.comchiptech.com/admin/files/product/CDBQR00340-HF-RevA805165.pdf"
-				(at 12.7 -193.65 0)
+			(property "Datasheet" "CDBQR00340"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode Schottky 40V 30mA Surface Mount 0402/SOD-923F-40 +125C"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1417,83 +1346,31 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
-				(at 12.7 -393.65 0)
+			(property "ki_keywords" "CDBQR00340"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Comchip Technology"
-				(at 12.7 -493.65 0)
+			(property "ki_fp_filters" "CDBQR CDBQR-M CDBQR-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CDBQR00340-HF"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "750-CDBQR00340-HF"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBQR00340-HF/?qs=2qJf6qQ4IOI84pT3supaQw%3D%3D"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "CDBQR00340-HF"
-				(at 12.7 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbqr00340-hf/comchip-technology?region=nac"
-				(at 12.7 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CDBQR00340-HF_1_1"
+			(symbol "CDBQR00340_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 7.62 0)
+						(xy 3.175 1.905) (xy 3.175 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1502,10 +1379,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.604 -1.524) (xy 6.604 -2.54)
+						(xy 3.175 1.905) (xy 3.81 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1514,10 +1391,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
+						(xy 3.81 1.905) (xy 3.81 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1526,10 +1403,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 8.636 2.54)
+						(xy 3.81 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1538,22 +1415,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+						(xy 3.81 0) (xy 6.35 -1.905)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 6.604 -2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1562,10 +1427,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 1.524) (xy 8.636 2.54)
+						(xy 4.445 -1.905) (xy 3.81 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1574,20 +1439,68 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 0) (xy 15.24 0)
+						(xy 4.445 -1.905) (xy 4.445 -1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 0)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 6.6802 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name "K"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1602,10 +1515,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 0 180)
+				(pin unspecified line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2600,144 +2513,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sb-tpu:CRCW04024K70JNEE"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CRCW04024K70JNEE"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "footprints:CRCW0402200KFKED"
-				(at 13.97 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-				(at 13.97 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-				(at 13.97 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.5"
-				(at 13.97 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW04024K70JNEE_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CRCW04024K70JNEE_0_1"
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -4948,6 +4723,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:SN74AUP1T34QDCKRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74AUP1T34QDCKRQ1"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:SOT65P210X110-5N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1t34-q1"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1-Bit Unidirectional Voltage-Level Translator, SN74AUP1T34-Q1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AUP1T34QDCKRQ1"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-74AUP1T34QDCKRQ1"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1T34QDCKRQ1?qs=%252BFzhjShcsaIsuG2Ey7MmUw%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SN74AUP1T34QDCKRQ1"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74aup1t34qdckrq1/texas-instruments"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AUP1T34QDCKRQ1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:VDD_1V8"
 			(power)
 			(exclude_from_sim no)
@@ -5635,6 +5636,12 @@
 		(uuid "5f6455e1-14e1-4555-9658-664e9c050c8e")
 	)
 	(junction
+		(at 31.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60997558-7774-4043-a525-b2cb71d24d74")
+	)
+	(junction
 		(at 207.01 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5669,12 +5676,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3df2fc3-05da-475d-9612-91f1307bc546")
-	)
-	(junction
-		(at 31.75 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4fa7811-e88a-41af-8e4c-8cb1c919eae0")
 	)
 	(junction
 		(at 63.5 52.07)
@@ -5775,10 +5776,6 @@
 	(no_connect
 		(at 208.28 157.48)
 		(uuid "9f048ea6-613d-481d-8421-d80ce39a8a32")
-	)
-	(no_connect
-		(at 67.31 86.36)
-		(uuid "9f300c7a-21d2-4a3f-9808-b7136757cc27")
 	)
 	(no_connect
 		(at 83.82 93.98)
@@ -5885,6 +5882,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 93.98) (xy 39.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c15ccbe-9e78-4c66-91a1-2a40fe5cce80")
+	)
+	(wire
+		(pts
 			(xy 127 96.52) (xy 137.16 96.52)
 		)
 		(stroke
@@ -5912,6 +5919,16 @@
 			(type default)
 		)
 		(uuid "1592a385-e047-4af7-a9e9-53315d6ea20d")
+	)
+	(wire
+		(pts
+			(xy 91.44 144.78) (xy 104.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15edfc3e-a78a-4bfe-a6ba-bb8c2addaebc")
 	)
 	(wire
 		(pts
@@ -5955,16 +5972,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 83.82) (xy 69.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22067720-6970-4d77-b863-e443e813358c")
-	)
-	(wire
-		(pts
 			(xy 137.16 96.52) (xy 140.97 96.52)
 		)
 		(stroke
@@ -5972,16 +5979,6 @@
 			(type default)
 		)
 		(uuid "241a03d3-a41a-451f-9828-b66f76056600")
-	)
-	(wire
-		(pts
-			(xy 74.93 127) (xy 72.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24608e85-5aae-4b06-9a51-4a757a51c1aa")
 	)
 	(wire
 		(pts
@@ -6032,16 +6029,6 @@
 			(type default)
 		)
 		(uuid "387fa1a7-8715-4457-a0ba-7f4b47daad97")
-	)
-	(wire
-		(pts
-			(xy 96.52 144.78) (xy 104.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387ff134-3521-4474-b3aa-791aaa0dfcda")
 	)
 	(wire
 		(pts
@@ -6155,6 +6142,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 91.44) (xy 39.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620fb8d6-b5ff-4c3c-8378-74f2783aabb4")
+	)
+	(wire
+		(pts
 			(xy 127 91.44) (xy 130.81 91.44)
 		)
 		(stroke
@@ -6202,6 +6199,16 @@
 			(type default)
 		)
 		(uuid "7796bc95-5cbb-4cf7-986d-056666600820")
+	)
+	(wire
+		(pts
+			(xy 92.71 162.56) (xy 97.79 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de6d66-2ed6-4727-9967-f19173dd23b9")
 	)
 	(wire
 		(pts
@@ -6345,16 +6352,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 39.37 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4db605-b2ff-4db5-9f6b-b68207b4254a")
-	)
-	(wire
-		(pts
 			(xy 33.02 172.72) (xy 53.34 172.72)
 		)
 		(stroke
@@ -6372,16 +6369,6 @@
 			(type default)
 		)
 		(uuid "a10e968e-f27a-47be-a112-c9b5145731d4")
-	)
-	(wire
-		(pts
-			(xy 67.31 88.9) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23c11e6-5eda-4517-ba59-e8ac97931f66")
 	)
 	(wire
 		(pts
@@ -6455,16 +6442,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 69.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2ca844-4bce-4a18-be15-4b7807ebac3b")
-	)
-	(wire
-		(pts
 			(xy 168.91 161.29) (xy 176.53 161.29)
 		)
 		(stroke
@@ -6515,6 +6492,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddd6cdd-dad8-48de-a578-7d4b2e0c04d3")
+	)
+	(wire
+		(pts
 			(xy 133.35 187.96) (xy 133.35 189.23)
 		)
 		(stroke
@@ -6522,6 +6509,16 @@
 			(type default)
 		)
 		(uuid "ceead435-f679-4009-aef3-b4f55cc86496")
+	)
+	(wire
+		(pts
+			(xy 30.48 91.44) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceef4dc1-3d18-400d-9bfe-5bb7f7f5bc67")
 	)
 	(wire
 		(pts
@@ -6625,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 31.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f286872b-38ad-4ba4-b432-cfa189b57751")
-	)
-	(wire
-		(pts
 			(xy 44.45 189.23) (xy 44.45 193.04)
 		)
 		(stroke
@@ -6665,13 +6652,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 83.82) (xy 39.37 83.82)
+			(xy 67.31 88.9) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8ef57dc-13a4-41a0-a4bf-53f36b2c5e25")
+		(uuid "f6a13c29-3ccb-4c47-a2c4-6931422db34d")
 	)
 	(wire
 		(pts
@@ -6762,28 +6749,6 @@
 			(justify right bottom)
 		)
 		(uuid "fd4583a2-6647-405a-887d-ba64cb01e1df")
-	)
-	(global_label "USB_PORT_RT"
-		(shape input)
-		(at 30.48 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32ad8a4a-80a6-4bc4-b5d1-62cc570fefba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "DA_nONKEY"
 		(shape output)
@@ -7005,6 +6970,28 @@
 			)
 		)
 	)
+	(global_label "USB_PORT_RT"
+		(shape input)
+		(at 30.48 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6abd773-a0e2-48f3-8351-ac6b53e97b07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.6739 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT_MODE0"
 		(shape output)
 		(at 138.43 154.94 0)
@@ -7169,7 +7156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b99d44-5aac-4bbf-af6d-b92cfe2f59f5")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 195.58 50.7999 90)
 			(effects
 				(font
@@ -7234,7 +7221,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "D9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7249,7 +7236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c5baa4-7dc7-450d-9f9f-ed0d841419dd")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0207"
 			(at 176.53 167.64 0)
 			(effects
 				(font
@@ -7299,7 +7286,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0191")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0971947f-a535-4588-a668-58a4ebd69c85")
-		(property "Reference" "R65"
+		(property "Reference" "R61"
 			(at 245.364 31.75 90)
 			(effects
 				(font
@@ -7440,7 +7427,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R65")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -7455,7 +7442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e32e5b7-fe44-447a-bf2c-f51abe93a22d")
-		(property "Reference" "R64"
+		(property "Reference" "R60"
 			(at 193.294 31.75 90)
 			(effects
 				(font
@@ -7581,7 +7568,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R64")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -7727,72 +7714,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VUSB")
-		(at 69.85 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f665a65-ef98-4d2f-a27e-b5874763b8cb")
-		(property "Reference" "#PWR0179"
-			(at 69.596 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 69.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "43c5d0a4-cc2d-464e-9690-fefaff18ab35")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -8209,7 +8130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9c0f6d-2eaf-4c2d-823d-bc44b9c44c8e")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0206"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -8259,7 +8180,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0190")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -8412,71 +8333,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "375aacc1-e3f6-49f2-b7e2-a19d14eb7edd")
-		(property "Reference" "#PWR0176"
-			(at 39.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9af4601d-307c-48ea-a0b2-96f8a2cda6cb")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 44.45 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8484,7 +8340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38f63fc3-07f2-4b06-8a0a-2ba562596321")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0191"
 			(at 44.45 199.39 0)
 			(effects
 				(font
@@ -8534,7 +8390,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0177")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -8549,7 +8405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4205ae27-bbd7-4dbc-b657-7ce27bd959a6")
-		(property "Reference" "R59"
+		(property "Reference" "R55"
 			(at 104.394 131.064 90)
 			(effects
 				(font
@@ -8675,7 +8531,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R59")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -8691,7 +8547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fabf8cc-2576-4b21-ae32-d097c015999e")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 250.19 50.7999 90)
 			(effects
 				(font
@@ -8786,7 +8642,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8801,7 +8657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51d78e36-a7b9-4ef7-9a3f-12656d0d2ff8")
-		(property "Reference" "R62"
+		(property "Reference" "R58"
 			(at 133.604 158.75 90)
 			(effects
 				(font
@@ -8927,14 +8783,14 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R62")
+					(reference "R58")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:04023C104MAT2A")
+		(lib_id "sb-tpu:04023C104JAT2A")
 		(at 137.16 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8942,22 +8798,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5261b570-b911-41fd-a50b-bb1db204035c")
-		(property "Reference" "C99"
-			(at 137.668 100.838 90)
+		(property "Reference" "C108"
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Value" "04023C104MAT2A"
-			(at 133.858 97.282 0)
+		(property "Value" "04023C104JAT2A"
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
@@ -9068,7 +8924,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "C99")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -9083,7 +8939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5308bf02-4cce-40d4-9de4-66c2af94026b")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0209"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -9133,7 +8989,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0193")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -9148,7 +9004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5452ffa9-6df3-411d-b2e3-276a1d656aa9")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0214"
 			(at 238.76 107.95 0)
 			(effects
 				(font
@@ -9198,7 +9054,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0197")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -9213,7 +9069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58857378-a554-438f-834e-b9eebc9e3caa")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0201"
 			(at 130.81 97.79 0)
 			(effects
 				(font
@@ -9263,7 +9119,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0185")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -9279,7 +9135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a116535-21ff-4b5b-8a67-d51b6468f594")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0213"
 			(at 237.49 161.29 0)
 			(effects
 				(font
@@ -9329,7 +9185,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0198")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -9345,7 +9201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b56e306-f29b-413d-bf68-eb912bc10476")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0196"
 			(at 72.39 53.34 0)
 			(effects
 				(font
@@ -9395,15 +9251,15 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0222")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CDBQR00340-HF")
-		(at 78.74 144.78 0)
+		(lib_id "sb-tpu:CDBQR00340")
+		(at 81.28 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9411,44 +9267,44 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2f6d5b-7cf2-4d06-a2d9-7e015107989d")
-		(property "Reference" "D6"
-			(at 88.9 137.16 0)
+		(property "Reference" "U10"
+			(at 86.36 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "CDBQR00340-HF"
-			(at 88.9 139.7 0)
+		(property "Value" "CDBQR00340"
+			(at 86.36 140.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "footprints:CDBQR00340HF"
-			(at 91.44 238.43 0)
+		(property "Footprint" "footprints:CDBQR"
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/CDBQR00340-HF-RevA805165.pdf"
-			(at 91.44 338.43 0)
+		(property "Datasheet" "CDBQR00340"
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "Diode Schottky 40V 30mA Surface Mount 0402/SOD-923F-40 +125C"
-			(at 78.74 144.78 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9313,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 91.44 538.43 0)
+			(at 93.98 538.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9323,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Comchip Technology"
-			(at 91.44 638.43 0)
+			(at 93.98 638.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9333,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CDBQR00340-HF"
-			(at 91.44 738.43 0)
+			(at 93.98 738.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9343,7 @@
 			)
 		)
 		(property "Mouser Part Number" "750-CDBQR00340-HF"
-			(at 91.44 838.43 0)
+			(at 93.98 838.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +9353,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBQR00340-HF/?qs=2qJf6qQ4IOI84pT3supaQw%3D%3D"
-			(at 91.44 938.43 0)
+			(at 93.98 938.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9363,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CDBQR00340-HF"
-			(at 91.44 1038.43 0)
+			(at 93.98 1038.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9373,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbqr00340-hf/comchip-technology?region=nac"
-			(at 91.44 1138.43 0)
+			(at 93.98 1138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9391,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "D6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -9550,7 +9406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6471507f-1241-457a-8a76-0b42ad296bac")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0200"
 			(at 111.252 161.544 0)
 			(effects
 				(font
@@ -9600,7 +9456,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0184")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68eae24c-3608-460c-b349-0116b227e312")
-		(property "Reference" "D8"
+		(property "Reference" "D3"
 			(at 107.95 42.5449 90)
 			(effects
 				(font
@@ -9745,365 +9601,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68f294ca-1d77-4219-9bd9-2c275bed89ec")
-		(property "Reference" "#PWR0173"
-			(at 31.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9af4601d-307c-48ea-a0b2-96f8a2cda6cc")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:74AXP1T34GMH")
-		(at 39.37 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aa95eb8-890d-46f1-939b-a4d3b1283a7b")
-		(property "Reference" "IC7"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AXP1T34GMH"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:PESD3V3L5UF115"
-			(at 63.5 178.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AXP1T34.pdf"
-			(at 63.5 278.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "74AXP1T34 - Dual supply translating buffer@en-us"
-			(at 39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 63.5 478.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 63.5 578.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74AXP1T34GMH"
-			(at 63.5 678.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-74AXP1T34GMH"
-			(at 63.5 778.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74AXP1T34GMH?qs=64Y9EYqwa9hz4MxtKQGkpQ%3D%3D"
-			(at 63.5 878.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "74AXP1T34GMH"
-			(at 63.5 978.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/74axp1t34gmh/nexperia"
-			(at 63.5 1078.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "295ede56-403d-4634-abfa-bd22a6fca0d3")
-		)
-		(pin "5"
-			(uuid "805b8541-ca22-4005-a4da-8c6f9dbc5f53")
-		)
-		(pin "4"
-			(uuid "d8928b1f-6650-45bf-a28b-74ae137a317b")
-		)
-		(pin "2"
-			(uuid "01e06c24-6db4-44be-8d50-bc085a759307")
-		)
-		(pin "3"
-			(uuid "fa453b77-5eff-4874-b8ab-bdcf288ade08")
-		)
-		(pin "6"
-			(uuid "f99b277d-e913-4e92-a8f9-b62c5e1e7890")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW0402100KJNED")
-		(at 31.75 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d5475fc-8bbc-4680-94b9-340915f9f5a4")
-		(property "Reference" "R57"
-			(at 32.004 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW0402100KJNED"
-			(at 33.02 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 127.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 227.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 427.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 527.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
-			(at 627.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
-			(at 727.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
-			(at 827.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW0402100KJNED"
-			(at 927.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
-			(at 1027.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c231ad4-4915-4e2d-b7e2-d927091dc345")
-		)
-		(pin "1"
-			(uuid "e512ca93-ab22-4e5d-be4f-4c219c30202c")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R57")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10256,15 +9754,15 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_1V8_AON")
-		(at 72.39 127 0)
+		(at 74.93 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(uuid "703344e6-fdf3-437e-b1c2-e88c14a5d414")
-		(property "Reference" "#PWR0180"
-			(at 72.136 127.508 0)
+		(property "Reference" "#PWR0197"
+			(at 74.676 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +9771,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8_AON"
-			(at 72.39 123.19 0)
+			(at 74.93 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +9779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +9788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +9797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 127 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +9811,72 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0180")
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72270be5-bd00-4ffd-a84b-40e1d5827c85")
+		(property "Reference" "#PWR0220"
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c602f30-e210-434a-b520-3cbbcf082ca1")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -10475,7 +10038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a13fcd3-244f-46b1-9185-eb4e1067ff3a")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0203"
 			(at 133.35 195.58 0)
 			(effects
 				(font
@@ -10525,7 +10088,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0187")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -10540,7 +10103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "847ff710-142d-4e17-8047-b3cabda0a247")
-		(property "Reference" "C109"
+		(property "Reference" "C107"
 			(at 78.74 43.18 0)
 			(effects
 				(font
@@ -10676,7 +10239,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "C109")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -10767,7 +10330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af97a67-ef72-4046-95d8-0114b9309914")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0219"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -10818,7 +10381,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0203")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -11159,7 +10722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c905d7-e7a9-459b-8efb-8b73c14aba8e")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0198"
 			(at 104.14 59.69 0)
 			(effects
 				(font
@@ -11209,7 +10772,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0182")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -11224,7 +10787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99692fc7-afbe-4e9d-95b1-9682452f3234")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0202"
 			(at 132.842 137.414 0)
 			(effects
 				(font
@@ -11274,7 +10837,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0186")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -11285,11 +10848,11 @@
 		(at 74.93 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "9aee27bf-896f-411e-b224-af499ca7b443")
-		(property "Reference" "R58"
+		(property "Reference" "R54"
 			(at 75.184 131.064 90)
 			(effects
 				(font
@@ -11415,7 +10978,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R58")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -11430,7 +10993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c324b9c-5829-4bf7-a37a-9d1b7513fc00")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0216"
 			(at 244.856 27.94 0)
 			(effects
 				(font
@@ -11480,7 +11043,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0200")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -11496,7 +11059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdd2bc9-24ee-4926-9911-7b7dce6f7970")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0205"
 			(at 140.97 96.266 0)
 			(effects
 				(font
@@ -11547,7 +11110,73 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0189")
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VDD_1V8")
+		(at 35.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a158cf1a-7fcd-45f0-9bbf-24a1d6cf3e98")
+		(property "Reference" "#PWR0222"
+			(at 35.052 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_1V8"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b882f17d-3e70-46c1-bbac-57e42d65b6c1")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -11731,7 +11360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a50f08de-7540-46bf-b78b-bcd46b01f744")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0210"
 			(at 192.786 27.94 0)
 			(effects
 				(font
@@ -11781,7 +11410,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0194")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -11797,7 +11426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b975b8-46e4-4e29-be7d-84a42dfa5e40")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0192"
 			(at 57.15 161.29 0)
 			(effects
 				(font
@@ -11847,7 +11476,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0178")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -11978,7 +11607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab3f67b2-915a-4d2c-889c-7499efc46104")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0193"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -12028,73 +11657,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VDD_1V8")
-		(at 36.83 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac88c564-e4fe-413c-96b4-cf8e2a2b5c6f")
-		(property "Reference" "#PWR0175"
-			(at 36.322 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_1V8"
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "e5aff758-bf17-45ea-9b90-ee20cd5717c3")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0175")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -12110,7 +11673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b08d06f3-aacb-4d9d-895e-3124ccbbf8de")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0218"
 			(at 251.46 166.37 0)
 			(effects
 				(font
@@ -12160,7 +11723,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0202")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -12176,7 +11739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28b8e47-71ca-48b7-8a1e-a4765b1f69d7")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0215"
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -12226,7 +11789,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0199")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -12241,7 +11804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c32778b2-c732-4076-a77e-ab189b40a840")
-		(property "Reference" "R63"
+		(property "Reference" "R59"
 			(at 181.864 54.864 90)
 			(effects
 				(font
@@ -12367,7 +11930,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R63")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -12383,7 +11946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c563c8af-d9d0-4b35-98ed-437ffd0f5749")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0195"
 			(at 72.136 31.75 0)
 			(effects
 				(font
@@ -12433,14 +11996,14 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0221")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW04024K70JNEE")
+		(lib_id "sb-tpu:0402WGF4701TCE")
 		(at 111.76 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12448,45 +12011,45 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb12b6ab-efee-4570-9053-2e25d4ebcbe9")
-		(property "Reference" "R60"
-			(at 114.3 171.4499 90)
+		(property "Reference" "R56"
+			(at 105.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Value" "CRCW04024K70JNEE"
-			(at 109.474 161.544 0)
+		(property "Value" "0402WGF4701TCE"
+			(at 107.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 110.49 167.64 0)
+		(property "Footprint" "RESC1005X40N"
+			(at 207.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 113.03 167.64 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 307.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
+		(property "Description" "Chip Resistor - Surface Mount 4.7KOhms +/-1% 1/16W 0402 RoHS"
 			(at 111.76 181.61 0)
 			(effects
 				(font
@@ -12505,23 +12068,73 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 118.11 167.64 0)
+		(property "Height" "0.4"
+			(at 507.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 120.65 167.64 0)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 607.95 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF4701TCE"
+			(at 707.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 807.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 907.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1007.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1107.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -12538,7 +12151,7 @@
 					(unit 1)
 				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R60")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
@@ -12558,7 +12171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11878e3-f45d-48ff-b427-5808a07fe6be")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0212"
 			(at 207.01 144.78 0)
 			(effects
 				(font
@@ -12608,7 +12221,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0196")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -12624,7 +12237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c6d05a-3064-4ed8-890a-9cc18b65556e")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at 48.26 26.67 0)
 			(effects
 				(font
@@ -12845,14 +12458,14 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW04024K70JNEE")
+		(lib_id "sb-tpu:0402WGF4701TCE")
 		(at 133.35 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12860,45 +12473,45 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c8ec51-8764-4987-baa7-405a3459aff3")
-		(property "Reference" "R61"
-			(at 133.604 141.224 90)
+		(property "Reference" "R57"
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Value" "CRCW04024K70JNEE"
-			(at 130.302 134.874 0)
+		(property "Value" "0402WGF4701TCE"
+			(at 129.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 132.08 140.97 0)
+		(property "Footprint" "RESC1005X40N"
+			(at 229.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 134.62 140.97 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 329.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 4.7K  OHM   5% 0402"
+		(property "Description" "Chip Resistor - Surface Mount 4.7KOhms +/-1% 1/16W 0402 RoHS"
 			(at 133.35 154.94 0)
 			(effects
 				(font
@@ -12917,23 +12530,73 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 139.7 140.97 0)
+		(property "Height" "0.4"
+			(at 529.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 142.24 140.97 0)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 629.54 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF4701TCE"
+			(at 729.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 829.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 929.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1029.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -12950,7 +12613,7 @@
 					(unit 1)
 				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R61")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
@@ -13117,7 +12780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51a0359-625d-455c-9367-2b34bc586b07")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0211"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -13167,7 +12830,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0195")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -13182,7 +12845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9801ac7-913f-4fce-9ae1-7d8d0910ef3c")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0199"
 			(at 103.886 126.746 0)
 			(effects
 				(font
@@ -13232,7 +12895,138 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0183")
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defbbfb8-2c1d-42dc-8547-0204acb02398")
+		(property "Reference" "#PWR0221"
+			(at 39.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c13fe55b-77d2-4701-969c-2e8db1d72c6e")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VUSB")
+		(at 67.31 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0ab9700-f35b-4df7-9799-581761cb195f")
+		(property "Reference" "#PWR0223"
+			(at 67.31 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 72.39 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "77163f20-5d1d-46cd-807c-0452e36fb909")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -13247,7 +13041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2985a83-064e-4328-8ff1-c3d7b39f5c55")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0204"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -13297,15 +13091,15 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0188")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CDBQR00340-HF")
-		(at 80.01 162.56 0)
+		(lib_id "sb-tpu:CDBQR00340")
+		(at 82.55 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13313,44 +13107,44 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3998d58-78e1-48d2-b33d-5c9f96a4c813")
-		(property "Reference" "D7"
-			(at 90.17 154.94 0)
+		(property "Reference" "U11"
+			(at 87.63 156.21 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "CDBQR00340-HF"
-			(at 90.17 157.48 0)
+		(property "Value" "CDBQR00340"
+			(at 87.63 158.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "footprints:CDBQR00340HF"
-			(at 92.71 256.21 0)
+		(property "Footprint" "footprints:CDBQR"
+			(at 82.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/CDBQR00340-HF-RevA805165.pdf"
-			(at 92.71 356.21 0)
+		(property "Datasheet" "CDBQR00340"
+			(at 82.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Description" "Diode Schottky 40V 30mA Surface Mount 0402/SOD-923F-40 +125C"
-			(at 80.01 162.56 0)
+			(at 82.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13359,7 +13153,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 92.71 556.21 0)
+			(at 95.25 556.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +13163,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Comchip Technology"
-			(at 92.71 656.21 0)
+			(at 95.25 656.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +13173,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CDBQR00340-HF"
-			(at 92.71 756.21 0)
+			(at 95.25 756.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13183,7 @@
 			)
 		)
 		(property "Mouser Part Number" "750-CDBQR00340-HF"
-			(at 92.71 856.21 0)
+			(at 95.25 856.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13193,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CDBQR00340-HF/?qs=2qJf6qQ4IOI84pT3supaQw%3D%3D"
-			(at 92.71 956.21 0)
+			(at 95.25 956.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13203,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CDBQR00340-HF"
-			(at 92.71 1056.21 0)
+			(at 95.25 1056.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +13213,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdbqr00340-hf/comchip-technology?region=nac"
-			(at 92.71 1156.21 0)
+			(at 95.25 1156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13437,7 +13231,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "D7")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -13452,7 +13246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e697fa71-f5fb-4213-a1ea-6cceb8925963")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0208"
 			(at 181.102 51.054 0)
 			(effects
 				(font
@@ -13502,7 +13296,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0192")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -13518,7 +13312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98facef-abcc-4c19-9c2b-eaba35260835")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0217"
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -13568,7 +13362,148 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0201")
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW0402100KJNED")
+		(at 31.75 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb98443c-2985-48b6-8051-66c39e6ae87b")
+		(property "Reference" "R62"
+			(at 32.004 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CRCW0402100KJNED"
+			(at 28.702 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 127.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 227.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
+			(at 31.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 427.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 527.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
+			(at 627.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
+			(at 727.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
+			(at 827.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CRCW0402100KJNED"
+			(at 927.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
+			(at 1027.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9b10842-aa29-4d51-ad31-51f831c83d20")
+		)
+		(pin "1"
+			(uuid "deed526e-f107-4d5d-8f0a-7f15f350a616")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -13645,6 +13580,155 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:SN74AUP1T34QDCKRQ1")
+		(at 39.37 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57c1613-ff2e-4ba3-a8e6-9c9ce0e135e9")
+		(property "Reference" "IC9"
+			(at 53.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AUP1T34QDCKRQ1"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT65P210X110-5N"
+			(at 63.5 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1t34-q1"
+			(at 63.5 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1-Bit Unidirectional Voltage-Level Translator, SN74AUP1T34-Q1"
+			(at 39.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 63.5 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 63.5 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AUP1T34QDCKRQ1"
+			(at 63.5 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-74AUP1T34QDCKRQ1"
+			(at 63.5 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1T34QDCKRQ1?qs=%252BFzhjShcsaIsuG2Ey7MmUw%3D%3D"
+			(at 63.5 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AUP1T34QDCKRQ1"
+			(at 63.5 983.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74aup1t34qdckrq1/texas-instruments"
+			(at 63.5 1083.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20990401-345f-494e-bf25-36e13548f74a")
+		)
+		(pin "1"
+			(uuid "14be92d0-4dc0-471a-b5ee-9026d8f063d0")
+		)
+		(pin "3"
+			(uuid "5a646f2f-408e-440c-a1d5-e5f3a1060ab8")
+		)
+		(pin "5"
+			(uuid "5b54446f-cbed-4d34-9024-955754007582")
+		)
+		(pin "2"
+			(uuid "cc8db44e-cea7-4381-ac0d-71f1bf085be4")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "IC9")
 					(unit 1)
 				)
 			)
