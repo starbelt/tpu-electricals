@@ -9910,7 +9910,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "GRM15x"
+		(property "Footprint" "footprints:GRM15x"
 			(at 150.19 39.37 0)
 			(effects
 				(font
@@ -11565,7 +11565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 313.36 36.83 0)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "GRM15x"
+		(property "Footprint" "footprints:GRM15x"
 			(at 157.81 39.37 0)
 			(effects
 				(font

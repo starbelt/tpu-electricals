@@ -63,24 +63,7 @@
           "width": 0.1554
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|125134639|90076558|cae9327d-9ef5-470c-853f-19a7d749add5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|153298781|102767847|118dc45c-3c24-4f7e-8cd0-4e5f7814f96b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|144978764|98242874|F.Cu|4|977e9860-2c8d-4da3-b174-2318c9bd5443|f1b962e2-50c0-4ef9-84f8-d567d13d9e72",
-          ""
-        ],
-        [
-          "unconnected_items|146950000|108300000|F.Cu|4|bdf4738e-ec22-4dc9-80d6-a2bfb877cce4|ae12c299-4701-4798-a5e4-fc7b1b8c40d3",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

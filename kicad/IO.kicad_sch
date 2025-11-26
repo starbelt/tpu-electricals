@@ -12029,7 +12029,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 207.95 167.64 0)
 			(effects
 				(font
@@ -12491,7 +12491,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 229.54 140.97 0)
 			(effects
 				(font

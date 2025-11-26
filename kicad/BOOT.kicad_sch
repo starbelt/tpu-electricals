@@ -6405,7 +6405,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 149.53 92.71 0)
 			(effects
 				(font
@@ -7147,8 +7147,8 @@
 		(at 33.02 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "370299e1-b9a3-4e9f-acb3-7efe72b79acc")
 		(property "Reference" "R15"
@@ -7169,7 +7169,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 129.21 92.71 0)
 			(effects
 				(font
@@ -7365,8 +7365,8 @@
 		(at 48.26 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "408fb223-6fe8-4671-ab19-e665c7faa0f7")
 		(property "Reference" "R22"
@@ -7387,7 +7387,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 144.45 92.71 0)
 			(effects
 				(font
@@ -7867,8 +7867,8 @@
 		(at 68.58 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "5e1fc9bf-139a-4f24-801e-1683b6dadbf5")
 		(property "Reference" "R30"
@@ -7889,7 +7889,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 164.77 92.71 0)
 			(effects
 				(font
@@ -9342,8 +9342,8 @@
 		(at 27.94 106.8365 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "8b24117c-8d58-4246-b755-27afc807c4ce")
 		(property "Reference" "R13"
@@ -9364,7 +9364,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 124.13 92.8665 0)
 			(effects
 				(font
@@ -9768,8 +9768,8 @@
 		(at 38.1 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "99e5daf0-10b4-4a51-a81b-9bf54ae7206f")
 		(property "Reference" "R18"
@@ -9790,7 +9790,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 134.29 92.71 0)
 			(effects
 				(font
@@ -10269,8 +10269,8 @@
 		(at 78.74 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "a822c8d9-03cb-48ec-a083-bbc10cb10d83")
 		(property "Reference" "R34"
@@ -10291,7 +10291,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 174.93 92.71 0)
 			(effects
 				(font
@@ -10768,8 +10768,8 @@
 		(at 43.18 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "b12cdabc-ccd8-41d4-bbfd-4c03f2125f39")
 		(property "Reference" "R20"
@@ -10790,7 +10790,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 139.37 92.71 0)
 			(effects
 				(font
@@ -11159,7 +11159,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 169.85 92.71 0)
 			(effects
 				(font
@@ -11639,8 +11639,8 @@
 		(at 63.5 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "cc63a699-bd54-4ac0-89e0-810d50fbe3c9")
 		(property "Reference" "R28"
@@ -11661,7 +11661,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 159.69 92.71 0)
 			(effects
 				(font
@@ -11811,7 +11811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VFBGA54_8X8_MRN"
+		(property "Footprint" "footprints:VFBGA54_8X8_MRN"
 			(at 156.21 78.74 0)
 			(effects
 				(font
@@ -12016,8 +12016,8 @@
 		(at 22.86 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "dac10c02-ed8e-4f5f-baf8-6c895d4191e2")
 		(property "Reference" "R11"
@@ -12038,7 +12038,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 119.05 92.71 0)
 			(effects
 				(font
@@ -12538,7 +12538,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 154.61 92.71 0)
 			(effects
 				(font
@@ -12687,7 +12687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON127P800X600X65-8N"
+		(property "Footprint" "footprints:SON127P800X600X65-8N"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -13064,7 +13064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "footprints:CAPC1608X90N"
 			(at 82.55 45.72 0)
 			(effects
 				(font

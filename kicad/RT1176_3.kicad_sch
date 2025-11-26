@@ -7517,6 +7517,10 @@
 		(uuid "0ba97c58-fd51-44c8-8145-58c4b4029f92")
 	)
 	(no_connect
+		(at 93.98 130.81)
+		(uuid "3836973a-6414-4849-a0a8-b89ff697bbba")
+	)
+	(no_connect
 		(at 261.62 83.82)
 		(uuid "3b046131-1e70-4caf-ac9c-12246f8beabb")
 	)
@@ -7579,6 +7583,10 @@
 	(no_connect
 		(at 93.98 135.89)
 		(uuid "9ff844c1-2630-42ef-88cf-9d10519b328f")
+	)
+	(no_connect
+		(at 93.98 133.35)
+		(uuid "a38b6593-013b-41aa-8ac8-215b018485b0")
 	)
 	(no_connect
 		(at 261.62 90.17)
@@ -7663,16 +7671,6 @@
 			(type default)
 		)
 		(uuid "29fcbe3b-0ed0-4eea-a0b7-f93e70d4e7c1")
-	)
-	(wire
-		(pts
-			(xy 93.98 133.35) (xy 101.6 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf5fd80-f203-44b3-9654-fd8b3a1890ff")
 	)
 	(wire
 		(pts
@@ -7773,16 +7771,6 @@
 			(type default)
 		)
 		(uuid "62918de8-92f7-4975-a68c-0f54a2b8b58c")
-	)
-	(wire
-		(pts
-			(xy 93.98 130.81) (xy 101.6 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6758e594-8a8d-4628-9798-4098742da159")
 	)
 	(wire
 		(pts
@@ -8357,28 +8345,6 @@
 		(uuid "347aa33c-0e8b-4c31-a1ba-91fa3ddfcda8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.3108 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPUART6_CTS"
-		(shape output)
-		(at 101.6 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "440d1df3-523d-4768-8a97-50c1937879bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.1642 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,28 +9005,6 @@
 		(uuid "d65f2ade-8e8a-42ea-a0e3-624dab1cd436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.4922 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPUART6_CTS"
-		(shape input)
-		(at 101.6 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc99a560-c2db-4900-b3ef-ec49f1c0f2db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.1642 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X55N"
+		(property "Footprint" "footprints:CAPC1005X55N"
 			(at 28.27 129.54 0)
 			(effects
 				(font
