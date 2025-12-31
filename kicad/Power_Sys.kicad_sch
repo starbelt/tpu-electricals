@@ -4685,7 +4685,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "IC"
 				(at 33.02 10.16 0)
 				(effects
 					(font
@@ -4728,14 +4728,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "LM3370SD-4221/NOPB"
@@ -24343,7 +24335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fa90fd-a2f2-44c3-888d-fb1c19cc3fbd")
-		(property "Reference" "11"
+		(property "Reference" "IC11"
 			(at 248.285 67.31 0)
 			(effects
 				(font
@@ -24359,7 +24351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SDA16B"
+		(property "Footprint" "SDA16B"
 			(at 227.33 77.47 0)
 			(effects
 				(font
@@ -24442,7 +24434,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "11")
+					(reference "IC11")
 					(unit 1)
 				)
 			)

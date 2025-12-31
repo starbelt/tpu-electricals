@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.5"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2025-11-20T16:18:21-05:00"
+    "CreationDate": "2025-12-30T15:29:57-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,15 +24,15 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.1
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.09,
-      "PadToTrack": 0.09,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.12,
       "TrackToRegion": 0.25,
@@ -47,22 +47,22 @@
     },
     {
       "Path": "sb-tpu-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "sb-tpu-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "sb-tpu-In3_Cu.gbr",
-      "FileFunction": "Copper,L4,Inr",
+      "FileFunction": "Copper,L9,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "sb-tpu-In4_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L11,Inr",
       "FilePolarity": "Positive"
     },
     {
