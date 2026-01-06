@@ -1,6 +1,6 @@
 # TPU-Electricals
 
-Open source design of architecture for embedded TPU for picosatellites
+Open source design of architecture for embedded Coral TPU for picosatellites
 
 ## Directory Contents
 
