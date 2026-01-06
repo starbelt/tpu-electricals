@@ -5353,16 +5353,6 @@
 		)
 		(uuid "56b8175c-4ad2-46db-ab3d-fc7fefc83833")
 	)
-	(text "What does this mean? Check if resolved by USB-side wiring"
-		(exclude_from_sim no)
-		(at 16.51 101.092 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7423e668-646f-468a-ab64-6c4e55a4648e")
-	)
 	(text "GOOGLE CORAL ACCELERATOR MODULE\n"
 		(exclude_from_sim no)
 		(at 52.832 40.132 0)
