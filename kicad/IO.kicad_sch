@@ -5523,6 +5523,16 @@
 		)
 		(uuid "957242d5-3d75-478f-b913-94fd74b2a9d9")
 	)
+	(text "unconnected net"
+		(exclude_from_sim no)
+		(at 22.098 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a09f2698-c247-42df-b84d-feeb84f9f9c8")
+	)
 	(text "USB CONTROLLER"
 		(exclude_from_sim no)
 		(at 24.384 76.454 0)

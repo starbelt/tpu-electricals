@@ -17218,7 +17218,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 78.74 59.69 0)
+			(at 78.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17641,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 64.77 90.17 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17782,7 +17782,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 53.34 90.17 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,7 +20459,7 @@
 			)
 		)
 		(property "Value" "0402WGF4701TCE"
-			(at 60.96 115.57 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
