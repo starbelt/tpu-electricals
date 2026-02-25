@@ -10470,24 +10470,12 @@
 		(uuid "ffc20b5f-f4dd-4024-bca9-f9e8ff3c6308")
 	)
 	(no_connect
-		(at 67.31 180.34)
-		(uuid "00619415-4dc3-41e0-a589-e7c9b2a0a7da")
-	)
-	(no_connect
 		(at 238.76 163.83)
 		(uuid "6ece2aa4-04f2-4aae-99c7-cc5131058af0")
 	)
 	(no_connect
 		(at 238.76 157.48)
 		(uuid "99ebc7ae-a7f4-4341-b692-fd76d950a70c")
-	)
-	(no_connect
-		(at 67.31 182.88)
-		(uuid "9a3ca578-6ef2-4b96-9a27-376bae62abab")
-	)
-	(no_connect
-		(at 67.31 185.42)
-		(uuid "d7724d2b-8d90-42ba-a3d0-8188ef5fcd0a")
 	)
 	(wire
 		(pts
@@ -12575,6 +12563,28 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 67.31 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf162231-bff7-4e9d-a867-f075c2a6b828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.5242 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LPSPI6_SDO"
 		(shape output)
 		(at 110.49 175.26 0)
@@ -12588,6 +12598,28 @@
 		(uuid "e19dee96-411a-4420-b3ff-e2533e617c27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.8447 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 67.31 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e84580a4-6d4d-452d-8921-5ca04ac99f77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.1614 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,7 +12713,7 @@
 			)
 		)
 		(property "Value" "04026D105KAT2A"
-			(at 99.314 51.054 0)
+			(at 99.568 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13731,7 +13763,7 @@
 			)
 		)
 		(property "Value" "04026D105KAT2A"
-			(at 188.976 44.704 0)
+			(at 197.612 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15137,7 +15169,7 @@
 		(dnp no)
 		(uuid "2dbb91c3-d587-4be1-a14c-b00f628a254d")
 		(property "Reference" "C77"
-			(at 180.34 59.69 0)
+			(at 175.006 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16469,7 +16501,7 @@
 		(dnp no)
 		(uuid "33a9c750-aade-4445-96d2-a9765c2f5bdf")
 		(property "Reference" "C85"
-			(at 199.39 152.4 0)
+			(at 193.802 146.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16478,7 +16510,7 @@
 			)
 		)
 		(property "Value" "GRM1555C1H160JA01D"
-			(at 196.85 152.4 0)
+			(at 197.104 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17241,7 @@
 		(dnp no)
 		(uuid "4923b75c-31ed-4814-813a-9c51ecba4e9e")
 		(property "Reference" "C65"
-			(at 81.28 59.69 0)
+			(at 75.184 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +17250,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 78.74 58.42 0)
+			(at 71.882 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17359,7 +17391,7 @@
 			)
 		)
 		(property "Value" "04026D105KAT2A"
-			(at 90.17 50.8 0)
+			(at 89.662 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18984,7 +19016,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 238.76 92.71 0)
+			(at 246.888 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20812,7 +20844,7 @@
 		(dnp no)
 		(uuid "852ca5af-65fc-469f-81b5-91057b20d89c")
 		(property "Reference" "C88"
-			(at 210.82 52.07 0)
+			(at 205.486 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21223,7 +21255,7 @@
 		(dnp no)
 		(uuid "8e751348-d262-4fdb-9015-1169cc4d34ff")
 		(property "Reference" "C73"
-			(at 119.38 59.69 0)
+			(at 113.03 54.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21232,7 +21264,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 116.84 59.69 0)
+			(at 111.252 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21626,7 +21658,7 @@
 		(dnp no)
 		(uuid "a98c82dc-564e-4573-b438-9c05a72785ea")
 		(property "Reference" "C80"
-			(at 176.53 49.53 0)
+			(at 187.198 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21635,7 +21667,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 179.07 49.53 0)
+			(at 185.42 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22451,7 +22483,7 @@
 		(dnp no)
 		(uuid "bfb29379-63fe-41c9-ab00-871fb58c7184")
 		(property "Reference" "C74"
-			(at 129.54 59.69 0)
+			(at 123.444 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +22492,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 127 59.69 0)
+			(at 121.666 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,7 +23752,7 @@
 		(dnp no)
 		(uuid "cd1bb05c-817e-4eda-9f27-7548b49e78c8")
 		(property "Reference" "C64"
-			(at 81.28 29.21 0)
+			(at 75.184 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23729,7 +23761,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 78.74 29.21 0)
+			(at 78.994 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23861,7 +23893,7 @@
 		(dnp no)
 		(uuid "d4221cf8-6dd3-4998-8b7b-d85e31bbec92")
 		(property "Reference" "C68"
-			(at 91.44 35.56 0)
+			(at 85.09 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23870,7 +23902,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 88.9 35.56 0)
+			(at 91.948 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24395,7 +24427,7 @@
 		(dnp no)
 		(uuid "dc245ee2-c830-4592-8a96-5fb4f1abd042")
 		(property "Reference" "C67"
-			(at 77.47 54.61 0)
+			(at 88.138 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24404,7 +24436,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 80.01 54.61 0)
+			(at 80.264 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24755,7 +24787,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 224.79 110.49 0)
+			(at 233.934 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25881,7 +25913,7 @@
 		(dnp no)
 		(uuid "ec66a3d9-c2f0-4e75-977e-c7ed33500f76")
 		(property "Reference" "C91"
-			(at 226.06 31.75 0)
+			(at 237.236 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25890,7 +25922,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 228.6 31.75 0)
+			(at 228.854 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)

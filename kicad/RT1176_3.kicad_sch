@@ -7439,7 +7439,7 @@
 		(uuid "237a2a6c-e526-4f00-bcba-141635a5a552")
 	)
 	(junction
-		(at 181.61 134.62)
+		(at 181.61 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d37fafb-45ec-4a1a-8aef-cc694637846b")
@@ -7632,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 134.62) (xy 160.02 134.62)
+			(xy 148.59 139.7) (xy 160.02 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7722,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 134.62) (xy 181.61 134.62)
+			(xy 175.26 139.7) (xy 181.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7782,7 +7782,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 134.62) (xy 201.93 134.62)
+			(xy 181.61 139.7) (xy 205.74 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7952,16 +7952,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 139.7) (xy 205.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb3f4ba-c6a9-47d0-8655-2af1cd473400")
-	)
-	(wire
-		(pts
 			(xy 39.37 151.13) (xy 49.53 151.13)
 		)
 		(stroke
@@ -7969,16 +7959,6 @@
 			(type default)
 		)
 		(uuid "e414b3e4-d6c1-46ee-8e98-582e578135fe")
-	)
-	(wire
-		(pts
-			(xy 201.93 134.62) (xy 201.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eef4aa5e-f2ce-4661-87d2-207b04949df6")
 	)
 	(wire
 		(pts
@@ -9092,7 +9072,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:BLM15AG121SN1D")
-		(at 160.02 134.62 0)
+		(at 160.02 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9100,7 +9080,7 @@
 		(dnp no)
 		(uuid "15f12306-d1e5-4da4-975b-c576e0dd50d3")
 		(property "Reference" "L9"
-			(at 164.084 128.016 0)
+			(at 164.084 133.096 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9108,7 +9088,7 @@
 			)
 		)
 		(property "Value" "BLM15AG121SN1D"
-			(at 164.846 130.302 0)
+			(at 164.846 135.382 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9116,7 +9096,7 @@
 			)
 		)
 		(property "Footprint" "footprints:IND_BLM15_0402_MUR"
-			(at 160.02 134.62 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9106,7 @@
 			)
 		)
 		(property "Datasheet" "BLM15AG121SN1D"
-			(at 160.02 134.62 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 134.62 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +10479,7 @@
 		(dnp no)
 		(uuid "449ed9ba-f6e3-4ae6-ade2-2766945f65b6")
 		(property "Reference" "C105"
-			(at 130.81 129.54 0)
+			(at 125.222 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10812,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:06036C105MAT2A")
-		(at 181.61 134.62 270)
+		(at 181.61 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10840,7 +10820,7 @@
 		(dnp no)
 		(uuid "6140552d-7bb7-4ba9-8432-7dbef87bb2f0")
 		(property "Reference" "C106"
-			(at 181.864 139.192 90)
+			(at 181.864 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +10829,7 @@
 			)
 		)
 		(property "Value" "04026D105KAT2A"
-			(at 178.562 135.636 0)
+			(at 178.562 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10838,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 85.42 143.51 0)
+			(at 85.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10848,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at -14.58 143.51 0)
+			(at -14.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10858,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
-			(at 181.61 134.62 0)
+			(at 181.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10867,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -214.58 143.51 0)
+			(at -214.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10897,7 +10877,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -314.58 143.51 0)
+			(at -314.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10907,7 +10887,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06036C105MAT2A"
-			(at -414.58 143.51 0)
+			(at -414.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10897,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06036C105MAT2A"
-			(at -514.58 143.51 0)
+			(at -514.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10907,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
-			(at -614.58 143.51 0)
+			(at -614.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10937,7 +10917,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06036C105MAT2A"
-			(at -714.58 143.51 0)
+			(at -714.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +10927,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
-			(at -814.58 143.51 0)
+			(at -814.58 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14184,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 148.59 134.62 0)
+		(at 148.59 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14213,7 +14193,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2d6bcb9-3900-482d-bfdc-4855d836b62b")
 		(property "Reference" "#PWR0195"
-			(at 148.336 134.62 0)
+			(at 148.336 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14202,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 148.59 129.54 0)
+			(at 148.59 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14230,7 +14210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 134.62 0)
+			(at 148.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14239,7 +14219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 134.62 0)
+			(at 148.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14248,7 +14228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 134.62 0)
+			(at 148.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14607,7 +14587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 147.32 0)
+		(at 181.61 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14615,7 +14595,7 @@
 		(dnp no)
 		(uuid "d3db134b-7c36-4e63-a2cd-5f90044f6be0")
 		(property "Reference" "#PWR0198"
-			(at 181.61 153.67 0)
+			(at 181.61 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14604,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 151.13 0)
+			(at 181.61 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14632,7 +14612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 147.32 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14641,7 +14621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 147.32 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,7 +14630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 147.32 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
