@@ -5503,6 +5503,18 @@
 		)
 		(uuid 13c5762d-2a4a-47fd-894f-a0eb8c449374)
 	)
+	(rectangle
+		(start 54.102 120.396)
+		(end 67.31 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 152ebb27-a60c-449b-a5b9-7675797acef0)
+	)
 	(arc
 		(start 212.09 121.412)
 		(mid 211.718 122.31)
@@ -5750,6 +5762,17 @@
 			)
 		)
 		(uuid "78f7b2c0-fea2-44a8-9c1f-56fbf5b6a727")
+	)
+	(text "AON Domain \nNot Present"
+		(exclude_from_sim no)
+		(at 54.61 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c48e260-202f-481a-a2c1-f0d2d67ba58b")
 	)
 	(text "Do I need this level shifter?"
 		(exclude_from_sim no)

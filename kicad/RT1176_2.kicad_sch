@@ -8328,6 +8328,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 64.77) (xy 72.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038f2df-8470-42ca-90d0-f013405c22de")
+	)
+	(wire
+		(pts
 			(xy 179.07 106.68) (xy 179.07 116.84)
 		)
 		(stroke
@@ -8667,7 +8677,7 @@
 		(uuid "1fefde5e-f531-480b-a10d-8febb301e0f6")
 	)
 	(label "BT_CFG_IO_EN"
-		(at 72.39 64.77 0)
+		(at 74.93 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9020,7 +9030,7 @@
 			)
 		)
 	)
-	(global_label "USBB_PORT_RT"
+	(global_label "USB_PORT_RT"
 		(shape output)
 		(at 72.39 72.39 0)
 		(fields_autoplaced yes)
@@ -9032,7 +9042,7 @@
 		)
 		(uuid "3ac4f6c1-0dab-4721-ab14-0521413a15e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.4661 72.39 0)
+			(at 88.1961 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,10 +9760,10 @@
 		(lib_id "sb-tpu:CRCW0402100KJNED")
 		(at 137.16 134.62 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "0c5e90bb-2c29-42c7-a16f-5f356e66cc6a")
 		(property "Reference" "R49"
 			(at 137.414 120.904 90)
@@ -16062,10 +16072,10 @@
 		(lib_id "sb-tpu:74LVC2G66GT,115")
 		(at 140.97 101.6 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f39894ce-8d99-4b30-9237-7b200272abf1")
 		(property "Reference" "IC7"

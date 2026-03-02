@@ -13965,17 +13965,6 @@
 		)
 		(uuid "1fc08fd9-5501-4caa-b59c-5c05e295b07c")
 	)
-	(text "Tying EN1 to DCDC_IN for MCU enforces 1V8 power \nup after DCDC power stable. Could also tie to \nVSYS_3V3 or VDD_3V3 with sufficient RC circuit. \n(Approx 10ms delay)"
-		(exclude_from_sim no)
-		(at 332.486 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40eefb0b-28fb-4a27-af8e-dd246193f36a")
-	)
 	(text "Power On Reset"
 		(exclude_from_sim no)
 		(at 169.926 22.606 0)
@@ -26121,9 +26110,9 @@
 		(at 173.99 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f71dc15-b02a-4332-9552-390d2057196b")
 		(property "Reference" "U4"
@@ -31699,10 +31688,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7777d953-551d-4fc6-938c-00d905806142")
+			(uuid "7777d953-551d-4fc6-938c-00d905806143")
 		)
 		(pin "2"
-			(uuid "8c0cce84-aaf4-4385-a7de-a1b3fe813dbf")
+			(uuid "8c0cce84-aaf4-4385-a7de-a1b3fe813dc0")
 		)
 		(instances
 			(project "sb-tpu"
