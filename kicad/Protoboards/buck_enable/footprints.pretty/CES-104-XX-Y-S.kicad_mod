@@ -1,0 +1,162 @@
+(footprint "CES-104-XX-Y-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CES-104-XX-Y-S")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(uuid "dee59c91-0e4a-4f5b-b101-8456166ab889")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CES-104-XX-Y-S"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7620c926-8112-4eab-a489-294011f80377")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea4ba6b8-0da5-44c5-8510-cfaf3090883b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a9b23ad-7337-415d-bc23-f41a62709eea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2ba439b-312d-4431-ac6b-037adbe06f2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.01 -1.2)
+		(end 5.01 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6648b9d0-5024-41dc-9849-ef3f30256495")
+	)
+	(fp_line
+		(start -5.01 1.2)
+		(end -5.01 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f4782e2-1463-498b-b139-d6e507051929")
+	)
+	(fp_line
+		(start 5.01 -1.2)
+		(end 5.01 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04396ccb-8534-4a54-9a68-79a1f6587481")
+	)
+	(fp_line
+		(start 5.01 1.2)
+		(end -5.01 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cde37002-e2fc-4233-ab04-49f936a9fd3d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "eb439890-789e-457e-96f8-cd4b5f819db4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.54 1.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "167eb321-ba33-4800-9f64-c7152dd8a645")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.54 1.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bebbf523-ae6b-4e0f-9b70-715352b6e389")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.54 1.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e47ec5e-5ba7-4de1-9c45-13181b0c2d54")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.54 1.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d6e2724-1338-4d9a-820c-eb7a6d5265f4")
+	)
+	(model "../3d-models/CES-104-02-G-S.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
