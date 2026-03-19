@@ -1,0 +1,193 @@
+(footprint "RESC1006X45N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RCWE0402R100JNEA")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f1a3646d-2dea-44fa-b312-218f6bb009d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC1006X45N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "229549ad-aa8d-4e63-9e30-ef9f96ef8ad8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6720c18b-28ab-4086-86ae-61b49fb7af56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1d1eb26-6779-4945-8af9-3fe04d987d61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.175 -0.6)
+		(end 1.175 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34c30082-0c3a-4261-8aa0-cbb1ed07364b")
+	)
+	(fp_line
+		(start -1.175 0.6)
+		(end -1.175 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cafcca83-f147-441c-b040-acd3e430899e")
+	)
+	(fp_line
+		(start 1.175 -0.6)
+		(end 1.175 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dadfd09b-8064-4979-b8e6-27368dae503c")
+	)
+	(fp_line
+		(start 1.175 0.6)
+		(end -1.175 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "487b9a51-1c53-4ad7-873f-0ac07dd4a7ad")
+	)
+	(fp_line
+		(start -0.525 -0.275)
+		(end 0.525 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0c8fcf9-aa92-4f5b-976e-77e1eda1e6fb")
+	)
+	(fp_line
+		(start -0.525 0.275)
+		(end -0.525 -0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8746547-a84d-4a8f-bb68-215d1e932d27")
+	)
+	(fp_line
+		(start 0.525 -0.275)
+		(end 0.525 0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75db4e3b-9aa2-48eb-bf5d-3b4a5c242c74")
+	)
+	(fp_line
+		(start 0.525 0.275)
+		(end -0.525 0.275)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "962133c0-fc5b-4854-87c6-1c48828bd09d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "798d4afb-f9bd-4361-8355-7fd0a4982e75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.512 0 90)
+		(size 0.65 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "57f85ebf-e1f5-44f9-86eb-1331a5962973")
+	)
+	(pad "2" smd rect
+		(at 0.512 0 90)
+		(size 0.65 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90a503b5-774b-4357-a6e6-a80d7783057c")
+	)
+	(embedded_fonts no)
+	(model "RCWE0402R100JNEA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/CRCW04022K20FKEDHP.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/RCWE0402R100JNEA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

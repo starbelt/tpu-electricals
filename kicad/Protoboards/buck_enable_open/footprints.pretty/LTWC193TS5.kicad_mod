@@ -1,0 +1,245 @@
+(footprint "LTWC193TS5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTW-C193TS5-1")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "22c737be-a48e-468c-add9-91a853837f76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LTWC193TS5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c45162ee-ff91-4ea7-811c-98727b650f00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de7f1b30-69a7-4ffd-beae-038bd0f7ce8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23b37442-b66d-4fc3-8ce8-81c892c43cb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 0)
+		(end -1.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34ef32f7-ecb3-47e4-b9fb-aa44f025dcc8")
+	)
+	(fp_line
+		(start -1.7 0)
+		(end -1.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a777c6d-04a6-4766-a2e2-2daf5c728f3c")
+	)
+	(fp_line
+		(start -1.6 0)
+		(end -1.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "434ea93b-4697-4e00-a15a-65b397c87033")
+	)
+	(fp_arc
+		(start -1.7 0)
+		(mid -1.65 -0.05)
+		(end -1.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74d6d601-4e11-4cdf-bf50-b29f1d02cbfa")
+	)
+	(fp_arc
+		(start -1.6 0)
+		(mid -1.65 0.05)
+		(end -1.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a419e241-f338-4b61-bc82-a82622bfdf0d")
+	)
+	(fp_arc
+		(start -1.6 0)
+		(mid -1.65 0.05)
+		(end -1.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d778a534-ecd5-495c-b9bd-4be7a210fc99")
+	)
+	(fp_line
+		(start -2.15 -1.4)
+		(end 2.15 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e601ea6a-8290-4ba5-9beb-0f448c9f6591")
+	)
+	(fp_line
+		(start -2.15 1.4)
+		(end -2.15 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dabe71c-5580-474e-be55-5ae51b74d2e6")
+	)
+	(fp_line
+		(start 2.15 -1.4)
+		(end 2.15 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9380252e-eda2-43e2-a311-0e50bfac7fd9")
+	)
+	(fp_line
+		(start 2.15 1.4)
+		(end -2.15 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77f2308e-0bc1-4b25-99ca-01abb6da24e3")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28a4b7c8-20ce-40c4-baf5-9056f7a8b1ff")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bdfcab7-03b9-4a37-bd42-dda76c9deceb")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d91f1254-d565-4665-a0a9-dca268b57958")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be86108c-e58c-44ba-b2ba-47bf9c7bd42f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a5a1e54-6fc3-4a41-adc5-ab27113d011c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22fcb02c-f663-4d6f-814c-7499ecd59449")
+	)
+	(pad "2" smd rect
+		(at 0.75 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3a2ee05-0b43-4041-ae1f-19981cd91a12")
+	)
+	(embedded_fonts no)
+	(model "LTW-C193TS5.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/LTW-C193TS5.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
