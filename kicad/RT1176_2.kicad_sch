@@ -7531,7 +7531,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:VSYS"
+		(symbol "sb-tpu:VSYS_5V"
 			(power)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7545,7 +7545,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VSYS"
+			(property "Value" "VSYS_5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -7580,7 +7580,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VSYS_0_1"
+			(symbol "VSYS_5V_0_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy 1.27 2.54)
@@ -7594,7 +7594,7 @@
 					)
 				)
 			)
-			(symbol "VSYS_1_1"
+			(symbol "VSYS_5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 2.54)
@@ -11137,7 +11137,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -74.6 93.98 0)
 			(effects
 				(font
@@ -11367,7 +11367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS")
+		(lib_id "sb-tpu:VSYS_5V")
 		(at 101.6 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11376,7 +11376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73853551-703d-43a9-b32e-34e980f26d78")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR168"
 			(at 101.346 62.484 0)
 			(effects
 				(font
@@ -11385,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "VSYS_5V"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -11426,7 +11426,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/f09b5b7e-6806-4bfa-8499-867719811b8a"
-					(reference "#PWR0168")
+					(reference "#PWR168")
 					(unit 1)
 				)
 			)
@@ -11459,7 +11459,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -6.02 88.9 0)
 			(effects
 				(font
@@ -16094,7 +16094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "74AVC9112GTX"
+		(property "Footprint" "footprints:74AVC9112GTX"
 			(at 162.56 99.06 0)
 			(effects
 				(font

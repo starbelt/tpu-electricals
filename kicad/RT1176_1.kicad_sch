@@ -16518,7 +16518,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 96.85 152.4 0)
 			(effects
 				(font
@@ -17258,7 +17258,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -21.26 59.69 0)
 			(effects
 				(font
@@ -17681,7 +17681,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 164.77 90.17 0)
 			(effects
 				(font
@@ -21272,7 +21272,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 16.84 59.69 0)
 			(effects
 				(font
@@ -22229,7 +22229,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 161.62 63.5 0)
 			(effects
 				(font
@@ -22500,7 +22500,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 27 59.69 0)
 			(effects
 				(font
@@ -23769,7 +23769,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -21.26 29.21 0)
 			(effects
 				(font
@@ -23910,7 +23910,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -11.1 35.56 0)
 			(effects
 				(font
@@ -24051,7 +24051,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 289.23 127 0)
 			(effects
 				(font

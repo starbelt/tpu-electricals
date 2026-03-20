@@ -5,6 +5,113 @@
 	(uuid "d113c66e-665a-40c3-a7b8-9e2e1c22a954")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS3813K33DBVR_1"
 			(pin_names
 				(offset 0.254)
@@ -215,6 +322,261 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VSYS_5V_3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSYS_5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSYS_5V_3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSYS_5V_3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VSYS_5V_4"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSYS_5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSYS_5V_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSYS_5V_4_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VSYS_5V_6"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSYS_5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSYS_5V_6_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSYS_5V_6_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -10435,6 +10797,91 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:VLDO_3V3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -0.254 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VLDO_3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VLDO_3V3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VLDO_3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:VSYS"
 			(power)
 			(exclude_from_sim no)
@@ -10520,7 +10967,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:VSYS_3V3"
+		(symbol "sb-tpu:VSYS_5V"
 			(power)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10534,7 +10981,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VSYS_3V3"
+			(property "Value" "VSYS"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -10569,7 +11016,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VSYS_3V3_0_1"
+			(symbol "VSYS_5V_0_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy 1.27 2.54)
@@ -10583,7 +11030,7 @@
 					)
 				)
 			)
-			(symbol "VSYS_3V3_1_1"
+			(symbol "VSYS_5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 2.54)
@@ -10847,12 +11294,6 @@
 		(uuid "11d4c67a-11a6-4c3f-8966-08a767a2b96f")
 	)
 	(junction
-		(at 74.93 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "396425f6-83b3-4b39-bd17-2c97490aa1fe")
-	)
-	(junction
 		(at 173.99 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10869,6 +11310,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "421f0654-33db-4291-b35f-fd6c67106c49")
+	)
+	(junction
+		(at 74.93 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b401d8-172d-4ddd-8f18-a4b25f25e9b8")
 	)
 	(junction
 		(at 257.81 26.67)
@@ -10905,6 +11352,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f89bd7e-03f9-4cfe-9da7-61d7ef0bea7a")
+	)
+	(junction
+		(at 259.08 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64b27939-671f-492a-afe7-985f97213326")
 	)
 	(junction
 		(at 213.36 39.37)
@@ -11003,6 +11456,12 @@
 		(uuid "c457709b-0959-4925-adb8-ca39c2b39e9c")
 	)
 	(junction
+		(at 87.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cafb0af5-1b7d-42f2-93c0-f74c01d76b8b")
+	)
+	(junction
 		(at 113.03 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11037,12 +11496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c017ce-28f2-4ab1-8358-a834ed53079f")
-	)
-	(junction
-		(at 259.08 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbaee479-12c4-46b0-a657-3d4827fa56c2")
 	)
 	(no_connect
 		(at 78.74 111.76)
@@ -11554,7 +12007,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 149.86) (xy 85.09 149.86)
+			(xy 66.04 149.86) (xy 74.93 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12104,16 +12557,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 74.93 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04f982c-20e2-412c-a4ab-949a2e6b1449")
-	)
-	(wire
-		(pts
 			(xy 163.83 77.47) (xy 163.83 76.2)
 		)
 		(stroke
@@ -12221,6 +12664,16 @@
 			(type default)
 		)
 		(uuid "f1aab597-797e-4e06-8825-793802e1f3b2")
+	)
+	(wire
+		(pts
+			(xy 74.93 149.86) (xy 85.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f383a01d-eac8-4b6a-ae59-57530ed692cb")
 	)
 	(wire
 		(pts
@@ -13098,78 +13551,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-			(project "Power_Sys"
-				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VSYS")
-		(at 167.64 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10f5fed6-4f55-4174-9533-b88a168d156b")
-		(property "Reference" "#PWR046"
-			(at 167.894 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 167.64 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "222b1407-ed61-4e56-9bcf-4b80a0bccb90")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14540,6 +14921,73 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 224.79 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17457bcc-955f-4f8f-8efc-a2d38ca02256")
+		(property "Reference" "#PWR017"
+			(at 224.536 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 228.6 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "24a8ecd6-714a-43f3-8c67-3eb04eb36f3d")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:FC-135_32.7680KA-AG3")
 		(at 104.14 176.53 90)
 		(unit 1)
@@ -14834,79 +15282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS")
-		(at 168.91 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b158eab-4b68-4552-afec-2a8f15725fbd")
-		(property "Reference" "#PWR047"
-			(at 168.656 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 168.91 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2d4d72be-2ad8-48d1-b0ec-c27d9d40cb0b")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-			(project "Power_Sys"
-				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VSYS")
+		(lib_name "VSYS_5V_4")
+		(lib_id "sb-tpu:VSYS_5V")
 		(at 15.24 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14915,7 +15292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4643e1-43c8-4552-8cd9-7938383ba9d6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 14.986 150.114 0)
 			(effects
 				(font
@@ -14924,7 +15301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "VSYS_5V"
 			(at 15.24 144.78 0)
 			(effects
 				(font
@@ -14965,7 +15342,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -15341,7 +15718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b16785d-3963-4469-b3b2-e7fdc0c630ee")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 43.18 98.044 0)
 			(effects
 				(font
@@ -15441,7 +15818,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16840,7 +17217,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 33.02 -44.12 0)
 			(effects
 				(font
@@ -16955,78 +17332,6 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VSYS")
-		(at 168.91 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "493473cb-2110-4d4e-ac8c-7287a601b627")
-		(property "Reference" "#PWR048"
-			(at 169.164 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 165.354 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f62e8d05-5255-418d-ab63-4604236b570b")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-			(project "Power_Sys"
-				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -17318,73 +17623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS_3V3")
-		(at 259.08 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52323d48-b2ca-4efa-9c23-c34a4dc93fbc")
-		(property "Reference" "#PWR072"
-			(at 258.826 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS_3V3"
-			(at 262.89 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ef3c4833-adb0-4b84-abd5-1365982c8e25")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
 		(at 274.32 26.67 0)
 		(unit 1)
@@ -17466,7 +17704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53aadece-3ebf-49b7-811b-6ba446b25264")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 90.424 112.776 90)
 			(effects
 				(font
@@ -17484,7 +17722,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 183.82 118.11 0)
 			(effects
 				(font
@@ -17592,7 +17830,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17625,7 +17863,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -11.1 78.74 0)
 			(effects
 				(font
@@ -17911,7 +18149,7 @@
 			)
 		)
 		(property "Value" "GRM155R60J475KE96D"
-			(at 167.894 75.946 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,7 +18157,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 73.99 91.44 0)
 			(effects
 				(font
@@ -18281,7 +18519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDA16B"
+		(property "Footprint" "footprints:SDA16B"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -18609,6 +18847,72 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 168.91 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7431584e-2aaa-48cb-bb56-f8f69b59d2ed")
+		(property "Reference" "#PWR014"
+			(at 168.656 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cbd649c0-2c82-4392-9c16-fbe5c6adcd46")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 95.25 0)
 		(unit 1)
@@ -18746,7 +19050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS")
+		(lib_name "VSYS_5V_6")
+		(lib_id "sb-tpu:VSYS_5V")
 		(at 257.81 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18755,7 +19060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c46a5af-3292-4025-baa5-76871282f055")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 257.556 26.924 0)
 			(effects
 				(font
@@ -18764,7 +19069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "VSYS_5V"
 			(at 257.81 21.59 0)
 			(effects
 				(font
@@ -18805,7 +19110,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -19025,6 +19330,72 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 167.64 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8f8654-9e99-42b7-b38d-6ec1901dc496")
+		(property "Reference" "#PWR016"
+			(at 167.894 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "950de203-22c9-40df-ae6e-0032a00c670c")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19469,7 +19840,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS")
+		(lib_name "VSYS_5V_3")
+		(lib_id "sb-tpu:VSYS_5V")
 		(at 34.29 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19478,7 +19850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f20eb4-96c5-4758-99fa-23bccb74dff9")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR243"
 			(at 34.544 101.854 0)
 			(effects
 				(font
@@ -19487,7 +19859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "VSYS_5V"
 			(at 30.48 101.5999 90)
 			(effects
 				(font
@@ -19529,7 +19901,7 @@
 		(instances
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR0243")
+					(reference "#PWR243")
 					(unit 1)
 				)
 			)
@@ -20118,78 +20490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS")
-		(at 67.31 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a806b7d8-15b1-4858-a60d-56197882a1b7")
-		(property "Reference" "#PWR015"
-			(at 67.056 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 67.31 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "012de6aa-5fde-49ef-a2ec-8e491d49f0a7")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "Power_Sys"
-				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:GRM155R60J475KE96D")
 		(at 172.72 97.79 270)
 		(unit 1)
@@ -20217,7 +20517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 76.53 106.68 0)
 			(effects
 				(font
@@ -20338,73 +20638,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS_3V3")
-		(at 224.79 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac63556d-c66a-4a78-a406-13ff527d9deb")
-		(property "Reference" "#PWR064"
-			(at 224.536 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS_3V3"
-			(at 228.6 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0db0a7ec-b7a4-4732-adfa-b5ab446bec47")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 34.29 111.76 90)
 		(unit 1)
@@ -20414,7 +20647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6c484d-7918-4df4-8057-50cb25b3e043")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0246"
 			(at 38.1 111.76 0)
 			(effects
 				(font
@@ -20465,7 +20698,7 @@
 		(instances
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR?")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -20545,6 +20778,72 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:VSYS_5V")
+		(at 67.31 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace0437d-a139-4d8e-91ec-044ea156d9de")
+		(property "Reference" "#PWR06"
+			(at 67.056 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7c3fe7c7-7251-4f31-8894-c9f433f823a4")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 80.01 270)
 		(unit 1)
@@ -20618,6 +20917,72 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:VLDO_3V3")
+		(at 74.93 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65bce8f-e07d-43f9-b1ad-919f8fd60769")
+		(property "Reference" "#PWR05"
+			(at 74.676 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLDO_3V3"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7515a66c-cefc-4fc2-a8b1-72a2cba65144")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:CDBQC0240L-HF")
 		(at 64.77 180.34 180)
 		(unit 1)
@@ -20627,7 +20992,7 @@
 		(dnp no)
 		(uuid "b890e9b3-9694-4d08-8e08-f330da70c8eb")
 		(property "Reference" "D3"
-			(at 52.07 189.23 0)
+			(at 61.214 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +21001,7 @@
 			)
 		)
 		(property "Value" "CDBQC0240L-HF"
-			(at 52.07 186.69 0)
+			(at 60.706 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20644,7 +21009,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 52.07 86.69 0)
 			(effects
 				(font
@@ -21044,6 +21409,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1c25803-f5f7-4070-a928-ee7120dfaa01")
+		(property "Reference" "TP1"
+			(at 70.104 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 70.358 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4218e456-5dfc-42c5-9984-320f25748d71")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:CDBQC0240L-HF")
 		(at 67.31 149.86 180)
 		(unit 1)
@@ -21053,7 +21484,7 @@
 		(dnp no)
 		(uuid "c25650ed-90e2-406c-8b2f-5244911e4e1e")
 		(property "Reference" "D4"
-			(at 54.61 158.75 0)
+			(at 61.214 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21062,7 +21493,7 @@
 			)
 		)
 		(property "Value" "CDBQC0240L-HF"
-			(at 54.61 156.21 0)
+			(at 66.294 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21070,7 +21501,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 54.61 56.21 0)
 			(effects
 				(font
@@ -21215,7 +21646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW0402200KFKED"
+		(property "Footprint" "footprints:CRCW0402200KFKED"
 			(at 255.27 178.74 0)
 			(effects
 				(font
@@ -21324,72 +21755,6 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VSYS_3V3")
-		(at 74.93 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5f3e310-b2c8-46f3-8b8f-8335f99c0e92")
-		(property "Reference" "#PWR016"
-			(at 74.676 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS_3V3"
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "05502e94-0e9b-4a30-acfe-cee64b38393b")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21547,6 +21912,139 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 87.63 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce0df76-a32b-4d1d-99a7-8353dba38bf1")
+		(property "Reference" "#PWR07"
+			(at 87.376 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "282c8670-3fb1-4651-9a89-9e798300b1bc")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 168.91 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df162c43-d87b-4dcb-96f0-49d806d05e7d")
+		(property "Reference" "#PWR015"
+			(at 169.164 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 165.1 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "23ca1d4c-80ac-4c15-823e-d0ce9df18d3a")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -22161,7 +22659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 270.18 66.04 0)
 			(effects
 				(font
@@ -22308,7 +22806,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 246.38 -16.18 0)
 			(effects
 				(font
@@ -22564,6 +23062,73 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VSYS")
+		(at 259.08 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f797d4c6-1994-4c40-b895-2b989645e81b")
+		(property "Reference" "#PWR024"
+			(at 258.826 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 262.89 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dd05da7a-b72e-4ab4-a884-0ced9b0770c3")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

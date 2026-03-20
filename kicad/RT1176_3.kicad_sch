@@ -10679,7 +10679,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 20.65 135.89 0)
 			(effects
 				(font
@@ -12285,7 +12285,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -68.25 81.28 0)
 			(effects
 				(font
@@ -14251,7 +14251,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -65.71 165.1 0)
 			(effects
 				(font

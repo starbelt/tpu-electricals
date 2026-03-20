@@ -9856,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 93.98 238.43 0)
 			(effects
 				(font
@@ -10694,7 +10694,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC1005X70N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -23.8 43.18 0)
 			(effects
 				(font
@@ -13620,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDBQC0240LHF"
+		(property "Footprint" "footprints:CDBQC0240LHF"
 			(at 93.98 256.21 0)
 			(effects
 				(font
