@@ -11183,7 +11183,7 @@
 	)
 	(text "3V3 ORing Controller"
 		(exclude_from_sim no)
-		(at 28.956 57.15 0)
+		(at 28.702 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11223,6 +11223,16 @@
 		)
 		(uuid "90ca9025-ea78-473e-9eff-7315ab097ce1")
 	)
+	(text "3V3/5V Buck Converter Input Controller"
+		(exclude_from_sim no)
+		(at 38.1 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92b992cc-7fb5-42c2-b873-91ef93dfe5f0")
+	)
 	(text "USB Protection"
 		(exclude_from_sim no)
 		(at 25.908 21.082 0)
@@ -11254,9 +11264,9 @@
 		)
 		(uuid "bc3596d8-aa16-4fb1-957b-6c30dc8f73ea")
 	)
-	(text "Optional Watchdog Timer. \nProbably not worth the trouble\nunless its a launched system."
+	(text "Optional Watchdog Timer. \n"
 		(exclude_from_sim no)
-		(at 143.764 28.956 0)
+		(at 175.26 24.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)

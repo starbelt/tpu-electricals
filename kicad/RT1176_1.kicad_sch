@@ -9852,6 +9852,12 @@
 		(uuid "0ba0783c-b2e1-4765-b97e-58cb99ef47ab")
 	)
 	(junction
+		(at 64.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ca84a49-00d8-4b85-be01-97adce398cd8")
+	)
+	(junction
 		(at 173.99 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9994,12 +10000,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cfd7ff4-f37c-4181-8bb8-742f8d56139a")
-	)
-	(junction
-		(at 242.57 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dec3d03-f1d3-4207-9ba9-069b6a7df4e9")
 	)
 	(junction
 		(at 152.4 91.44)
@@ -10156,12 +10156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c43e818-2098-4674-ba83-084ae6128ccc")
-	)
-	(junction
-		(at 64.77 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f78dba1-b999-4f7c-b5ac-6cc4ddc60c59")
 	)
 	(junction
 		(at 198.12 92.71)
@@ -10420,6 +10414,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0c54f0b-f04d-4469-ba9a-8e283a47b341")
+	)
+	(junction
+		(at 242.57 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b6f5f8-b2f3-4de4-800c-67c7d53c659e")
 	)
 	(junction
 		(at 113.03 50.8)
@@ -10949,6 +10949,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 111.76) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f07eee9-f9af-4d0b-85b5-fa4b7f713ad7")
+	)
+	(wire
+		(pts
 			(xy 74.93 50.8) (xy 83.82 50.8)
 		)
 		(stroke
@@ -11319,6 +11329,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 111.76) (xy 41.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d08153a-a113-43ba-9580-2341c87a165e")
+	)
+	(wire
+		(pts
 			(xy 118.11 128.27) (xy 118.11 130.81)
 		)
 		(stroke
@@ -11576,16 +11596,6 @@
 			(type default)
 		)
 		(uuid "90369709-644b-4859-a1d7-3dc04b0a9e3f")
-	)
-	(wire
-		(pts
-			(xy 55.88 111.76) (xy 64.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9177ab0b-b282-43cb-ad41-94415f354a77")
 	)
 	(wire
 		(pts
@@ -13745,6 +13755,71 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:DCDC_1V8_OUT")
+		(at 242.57 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cdf1d46-5cc6-4468-ba06-4547cc284d6d")
+		(property "Reference" "#PWR0141"
+			(at 242.062 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_1V8_OUT"
+			(at 242.824 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "36194cc8-02c2-42e6-94de-a87dcedf94ec")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:06036C105MAT2A")
 		(at 191.77 45.72 270)
 		(unit 1)
@@ -15492,6 +15567,146 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:0402WGF4701TCE")
+		(at 41.91 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "310b39a6-2f82-4dcb-8e00-70f0a2e9f0da")
+		(property "Reference" "R56"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0402WGF4701TCE"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1005X40N"
+			(at 55.88 207.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 55.88 307.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor - Surface Mount 4.7KOhms +/-1% 1/16W 0402 RoHS"
+			(at 41.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 55.88 507.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 55.88 607.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF4701TCE"
+			(at 55.88 707.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 55.88 807.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 55.88 907.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 55.88 1007.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 55.88 1107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2e3bee5-0d57-4e08-98a1-47b9a0cd503f")
+		)
+		(pin "2"
+			(uuid "c28c7a6d-8081-478d-970c-8edf0f103f34")
+		)
+		(instances
+			(project ""
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -20482,7 +20697,7 @@
 		(dnp no)
 		(uuid "7e0e1a58-08eb-49a7-a719-8c411e971577")
 		(property "Reference" "R36"
-			(at 58.42 115.57 0)
+			(at 60.706 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,7 +20706,7 @@
 			)
 		)
 		(property "Value" "0402WGF4701TCE"
-			(at 58.42 133.35 0)
+			(at 60.706 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22138,16 +22353,15 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:MCU_DCDC_IN")
-		(at 55.88 111.76 0)
+		(at 35.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4f34ae7-2c43-4e77-9b6f-126aa9a2a882")
 		(property "Reference" "#PWR0108"
-			(at 55.626 111.76 0)
+			(at 35.306 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22156,7 +22370,7 @@
 			)
 		)
 		(property "Value" "MCU_DCDC_IN"
-			(at 55.88 106.68 0)
+			(at 34.036 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22164,7 +22378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22173,7 +22387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22182,7 +22396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 111.76 0)
+			(at 35.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26310,71 +26524,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:DCDC_1V8_OUT_SENSE")
-		(at 242.57 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f55dba78-2d40-4c25-bf6a-314d5932ce5e")
-		(property "Reference" "#PWR0141"
-			(at 242.062 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DCDC_1V8_OUT_SENSE"
-			(at 242.57 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4ad072c9-604f-48c6-aa56-4ab8d7705609")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
