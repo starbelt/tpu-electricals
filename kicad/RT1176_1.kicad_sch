@@ -10595,6 +10595,18 @@
 		(uuid "ffc20b5f-f4dd-4024-bca9-f9e8ff3c6308")
 	)
 	(no_connect
+		(at 67.31 167.64)
+		(uuid "2c64e744-bd7b-4c9e-9a33-95071fd29bfc")
+	)
+	(no_connect
+		(at 67.31 147.32)
+		(uuid "369a2ad8-f2e2-4a8a-bf41-3b58dae9af46")
+	)
+	(no_connect
+		(at 67.31 149.86)
+		(uuid "471f201c-329e-4778-bbac-a4fffb0e0ec8")
+	)
+	(no_connect
 		(at 238.76 163.83)
 		(uuid "6ece2aa4-04f2-4aae-99c7-cc5131058af0")
 	)
@@ -10604,7 +10616,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 175.26) (xy 110.49 175.26)
+			(xy 67.31 175.26) (xy 87.63 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11274,7 +11286,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 177.8) (xy 128.27 177.8)
+			(xy 67.31 177.8) (xy 87.63 177.8)
 		)
 		(stroke
 			(width 0)
@@ -11284,7 +11296,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 172.72) (xy 92.71 172.72)
+			(xy 67.31 172.72) (xy 87.63 172.72)
 		)
 		(stroke
 			(width 0)
@@ -12084,7 +12096,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 170.18) (xy 71.12 170.18)
+			(xy 67.31 170.18) (xy 87.63 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12444,7 +12456,7 @@
 	)
 	(global_label "LPSPI6_CS0"
 		(shape output)
-		(at 71.12 170.18 0)
+		(at 87.63 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12454,7 +12466,7 @@
 		)
 		(uuid "1ff06289-2930-4efe-96de-d4a391e80bb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3537 170.18 0)
+			(at 101.8637 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,7 +12500,7 @@
 	)
 	(global_label "LPSPI6_SCK"
 		(shape output)
-		(at 92.71 172.72 0)
+		(at 87.63 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12498,7 +12510,7 @@
 		)
 		(uuid "25084253-d4fe-4ccc-a3e0-f5363ec4efa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0042 172.72 0)
+			(at 101.9242 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +12676,7 @@
 	)
 	(global_label "LPSPI6_SDI"
 		(shape input)
-		(at 128.27 177.8 0)
+		(at 87.63 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12674,7 +12686,7 @@
 		)
 		(uuid "9d431052-9b7b-479a-9cd6-b5daac8996e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.899 177.8 0)
+			(at 101.259 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,7 +12764,7 @@
 	)
 	(global_label "LPSPI6_SDO"
 		(shape output)
-		(at 110.49 175.26 0)
+		(at 87.63 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12762,7 +12774,7 @@
 		)
 		(uuid "e19dee96-411a-4420-b3ff-e2533e617c27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8447 175.26 0)
+			(at 101.9847 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
