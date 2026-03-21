@@ -10981,7 +10981,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VSYS"
+			(property "Value" "VSYS_5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -14985,6 +14985,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15418,6 +15424,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15707,6 +15719,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15819,6 +15837,12 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -17401,6 +17425,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17831,6 +17861,12 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -18910,6 +18946,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18973,6 +19015,12 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19396,6 +19444,12 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19905,6 +19959,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20266,6 +20326,78 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VSYS_5V")
+		(at 67.31 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5262a03-9f54-45be-95da-e22bef74fd13")
+		(property "Reference" "#PWR0247"
+			(at 67.056 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS_5V"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fdd93a3f-4c33-4226-8226-251f61ad9bbc")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -20702,6 +20834,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20772,72 +20910,6 @@
 			(project "Power_Sys"
 				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:VSYS_5V")
-		(at 67.31 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ace0437d-a139-4d8e-91ec-044ea156d9de")
-		(property "Reference" "#PWR06"
-			(at 67.056 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 67.31 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7c3fe7c7-7251-4f31-8894-c9f433f823a4")
-		)
-		(instances
-			(project ""
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -20977,6 +21049,12 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -21340,6 +21418,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21406,6 +21490,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21469,6 +21559,12 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -21758,6 +21854,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21981,6 +22083,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22045,6 +22153,12 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22410,6 +22524,12 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -22918,6 +23038,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23129,6 +23255,12 @@
 			(project ""
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/752f280e-474a-4a7b-b6b2-8dca73e1fe32"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "Power_Sys"
+				(path "/d113c66e-665a-40c3-a7b8-9e2e1c22a954"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
