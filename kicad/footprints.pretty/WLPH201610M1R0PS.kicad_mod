@@ -219,7 +219,7 @@
 		(uuid "6633d420-231a-40a9-8754-348bbd11e0ee")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/WLPH201610M1R0PS.stp"
+	(model "../3dmodels/WLPH201610M1R0PS.stp"
 		(offset
 			(xyz -1 -0.8 0)
 		)

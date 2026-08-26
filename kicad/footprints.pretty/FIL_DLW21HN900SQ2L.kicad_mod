@@ -249,7 +249,7 @@
 		(uuid "4c45e03d-b56b-4e50-aee8-83614a0bd9ff")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/DLW21HN900SQ2L.stp"
+	(model "../3dmodels/DLW21HN900SQ2L.stp"
 		(offset
 			(xyz 0 0 0.9)
 		)

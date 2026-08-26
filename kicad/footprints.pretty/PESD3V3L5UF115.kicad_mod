@@ -263,7 +263,7 @@
 		(uuid "087aaf84-af17-4baa-8ee4-7293a4f9afe5")
 	)
 	(embedded_fonts no)
-	(model "74AXP1T34GMH.stp"
+	(model "../3dmodels/74AXP1T34GMH.stp"
 		(offset
 			(xyz 1.059999927 1.729999993 1.289999942)
 		)
@@ -274,7 +274,7 @@
 			(xyz 90 0 -180)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/74AXP1T34GMH.stp"
+	(model "../3dmodels/74AXP1T34GMH.stp"
 		(offset
 			(xyz -1 -1.75 1.25)
 		)

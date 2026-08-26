@@ -254,7 +254,7 @@
 		(uuid "59043774-719f-41e1-9ed7-f1a7b6bc0529")
 	)
 	(embedded_fonts no)
-	(model "MT29F1G01ABBFDWB-IT_F_TR.stp"
+	(model "../3dmodels/MT29F1G01ABBFDWB-IT_F_TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -265,7 +265,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/MT29F1G01ABAFDWB-IT_F.STEP"
+	(model "../3dmodels/MT29F1G01ABAFDWB-IT_F.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

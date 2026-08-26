@@ -167,7 +167,7 @@
 		(uuid "53c54755-7d13-4891-8308-48c33a7f58fc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/RLC16K1R00FTP.stp"
+	(model "../3dmodels/RLC16K1R00FTP.stp"
 		(offset
 			(xyz 0 0 0)
 		)

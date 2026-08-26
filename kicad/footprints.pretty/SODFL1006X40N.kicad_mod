@@ -187,7 +187,7 @@
 		(uuid "b61fd223-fc88-4035-ae49-f16cb631c8e5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/ESD9R3.3ST5G.stp"
+	(model "../3dmodels/ESD9R3.3ST5G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

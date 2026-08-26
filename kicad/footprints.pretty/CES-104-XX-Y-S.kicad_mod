@@ -148,7 +148,7 @@
 		(remove_unused_layers no)
 		(uuid "1d6e2724-1338-4d9a-820c-eb7a6d5265f4")
 	)
-	(model "../3d-models/CES-104-02-G-S.stp"
+	(model "../3dmodels/CES-104-02-G-S.stp"
 		(offset
 			(xyz 0 0 0)
 		)

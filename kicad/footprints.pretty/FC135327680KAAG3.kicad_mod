@@ -219,7 +219,7 @@
 		(uuid "119ee82a-1e6b-4b84-a778-24cad2237282")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/CRYSTAL_FC-13532_7680KA-AG3_EPS.step"
+	(model "../3dmodels/CRYSTAL_FC-13532_7680KA-AG3_EPS.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -205,7 +205,7 @@
 		(uuid "f7c70485-e9c7-4f1b-aa56-aae0ad2a09bf")
 	)
 	(embedded_fonts no)
-	(model "DMN3900UFA-7B.stp"
+	(model "../3dmodels/DMN3900UFA-7B.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -216,7 +216,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/DMN3900UFA-7B.stp"
+	(model "../3dmodels/DMN3900UFA-7B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

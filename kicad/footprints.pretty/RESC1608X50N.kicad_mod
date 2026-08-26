@@ -157,7 +157,7 @@
 		(uuid "70d5eb8a-fda6-47d3-a610-d92f247e8ff8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/CRCW06030000ZSEC.stp"
+	(model "../3dmodels/CRCW06030000ZSEC.stp"
 		(offset
 			(xyz 0.75 -0.425 0.5)
 		)

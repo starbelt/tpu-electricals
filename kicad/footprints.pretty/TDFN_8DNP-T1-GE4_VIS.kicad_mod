@@ -329,7 +329,7 @@
 		(uuid "ac3279ed-0dbe-4354-a236-6683c5173f24")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/SIP32408DNP-T1-GE4.stp"
+	(model "../3dmodels/SIP32408DNP-T1-GE4.stp"
 		(offset
 			(xyz 0 0 0)
 		)

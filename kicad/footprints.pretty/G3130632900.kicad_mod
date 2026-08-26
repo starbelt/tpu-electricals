@@ -928,7 +928,7 @@
 		(uuid "cd1d469a-0a6b-4cd7-a776-cc6cc5d364cd")
 	)
 	(embedded_fonts no)
-	(model "G313-06329-00.stp"
+	(model "../3dmodels/G313-06329-00.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -939,7 +939,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/G313-06329-00.stp"
+	(model "../3dmodels/G313-06329-00.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -183,7 +183,7 @@
 		(uuid "2b033a45-675c-46bd-b824-ad49fd630f4c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/XRCGB24M000F1H02R0.STEP"
+	(model "../3dmodels/XRCGB24M000F1H02R0.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -219,7 +219,7 @@
 		(uuid "abd8a9d4-a9e8-44bd-8bcb-17c5febbd57e")
 	)
 	(embedded_fonts no)
-	(model "RBS2MM40CTR.stp"
+	(model "../3dmodels/RBS2MM40CTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -230,7 +230,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/RBS2MM40CTR.stp"
+	(model "../3dmodels/RBS2MM40CTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

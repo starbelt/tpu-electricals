@@ -29,7 +29,7 @@
   (pad 2 smd rect (at 0.850 0.7 90) (size 1.100 1.200) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.850 -0.7 90) (size 1.100 1.200) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.850 -0.7 90) (size 1.100 1.200) (layers F.Cu F.Paste F.Mask))
-  (model FA-20H_24.0000MF20X-K3.stp
+  (model "../3dmodels/FA-20H_24.0000MF20X-K3.stp"
     (at (xyz 0 0 0.0074803148667643))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

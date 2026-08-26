@@ -177,7 +177,7 @@
 		(uuid "85e5617e-c733-41fe-b3c0-62e2d43a17d7")
 	)
 	(embedded_fonts no)
-	(model "74404041047.stp"
+	(model "../3dmodels/74404041047.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -188,7 +188,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/74404041047.stp"
+	(model "../3dmodels/74404041047.stp"
 		(offset
 			(xyz 0 0 0)
 		)

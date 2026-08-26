@@ -157,7 +157,7 @@
 		(uuid "56dc654f-6b00-4750-a065-dd128d975cc3")
 	)
 	(embedded_fonts no)
-	(model "CRCW040210K0FKEE.stp"
+	(model "../3dmodels/CRCW040210K0FKEE.stp"
 		(offset
 			(xyz 0.4999999925 0.2499999962 0)
 		)
@@ -168,7 +168,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${MODELS}/CRCW0402200KFKED.step"
+	(model "../3dmodels/CRCW0402200KFKED.step"
 		(offset
 			(xyz 0 -0 0)
 		)

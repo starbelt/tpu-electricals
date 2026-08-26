@@ -196,7 +196,7 @@
 		(uuid "c83e1fc9-fcc1-4139-9d19-c4fab6a9db81")
 	)
 	(embedded_fonts no)
-	(model "SN74AUP1T34QDCKRQ1.stp"
+	(model "../3dmodels/SN74AUP1T34QDCKRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

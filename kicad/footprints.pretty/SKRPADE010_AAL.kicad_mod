@@ -192,7 +192,7 @@
 		(uuid "a08b4087-abc5-4ef1-8e45-19f1c9e52a73")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/skrpade010.stp"
+	(model "../3dmodels/skrpade010.stp"
 		(offset
 			(xyz 0 0 0)
 		)

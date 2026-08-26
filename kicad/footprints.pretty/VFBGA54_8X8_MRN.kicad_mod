@@ -717,7 +717,7 @@
 		(uuid "89783bf6-d515-4097-b9f7-e9bc894226c8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/VFBGA54_8X8_MRN.step"
+	(model "../3dmodels/VFBGA54_8X8_MRN.step"
 		(offset
 			(xyz 0 0 0)
 		)

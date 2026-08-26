@@ -1951,7 +1951,7 @@
 		(uuid "0d2a0310-ba67-40c3-9c96-5827e3773718")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/MIMXRT1176CVM8A.stp"
+	(model "../3dmodels/MIMXRT1176CVM8A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

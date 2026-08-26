@@ -145,7 +145,7 @@
 		(uuid "e9b196fe-a6d9-44ba-a771-1e712a93e088")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/ERJ-PA2J105X.step"
+	(model "../3dmodels/ERJ-PA2J105X.step"
 		(offset
 			(xyz 0 0 0.35)
 		)

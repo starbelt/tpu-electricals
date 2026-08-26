@@ -289,7 +289,7 @@
 		(uuid "c4ad925e-4f74-4e55-9a6e-1f903dec6912")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/LTST-C190KAKT.stp"
+	(model "../3dmodels/LTST-C190KAKT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -199,7 +199,7 @@
 		(uuid "a238b841-5662-49ef-b345-32359405ee25")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/CDBQR.step"
+	(model "../3dmodels/CDBQR.step"
 		(offset
 			(xyz 0 0 0)
 		)

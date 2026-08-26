@@ -211,7 +211,7 @@
 		(uuid "6fff50dc-03bc-41bc-9d47-d5b32635b259")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/LTC4413EDD-1_TRPBF.step"
+	(model "../3dmodels/LTC4413EDD-1_TRPBF.step"
 		(offset
 			(xyz 0 0 0)
 		)

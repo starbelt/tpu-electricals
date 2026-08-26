@@ -156,7 +156,7 @@
 		(uuid "f2261aac-3fc1-49aa-ac10-6c404707408a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/APG1608ZGCK.stp"
+	(model "../3dmodels/APG1608ZGCK.stp"
 		(offset
 			(xyz 0 0 0)
 		)

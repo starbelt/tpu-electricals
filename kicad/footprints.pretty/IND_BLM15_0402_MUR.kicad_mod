@@ -281,7 +281,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/IND_BLM15_0402_MUR.step"
+	(model "../3dmodels/IND_BLM15_0402_MUR.step"
 		(offset
 			(xyz 0 0 0)
 		)

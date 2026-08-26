@@ -403,7 +403,7 @@
 		(uuid "d632e734-62a1-4d2c-95d4-e117ca651638")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/DX07S016JA1R1500.step"
+	(model "../3dmodels/DX07S016JA1R1500.step"
 		(offset
 			(xyz 0 -2 0)
 		)

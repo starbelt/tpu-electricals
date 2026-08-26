@@ -235,7 +235,7 @@
 		(uuid "ab71e0a8-7ff5-4bb4-847f-50f5d6c548f5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/NCP170ASN180T2G.stp"
+	(model "../3dmodels/NCP170ASN180T2G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

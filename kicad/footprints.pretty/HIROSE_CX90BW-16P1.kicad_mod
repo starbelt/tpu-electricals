@@ -534,7 +534,7 @@
 		(uuid "7aa7569a-7534-463b-925c-8272655c08bf")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/CX90BW-16P1.step"
+	(model "../3dmodels/CX90BW-16P1.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -22,7 +22,7 @@
   (fp_line (start 0 -1.15) (end 0 1.15) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.5 0 0) (size 1.1 2.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.5 0 0) (size 1.1 2.7) (layers F.Cu F.Paste F.Mask))
-  (model CRCW121010K0JNTA.stp
+  (model "../3dmodels/CRCW121010K0JNTA.stp"
     (at (xyz 0 0 0.02362204818275))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -157,7 +157,7 @@
 		(uuid "90a503b5-774b-4357-a6e6-a80d7783057c")
 	)
 	(embedded_fonts no)
-	(model "RCWE0402R100JNEA.stp"
+	(model "../3dmodels/RCWE0402R100JNEA.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -168,7 +168,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/CRCW04022K20FKEDHP.stp"
+	(model "../3dmodels/CRCW04022K20FKEDHP.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -179,7 +179,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/RCWE0402R100JNEA.stp"
+	(model "../3dmodels/RCWE0402R100JNEA.stp"
 		(offset
 			(xyz 0 0 0)
 		)

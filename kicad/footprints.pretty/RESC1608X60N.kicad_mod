@@ -15,7 +15,7 @@
   (fp_line (start 0.127 -0.4826) (end -0.127 -0.4826) (layer F.SilkS) (width 0.1524))
   (pad 1 smd rect (at -0.8382 0 0) (size 0.762 0.9398) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8382 0 0) (size 0.762 0.9398) (layers F.Cu F.Paste F.Mask))
-  (model WSLP0603R0100FEA.stp
+  (model "../3dmodels/WSLP0603R0100FEA.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

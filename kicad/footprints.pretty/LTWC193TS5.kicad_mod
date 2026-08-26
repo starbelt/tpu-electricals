@@ -220,7 +220,7 @@
 		(uuid "d3a2ee05-0b43-4041-ae1f-19981cd91a12")
 	)
 	(embedded_fonts no)
-	(model "LTW-C193TS5.stp"
+	(model "../3dmodels/LTW-C193TS5.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -231,7 +231,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/LTW-C193TS5.stp"
+	(model "../3dmodels/LTW-C193TS5.stp"
 		(offset
 			(xyz 0 0 0)
 		)

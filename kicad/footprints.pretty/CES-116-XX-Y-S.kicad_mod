@@ -244,7 +244,7 @@
 		(remove_unused_layers no)
 		(uuid "374ea73f-4aa8-4ed9-a3cc-bd8025279794")
 	)
-	(model "../3d-models/CES-116-02-G-S.stp"
+	(model "../3dmodels/CES-116-02-G-S.stp"
 		(offset
 			(xyz 0 0 0)
 		)

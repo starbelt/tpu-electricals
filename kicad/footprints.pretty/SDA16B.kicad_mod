@@ -520,7 +520,7 @@
 		(uuid "34484124-411e-4c05-be11-3fefb998452f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/LM3370SD-4221_NOPB.stp"
+	(model "../3dmodels/LM3370SD-4221_NOPB.stp"
 		(offset
 			(xyz 0 0 0)
 		)

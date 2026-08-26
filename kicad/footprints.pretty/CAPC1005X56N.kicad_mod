@@ -157,7 +157,7 @@
 		(uuid "aa88e512-9707-4350-8df7-53d35a171b1a")
 	)
 	(embedded_fonts no)
-	(model "${MODELS}/04026D105KAT2A.step"
+	(model "../3dmodels/04026D105KAT2A.step"
 		(offset
 			(xyz 0 -0.28 0)
 		)

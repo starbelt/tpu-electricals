@@ -412,7 +412,7 @@
 		(uuid "dcf586a6-e50a-4a0d-9f5c-7ef22587e484")
 	)
 	(embedded_fonts no)
-	(model "DA9061-XXAMC.stp"
+	(model "../3dmodels/DA9061-XXAMC.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -423,7 +423,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/3dmodels/DA9061-XXAMC.stp"
+	(model "../3dmodels/DA9061-XXAMC.stp"
 		(offset
 			(xyz 0 0 0)
 		)

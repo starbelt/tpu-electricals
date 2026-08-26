@@ -38,7 +38,7 @@
   (pad C2 smd circle (at -0.25 0.5 90) (size 0.306 0.306) (layers F.Cu F.Paste F.Mask))
   (pad C3 smd circle (at 0.25 0.5 90) (size 0.306 0.306) (layers F.Cu F.Paste F.Mask))
   (pad C4 smd circle (at 0.75 0.5 90) (size 0.306 0.306) (layers F.Cu F.Paste F.Mask))
-  (model A7101CHUK_T0BC2HAZ.stp
+  (model "../3dmodels/A7101CHUK_T0BC2HAZ.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
