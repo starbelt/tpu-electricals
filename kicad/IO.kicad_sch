@@ -5053,61 +5053,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:SKRPADE010"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "sb-tpu:PTS810SJK250SMTR_LFS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 10.16 7.62 0)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SKRPADE010"
-				(at 10.16 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SKRPADE010_AAL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Datasheet" "SKRPADE010"
-				(at 0 0 0)
+			(property "Value" "PTS810SJK250SMTR_LFS"
+				(at 26.67 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "PTS810SJK250SMTRLFS"
+				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5115,19 +5090,22 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+				(at 26.67 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "SKRPADE010"
+			(property "Description" "TACTILE SWITCH, SPST, 0.05A, 16VDC, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5138,8 +5116,8 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SKRPADE010_AAL"
-				(at 0 0 0)
+			(property "Height" "2.7"
+				(at 26.67 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5147,143 +5125,97 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "SKRPADE010_0_1"
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -7.62)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTS810SJK250SMTR LFS"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "611-PTS810SJK250SMTR"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS810SJK250SMTR-LFS?qs=Imq1NPwxi77Ow0tzRIznfA%3D%3D"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "PTS810SJK250SMTR_LFS_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 -0.9525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 8.89 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 -1.27)
-					(radius 0.3048)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.16 -3.81)
-					(radius 0.3048)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -4.1148) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
-					(length 7.62)
-					(name "1"
+					(length 5.08)
+					(name "NO_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5298,10 +5230,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 20.32 0 180)
-					(length 7.62)
-					(name "2"
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5316,10 +5248,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "3"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5334,10 +5266,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 20.32 -5.08 180)
-					(length 7.62)
-					(name "4"
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5350,19 +5282,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "SKRPADE010_1_1"
-				(rectangle
-					(start 7.62 2.54)
-					(end 12.7 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -6359,12 +6278,6 @@
 		(uuid "0518a518-5989-4ef4-ad75-3c75912490ec")
 	)
 	(junction
-		(at 53.34 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0920a740-1e27-4d19-97ef-aa7f67c8acc0")
-	)
-	(junction
 		(at 133.35 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6383,7 +6296,7 @@
 		(uuid "22ed8f0c-4bd3-4af4-a222-4192a3d6fba5")
 	)
 	(junction
-		(at 44.45 189.23)
+		(at 44.45 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "355873c8-2cac-484b-beed-0c16d7271ae6")
@@ -6443,28 +6356,28 @@
 		(uuid "88533c8c-c197-4d11-84ba-29ec4bd53128")
 	)
 	(junction
-		(at 57.15 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8a61f8b-a81d-41d9-af0d-23e271abf3f6")
-	)
-	(junction
 		(at 71.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befdfcae-2a49-448c-bc09-cc46e4de4a7f")
 	)
 	(junction
+		(at 67.31 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c780df3d-93d4-4764-a7ba-049a8611ef47")
+	)
+	(junction
+		(at 58.42 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c78a5503-e6a5-4184-9af1-af86561658a6")
+	)
+	(junction
 		(at 72.39 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde15ec6-2b0e-42d9-93c4-e65cb4aa308c")
-	)
-	(junction
-		(at 67.31 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3df2fc3-05da-475d-9612-91f1307bc546")
 	)
 	(junction
 		(at 63.5 52.07)
@@ -6477,6 +6390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f032e4b5-0cf8-4c70-ab19-c07240647e48")
+	)
+	(junction
+		(at 52.07 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8f0039-3858-4f6b-9801-6f166c32d998")
 	)
 	(no_connect
 		(at 205.74 157.48)
@@ -6634,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 139.7) (xy 67.31 144.78)
+			(xy 67.31 143.51) (xy 67.31 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6774,7 +6693,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 189.23) (xy 53.34 182.88)
+			(xy 58.42 186.69) (xy 58.42 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6794,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 53.34 177.8)
+			(xy 58.42 175.26) (xy 58.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6804,7 +6723,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 149.86) (xy 46.99 154.94)
+			(xy 36.83 149.86) (xy 36.83 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6821,6 +6740,16 @@
 			(type default)
 		)
 		(uuid "387fa1a7-8715-4457-a0ba-7f4b47daad97")
+	)
+	(wire
+		(pts
+			(xy 58.42 177.8) (xy 58.42 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c609e4c-c7f4-46fc-b95f-fffd2678bc9d")
 	)
 	(wire
 		(pts
@@ -6844,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 139.7) (xy 67.31 139.7)
+			(xy 36.83 143.51) (xy 67.31 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6924,7 +6853,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 144.78) (xy 46.99 139.7)
+			(xy 36.83 147.32) (xy 36.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7044,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 154.94) (xy 57.15 154.94)
+			(xy 36.83 153.67) (xy 52.07 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7064,7 +6993,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 154.94) (xy 67.31 149.86)
+			(xy 67.31 153.67) (xy 67.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7104,6 +7033,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 153.67) (xy 67.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a84377f-eaf9-457f-9206-8cfbadd01a5a")
+	)
+	(wire
+		(pts
 			(xy 107.95 151.13) (xy 71.12 151.13)
 		)
 		(stroke
@@ -7111,16 +7050,6 @@
 			(type default)
 		)
 		(uuid "8e1800e1-937b-4ab2-8ade-c023da92d911")
-	)
-	(wire
-		(pts
-			(xy 57.15 154.94) (xy 67.31 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e78da87-be5d-47ba-b89b-f08989a38f39")
 	)
 	(wire
 		(pts
@@ -7214,7 +7143,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 172.72) (xy 53.34 172.72)
+			(xy 27.94 175.26) (xy 58.42 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7304,7 +7233,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 177.8) (xy 67.31 177.8)
+			(xy 58.42 177.8) (xy 67.31 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7324,7 +7253,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 182.88) (xy 33.02 189.23)
+			(xy 27.94 182.88) (xy 27.94 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7444,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 177.8) (xy 33.02 172.72)
+			(xy 27.94 175.26) (xy 27.94 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7464,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 189.23) (xy 53.34 189.23)
+			(xy 44.45 186.69) (xy 58.42 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7504,17 +7433,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 189.23) (xy 44.45 193.04)
+			(xy 67.31 147.32) (xy 67.31 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2f97f1a-ead6-4748-8ee7-da2257ceb6d8")
+		(uuid "f0af4b0e-caf7-4a19-8b30-249eb2d95cba")
 	)
 	(wire
 		(pts
-			(xy 33.02 189.23) (xy 44.45 189.23)
+			(xy 27.94 186.69) (xy 44.45 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9164,93 +9093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:SKRPADE010")
-		(at 46.99 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a424871-ec6b-4de0-92f1-a28e65dc226b")
-		(property "Reference" "SW2"
-			(at 57.15 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SKRPADE010"
-			(at 57.404 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SKRPADE010_AAL"
-			(at 46.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "SKRPADE010"
-			(at 46.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b3f7526-b6f6-4dd1-a772-b76a0c9251ae")
-		)
-		(pin "2"
-			(uuid "846fe213-79d6-4250-a697-4abaef36b178")
-		)
-		(pin "4"
-			(uuid "60adc1a1-e958-48ff-8d72-57bd1c6f6a79")
-		)
-		(pin "3"
-			(uuid "d519aece-bcf1-4128-ae84-5d7cd93870d6")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 95.25 0)
 		(unit 1)
@@ -9580,7 +9422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 193.04 0)
+		(at 44.45 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9590,7 +9432,7 @@
 		(dnp no)
 		(uuid "38f63fc3-07f2-4b06-8a0a-2ba562596321")
 		(property "Reference" "#PWR0197"
-			(at 44.45 199.39 0)
+			(at 44.45 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +9443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 196.596 0)
+			(at 44.45 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9611,7 +9453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 193.04 0)
+			(at 44.45 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9622,7 +9464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 193.04 0)
+			(at 44.45 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +9475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 193.04 0)
+			(at 44.45 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11504,6 +11346,177 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:PTS810SJK250SMTR_LFS")
+		(at 27.94 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73a3fce5-df7c-4180-a4b0-5e67374dbdaa")
+		(property "Reference" "S2"
+			(at 26.924 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS810SJK250SMTR_LFS"
+			(at 42.926 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTS810SJK250SMTRLFS"
+			(at 54.61 275.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 54.61 375.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TACTILE SWITCH, SPST, 0.05A, 16VDC, SMD"
+			(at 27.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.7"
+			(at 54.61 575.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 54.61 675.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS810SJK250SMTR LFS"
+			(at 54.61 775.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS810SJK250SMTR"
+			(at 54.61 875.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS810SJK250SMTR-LFS?qs=Imq1NPwxi77Ow0tzRIznfA%3D%3D"
+			(at 54.61 975.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 54.61 1075.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 54.61 1175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "77acf85d-bbad-4d40-b16b-8feaa66e6202")
+		)
+		(pin "4"
+			(uuid "8f4e0cb4-1896-4b4a-b547-f0e6ac4e787c")
+		)
+		(pin "3"
+			(uuid "dbf983b9-48ce-4be0-b97d-2d33c5ee9b13")
+		)
+		(pin "1"
+			(uuid "b62f8eea-3f99-454b-a664-fbc3ad1dd56c")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:CES-104-02-G-S")
 		(at 256.54 157.48 0)
 		(unit 1)
@@ -11915,93 +11928,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:SKRPADE010")
-		(at 33.02 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89037133-761d-442f-9834-c8e6012489fa")
-		(property "Reference" "SW1"
-			(at 42.926 174.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SKRPADE010"
-			(at 43.18 186.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SKRPADE010_AAL"
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "SKRPADE010"
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b3f7526-b6f6-4dd1-a772-b76a0c9251af")
-		)
-		(pin "2"
-			(uuid "846fe213-79d6-4250-a697-4abaef36b179")
-		)
-		(pin "4"
-			(uuid "60adc1a1-e958-48ff-8d72-57bd1c6f6a7a")
-		)
-		(pin "3"
-			(uuid "d519aece-bcf1-4128-ae84-5d7cd93870d7")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13214,7 +13140,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 154.94 0)
+		(at 52.07 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13225,7 +13151,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b975b8-46e4-4e29-be7d-84a42dfa5e40")
 		(property "Reference" "#PWR0198"
-			(at 57.15 161.29 0)
+			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13236,7 +13162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 160.02 0)
+			(at 52.07 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13246,7 +13172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 154.94 0)
+			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +13183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 154.94 0)
+			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13268,7 +13194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 154.94 0)
+			(at 52.07 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13927,7 +13853,7 @@
 			)
 		)
 		(property "Value" "0402WGF4701TCE"
-			(at 107.95 167.64 0)
+			(at 114.808 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14078,6 +14004,177 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:PTS810SJK250SMTR_LFS")
+		(at 36.83 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfb3f3e5-0948-4e12-80f3-5d852e73a660")
+		(property "Reference" "S1"
+			(at 35.56 148.336 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS810SJK250SMTR_LFS"
+			(at 52.07 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTS810SJK250SMTRLFS"
+			(at 63.5 242.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 63.5 342.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TACTILE SWITCH, SPST, 0.05A, 16VDC, SMD"
+			(at 36.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.7"
+			(at 63.5 542.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 63.5 642.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS810SJK250SMTR LFS"
+			(at 63.5 742.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS810SJK250SMTR"
+			(at 63.5 842.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS810SJK250SMTR-LFS?qs=Imq1NPwxi77Ow0tzRIznfA%3D%3D"
+			(at 63.5 942.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 1042.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 63.5 1142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "e5a1d13b-5a62-4f83-b7c8-51717fde35b8")
+		)
+		(pin "4"
+			(uuid "acd58447-d705-43fb-a6c7-96efc4f1d89c")
+		)
+		(pin "3"
+			(uuid "98e55c1c-6629-41ad-b119-d1a2b4057b96")
+		)
+		(pin "2"
+			(uuid "a174edf7-7951-488a-b95b-998b682e994c")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "S1")
 					(unit 1)
 				)
 			)
