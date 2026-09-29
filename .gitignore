@@ -1,17 +1,53 @@
+# Deny-by-default: ignore everything, then explicitly allow-list what's tracked.
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
+*
+
+# Allow traversal into directories so the rules below can match inside them
+!*/
+
+# Root files
+!/.gitignore
+!/LICENSE
+!/README.md
+
+# Design review / open-issue docs
+!/docs/**
+
+# Bring-up validation scripts & logic-analyzer captures
+!/bringup/**
+
+# Standalone helper scripts
+!/scripts/**
+
+# KiCad project sources
+!/kicad/*.kicad_sch
+!/kicad/*.kicad_pcb
+!/kicad/*.kicad_pro
+!/kicad/*.kicad_sym
+!/kicad/fp-lib-table
+!/kicad/sym-lib-table
+!/kicad/fabrication-toolkit-options.json
+!/kicad/README.md
+
+# KiCad 3D models, footprints, and production exports
+!/kicad/3dmodels/**
+!/kicad/footprints.pretty/**
+!/kicad/production/**
+
+# Never allow editor/tooling artifacts back in, even under the globs above
+.claude/
+.history/
 saleae/
-components
-imported sb-tpu
-# Temporary files
+components/
+imported sb-tpu/
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
+*-backups/
 *-cache*
-*-bak
 *-bak*
 *~
 ~*
@@ -22,21 +58,3 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
-\#auto_saved_files#
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local project settings
-*.kicad_prl

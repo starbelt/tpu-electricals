@@ -14,9 +14,12 @@ This is an active, evolving design — treat it as a reference, not a finished/v
 * General PCB layout cleanup
 * Some 3D models may reference out-of-date paths
 
+See [docs/tpu-issues.md](docs/tpu-issues.md) for the full design review against the Coral Dev Board Micro reference.
+
 ## Directory Contents
 
 * [bringup/](bringup/): Bring-up validation scripts and captured logic-analyzer data for power sequencing
+* [docs/](docs/): Design review notes and open-issue tracking
 * [kicad/](kicad/): KiCad project — schematics, PCB layout, libraries, and manufacturing outputs
 * [scripts/](scripts/): Standalone helper scripts for managing KiCad libraries
 
