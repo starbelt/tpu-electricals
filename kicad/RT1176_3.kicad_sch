@@ -7974,6 +7974,12 @@
 		(uuid "a97dca29-eb61-413e-b5e6-4b23f998b1eb")
 	)
 	(junction
+		(at 193.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea8c00a-245b-4e4f-a935-25b99a9eaec4")
+	)
+	(junction
 		(at 40.64 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8449,13 +8455,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 203.2 115.57)
+			(xy 189.23 115.57) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc40c318-7bdf-4f93-a78b-ff8a6c7221dc")
+	)
+	(wire
+		(pts
+			(xy 193.04 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1c250f-9c46-45aa-8016-681f0c581406")
 	)
 	(polyline
 		(pts
@@ -16119,6 +16135,84 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
 					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efbc8100-323c-4c09-8c9a-56015e19d1d5")
+		(property "Reference" "TP11"
+			(at 195.58 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 198.12 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9e81b56-a07c-4d33-9f96-ec7028c55c98")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/45d83c48-4e34-4ba4-8252-eb2808ba2c55"
+					(reference "TP11")
 					(unit 1)
 				)
 			)

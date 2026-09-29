@@ -58,10 +58,11 @@ Observations from the bench, recorded here because they confirm or reframe sever
 | 14 | Non-sealed tact switches; vendor excludes space use | Mechanical | **RISK** |
 | 15 | SDRAM bus length spread of ~19.5 mm across four layers | Layout / SDRAM | **DEFECT** |
 | 16 | 11 of 65 3D-model paths point at missing files | Library hygiene | **RISK** |
-| 17 | `IC1` `EN2` tied to `VSYS`, so Buck 2 never arms soft-start | Power / USB boot | **BLOCKER (USB)** |
+| 17 | `IC1` `EN2` tied to `VSYS`, so Buck 2 never arms soft-start | Power / USB boot | **DEFECT** *(downgraded)* |
 | 18 | `IC1` `SDA` / `SCL` left floating against datasheet instruction | Power | **DEFECT** |
-| 19 | On USB, all 3.3 V current must pass Buck 2's ~0.85 A limit | Power / USB boot | **DEFECT** |
+| 19 | On USB, all 3.3 V current must pass Buck 2 (600 mA rated) — fails at TPU enable | Power / TPU | **DEFECT** |
 | 20 | On rail power Buck 2 runs in dropout; `nPOR2` can assert `POR_B` | Power / reset | **DEFECT** |
+| 21 | `MCU_DCDC_IN` caps `C45`/`C46`/`C48` return to a floating net, not `GND` | Power / USB boot | **BLOCKER (USB)** |
 
 ---
 
@@ -182,89 +183,112 @@ sheet 13).
 
 # Why the board boots from the 3V3 rail but not from USB-C 5V
 
-The two supply paths are **not symmetric**, and the asymmetry is structural rather than
-incidental. Tracing both:
+*Re-evaluated 2026-09-28 against the working-tree schematic, the LM3370 datasheet (SNVS406N)
+and the bring-up captures. The earlier version of this section ranked four power
+contributors. Two are now closed and the other two narrow considerably. The re-check also
+turned up a new defect (item 21) that fits the USB-only symptom better than any of them.*
+
+The two supply paths are **not symmetric**:
 
 | | From `+3V3` rail | From USB-C 5 V |
 |---|---|---|
 | `VSYS` | `+3V3` → `U2` INB → ~3.25 V | `VUSB` → `D2` → `VSYS_5V` → `U2` INA → ~4.65 V |
-| `VDD_SNVS_IN` | `+3V3` → **`D3` Schottky** → `VLDO_3V3`. One diode, no active part. | `VSYS_5V` → **`U3` LDO** → `D4` → `VLDO_3V3` |
-| **`VDD_3V3`** | **`+3V3` → `U1` INB, direct from the bus.** Buck 2 is out-competed and effectively bypassed. | **Buck 2 only.** `IC1` ch2 → `VDD_3V3_SENSE` → `U1` INA |
-| `MCU_DCDC_IN` | rail slew rate | Buck 2 start-up ramp, through `R34` |
-| Buck 2 switching | 100 % duty (dropout), not switching | switching at 2 MHz |
+| `VDD_SNVS_IN` | `+3V3` → **`D3` Schottky** → `VLDO_3V3` | `VSYS_5V` → **`U3` LDO** → `D4` → `VLDO_3V3` |
+| **`VDD_3V3`** | **`+3V3` → `U1` INB, direct from the bus.** Buck 2 is bypassed. | **Buck 2 only.** `IC1` ch2 → `VDD_3V3_SENSE` → `U1` INA |
+| `MCU_DCDC_IN` | stiff bus supply through `U1` and `R34` | a 2 MHz buck through `U1` and `R34`, **with no local capacitance** (item 21) |
+| Buck 2 switching | 100 % duty (dropout), not switching | switching, PFM at light load |
 
-The decisive line is the third one. **On rail power the 3.3 V rail never goes through the
-buck at all** — `U1`'s ideal-diode OR selects the bus rail, so every weakness of `IC1`
-channel 2 is masked. On USB power there is no bus rail, so **Buck 2 alone must start and
-carry the entire 3.3 V load, including the TPU through `U8`.** Four specific problems then
-apply, all of which are invisible on rail power. In rough order of likelihood:
+On rail power, the 3.3 V domain never depends on Buck 2. On USB it does, entirely.
 
-**1. Buck 2 never arms its soft-start (item 17).** The datasheet is explicit: *"Soft start is
-activated only if EN goes from logic low to logic high after V_IN reaches 2.7 V."* `EN2` is
-tied straight to `VSYS`, so it crosses `V_IH` (1.0 V) while `VIN` is still around 1 V — long
-before the 2.7 V UVLO. The low-to-high transition has already happened by the time the part
-is allowed to run, so **soft-start is not activated** and Buck 2 hard-starts into the full
-downstream bulk (`VDD_3V3` decoupling plus `C45` 22 µF and `C48` 4.7 µF on `MCU_DCDC_IN`,
-roughly 50 µF). With a peak switch current limit of **850 mA minimum**, the converter enters
-current-limit foldback, drags `VSYS_5V` down, and can latch into a restart loop — and the
-inrush may also trip the USB source's own limiter. Note `EN1` **does** get soft-start,
-because its `R2`/`C17` RC makes it transition well after `VIN` is up; that protection was
-simply never extended to channel 2.
+## Closed
 
-**2. The DCDC_IN ramp rule is likely violated (item 17, same root).** `R38` = 30 kΩ and
-`C55` = 0.22 µF, so the `DCDC_PSWITCH` RC is **6.6 ms**. NXP's rule — the one already encoded
-in `bringup/TPU_power_phasing.py` — is that `DCDC_IN` must reach full within **0.3 × RC ≈
-2.0 ms**. On rail power `MCU_DCDC_IN` follows the bus slew and passes easily. On USB power it
-follows Buck 2 charging ~50 µF against a current limit, which can comfortably exceed 2 ms.
-If that rule is broken the RT1176's internal DCDC does not start and the part never releases
-reset. **This is directly measurable with the Saleae rig already in `bringup/`.**
+* **DCDC_IN ramp rule (was contributor 2).** `R38`/`C55` match the Coral reference, and the
+  ramp was validated on the logic analyzer (`bringup/dcdc_pswitch_*.sal`). The arithmetic
+  below also shows that Buck 2's worst-case hard start finishes in well under the 2.0 ms
+  limit.
+* **CC role / unstable VBUS (was item 3).** Fixed in `63e516a`: `PORT` is now tied low, so the
+  PTN5150A comes up as a UFP instead of DRP. `D17` follows `VUSB` as intended.
 
-**3. Current headroom (item 19).** Buck 2's peak switch current limit is 850 mA min /
-1200 mA typ. On USB that single channel supplies the MCU's 3.3 V domains *and* `MCM_3V3`
-through `U8` — the Edge TPU's transient demand alone approaches or exceeds it. Even if
-start-up succeeds, the rail will collapse under load. On the bus rail this current comes
-straight from the satellite supply.
+## Contributor 1 — Buck 2 soft-start (item 17): real non-compliance, unlikely root cause
 
-**4. SNVS versus DCDC_IN ordering (item 17 area).** On rail power `VDD_SNVS_IN` arrives
-through a bare Schottky, so it always wins the race the RT1170 requires. On USB it must wait
-for `U3`'s LDO to start, racing the `U2` → Buck 2 → `U1` path. Worth confirming on the scope,
-though the LDO is likely still faster than the buck.
+The datasheet fact still holds: *"Soft start is activated only if EN goes from logic low to
+logic high after VIN reaches 2.7V,"* and `EN2` is still tied to `VSYS`. So Buck 2 starts
+without soft-start. Its consequences were overstated before:
 
-Two further contributors that are not about power at all:
+* **No foldback, no latch.** The datasheet describes the limit as *"cycle-by-cycle current
+  limiting using an internal comparator that trips at 1200 mA (typ.)"*. The only other mode
+  is a timed limit for a shorted output. So a hard start charges the output at roughly
+  0.85–1.4 A and then regulates. There is no restart loop.
+* **The load capacitance is about half the earlier estimate.** The previous figure of ~50 µF
+  counted `C45` 22 µF and `C48` 4.7 µF, but those are not connected to `GND` (item 21).
+  What Buck 2 actually sees is `C9` 10 µF, `C3` 4.7 µF, `C49` 4.7 µF plus small ADC and USB
+  caps: **about 20–25 µF nominal**, less after DC-bias derating.
+* **Charge time:** 25 µF × 3.3 V / 0.85 A ≈ **0.1 ms**. This is too short to pull `VSYS` down
+  meaningfully, given 18.8 µF on `VSYS` and a USB host's ≥ 120 µF behind the cable. It is also
+  more than an order of magnitude inside the 2.0 ms `DCDC_IN` limit.
 
-* **The USB-C source may never present a stable VBUS (item 3).** With `IC7` unpowered, `PORT`
-  floats, and the PTN5150A datasheet maps floating `PORT` to **DRP mode**. The part does
-  present a passive `Rd` while unpowered — *"When there is no power supplied to PTN5150A,
-  device role (with internal pull-down resistor Rd active) will be the default
-  configuration"* — so a Type-C source does apply VBUS initially. But `IC8`'s `VDD` is
-  `VUSB`, so that VBUS then powers the chip, which re-initialises **in DRP mode** and begins
-  toggling `Rp`/`Rd`. A source that debounces the `Rp` half will remove VBUS, the chip loses
-  power, falls back to passive `Rd`, and the cycle can repeat. **Diagnostic:** this failure
-  is cable-dependent — with a USB-A-to-C cable VBUS is unconditional and the problem
-  disappears, whereas with a C-to-C cable from a charger or laptop it appears. If the board
-  behaves differently on the two cable types, this is confirmed.
-* **`D17` / `USB1_VBUS`.** This also explains the observation in the field notes. `D17` is the
-  PHY's only VBUS-presence input, and it is correct for it to be driven from `VUSB` — Coral
-  does the same. Bodging it to external power worked because it supplied by hand the
-  VBUS-present indication the CC logic failed to obtain. **Do not fix this by tying `D17`
-  permanently high** — the device would then always believe a host is attached. Fix the CC
-  role instead (item 3), and `D17` follows correctly.
+**Verdict:** fix it on the respin, because it's one resistor and one capacitor and the
+datasheet requires it. But on its own it does not explain a board that won't start from USB.
+**Retire the "lift `EN2`" bodge as the first experiment.**
+
+## Contributor 3 — Buck 2 current headroom (item 19): real, but it can't stop boot
+
+Buck 2 is rated **600 mA continuous** (850 mA minimum peak switch limit). The key fact is
+that `TPU_POW_EN` has a 4.7 kΩ pull-down (`R31`), so **`U8` is off until firmware enables
+the TPU**, and SDRAM is on Buck 1 (`VDD_1V8`). During boot, Buck 2 carries only the RT1176's
+3.3 V domains and `DCDC_IN`, well inside 600 mA.
+
+So item 19 is **a failure at TPU enable, not at boot**. The expected signature is a board
+that boots and enumerates on USB, then resets or drops the TPU when `TPU_POW_EN` asserts or
+on the first inference burst. The Edge TPU alone is on the order of 2 W at full rate
+(4 TOPS at 2 TOPS/W), about 0.6 A at 3.3 V. Together with the MCU, that exceeds one
+LM3370 channel. It is a sizing decision for the respin: either a larger 3.3 V converter or
+a documented rule that the TPU needs rail power.
+
+**Worth separating on the bench:** if "does not work on USB" means *never boots*, look at
+item 21 before item 19. If it means *boots, then falls over when the TPU starts*, it is
+item 19. It may also be item 20 (`nPOR2` on a sagging Buck 2 output asserting `POR_B`).
+
+## New leading suspect — `MCU_DCDC_IN` has no decoupling to ground (item 21)
+
+`C45` (22 µF), `C46` (0.1 µF) and `C48` (4.7 µF) each have one pad on `MCU_DCDC_IN`. Their
+other pads connect **only to each other**, on `Net-(C45-Pad2)`, and not to `GND`. This is
+the same in the schematic and in `sb-tpu.kicad_pcb`. The RT1176's internal DCDC, a switching
+converter drawing pulsed input current, has **no input capacitor at its pins**. The nearest
+real capacitance is `C3` 4.7 µF on `VDD_3V3`, behind `R34`, the trace and `U1`.
+
+This fits the asymmetry exactly:
+
+* **Rail power:** `+3V3` from the satellite bus is a low-impedance source with its own bulk,
+  and it comes through `U1` channel B. It can absorb the DCDC's switching and load-step
+  current even without local caps.
+* **USB power:** the source is Buck 2, which idles in PFM at light load with 0.8–1.6 %
+  ripple bands. When `DCDC_PSWITCH` enables the internal DCDC, the step has to come through
+  an ideal-diode OR and 0.1 Ω into ~15 µF of distant capacitance, while Buck 2 moves from
+  PFM to PWM. A dip on `DCDC_IN` can brown out the internal DCDC. A dip on
+  `VDD_3V3_SENSE` below 85 % (2.8 V) trips `nPOR2`, which holds `POR_B` low for about 50 ms,
+  and the cycle repeats.
+
+**Bodge:** wire the shared `C45`/`C46`/`C48` node to the nearest `GND` via. Then repeat the
+USB power-up. This is the first experiment to run.
+
+## Minor — SNVS vs `DCDC_IN` ordering on USB
+
+On USB, `VDD_SNVS_IN` waits for `U3`'s LDO, which races the `U2` → Buck 2 → `U1` path. The
+LDO should win, but capture it once alongside the item 21 retest. `TPU_power_phasing.py`
+already checks it.
 
 ## Suggested bench sequence
 
-1. Scope `VUSB` at `J1` on hot-plug, with a C-to-C cable and then with an A-to-C cable. A
-   cycling `VUSB` on C-to-C only confirms the CC role problem.
-2. With `VUSB` held up (bench supply if necessary), capture `VLDO_3V3`, `MCU_DCDC_IN`,
-   `DCDC_PSWITCH` and `VDD_1V8` and run `bringup/TPU_power_phasing.py`. The existing script
-   already checks the SNVS-before-DCDC_IN order, the 1 ms PSWITCH trail and the
-   0.3 × RC ramp limit.
-3. Measure `VDD_3V3_SENSE` at `TP2` and `VSYS` at `TP4` during USB start-up. A `VSYS`
-   collapse coincident with the `VDD_3V3_SENSE` ramp is Buck 2 hitting its current limit.
-
-**Fastest confirmation of the leading hypothesis:** temporarily lift `IC1` pin 15 (`EN2`) off
-`VSYS` and drive it from its own RC — mirroring the `R2`/`C17` network on `EN1`, but shorter
-(say 10 kΩ with 0.1 µF, ~1 ms) so it still leads `EN1`. That arms soft-start on channel 2 and
-should let the board start from USB.
+1. **Ground the `C45`/`C46`/`C48` common node** (item 21). Retry USB-C power-up.
+2. With a Saleae or scope, capture `MCU_DCDC_IN`, `VDD_3V3_SENSE` (`TP2`), `POR_B` and
+   `DCDC_PSWITCH` over the first ~100 ms of a USB power-up. A `DCDC_IN` or `TP2` dip that lines
+   up with `DCDC_PSWITCH` rising and is followed by a 50 ms `POR_B` low confirms item 21 or 20.
+   Also run `TPU_power_phasing.py` on the same capture for the SNVS ordering.
+3. Once it boots on USB, **assert `TPU_POW_EN`** while watching `VDD_3V3_SENSE` and `POR_B`.
+   A collapse here is item 19, which needs a respin decision, not a bodge.
+4. Only if 1–3 are clean and USB start-up still fails: add the `EN2` RC (item 17) as the
+   last power-side experiment.
 
 ---
 
@@ -611,7 +635,14 @@ Separately, a few files are in the wrong directory: `MC0402N100J250CT.stp`,
 
 Cosmetic, but it is the remaining README open item and is cheap to close.
 
-## 17. BLOCKER (USB only) — `EN2` tied to `VSYS`, so Buck 2 never arms soft-start
+## 17. DEFECT — `EN2` tied to `VSYS`, so Buck 2 never arms soft-start
+
+> **Downgraded from BLOCKER (USB) on 2026-09-28.** See the re-evaluation under "Why the
+> board boots from the 3V3 rail but not from USB-C 5V". In short, the LM3370's current limit
+> is cycle-by-cycle, not foldback. The real load is ~20–25 µF, not ~50 µF (item 21), so a hard
+> start completes in ~0.1 ms. That is well inside the 2.0 ms `DCDC_IN` rule, which was also
+> validated on the logic analyzer. The paragraphs below that predict foldback and a
+> `DCDC_IN` ramp violation are superseded. The fix itself still stands.
 
 From the LM3370 datasheet (SNVS406N): *"Soft start is activated only if EN goes from logic
 low to logic high **after V_IN reaches 2.7 V**."*
@@ -710,6 +741,31 @@ tying it to `VSYS`, which the item 17 fix already requires touching. Alternative
 `DISPOR` via I²C, but that needs the `SDA`/`SCL` connections from item 18 and firmware, so
 gating `EN2` is simpler. At minimum, measure `VDD_3V3_SENSE` at `TP2` on rail power and
 confirm the margin above 3.10 V.
+
+## 21. BLOCKER (USB) — `MCU_DCDC_IN` decoupling does not return to ground
+
+Found during the 2026-09-28 re-evaluation. Present in both the schematic (`RT1176_1`) and
+`sb-tpu.kicad_pcb`:
+
+| Cap | Value | Pad on `MCU_DCDC_IN` | Other pad |
+|---|---|---|---|
+| `C45` | 22 µF | 1 | `Net-(C45-Pad2)` |
+| `C46` | 0.1 µF | 2 | `Net-(C45-Pad2)` |
+| `C48` | 4.7 µF | 2 | `Net-(C45-Pad2)` |
+
+`Net-(C45-Pad2)` has exactly those three pads and nothing else. With both ends of all three
+caps on the same pair of nets, they do nothing. **`DCDC_IN` (`U4.L5`, `M5`, `N5`) has zero
+local capacitance to `GND`.** The nearest real capacitance is `C3` 4.7 µF on `VDD_3V3`,
+behind `R34` 0.1 Ω and `U1`.
+
+**Consequence:** the RT1176's internal DCDC draws its pulsed input current through trace
+inductance and an ideal-diode OR. On the stiff bus rail this is tolerated. When Buck 2 is
+the only source (USB power), a `DCDC_IN` dip at `DCDC_PSWITCH` enable, or a `VDD_3V3_SENSE`
+dip below 85 % that trips `nPOR2`, is a credible cause of the USB-only start failure.
+
+**Bodge:** wire the `C45`/`C46`/`C48` common node to the nearest `GND` via.
+**Fix:** reconnect those pads to `GND` in the schematic. It is probably a missing ground
+symbol or a dangling wire on `RT1176_1`.
 
 ---
 
@@ -866,13 +922,14 @@ Two minor observations, neither a defect:
    it still needs fixing in the schematic so it does not return on the next build.
 2. **Tie `IC1` pins 10 and 11 to `VSYS`** — item 18. Cheap, datasheet-mandated, and a possible
    contributor to the USB-only failure.
-3. **Re-time `EN2`** with its own RC and retry USB power — item 17. This is the leading
-   explanation for USB-C not booting, and the change is one resistor and one capacitor.
-4. **Run `bringup/TPU_power_phasing.py`** against a fresh USB-power capture. The script
-   already tests the exact rules in question — SNVS before DCDC_IN, the 1 ms PSWITCH trail,
-   and the 0.3 × RC ramp limit against the 6.6 ms PSWITCH RC.
-5. **Bodge `IC7.5` to `VUSB`** and re-test USB-C enumeration — item 3. Also try an A-to-C
-   cable versus a C-to-C cable to isolate the CC role problem.
+3. **Ground the `C45`/`C46`/`C48` common node** and retry USB power — item 21. This is now
+   the leading explanation for USB-C not booting. Capture `MCU_DCDC_IN`, `TP2`, `POR_B` and
+   `DCDC_PSWITCH` on that attempt, and run `bringup/TPU_power_phasing.py` against it for the
+   SNVS ordering.
+4. **Assert `TPU_POW_EN` on USB power** and watch `VDD_3V3_SENSE` and `POR_B` — item 19. If the
+   rail collapses, this needs a respin decision. Re-time `EN2` (item 17) only if USB start-up
+   still fails after step 3.
+5. ~~Bodge `IC7.5` to `VUSB`~~ — superseded: `PORT` is tied low in `63e516a` (item 3).
 6. **Verify the switch pinout** with a multimeter — item 12. Two minutes, and it either
    confirms or eliminates the button complaint.
 7. **Add the two 100 kΩ pull-ups** on `LPUART1_*_BT` and retry USB boot — item 4.
@@ -884,7 +941,8 @@ Two minor observations, neither a defect:
 **Respin list:** item 2 (lift `IC2` pins 4 and 5), item 5 (`DA_nONKEY` pull-up), item 6
 (`POR_B` cap), items 7 and 9 (power pours and bulk placement), item 8 (pair matching),
 item 15 (SDRAM pin re-map), item 11 (net class), item 13 (symbol names), item 16 (3D models),
-items 17, 18 and 20 (`EN2` timing, `SDA`/`SCL` tie-off, Buck 2 gating on rail power), and a
+items 17, 18 and 20 (`EN2` timing, `SDA`/`SCL` tie-off, Buck 2 gating on rail power), item 21
+(`DCDC_IN` caps to `GND`), and a
 decision on item 19 (whether USB is ever expected to run the TPU).
 
 ## Coverage against the README's open-items list

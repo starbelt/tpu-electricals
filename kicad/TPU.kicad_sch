@@ -10427,7 +10427,7 @@
 		(dnp no)
 		(uuid "214c5175-60b2-4719-9f57-ab4a608f2a4c")
 		(property "Reference" "C42"
-			(at 257.81 38.1 0)
+			(at 253.746 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10438,7 +10438,7 @@
 			)
 		)
 		(property "Value" "GRM158R61A226ME15D"
-			(at 255.27 38.1 0)
+			(at 248.412 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14605,7 +14605,7 @@
 		(dnp no)
 		(uuid "fd1b53e5-8ba2-4a6e-9fd8-1033b2e62a67")
 		(property "Reference" "C43"
-			(at 265.43 38.1 0)
+			(at 261.62 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14616,7 +14616,7 @@
 			)
 		)
 		(property "Value" "GRM158R61A226ME15D"
-			(at 262.89 38.1 0)
+			(at 264.16 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

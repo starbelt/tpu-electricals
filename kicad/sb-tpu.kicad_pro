@@ -895,7 +895,7 @@
         "uuid": "c966acfe-220f-43d0-8cfe-96d860fbaac6"
       }
     ],
-    "used_designators": "#PWR194,R48,S1-2",
+    "used_designators": "#PWR194-195,R48,S1-2,TP11",
     "variants": []
   },
   "sheets": [

@@ -12442,7 +12442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "footprints:RESC1608X55N"
 			(at 10.49 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18655,7 +18655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ERA2AED122X"
+		(property "Footprint" "footprints:ERA2AED122X"
 			(at 10.49 93.98 0)
 			(hide yes)
 			(show_name no)

@@ -5384,103 +5384,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:VDD_1V8_AON"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at -0.254 -0.508 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VDD_1V8_AON"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDD_1V8_AON_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1V8_AON_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "sb-tpu:VDD_3V3"
 			(power global)
 			(exclude_from_sim no)
@@ -5907,18 +5810,6 @@
 		)
 		(uuid "13c5762d-2a4a-47fd-894f-a0eb8c449374")
 	)
-	(rectangle
-		(start 54.102 120.396)
-		(end 67.31 125.73)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "152ebb27-a60c-449b-a5b9-7675797acef0")
-	)
 	(arc
 		(start 212.09 121.412)
 		(mid 211.718 122.31)
@@ -6166,17 +6057,6 @@
 			)
 		)
 		(uuid "78f7b2c0-fea2-44a8-9c1f-56fbf5b6a727")
-	)
-	(text "AON Domain \nNot Present"
-		(exclude_from_sim no)
-		(at 54.61 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c48e260-202f-481a-a2c1-f0d2d67ba58b")
 	)
 	(text "USR BUTTON\n"
 		(exclude_from_sim no)
@@ -8034,6 +7914,84 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:VDD_1V8")
+		(at 74.93 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b9f084-5d1d-41af-8ed5-943d8be4d69a")
+		(property "Reference" "#PWR0195"
+			(at 74.422 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_1V8"
+			(at 74.93 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a3faa8d2-c508-4f09-a4d8-e95bf83e42bd")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0195")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11269,83 +11227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VDD_1V8_AON")
-		(at 74.93 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "703344e6-fdf3-437e-b1c2-e88c14a5d414")
-		(property "Reference" "#PWR0203"
-			(at 74.676 127.508 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD_1V8_AON"
-			(at 74.93 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e6ddf973-ddff-4057-b45b-ddde64e39b69")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:PTS810SJK250SMTR_LFS")
 		(at 27.94 180.34 0)
 		(unit 1)
@@ -11376,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS810SJK250SMTRLFS"
+		(property "Footprint" "footprints:PTS810SJK250SMTRLFS"
 			(at 54.61 275.26 0)
 			(hide yes)
 			(show_name no)
@@ -12549,10 +12430,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9aee27bf-896f-411e-b224-af499ca7b443")
 		(property "Reference" "R49"
 			(at 75.184 131.064 90)
@@ -14040,7 +13921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS810SJK250SMTRLFS"
+		(property "Footprint" "footprints:PTS810SJK250SMTRLFS"
 			(at 63.5 242.24 0)
 			(hide yes)
 			(show_name no)
