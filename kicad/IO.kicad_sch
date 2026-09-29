@@ -2558,6 +2558,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:CRCW040210K0FKEE"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW040210K0FKEE"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CRCW0402200KFKED"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "VISHAY - CRCW040210K0FKEE - RES, AEC-Q200, THICK FILM, 10K, 0402, SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.6"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW121010K0JNTA"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW1210J-10K"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1210J-10K"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "CRCW040210K0FKEE_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:DLW21HN900SQ2L"
 			(pin_names
 				(offset 1.016)
@@ -5167,258 +5368,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sb-tpu:SN74AUP1T34QDCKRQ1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SN74AUP1T34QDCKRQ1"
-				(at 24.13 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "footprints:SOT65P210X110-5N"
-				(at 24.13 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1t34-q1"
-				(at 24.13 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "1-Bit Unidirectional Voltage-Level Translator, SN74AUP1T34-Q1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.1"
-				(at 24.13 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SN74AUP1T34QDCKRQ1"
-				(at 24.13 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-74AUP1T34QDCKRQ1"
-				(at 24.13 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1T34QDCKRQ1?qs=%252BFzhjShcsaIsuG2Ey7MmUw%3D%3D"
-				(at 24.13 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "SN74AUP1T34QDCKRQ1"
-				(at 24.13 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74aup1t34qdckrq1/texas-instruments"
-				(at 24.13 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "SN74AUP1T34QDCKRQ1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "sb-tpu:VDD_1V8"
 			(power global)
 			(exclude_from_sim no)
@@ -5786,103 +5735,6 @@
 				)
 			)
 			(symbol "VDD_SNVS_ANA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sb-tpu:VSYS_3V3"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at -0.254 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VSYS_3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VSYS_3V3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VSYS_3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 2.54)
@@ -6407,18 +6259,6 @@
 		)
 		(uuid "7c48e260-202f-481a-a2c1-f0d2d67ba58b")
 	)
-	(text "Do I need this level shifter?"
-		(exclude_from_sim no)
-		(at 44.958 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "82d5011b-d8f2-4d52-ad7f-e79794413c35")
-	)
 	(text "USR BUTTON\n"
 		(exclude_from_sim no)
 		(at 46.99 134.62 0)
@@ -6473,7 +6313,7 @@
 	)
 	(text "USER LED"
 		(exclude_from_sim no)
-		(at 223.52 25.908 0)
+		(at 233.934 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,13 +6407,13 @@
 		(uuid "3b3d2459-26e7-4111-a4e1-ab650f71b62f")
 	)
 	(junction
-		(at 137.16 96.52)
+		(at 115.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441e07ee-092d-468e-a854-74ae8f78f9b1")
 	)
 	(junction
-		(at 127 96.52)
+		(at 105.41 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4afc30ee-2b4f-4ba5-ab75-1a1867507bee")
@@ -6589,12 +6429,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f9bd23a-11f4-409a-9c0b-b11b902b7236")
-	)
-	(junction
-		(at 31.75 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60997558-7774-4043-a525-b2cb71d24d74")
 	)
 	(junction
 		(at 163.83 132.08)
@@ -6665,7 +6499,7 @@
 		(uuid "14047756-a43f-4f8f-adf1-55681cafd4ea")
 	)
 	(no_connect
-		(at 127 93.98)
+		(at 105.41 93.98)
 		(uuid "1d7cae18-5662-4963-9110-6c75722a164d")
 	)
 	(no_connect
@@ -6709,7 +6543,7 @@
 		(uuid "7be6a693-4a6b-4b60-993b-4e1ac40f2cd2")
 	)
 	(no_connect
-		(at 127 83.82)
+		(at 105.41 83.82)
 		(uuid "8320592d-2b93-4bb9-80fa-bd4fc4ce2007")
 	)
 	(no_connect
@@ -6729,7 +6563,7 @@
 		(uuid "9f048ea6-613d-481d-8421-d80ce39a8a32")
 	)
 	(no_connect
-		(at 83.82 93.98)
+		(at 62.23 93.98)
 		(uuid "a448d5c6-afb2-4f6e-9da7-3da5b5eb156b")
 	)
 	(no_connect
@@ -6753,7 +6587,7 @@
 		(uuid "b5b426bd-de70-4efc-97e3-25ff0238c14b")
 	)
 	(no_connect
-		(at 83.82 96.52)
+		(at 62.23 96.52)
 		(uuid "b6a479bc-787b-4bd9-a8c0-9ec0c65a063a")
 	)
 	(no_connect
@@ -6765,7 +6599,7 @@
 		(uuid "c3185bb9-ce61-4c76-bec6-f3fca4dd69b9")
 	)
 	(no_connect
-		(at 127 86.36)
+		(at 105.41 86.36)
 		(uuid "c43eee32-cc69-4413-b356-351fe3bd0486")
 	)
 	(no_connect
@@ -6820,17 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 93.98) (xy 39.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c15ccbe-9e78-4c66-91a1-2a40fe5cce80")
-	)
-	(wire
-		(pts
-			(xy 127 96.52) (xy 137.16 96.52)
+			(xy 105.41 96.52) (xy 115.57 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6930,7 +6754,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 140.97 96.52)
+			(xy 115.57 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6940,7 +6764,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 81.28 101.6)
+			(xy 59.69 91.44) (xy 59.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +6944,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 127 101.6)
+			(xy 59.69 102.87) (xy 105.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7140,17 +6964,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 39.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620fb8d6-b5ff-4c3c-8378-74f2783aabb4")
-	)
-	(wire
-		(pts
-			(xy 127 91.44) (xy 130.81 91.44)
+			(xy 105.41 91.44) (xy 109.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7350,7 +7164,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 133.35 88.9)
+			(xy 105.41 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7234,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 86.36) (xy 83.82 86.36)
+			(xy 58.42 86.36) (xy 62.23 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7570,16 +7384,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 88.9) (xy 39.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cddd6cdd-dad8-48de-a578-7d4b2e0c04d3")
-	)
-	(wire
-		(pts
 			(xy 133.35 187.96) (xy 133.35 189.23)
 		)
 		(stroke
@@ -7587,16 +7391,6 @@
 			(type default)
 		)
 		(uuid "ceead435-f679-4009-aef3-b4f55cc86496")
-	)
-	(wire
-		(pts
-			(xy 30.48 91.44) (xy 31.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceef4dc1-3d18-400d-9bfe-5bb7f7f5bc67")
 	)
 	(polyline
 		(pts
@@ -7640,7 +7434,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 83.82) (xy 83.82 83.82)
+			(xy 58.42 83.82) (xy 62.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +7484,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 127 96.52)
+			(xy 105.41 102.87) (xy 105.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7730,7 +7524,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 81.28 91.44)
+			(xy 62.23 91.44) (xy 59.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7740,7 +7534,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 88.9) (xy 83.82 88.9)
+			(xy 50.8 88.9) (xy 62.23 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7789,7 +7583,7 @@
 		(uuid "54c1505d-8693-4aa5-8466-a78faef232bb")
 	)
 	(label "USB_CC2"
-		(at 80.01 86.36 180)
+		(at 58.42 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7829,7 +7623,7 @@
 		(uuid "cb20061e-18be-4ea0-8fdc-afbece24e454")
 	)
 	(label "USB_CC1"
-		(at 80.01 83.82 180)
+		(at 58.42 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8004,7 +7798,7 @@
 	)
 	(global_label "USB_OTG1_ID"
 		(shape output)
-		(at 133.35 88.9 0)
+		(at 111.76 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8014,7 +7808,7 @@
 		)
 		(uuid "610a05b6-6c5d-4e9c-9314-d52c954c6556")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.7328 88.9 0)
+			(at 127.1428 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8111,30 +7905,6 @@
 		(uuid "a63fdb14-bfc5-4072-9a57-60091160f17f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 247.6886 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "USB_PORT_RT"
-		(shape input)
-		(at 30.48 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6abd773-a0e2-48f3-8351-ac6b53e97b07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,84 +9954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VSYS_3V3")
-		(at 67.31 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51ad8602-c54c-4406-85df-aeaf46c60c98")
-		(property "Reference" "#PWR0200"
-			(at 67.056 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS_3V3"
-			(at 70.358 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c1b464aa-31c0-4c77-877d-893e965bcc32")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:CRCW0402100RFKEE")
 		(at 133.35 172.72 90)
 		(unit 1)
@@ -10430,7 +10122,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 137.16 109.22 90)
+		(at 115.57 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10440,7 +10132,7 @@
 		(dnp no)
 		(uuid "5261b570-b911-41fd-a50b-bb1db204035c")
 		(property "Reference" "C98"
-			(at 142.748 101.6 90)
+			(at 121.158 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10451,7 +10143,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 143.256 114.3 0)
+			(at 121.666 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10462,7 +10154,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 233.35 100.33 0)
+			(at 211.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +10166,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 333.35 100.33 0)
+			(at 311.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,7 +10178,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 137.16 109.22 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10497,7 +10189,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 533.35 100.33 0)
+			(at 511.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10509,7 +10201,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 633.35 100.33 0)
+			(at 611.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +10213,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 733.35 100.33 0)
+			(at 711.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10225,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 833.35 100.33 0)
+			(at 811.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10237,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 933.35 100.33 0)
+			(at 911.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +10249,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1033.35 100.33 0)
+			(at 1011.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10569,7 +10261,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1133.35 100.33 0)
+			(at 1111.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +10443,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 91.44 0)
+		(at 109.22 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10761,7 +10453,7 @@
 		(dnp no)
 		(uuid "58857378-a554-438f-834e-b9eebc9e3caa")
 		(property "Reference" "#PWR0207"
-			(at 130.81 97.79 0)
+			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +10464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 94.996 0)
+			(at 109.22 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10782,7 +10474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 91.44 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,7 +10485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 91.44 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,7 +10496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 91.44 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10899,6 +10591,173 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW040210K0FKEE")
+		(at 50.8 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a3c1ce9-1ff1-4249-809e-7b4df43c785d")
+		(property "Reference" "R48"
+			(at 52.07 93.218 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW040210K0FKEE"
+			(at 46.99 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at -45.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+			(at -145.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "VISHAY - CRCW040210K0FKEE - RES, AEC-Q200, THICK FILM, 10K, 0402, SMD"
+			(at 50.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at -345.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -445.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW121010K0JNTA"
+			(at -545.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW1210J-10K"
+			(at -645.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1210J-10K"
+			(at -745.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -845.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -945.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "89ff39ec-65b5-4edc-a53c-12bd55d647cb")
+		)
+		(pin "1"
+			(uuid "08fd2648-afe8-4a1a-a86d-cc7fcb8d5fbd")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11639,83 +11498,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72270be5-bd00-4ffd-a84b-40e1d5827c85")
-		(property "Reference" "#PWR0194"
-			(at 31.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 112.776 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c602f30-e210-434a-b520-3cbbcf082ca1")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -13081,7 +12863,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VUSB")
-		(at 140.97 96.52 270)
+		(at 119.38 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13092,7 +12874,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cdd2bc9-24ee-4926-9911-7b7dce6f7970")
 		(property "Reference" "#PWR0211"
-			(at 140.97 96.266 0)
+			(at 119.38 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +12885,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 144.78 96.5199 90)
+			(at 123.19 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13114,7 +12896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 96.52 0)
+			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13125,7 +12907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 96.52 0)
+			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +12918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 96.52 0)
+			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13159,86 +12941,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:VDD_1V8")
-		(at 35.56 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a158cf1a-7fcd-45f0-9bbf-24a1d6cf3e98")
-		(property "Reference" "#PWR0195"
-			(at 35.052 89.154 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD_1V8"
-			(at 35.56 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b882f17d-3e70-46c1-bbac-57e42d65b6c1")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sb-tpu:PTN5150AHXMP")
-		(at 83.82 83.82 0)
+		(at 62.23 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13248,7 +12952,7 @@
 		(dnp no)
 		(uuid "a1b6582d-0680-4963-86c7-ebc38b90bba4")
 		(property "Reference" "IC8"
-			(at 90.424 80.01 0)
+			(at 68.834 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13258,7 +12962,7 @@
 			)
 		)
 		(property "Value" "PTN5150AHXMP"
-			(at 96.266 100.076 0)
+			(at 74.676 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13268,7 +12972,7 @@
 			)
 		)
 		(property "Footprint" "footprints:PTN5150AHXMP"
-			(at 123.19 178.74 0)
+			(at 101.6 178.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13280,7 +12984,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation"
-			(at 123.19 278.74 0)
+			(at 101.6 278.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +12996,7 @@
 			)
 		)
 		(property "Description" "USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C"
-			(at 83.82 83.82 0)
+			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +13007,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 123.19 478.74 0)
+			(at 101.6 478.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13315,7 +13019,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 123.19 578.74 0)
+			(at 101.6 578.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13327,7 +13031,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTN5150AHXMP"
-			(at 123.19 678.74 0)
+			(at 101.6 678.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13339,7 +13043,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-PTN5150AHXMP"
-			(at 123.19 778.74 0)
+			(at 101.6 778.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13351,7 +13055,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PTN5150AHXMP?qs=GIi83qBHgikdzCs4%252ByCwLg%3D%3D"
-			(at 123.19 878.74 0)
+			(at 101.6 878.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13363,7 +13067,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTN5150AHXMP"
-			(at 123.19 978.74 0)
+			(at 101.6 978.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +13079,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptn5150ahxmp/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 123.19 1078.74 0)
+			(at 101.6 1078.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,16 +14076,8 @@
 		)
 		(instances
 			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "R51")
-					(unit 1)
-				)
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -14910,16 +14606,8 @@
 		)
 		(instances
 			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/1cbd8157-6fbc-4407-a625-87c269a6acad"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "R52")
-					(unit 1)
-				)
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/eb6fb841-4f7c-4127-99e5-b5c8e37e20fb/166528f6-58e8-4582-8e67-74ac0b447b8a"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -15177,6 +14865,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d941ef98-79c0-4a2f-bd84-e2ba8d180381")
+		(property "Reference" "#PWR0194"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a823df52-7837-46cf-a008-de44ad7d1d05")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:VDD_SNVS_ANA")
 		(at 104.14 127 0)
 		(unit 1)
@@ -15255,85 +15020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "defbbfb8-2c1d-42dc-8547-0204acb02398")
-		(property "Reference" "#PWR0196"
-			(at 39.37 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c13fe55b-77d2-4701-969c-2e8db1d72c6e")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "#PWR0196")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 109.22 0)
+		(at 115.57 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15343,7 +15030,7 @@
 		(dnp no)
 		(uuid "e2985a83-064e-4328-8ff1-c3d7b39f5c55")
 		(property "Reference" "#PWR0210"
-			(at 137.16 115.57 0)
+			(at 115.57 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15354,7 +15041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 112.776 0)
+			(at 115.57 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15364,7 +15051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 109.22 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15375,7 +15062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15386,7 +15073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 109.22 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15807,173 +15494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CRCW0402100KJNED")
-		(at 31.75 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb98443c-2985-48b6-8051-66c39e6ae87b")
-		(property "Reference" "R48"
-			(at 32.004 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CRCW0402100KJNED"
-			(at 28.702 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 127.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 227.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 5%"
-			(at 31.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.4"
-			(at 427.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 527.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0402100KJNED"
-			(at 627.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0402J-100K-E3"
-			(at 727.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402100KJNED?qs=OlqPY1Ciraku%2F%2FWCRjVOyA%3D%3D"
-			(at 827.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "CRCW0402100KJNED"
-			(at 927.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw0402100kjned/vishay?region=nac"
-			(at 1027.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "f9b10842-aa29-4d51-ad31-51f831c83d20")
-		)
-		(pin "1"
-			(uuid "deed526e-f107-4d5d-8f0a-7f15f350a616")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 168.91 127 0)
 		(unit 1)
@@ -16056,181 +15576,6 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:SN74AUP1T34QDCKRQ1")
-		(at 39.37 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f57c1613-ff2e-4ba3-a8e6-9c9ce0e135e9")
-		(property "Reference" "IC7"
-			(at 53.34 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AUP1T34QDCKRQ1"
-			(at 53.34 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SOT65P210X110-5N"
-			(at 63.5 183.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74aup1t34-q1"
-			(at 63.5 283.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "1-Bit Unidirectional Voltage-Level Translator, SN74AUP1T34-Q1"
-			(at 39.37 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.1"
-			(at 63.5 483.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 63.5 583.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AUP1T34QDCKRQ1"
-			(at 63.5 683.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-74AUP1T34QDCKRQ1"
-			(at 63.5 783.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AUP1T34QDCKRQ1?qs=%252BFzhjShcsaIsuG2Ey7MmUw%3D%3D"
-			(at 63.5 883.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "SN74AUP1T34QDCKRQ1"
-			(at 63.5 983.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74aup1t34qdckrq1/texas-instruments"
-			(at 63.5 1083.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "20990401-345f-494e-bf25-36e13548f74a")
-		)
-		(pin "1"
-			(uuid "14be92d0-4dc0-471a-b5ee-9026d8f063d0")
-		)
-		(pin "3"
-			(uuid "5a646f2f-408e-440c-a1d5-e5f3a1060ab8")
-		)
-		(pin "5"
-			(uuid "5b54446f-cbed-4d34-9024-955754007582")
-		)
-		(pin "2"
-			(uuid "cc8db44e-cea7-4381-ac0d-71f1bf085be4")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "IC7")
 					(unit 1)
 				)
 			)

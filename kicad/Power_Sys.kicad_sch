@@ -11686,8 +11686,8 @@
 		(uuid "03e70aba-0842-4e41-9e9b-99b728a1f999")
 	)
 	(rectangle
-		(start 110.49 49.53)
-		(end 281.94 121.92)
+		(start 111.76 49.53)
+		(end 283.21 137.16)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11710,8 +11710,8 @@
 		(uuid "0bb2a381-405a-4aff-a6c0-0096a3bdb7ae")
 	)
 	(rectangle
-		(start 227.33 13.97)
-		(end 281.94 48.26)
+		(start 228.6 13.97)
+		(end 283.21 48.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11746,8 +11746,8 @@
 		(uuid "d4fe79fb-62d4-42e6-bfdb-f9c4bea4cfbf")
 	)
 	(rectangle
-		(start 144.78 20.32)
-		(end 226.06 48.26)
+		(start 146.05 20.32)
+		(end 227.33 48.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11781,7 +11781,7 @@
 	)
 	(text "Power On Reset"
 		(exclude_from_sim no)
-		(at 152.908 22.606 0)
+		(at 154.178 22.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11874,7 +11874,7 @@
 	)
 	(text "Optional Watchdog Timer. \nTo use, route WDI to MCU GPIO \n and toggle in software."
 		(exclude_from_sim no)
-		(at 145.288 26.67 0)
+		(at 146.558 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11885,7 +11885,7 @@
 	)
 	(text "Note: Added After Ordering Parts.\nMay Require substitution from JLC library"
 		(exclude_from_sim no)
-		(at 244.856 160.02 0)
+		(at 243.84 152.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11895,7 +11895,7 @@
 		(uuid "db6acb51-48e3-4d50-8b17-04855d363961")
 	)
 	(junction
-		(at 234.95 26.67)
+		(at 236.22 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0713046e-12f9-4217-98e0-8d47ce3b0fc2")
@@ -11911,6 +11911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cdfacc0-58f3-4b53-963a-851c9684eeec")
+	)
+	(junction
+		(at 219.71 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e2e23cd-9919-4a0a-9c79-539776ae3db5")
 	)
 	(junction
 		(at 187.96 154.94)
@@ -11937,7 +11943,7 @@
 		(uuid "45c09c87-f032-409c-8788-928b87b44134")
 	)
 	(junction
-		(at 257.81 26.67)
+		(at 259.08 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "497da73a-385e-4052-aa2f-4c422ccf69d8")
@@ -11949,7 +11955,7 @@
 		(uuid "52138b23-3dcb-4a40-98ca-1548ec049de2")
 	)
 	(junction
-		(at 234.95 39.37)
+		(at 236.22 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5333828e-fbe9-4117-b21f-267c17d82026")
@@ -11959,12 +11965,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae11baf-f5ac-4cce-ae67-1af7f3be0d62")
-	)
-	(junction
-		(at 219.71 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f875175-4a27-47c0-9e3a-949fd7e7ac0b")
 	)
 	(junction
 		(at 85.09 66.04)
@@ -11979,7 +11979,7 @@
 		(uuid "64b27939-671f-492a-afe7-985f97213326")
 	)
 	(junction
-		(at 213.36 39.37)
+		(at 214.63 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6508a6bb-d056-486e-a4c5-c1ff2c1b2fe8")
@@ -12003,7 +12003,7 @@
 		(uuid "818a7dc4-d391-4457-9d74-aa511e730c38")
 	)
 	(junction
-		(at 166.37 39.37)
+		(at 167.64 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4e72e8-502e-4f00-9c86-5ec925cc5a0e")
@@ -12051,7 +12051,7 @@
 		(uuid "a454a180-4d00-4b04-b91e-133a921be032")
 	)
 	(junction
-		(at 241.3 39.37)
+		(at 242.57 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a765efa5-8a92-4fab-9f3c-dd8fa6cd3953")
@@ -12069,7 +12069,7 @@
 		(uuid "ab5c7029-7429-40f0-8e6f-a9f31829d54d")
 	)
 	(junction
-		(at 257.81 39.37)
+		(at 259.08 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b054080b-c07c-47a5-818f-1b4131df883f")
@@ -12093,7 +12093,7 @@
 		(uuid "bb65b34b-fda4-4b2b-8f1c-c529360e8dc2")
 	)
 	(junction
-		(at 241.3 26.67)
+		(at 242.57 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c457709b-0959-4925-adb8-ca39c2b39e9c")
@@ -12222,7 +12222,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 26.67) (xy 241.3 26.67)
+			(xy 236.22 26.67) (xy 242.57 26.67)
 		)
 		(stroke
 			(width 0)
@@ -12292,7 +12292,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 160.02) (xy 191.77 160.02)
+			(xy 180.34 160.02) (xy 177.8 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12329,16 +12329,6 @@
 			(type default)
 		)
 		(uuid "18d1d548-734f-4a75-8ee7-6c667929f7c5")
-	)
-	(wire
-		(pts
-			(xy 219.71 144.78) (xy 205.74 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3ea471-c456-43a6-b8f6-4887d7e5989e")
 	)
 	(wire
 		(pts
@@ -12392,7 +12382,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 166.37 36.83)
+			(xy 175.26 36.83) (xy 167.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12412,7 +12402,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 39.37) (xy 241.3 39.37)
+			(xy 236.22 39.37) (xy 242.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12432,7 +12422,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 39.37) (xy 247.65 39.37)
+			(xy 242.57 39.37) (xy 248.92 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12512,7 +12502,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 154.94) (xy 193.04 154.94)
+			(xy 156.21 154.94) (xy 189.23 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12542,7 +12532,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 157.48) (xy 191.77 157.48)
+			(xy 156.21 157.48) (xy 177.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12569,6 +12559,16 @@
 			(type default)
 		)
 		(uuid "444398ad-1a0e-4798-b846-b24e64fcb760")
+	)
+	(wire
+		(pts
+			(xy 219.71 147.32) (xy 219.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a42ddd-88fa-4502-8d26-ae22d9788876")
 	)
 	(wire
 		(pts
@@ -12682,6 +12682,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 148.59) (xy 219.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f544161-7e1a-4e34-9208-80279047b8fb")
+	)
+	(wire
+		(pts
 			(xy 157.48 193.04) (xy 156.21 193.04)
 		)
 		(stroke
@@ -12732,7 +12742,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 26.67) (xy 247.65 26.67)
+			(xy 242.57 26.67) (xy 248.92 26.67)
 		)
 		(stroke
 			(width 0)
@@ -12782,7 +12792,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 160.02) (xy 191.77 157.48)
+			(xy 177.8 160.02) (xy 177.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12812,7 +12822,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 163.83) (xy 181.61 160.02)
+			(xy 175.26 163.83) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12882,7 +12892,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 166.37 39.37)
+			(xy 167.64 36.83) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12902,7 +12912,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 36.83) (xy 213.36 39.37)
+			(xy 214.63 36.83) (xy 214.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12952,7 +12962,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 163.83) (xy 181.61 163.83)
+			(xy 180.34 163.83) (xy 175.26 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13062,7 +13072,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 160.02) (xy 181.61 160.02)
+			(xy 156.21 160.02) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13192,7 +13202,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 26.67) (xy 264.16 26.67)
+			(xy 259.08 26.67) (xy 265.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -13292,23 +13302,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 39.37) (xy 173.99 39.37)
+			(xy 167.64 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d70ddcaa-4ab4-4416-9d21-6f1f9ddc1bfb")
-	)
-	(wire
-		(pts
-			(xy 219.71 144.78) (xy 219.71 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8549211-a4df-4681-aead-e4d01e1ffb68")
 	)
 	(wire
 		(pts
@@ -13352,7 +13352,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 39.37) (xy 166.37 40.64)
+			(xy 167.64 39.37) (xy 167.64 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13402,7 +13402,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 144.78) (xy 187.96 154.94)
+			(xy 187.96 148.59) (xy 187.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13432,7 +13432,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 39.37) (xy 264.16 39.37)
+			(xy 259.08 39.37) (xy 265.43 39.37)
 		)
 		(stroke
 			(width 0)
@@ -13546,7 +13546,7 @@
 	)
 	(global_label "PMIC_STBY_REQ"
 		(shape bidirectional)
-		(at 195.58 160.02 0)
+		(at 180.34 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13556,7 +13556,7 @@
 		)
 		(uuid "29e99b66-6614-4a63-9573-617a34bb05d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.4931 160.02 0)
+			(at 199.2531 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13642,7 +13642,7 @@
 	)
 	(global_label "POR_B"
 		(shape bidirectional)
-		(at 193.04 154.94 0)
+		(at 189.23 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13652,7 +13652,7 @@
 		)
 		(uuid "3fdc9182-39a4-4e22-86b2-d502e4abfbe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2446 154.94 0)
+			(at 199.4346 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13786,7 +13786,7 @@
 	)
 	(global_label "PMIC_ON_REQ"
 		(shape bidirectional)
-		(at 184.15 163.83 0)
+		(at 180.34 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13796,7 +13796,7 @@
 		)
 		(uuid "a34d03eb-137c-4bc0-b1eb-f2a87457406d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.1884 163.83 0)
+			(at 197.3784 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13906,7 +13906,7 @@
 	)
 	(global_label "POR_B"
 		(shape bidirectional)
-		(at 213.36 34.29 0)
+		(at 214.63 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13916,7 +13916,7 @@
 		)
 		(uuid "e3e92b58-d706-4430-bd3d-9b86ad7a65c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.5646 34.29 0)
+			(at 224.8346 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14116,7 +14116,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 213.36 39.37 270)
+		(at 214.63 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14126,7 +14126,7 @@
 		(dnp no)
 		(uuid "044788b2-3cfb-482c-b489-7e92984e82f2")
 		(property "Reference" "#PWR044"
-			(at 213.36 39.116 0)
+			(at 214.63 39.116 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14137,7 +14137,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 216.916 39.624 90)
+			(at 218.186 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14148,7 +14148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 39.37 0)
+			(at 214.63 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14159,7 +14159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 39.37 0)
+			(at 214.63 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14170,7 +14170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 39.37 0)
+			(at 214.63 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16154,7 +16154,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 264.16 39.37 90)
+		(at 265.43 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16164,7 +16164,7 @@
 		(dnp no)
 		(uuid "1937d331-6327-4055-b66c-d0f71e459530")
 		(property "Reference" "C20"
-			(at 257.81 30.48 0)
+			(at 259.08 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16175,7 +16175,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 260.35 30.48 0)
+			(at 261.62 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16186,7 +16186,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 360.35 30.48 0)
+			(at 361.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16198,7 +16198,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 460.35 30.48 0)
+			(at 461.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16210,7 +16210,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 264.16 39.37 0)
+			(at 265.43 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16221,7 +16221,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 660.35 30.48 0)
+			(at 661.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16233,7 +16233,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 760.35 30.48 0)
+			(at 761.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16245,7 +16245,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 860.35 30.48 0)
+			(at 861.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16257,7 +16257,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 960.35 30.48 0)
+			(at 961.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16269,7 +16269,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1060.35 30.48 0)
+			(at 1061.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16281,7 +16281,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1160.35 30.48 0)
+			(at 1161.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16293,7 +16293,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1260.35 30.48 0)
+			(at 1261.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16336,7 +16336,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c4643e1-43c8-4552-8cd9-7938383ba9d6")
 		(property "Reference" "#PWR01"
 			(at 14.986 150.114 0)
@@ -16350,7 +16349,7 @@
 			)
 		)
 		(property "Value" "VSYS_5V"
-			(at 15.24 144.78 0)
+			(at 16.764 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16667,7 +16666,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 219.71 144.78 270)
+		(at 219.71 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16675,10 +16674,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28309b47-c174-4a1e-a84b-00f962549f30")
 		(property "Reference" "C14"
-			(at 223.52 149.8599 90)
+			(at 220.218 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16689,7 +16687,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 223.52 152.3999 90)
+			(at 220.472 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16700,7 +16698,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 123.52 153.67 0)
+			(at 123.52 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16712,7 +16710,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 23.52 153.67 0)
+			(at 23.52 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16722,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 219.71 144.78 0)
+			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16735,7 +16733,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -176.48 153.67 0)
+			(at -176.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16747,7 +16745,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -276.48 153.67 0)
+			(at -276.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16759,7 +16757,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at -376.48 153.67 0)
+			(at -376.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16771,7 +16769,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at -476.48 153.67 0)
+			(at -476.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16783,7 +16781,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at -576.48 153.67 0)
+			(at -576.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,7 +16793,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at -676.48 153.67 0)
+			(at -676.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16807,7 +16805,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at -776.48 153.67 0)
+			(at -776.48 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17288,7 +17286,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 257.81 39.37 90)
+		(at 259.08 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17298,7 +17296,7 @@
 		(dnp no)
 		(uuid "2f371f99-5017-4b20-8733-503c41a69dc9")
 		(property "Reference" "C19"
-			(at 251.46 30.48 0)
+			(at 252.73 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17309,7 +17307,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 254 30.48 0)
+			(at 255.27 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17320,7 +17318,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 354 30.48 0)
+			(at 355.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17332,7 +17330,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 454 30.48 0)
+			(at 455.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17344,7 +17342,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 257.81 39.37 0)
+			(at 259.08 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17355,7 +17353,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 654 30.48 0)
+			(at 655.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17367,7 +17365,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 754 30.48 0)
+			(at 755.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17379,7 +17377,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 854 30.48 0)
+			(at 855.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17391,7 +17389,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 954 30.48 0)
+			(at 955.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17403,7 +17401,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1054 30.48 0)
+			(at 1055.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17415,7 +17413,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1154 30.48 0)
+			(at 1155.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17425,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1254 30.48 0)
+			(at 1255.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18324,7 +18322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 39.37 0)
+		(at 259.08 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18335,7 +18333,7 @@
 		(fields_autoplaced yes)
 		(uuid "440bf73f-dcaf-4a14-a39e-35c2228f3710")
 		(property "Reference" "#PWR053"
-			(at 257.81 45.72 0)
+			(at 259.08 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18346,7 +18344,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 44.45 0)
+			(at 259.08 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18356,7 +18354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 39.37 0)
+			(at 259.08 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18367,7 +18365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 39.37 0)
+			(at 259.08 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18378,7 +18376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 39.37 0)
+			(at 259.08 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19072,7 +19070,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 247.65 39.37 90)
+		(at 248.92 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19082,7 +19080,7 @@
 		(dnp no)
 		(uuid "51065047-ade0-4c75-93cb-bce553ddb0b9")
 		(property "Reference" "C18"
-			(at 241.3 30.48 0)
+			(at 242.57 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19093,7 +19091,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 243.84 30.48 0)
+			(at 245.11 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19104,7 +19102,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 343.84 30.48 0)
+			(at 345.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19116,7 +19114,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 443.84 30.48 0)
+			(at 445.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19128,7 +19126,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 247.65 39.37 0)
+			(at 248.92 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19139,7 +19137,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 643.84 30.48 0)
+			(at 645.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19151,7 +19149,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 743.84 30.48 0)
+			(at 745.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19163,7 +19161,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 843.84 30.48 0)
+			(at 845.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19175,7 +19173,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 943.84 30.48 0)
+			(at 945.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19187,7 +19185,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1043.84 30.48 0)
+			(at 1045.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19199,7 +19197,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1143.84 30.48 0)
+			(at 1145.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19211,7 +19209,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1243.84 30.48 0)
+			(at 1245.11 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19245,7 +19243,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 274.32 26.67 0)
+		(at 275.59 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19256,7 +19254,7 @@
 		(fields_autoplaced yes)
 		(uuid "52f47531-e035-4eb9-9fcd-2bdad3027184")
 		(property "Reference" "#PWR055"
-			(at 274.066 26.67 0)
+			(at 275.336 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19267,7 +19265,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 274.32 21.59 0)
+			(at 275.59 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19277,7 +19275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 26.67 0)
+			(at 275.59 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19288,7 +19286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 26.67 0)
+			(at 275.59 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19299,7 +19297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 26.67 0)
+			(at 275.59 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20022,7 +20020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 40.64 0)
+		(at 167.64 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20033,7 +20031,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b8b58cf-78d6-47a1-a8dd-37df74211a1b")
 		(property "Reference" "#PWR034"
-			(at 166.37 46.99 0)
+			(at 167.64 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20044,7 +20042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 45.72 0)
+			(at 167.64 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20054,7 +20052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 40.64 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20065,7 +20063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 40.64 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20076,7 +20074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 40.64 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20106,7 +20104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 39.37 0)
+		(at 275.59 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20117,7 +20115,7 @@
 		(fields_autoplaced yes)
 		(uuid "63a77c28-c7e1-40ce-97cd-aa2117ce542e")
 		(property "Reference" "#PWR056"
-			(at 274.32 45.72 0)
+			(at 275.59 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20128,7 +20126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 44.45 0)
+			(at 275.59 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20138,7 +20136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 39.37 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20149,7 +20147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 39.37 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20160,7 +20158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 39.37 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20575,7 +20573,7 @@
 	(symbol
 		(lib_name "TPS3813K33DBVR_1")
 		(lib_id "sb-tpu:TPS3813K33DBVR")
-		(at 173.99 34.29 0)
+		(at 175.26 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20586,7 +20584,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f71dc15-b02a-4332-9552-390d2057196b")
 		(property "Reference" "U5"
-			(at 193.6432 24.13 0)
+			(at 194.9132 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20596,7 +20594,7 @@
 			)
 		)
 		(property "Value" "TPS3813K33DBVR"
-			(at 193.6432 26.67 0)
+			(at 194.9132 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20606,7 +20604,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DBV6"
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20618,7 +20616,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps3813"
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20630,7 +20628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20927,7 +20925,7 @@
 	(symbol
 		(lib_name "VSYS_5V_6")
 		(lib_id "sb-tpu:VSYS_5V")
-		(at 257.81 26.67 0)
+		(at 259.08 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20938,7 +20936,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c46a5af-3292-4025-baa5-76871282f055")
 		(property "Reference" "#PWR052"
-			(at 257.556 26.924 0)
+			(at 258.826 26.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20949,7 +20947,7 @@
 			)
 		)
 		(property "Value" "VSYS_5V"
-			(at 257.81 21.59 0)
+			(at 259.08 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20959,7 +20957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 26.67 0)
+			(at 259.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20970,7 +20968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 26.67 0)
+			(at 259.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20981,7 +20979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 26.67 0)
+			(at 259.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21032,7 +21030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 96.52 0)
+			(at 172.212 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21344,7 +21342,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 234.95 39.37 90)
+		(at 236.22 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21354,7 +21352,7 @@
 		(dnp no)
 		(uuid "81147116-0c1e-4880-bbe6-053d576c262f")
 		(property "Reference" "C15"
-			(at 228.6 30.48 0)
+			(at 229.87 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21365,7 +21363,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 231.14 30.48 0)
+			(at 232.41 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21376,7 +21374,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 331.14 30.48 0)
+			(at 332.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21388,7 +21386,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 431.14 30.48 0)
+			(at 432.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21400,7 +21398,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 234.95 39.37 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21411,7 +21409,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 631.14 30.48 0)
+			(at 632.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21423,7 +21421,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 731.14 30.48 0)
+			(at 732.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21435,7 +21433,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 831.14 30.48 0)
+			(at 832.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21447,7 +21445,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 931.14 30.48 0)
+			(at 932.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21459,7 +21457,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1031.14 30.48 0)
+			(at 1032.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21471,7 +21469,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1131.14 30.48 0)
+			(at 1132.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21483,7 +21481,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1231.14 30.48 0)
+			(at 1232.41 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21688,7 +21686,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_1V8")
-		(at 234.95 26.67 0)
+		(at 236.22 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21699,7 +21697,7 @@
 		(fields_autoplaced yes)
 		(uuid "87aa437a-d383-4f1d-b7b9-53371d9df9f1")
 		(property "Reference" "#PWR049"
-			(at 234.442 26.924 0)
+			(at 235.712 26.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21710,7 +21708,7 @@
 			)
 		)
 		(property "Value" "VDD_1V8"
-			(at 234.95 21.59 0)
+			(at 236.22 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21720,7 +21718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 26.67 0)
+			(at 236.22 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21731,7 +21729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 26.67 0)
+			(at 236.22 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21742,7 +21740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 26.67 0)
+			(at 236.22 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21942,7 +21940,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_3V3")
-		(at 173.99 34.29 90)
+		(at 175.26 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21953,7 +21951,7 @@
 		(fields_autoplaced yes)
 		(uuid "9667b8c2-7f0c-47a2-bd3b-782c5d75dd2c")
 		(property "Reference" "#PWR040"
-			(at 173.99 34.544 0)
+			(at 175.26 34.544 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21964,7 +21962,7 @@
 			)
 		)
 		(property "Value" "VDD_3V3"
-			(at 170.18 34.2899 90)
+			(at 171.45 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21975,7 +21973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21986,7 +21984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21997,7 +21995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 34.29 0)
+			(at 175.26 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22535,7 +22533,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 241.3 39.37 90)
+		(at 242.57 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22545,7 +22543,7 @@
 		(dnp no)
 		(uuid "a6eeec1b-0063-487e-852b-2fe8b8407f82")
 		(property "Reference" "C16"
-			(at 234.95 30.48 0)
+			(at 236.22 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22556,7 +22554,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 237.49 30.48 0)
+			(at 238.76 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22567,7 +22565,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 337.49 30.48 0)
+			(at 338.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22579,7 +22577,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 437.49 30.48 0)
+			(at 438.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22591,7 +22589,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 241.3 39.37 0)
+			(at 242.57 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22602,7 +22600,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 637.49 30.48 0)
+			(at 638.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22614,7 +22612,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 737.49 30.48 0)
+			(at 738.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22626,7 +22624,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 837.49 30.48 0)
+			(at 838.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22638,7 +22636,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 937.49 30.48 0)
+			(at 938.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22650,7 +22648,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1037.49 30.48 0)
+			(at 1038.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22662,7 +22660,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1137.49 30.48 0)
+			(at 1138.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22674,7 +22672,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1237.49 30.48 0)
+			(at 1238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23644,7 +23642,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 157.48 0)
+		(at 219.71 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23652,10 +23650,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb1c3ebf-0566-47f2-9adb-78d54e5cf50f")
 		(property "Reference" "#PWR046"
-			(at 219.71 163.83 0)
+			(at 219.71 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23666,7 +23663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 162.56 0)
+			(at 222.25 164.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23676,7 +23673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 157.48 0)
+			(at 219.71 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23687,7 +23684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 157.48 0)
+			(at 219.71 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23698,7 +23695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 157.48 0)
+			(at 219.71 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24509,7 +24506,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VDD_SNVS_ANA")
-		(at 219.71 142.24 0)
+		(at 219.71 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24519,7 +24516,7 @@
 		(dnp no)
 		(uuid "e368ade7-78a0-43ff-bd82-b9ff5fcb400e")
 		(property "Reference" "#PWR045"
-			(at 219.456 141.986 0)
+			(at 219.456 147.066 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24530,7 +24527,7 @@
 			)
 		)
 		(property "Value" "VDD_SNVS_ANA"
-			(at 219.964 138.684 0)
+			(at 219.964 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24540,7 +24537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 142.24 0)
+			(at 219.71 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24551,7 +24548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 142.24 0)
+			(at 219.71 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24562,7 +24559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 142.24 0)
+			(at 219.71 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24944,7 +24941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 39.37 0)
+		(at 236.22 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24955,7 +24952,7 @@
 		(fields_autoplaced yes)
 		(uuid "e77c25a5-84a7-4c9c-abc7-37f62bb3b507")
 		(property "Reference" "#PWR050"
-			(at 234.95 45.72 0)
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24966,7 +24963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 44.45 0)
+			(at 236.22 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24976,7 +24973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 39.37 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24987,7 +24984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 39.37 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24998,7 +24995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 39.37 0)
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25028,7 +25025,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:MCT06030E1002BP500")
-		(at 187.96 144.78 0)
+		(at 187.96 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25038,7 +25035,7 @@
 		(dnp no)
 		(uuid "e7e55ebe-d1ef-4e25-b4fe-6629e339a161")
 		(property "Reference" "R1"
-			(at 194.31 142.494 0)
+			(at 194.31 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25048,7 +25045,7 @@
 			)
 		)
 		(property "Value" "MCT06030E1002BP500"
-			(at 203.962 147.32 0)
+			(at 203.962 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25058,7 +25055,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RESC1608X55N"
-			(at 201.93 240.97 0)
+			(at 201.93 244.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25070,7 +25067,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
-			(at 201.93 340.97 0)
+			(at 201.93 344.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25082,7 +25079,7 @@
 			)
 		)
 		(property "Description" "Thin Film Resistors - SMD .032W 10Kohms 0.1% 0603 15ppm"
-			(at 187.96 144.78 0)
+			(at 187.96 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25093,7 +25090,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 201.93 540.97 0)
+			(at 201.93 544.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25105,7 +25102,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 201.93 640.97 0)
+			(at 201.93 644.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25117,7 +25114,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCT06030E1002BP500"
-			(at 201.93 740.97 0)
+			(at 201.93 744.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25129,7 +25126,7 @@
 			)
 		)
 		(property "Mouser Part Number" "594-MCT06030E1002BP5"
-			(at 201.93 840.97 0)
+			(at 201.93 844.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25141,7 +25138,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP500?qs=sIxod1zg5hHrCEbPpIhVVw%3D%3D"
-			(at 201.93 940.97 0)
+			(at 201.93 944.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25153,7 +25150,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 201.93 1040.97 0)
+			(at 201.93 1044.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25165,7 +25162,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 201.93 1140.97 0)
+			(at 201.93 1144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25545,7 +25542,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 274.32 39.37 90)
+		(at 275.59 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25555,7 +25552,7 @@
 		(dnp no)
 		(uuid "f1cacdbe-70fb-4c16-a4a6-01f35bc9e480")
 		(property "Reference" "C21"
-			(at 267.97 30.48 0)
+			(at 269.24 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25566,7 +25563,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 270.51 30.48 0)
+			(at 271.78 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25577,7 +25574,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 370.51 30.48 0)
+			(at 371.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25589,7 +25586,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 470.51 30.48 0)
+			(at 471.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25601,7 +25598,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
-			(at 274.32 39.37 0)
+			(at 275.59 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25612,7 +25609,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 670.51 30.48 0)
+			(at 671.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25624,7 +25621,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 770.51 30.48 0)
+			(at 771.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25636,7 +25633,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "06033C104JAT4A"
-			(at 870.51 30.48 0)
+			(at 871.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25648,7 +25645,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-06033C104JAT4A"
-			(at 970.51 30.48 0)
+			(at 971.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25660,7 +25657,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
-			(at 1070.51 30.48 0)
+			(at 1071.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25672,7 +25669,7 @@
 			)
 		)
 		(property "Arrow Part Number" "06033C104JAT4A"
-			(at 1170.51 30.48 0)
+			(at 1171.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25684,7 +25681,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
-			(at 1270.51 30.48 0)
+			(at 1271.78 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
