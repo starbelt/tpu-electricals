@@ -11734,6 +11734,18 @@
 		(uuid "73b1da6e-9e53-486e-a1d2-f3da5295a339")
 	)
 	(rectangle
+		(start 179.07 113.03)
+		(end 252.73 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ae34a384-bee7-479e-8ca0-50be645b3113")
+	)
+	(rectangle
 		(start 17.78 91.44)
 		(end 99.06 127)
 		(stroke
@@ -11768,6 +11780,17 @@
 			(type none)
 		)
 		(uuid "f7abaa32-02a8-4ffa-8722-a91dbcdb2ab9")
+	)
+	(text "This buck converter may be causing a brown out on boot\nCurrent limited 8.5-1.2 - could be causing some sort of foldover.\nNew candidate is MPS MPQ2166, which can do 2A out of each channel,\nadjustable output from 0.6 to 5.5V. Very similar package and passives."
+		(exclude_from_sim no)
+		(at 180.086 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0f984c9f-2c84-4b28-a382-f053e343958d")
 	)
 	(text "Power Rail Protection"
 		(exclude_from_sim no)
