@@ -12610,7 +12610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TP_05"
 			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
