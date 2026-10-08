@@ -259,4 +259,15 @@
 		(uuid "ee68cce6-67b2-4c15-b6d1-a6dcade749de")
 	)
 	(embedded_fonts no)
+	(model "../3dmodels/CAP_LMK212AB7106MG-T_TAY.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

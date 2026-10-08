@@ -21,7 +21,7 @@
   (fp_line (start -0.3 0.15) (end -0.3 -0.15) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -0.33 0 90) (size 0.42 0.46) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.33 0 90) (size 0.42 0.46) (layers F.Cu F.Paste F.Mask))
-  (model GRM033R70J472KA01D.stp
+  (model "../3dmodels/GRM033R70J472KA01D.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
