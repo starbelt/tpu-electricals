@@ -1,0 +1,44 @@
+(version 1)
+
+# Stackup: JLCPCB JLC08161H-1080A, 1.6 mm, 1 oz outer / 0.5 oz inner
+# L1 SIG | L2 GND | L3 SIG | L4 PWR | L5 GND | L6 SIG | L7 GND | L8 SIG
+# Widths below are estimates from the stackup geometry; confirm with
+# https://jlcpcb.com/pcb-impedance-calculator before ordering (+/-10%).
+
+# --- 90 ohm differential (USB HS: RT1176 OTG1, Coral USB) -------------------
+(rule "90R diff outer"
+	(layer outer)
+	(condition "A.NetClass == '90ohmdiff'")
+	(constraint track_width (min 0.1) (opt 0.11) (max 0.12))
+	(constraint diff_pair_gap (min 0.09) (opt 0.1) (max 0.12)))
+
+(rule "90R diff inner"
+	(layer inner)
+	(condition "A.NetClass == '90ohmdiff'")
+	(constraint track_width (min 0.09) (opt 0.1) (max 0.11))
+	(constraint diff_pair_gap (min 0.13) (opt 0.15) (max 0.17)))
+
+# --- 50 ohm single-ended (SEMC SDRAM bus) -----------------------------------
+(rule "SDRAM 50R outer"
+	(layer outer)
+	(condition "A.NetClass == 'SDRAM_50R'")
+	(constraint track_width (min 0.1) (opt 0.12)))
+
+(rule "SDRAM 50R inner"
+	(layer inner)
+	(condition "A.NetClass == 'SDRAM_50R'")
+	(constraint track_width (min 0.09) (opt 0.11)))
+
+# Signals belong on F.Cu, In2, In5 and B.Cu; In1/In4/In6 are GND, In3 is PWR.
+(rule "No tracks on plane layers"
+	(layer "In1.Cu")
+	(condition "A.Type == 'track'")
+	(constraint disallow track))
+(rule "No tracks on plane layers In4"
+	(layer "In4.Cu")
+	(condition "A.Type == 'track'")
+	(constraint disallow track))
+(rule "No tracks on plane layers In6"
+	(layer "In6.Cu")
+	(condition "A.Type == 'track'")
+	(constraint disallow track))

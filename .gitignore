@@ -24,6 +24,7 @@
 !/kicad/*.kicad_sch
 !/kicad/*.kicad_pcb
 !/kicad/*.kicad_pro
+!/kicad/*.kicad_dru
 !/kicad/*.kicad_sym
 !/kicad/fp-lib-table
 !/kicad/sym-lib-table
