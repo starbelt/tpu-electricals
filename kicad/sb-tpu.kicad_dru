@@ -9,25 +9,32 @@
 (rule "90R diff outer"
 	(layer outer)
 	(condition "A.NetClass == '90ohmdiff'")
-	(constraint track_width (min 0.1) (opt 0.11) (max 0.12))
-	(constraint diff_pair_gap (min 0.09) (opt 0.1) (max 0.12)))
+	(constraint track_width (min 0.1mm) (opt 0.11mm) (max 0.12mm))
+	(constraint diff_pair_gap (min 0.09mm) (opt 0.1mm) (max 0.12mm)))
 
 (rule "90R diff inner"
 	(layer inner)
 	(condition "A.NetClass == '90ohmdiff'")
-	(constraint track_width (min 0.09) (opt 0.1) (max 0.11))
-	(constraint diff_pair_gap (min 0.13) (opt 0.15) (max 0.17)))
+	(constraint track_width (min 0.09mm) (opt 0.1mm) (max 0.11mm))
+	(constraint diff_pair_gap (min 0.13mm) (opt 0.15mm) (max 0.17mm)))
 
 # --- 50 ohm single-ended (SEMC SDRAM bus) -----------------------------------
 (rule "SDRAM 50R outer"
 	(layer outer)
 	(condition "A.NetClass == 'SDRAM_50R'")
-	(constraint track_width (min 0.1) (opt 0.12)))
+	(constraint track_width (min 0.1mm) (opt 0.12mm)))
 
 (rule "SDRAM 50R inner"
 	(layer inner)
 	(condition "A.NetClass == 'SDRAM_50R'")
-	(constraint track_width (min 0.09) (opt 0.11)))
+	(constraint track_width (min 0.09mm) (opt 0.11mm)))
+
+# --- BGA fan-out (JLC: 0.1 mm pad/track clearance in BGA escape areas) -------
+# Hole-to-copper stays at the board-level 0.2 mm. Zones are excluded so the
+# pours that cross the BGAs keep their normal clearance everywhere else.
+(rule "BGA fanout clearance"
+	(condition "A.Type != 'Zone' && B.Type != 'Zone' && (A.intersectsCourtyard('U4') || A.intersectsCourtyard('U7'))")
+	(constraint clearance (min 0.1mm)))
 
 # Signals belong on F.Cu, In2, In5 and B.Cu; In1/In4/In6 are GND, In3 is PWR.
 (rule "No tracks on plane layers"
