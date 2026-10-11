@@ -29,12 +29,54 @@
 	(condition "A.NetClass == 'SDRAM_50R'")
 	(constraint track_width (min 0.09mm) (opt 0.11mm)))
 
+# --- SDRAM length matching (U4 RT1176 SEMC <-> U7 MT48H32M16LF) -------------
+# Lengths include via height (project setting). At 166 MHz SDR (~6 ns period),
+# each window keeps skew under ~1% of the period (~55-70 ps at ~6.9 ps/mm).
+# 'opt' sits near the bottom of each window so the tuner adds the least meander.
+(rule "SDRAM lane 0 length"
+	(condition "A.NetName == 'SEMC_D0' || A.NetName == 'SEMC_D1' || A.NetName == 'SEMC_D2' || A.NetName == 'SEMC_D3' || A.NetName == 'SEMC_D4' || A.NetName == 'SEMC_D5' || A.NetName == 'SEMC_D6' || A.NetName == 'SEMC_D7' || A.NetName == 'SEMC_DM0'")
+	(constraint length (min 17.6mm) (opt 18.6mm) (max 25.6mm)))
+
+# Lane 1 DQs are 3-9 mm direct hops between facing balls. DM1 (16.3 mm) is the
+# exception and is better fixed by a reroute than by stretching eight clean nets.
+(rule "SDRAM lane 1 DQ length"
+	(condition "A.NetName == 'SEMC_D8' || A.NetName == 'SEMC_D9' || A.NetName == 'SEMC_D10' || A.NetName == 'SEMC_D11' || A.NetName == 'SEMC_D12' || A.NetName == 'SEMC_D13' || A.NetName == 'SEMC_D14' || A.NetName == 'SEMC_D15'")
+	(constraint length (min 2.5mm) (max 9.0mm)))
+(rule "SDRAM lane 1 DM length"
+	(condition "A.NetName == '	'")
+	(constraint length (max 17.0mm)))
+
+# Address / control are sampled on CLK: keep them within +/-5 mm of SEMC_CLK (14.2 mm).
+(rule "SDRAM addr/ctrl length"
+	(condition "A.NetClass == 'SDRAM_50R' && !(A.NetName == 'SEMC_D0' || A.NetName == 'SEMC_D1' || A.NetName == 'SEMC_D2' || A.NetName == 'SEMC_D3' || A.NetName == 'SEMC_D4' || A.NetName == 'SEMC_D5' || A.NetName == 'SEMC_D6' || A.NetName == 'SEMC_D7' || A.NetName == 'SEMC_DM0' || A.NetName == 'SEMC_D8' || A.NetName == 'SEMC_D9' || A.NetName == 'SEMC_D10' || A.NetName == 'SEMC_D11' || A.NetName == 'SEMC_D12' || A.NetName == 'SEMC_D13' || A.NetName == 'SEMC_D14' || A.NetName == 'SEMC_D15' || A.NetName == 'SEMC_DM1')")
+	(constraint length (min 9.2mm) (opt 10.2mm) (max 19.2mm)))
+
 # --- BGA fan-out (JLC: 0.1 mm pad/track clearance in BGA escape areas) -------
 # Hole-to-copper stays at the board-level 0.2 mm. Zones are excluded so the
 # pours that cross the BGAs keep their normal clearance everywhere else.
 (rule "BGA fanout clearance"
 	(condition "A.Type != 'Zone' && B.Type != 'Zone' && (A.intersectsCourtyard('U4') || A.intersectsCourtyard('U7'))")
 	(constraint clearance (min 0.1mm)))
+
+# --- Outer-layer GND pour ---------------------------------------------------
+# Keep the board-wide pours well clear of the MPQ2166 switch nodes (IC7 -> L10/L11)
+# so they don't pick up switching edges capacitively. Scoped by zone name: the
+# buck's own hand-drawn GND pours around IC7 must stay tight to its GND pins.
+(rule "GND pour clear of buck switch nodes"
+	(condition "A.Type == 'Zone' && (A.Name == 'GND_pour_F' || A.Name == 'GND_pour_B') && (B.NetName == '/Power_Sys/BUCK_OUT_3V3' || B.NetName == '/Power_Sys/BUCK_OUT_1V8')")
+	(constraint clearance (min 0.5mm)))
+
+# Pads squeezed between parts may only fit one thermal spoke from the board-wide
+# pours; they are also trace-connected, so one spoke is acceptable there.
+(rule "GND pour single spoke ok"
+	(condition "A.Type == 'Zone' && (A.Name == 'GND_pour_F' || A.Name == 'GND_pour_B')")
+	(constraint min_resolved_spokes 1))
+
+# Coral module GND pads connect solid (no thermal spokes): best heat path into
+# the pour and stitching vias, which matters with no convection in vacuum.
+(rule "Coral GND pads solid to pour"
+	(condition "A.Type == 'Pad' && A.memberOfFootprint('IC2')")
+	(constraint zone_connection solid))
 
 # Signals belong on F.Cu, In2, In5 and B.Cu; In1/In4/In6 are GND, In3 is PWR.
 (rule "No tracks on plane layers"
