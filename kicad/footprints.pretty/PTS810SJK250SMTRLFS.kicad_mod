@@ -243,7 +243,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0b8da762-7e10-454d-97ef-ae2ba3bedf39")
 	)
-	(model "../3d-models/PTS810SJK250SMTR_LFS.stp"
+	(model "../3dmodels/PTS810SJK250SMTR_LFS.stp"
 		(offset
 			(xyz 0 0 0)
 		)

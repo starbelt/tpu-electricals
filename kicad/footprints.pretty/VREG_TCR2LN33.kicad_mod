@@ -360,5 +360,16 @@
 		(clearance 0.1)
 		(uuid "dd7d6819-a2af-4908-a4d4-e6d8c70f4249")
 	)
+	(model "../3dmodels/TCR2LN33.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 	(embedded_fonts no)
 )
