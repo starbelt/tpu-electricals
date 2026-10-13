@@ -43,7 +43,7 @@
 	(condition "A.NetName == 'SEMC_D8' || A.NetName == 'SEMC_D9' || A.NetName == 'SEMC_D10' || A.NetName == 'SEMC_D11' || A.NetName == 'SEMC_D12' || A.NetName == 'SEMC_D13' || A.NetName == 'SEMC_D14' || A.NetName == 'SEMC_D15'")
 	(constraint length (min 2.5mm) (max 9.0mm)))
 (rule "SDRAM lane 1 DM length"
-	(condition "A.NetName == '	'")
+	(condition "A.NetName == 'SEMC_DM1'")
 	(constraint length (max 17.0mm)))
 
 # Address / control are sampled on CLK: keep them within +/-5 mm of SEMC_CLK (14.2 mm).

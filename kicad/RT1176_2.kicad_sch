@@ -1981,6 +1981,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:GRM155C71A225KE11D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155C71A225KE11D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155C71A225KE1D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM155C71A225KE11D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C385030"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155C71A225KE11D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM155C80J475MEAAD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155C80J475MEAAD"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155C80J475MEAD"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM155C80J475MEAAD"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C464981"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155C80J475MEAAD_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:GRM155R60J475KE96D"
 			(pin_names
 				(hide yes)
@@ -8727,6 +9225,32 @@
 		)
 		(uuid "13fe852d-ec2b-4132-8fbd-4e6f83af6795")
 	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 18.796 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "1b45378d-bde0-452c-9ad1-8ef2953aff8d")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 200.914 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "21c16978-a6b7-4987-bd20-86c6b5537297")
+	)
 	(text "BOOT ISLOATION SWITCH"
 		(exclude_from_sim no)
 		(at 154.686 130.302 0)
@@ -8736,6 +9260,32 @@
 			)
 		)
 		(uuid "326626f8-b740-425e-9d1e-8c2be90f0339")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 201.422 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "4aac90ce-d94f-4185-826e-63e539c65cca")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 89.916 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5771f545-eb60-4e7b-ab17-219dc171dfb9")
 	)
 	(text "NO B2B CONNECTOR\n"
 		(exclude_from_sim no)
@@ -8787,6 +9337,19 @@
 		)
 		(uuid "a291f9b5-f157-4354-be83-aac2adf1af96")
 	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 30.48 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b4d95c9b-8cc4-40ff-9124-77970cd03df3")
+	)
 	(text "20 kOhm"
 		(exclude_from_sim no)
 		(at 93.726 19.558 0)
@@ -8828,6 +9391,19 @@
 		)
 		(uuid "d3532e99-a9d4-49fd-8097-1e5e15062834")
 	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 202.438 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d74c1d7d-0faa-41f3-8753-75c5c0e6bd94")
+	)
 	(text "NO B2B CONNECTOR\n"
 		(exclude_from_sim no)
 		(at 251.714 142.748 90)
@@ -8847,6 +9423,19 @@
 			)
 		)
 		(uuid "df569d1f-a633-44d4-b01e-a2e7f62008d9")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 200.66 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e2cc163a-ed36-49b3-882f-c1cd5c918af1")
 	)
 	(text "Reference Voltage from Vsys"
 		(exclude_from_sim no)
@@ -11308,7 +11897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 204.47 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -11329,7 +11918,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 208.28 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11340,7 +11929,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 108.28 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11352,7 +11941,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at 8.28 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11364,7 +11953,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 204.47 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11375,7 +11964,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -191.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11387,7 +11976,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -291.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11988,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -391.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11411,7 +12000,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -491.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11423,7 +12012,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -591.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11435,7 +12024,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -691.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11447,7 +12036,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -791.72 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11457,6 +12046,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 204.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11775,18 +12386,6 @@
 				)
 			)
 		)
-		(property "Description_1" "74LVC2G66 - Bilateral switch@en-us"
-			(at 161.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "0.5"
 			(at 161.29 157.48 0)
 			(hide yes)
@@ -11869,6 +12468,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C548672"
+			(at 139.7 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Dual bilateral analog switch (I2C5 isolation to the TPU), XSON8 SOT833-1 1.95x1.0mm. Often 0 stock: global-source or consign. 74LVC2G66GT/S711 (C3209375) lists the same package: confirm it is the same die before using."
+			(at 139.7 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12088,7 +12709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 205.74 93.98 270)
 		(unit 1)
 		(body_style 1)
@@ -12109,7 +12730,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 209.55 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12120,7 +12741,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 109.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12753,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at 9.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12144,7 +12765,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 205.74 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12155,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -190.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12167,7 +12788,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -290.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12179,7 +12800,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -390.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12191,7 +12812,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -490.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12203,7 +12824,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -590.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12215,7 +12836,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -690.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12227,7 +12848,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -790.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12237,6 +12858,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12561,6 +13204,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2073459"
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "10k 0.1% 15ppm thin film 0603, precision divider. Substitute only 0.1% <=25ppm thin film."
+			(at 106.68 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47689a41-7609-4eca-a1f1-bdca5ca99fb0")
 		)
@@ -12582,7 +13247,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12965,6 +13630,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2077621"
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C82680"
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2k 1% 0402, I2C5 pull-ups to VDD_1V8. LCSC stock is thin: approved alt CRCW04022K20FKED (C82680); the HP power rating is not needed (<2mW)."
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "86b88528-9438-4667-a374-900956d11134")
 		)
@@ -12981,7 +13679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 21.59 85.09 270)
 		(unit 1)
 		(body_style 1)
@@ -13002,7 +13700,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 25.4 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13025,7 +13723,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -174.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13037,7 +13735,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13072,7 +13770,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -574.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13084,7 +13782,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -674.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13096,7 +13794,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -774.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13108,7 +13806,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -874.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13120,7 +13818,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -974.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13130,6 +13828,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 21.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 21.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13148,7 +13868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 97.79 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -13169,7 +13889,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 101.6 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13192,7 +13912,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -98.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13204,7 +13924,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 97.79 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13239,7 +13959,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -498.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13251,7 +13971,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -598.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13983,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -698.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13275,7 +13995,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -798.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13287,7 +14007,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -898.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13297,6 +14017,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 97.79 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 97.79 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13335,7 +14077,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 52.6827 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13368,7 +14110,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 38.1 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14353,7 +15150,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 226.6727 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14386,7 +15183,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 210.82 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15274,7 +16126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 205.74 125.73 270)
 		(unit 1)
 		(body_style 1)
@@ -15295,7 +16147,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 209.55 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15306,7 +16158,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 109.55 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15318,7 +16170,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at 9.55 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15330,7 +16182,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -15341,7 +16193,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -190.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15353,7 +16205,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -290.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15365,7 +16217,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -390.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15377,7 +16229,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -490.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15389,7 +16241,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -590.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15401,7 +16253,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -690.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15413,7 +16265,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -790.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15423,6 +16275,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 205.74 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 205.74 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15669,6 +16543,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C137902"
+			(at 83.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "20k 5% 0402. Any 0402 20k <=5% is acceptable."
+			(at 83.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8c4bc4a-5f38-4322-9363-b6fd97bc1b47")
 		)
@@ -15690,7 +16586,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15920,7 +16816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 204.47 30.48 270)
 		(unit 1)
 		(body_style 1)
@@ -15941,7 +16837,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 208.28 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15952,7 +16848,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 108.28 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15964,7 +16860,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at 8.28 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15976,7 +16872,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 204.47 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15987,7 +16883,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -191.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15999,7 +16895,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -291.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16011,7 +16907,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -391.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16023,7 +16919,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -491.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16035,7 +16931,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -591.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16047,7 +16943,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -691.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16059,7 +16955,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -791.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16069,6 +16965,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 204.47 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 204.47 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16317,6 +17235,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2077621"
+			(at 160.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C82680"
+			(at 160.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2k 1% 0402, I2C5 pull-ups to VDD_1V8. LCSC stock is thin: approved alt CRCW04022K20FKED (C82680); the HP power rating is not needed (<2mW)."
+			(at 160.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6fcc384d-9aa6-465a-b419-db5360a1b8a7")
 		)
@@ -16432,7 +17383,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 226.6727 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16465,7 +17416,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 210.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 210.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 210.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 210.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 210.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 210.82 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17509,7 +18515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 33.02 85.09 270)
 		(unit 1)
 		(body_style 1)
@@ -17530,7 +18536,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 36.83 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17541,7 +18547,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -63.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17553,7 +18559,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -163.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17565,7 +18571,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17576,7 +18582,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -363.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +18594,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -463.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17600,7 +18606,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -563.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17612,7 +18618,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -663.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17624,7 +18630,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -763.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17636,7 +18642,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -863.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17648,7 +18654,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -963.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17658,6 +18664,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 33.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 33.02 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18527,6 +19555,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C71617"
+			(at 101.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C843837"
+			(at 101.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "10k 1% 0402 AEC-Q200. Approved alt CRCW040210K0FKEE (C843837): packaging code only."
+			(at 101.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f60dc90-cc71-46d2-b97f-783a3e853cfe")
 		)
@@ -18772,6 +19833,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C215763"
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "12k 0.1% 25ppm thin film 0402, precision. Substitute only 0.1% <=25ppm thin film."
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

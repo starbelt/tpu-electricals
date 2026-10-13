@@ -11,11 +11,17 @@
   (fp_text value "RESC1608X60N" (at -3.4544 -1.27) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_line (start -0.127 0.4826) (end 0.127 0.4826) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 0.127 -0.4826) (end -0.127 -0.4826) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
+  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
+  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
+  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
+  (fp_line (start -1.37 -0.62) (end 1.37 -0.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.37 -0.62) (end 1.37 0.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.37 0.62) (end -1.37 0.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.37 0.62) (end -1.37 -0.62) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -0.8382 0 0) (size 0.762 0.9398) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8382 0 0) (size 0.762 0.9398) (layers F.Cu F.Paste F.Mask))
-  (model "../3dmodels/WSLP0603R0100FEA.stp"
+  (model "../3dmodels/WSLP0603R1000FEA.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

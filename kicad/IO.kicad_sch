@@ -530,7 +530,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -565,7 +565,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(property "Manufacturer_Part_Number" "04023C104JAT2A"
 				(at 8.89 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -577,7 +577,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "581-06033C104JAT4A"
+			(property "Mouser Part Number" ""
 				(at 8.89 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -589,7 +589,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 8.89 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -601,7 +601,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "06033C104JAT4A"
+			(property "Arrow Part Number" ""
 				(at 8.89 -896.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -613,7 +613,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(property "Arrow Price/Stock" ""
 				(at 8.89 -996.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -623,6 +623,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+				)
+			)
+			(property "LCSC" "C2169023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "04023C104JAT2A_1_1"
@@ -2613,7 +2624,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "VISHAY - CRCW040210K0FKEE - RES, AEC-Q200, THICK FILM, 10K, 0402, SMD"
+			(property "Description" "Thick film resistor 10k 1% 63mW 0402 AEC-Q200"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2648,7 +2659,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CRCW121010K0JNTA"
+			(property "Manufacturer_Part_Number" "CRCW040210K0FKEE"
 				(at 13.97 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2660,7 +2671,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "71-CRCW1210J-10K"
+			(property "Mouser Part Number" ""
 				(at 13.97 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2672,7 +2683,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1210J-10K"
+			(property "Mouser Price/Stock" ""
 				(at 13.97 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2706,6 +2717,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+				)
+			)
+			(property "LCSC" "C843837"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "CRCW040210K0FKEE_1_1"
@@ -4227,6 +4249,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:GRM188Z71C475KE21D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188Z71C475KE21D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM18x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 4.7uF 16V X7R 10% 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188Z71C475KE21D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM188Z71C475KE1D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71C475KE21D?qs=d0WKAl%252BL4KajNOvalhHKtQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM188Z71C475KE21D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71c475ke21d/murata-manufacturing.html?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C389010"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM188Z71C475KE21D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:LTST-C190AKT"
 			(pin_names
 				(offset 1.016)
@@ -4487,7 +4758,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P230X110-3N"
+			(property "Footprint" "TPD2E009DBZR"
 				(at 44.45 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5287,6 +5558,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:TPD2E009DBZR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.334 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TPD2E009DBZR"
+				(at 14.478 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:TPD2E009DBZR"
+				(at 44.45 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf"
+				(at 44.45 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TI TPD2E009DBZR, 2-channel ESD protection for high-speed differential lines, 0.9 pF typ, 5.5 V VRWM, IEC 61000-4-2 +/-8 kV, 3-pin SOT-23 (DBZ)"
+				(at -0.508 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.12"
+				(at 44.45 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 44.45 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPD2E009DBZR"
+				(at 44.45 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-TPD2E009DBZR"
+				(at 44.45 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 44.45 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "TPD2E009DBZR"
+				(at 44.45 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tpd2e009dbzr/texas-instruments.html"
+				(at 44.45 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C2871371"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD2E009DBZR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 13.97 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:VDD_1V8"
 			(power global)
 			(exclude_from_sim no)
@@ -5997,6 +6495,19 @@
 		)
 		(uuid "d2e614f0-2405-4b33-97ae-3b6b869f8514")
 	)
+	(text "0603\n4.7µF\n16V"
+		(exclude_from_sim no)
+		(at 73.66 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "093c39b7-5246-4b42-b864-b79d690058dc")
+	)
 	(text "UART Console Not\nAvailable During\nBoot. Attempts to\nconnect via UART \nduring boot may \ninterrupt boot seq."
 		(exclude_from_sim no)
 		(at 185.928 115.316 0)
@@ -6017,6 +6528,19 @@
 			)
 		)
 		(uuid "33821298-2fc0-4169-aee0-432b16e4d16b")
+	)
+	(text "0.9pF"
+		(exclude_from_sim no)
+		(at 108.204 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3acb8ed9-7ca4-4995-b1fe-b702f24f184f")
 	)
 	(text "USB-C RECEPTACLE"
 		(exclude_from_sim no)
@@ -8052,7 +8576,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED orange 605nm 0603, Vf 2.1V, AlInGaP"
 			(at 193.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8063,7 +8587,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Lite On"
+		(property "Manufacturer_Name" "Lite-On"
 			(at 193.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8596,39 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C190AKT"
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6085129"
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Indicator LED. Any 0603 orange/amber LED with Vf ~2.1V works; check the cathode mark against the CPL rotation."
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -8319,6 +8875,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2085180"
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100R 1% 0402 AEC-Q200. Any 0402 100R 1% thick film is acceptable."
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d5e4df8-16cf-4e2f-82f7-d81e2edba2d6")
 		)
@@ -8486,6 +9064,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2085180"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100R 1% 0402 AEC-Q200. Any 0402 100R 1% thick film is acceptable."
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56d3e9f2-d577-46dc-a086-52f2dd721591")
 		)
@@ -8649,6 +9249,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Sourcing_Notes" "4-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. Not stocked by LCSC in G plating: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8820,6 +9431,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C5572904"
+			(at 233.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "16-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. LCSC listing is usually 0 stock: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 233.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9030,6 +9663,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C672069"
+			(at 237.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C151598"
+			(at 237.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "N-MOSFET 30V 0.65A, X2-DFN0806-3; low-side LED/boot-mode switches driven by 1.8-3.3V GPIO. LCSC stock is thin: approved alt DMN2990UFA-7B (C151598, 20V, same package and pinout, Vgs(th) 1V)."
+			(at 237.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9360,6 +10026,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C672069"
+			(at 125.73 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C151598"
+			(at 125.73 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "N-MOSFET 30V 0.65A, X2-DFN0806-3; low-side LED/boot-mode switches driven by 1.8-3.3V GPIO. LCSC stock is thin: approved alt DMN2990UFA-7B (C151598, 20V, same package and pinout, Vgs(th) 1V)."
+			(at 125.73 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "018d624d-7ebb-4bdc-aebd-1fb77af91b94")
 		)
@@ -9607,6 +10306,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C482245"
+			(at 104.14 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100k 5% 0402. Any 0402 100k <=5% is acceptable."
+			(at 104.14 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "efd6feac-0eee-4405-9580-ef697e014781")
 		)
@@ -9679,7 +10400,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED emerald green 525nm 0603, Vf 3.3V, 20mA"
 			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9726,7 +10447,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Kingbright"
+		(property "Manufacturer_Name" "Kingbright"
 			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9735,7 +10456,39 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APG1608ZGCK"
+			(at 245.11 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5875739"
+			(at 245.11 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Indicator LED. Any 0603 green InGaN LED with Vf ~3V works; check the cathode mark against the CPL rotation."
+			(at 245.11 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9905,6 +10658,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2085180"
+			(at 133.35 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100R 1% 0402 AEC-Q200. Any 0402 100R 1% thick film is acceptable."
+			(at 133.35 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5cf40ba-f179-482d-9bab-c75b34cf6b28")
 		)
@@ -9977,7 +10752,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10012,7 +10787,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 711.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10024,7 +10799,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 811.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10036,7 +10811,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 911.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10048,7 +10823,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1011.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10060,7 +10835,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1111.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10070,6 +10845,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 115.57 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 115.57 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 115.57 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10453,7 +11261,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "VISHAY - CRCW040210K0FKEE - RES, AEC-Q200, THICK FILM, 10K, 0402, SMD"
+		(property "Description" "Thick film resistor 10k 1% 63mW 0402 AEC-Q200"
 			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10488,7 +11296,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW121010K0JNTA"
+		(property "Manufacturer_Part_Number" "CRCW040210K0FKEE"
 			(at -545.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10500,7 +11308,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW1210J-10K"
+		(property "Mouser Part Number" ""
 			(at -645.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10512,7 +11320,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1210J-10K"
+		(property "Mouser Price/Stock" ""
 			(at -745.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10546,6 +11354,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C843837"
+			(at 50.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C71617"
+			(at 50.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "10k 1% 0402 AEC-Q200. Approved alt CRCW040210K0FKED (C71617): packaging code only."
+			(at 50.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10792,6 +11633,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C3012686"
+			(at 81.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Schottky 40V 200mA, Vf 0.48V@200mA, 0402 (SOD-923F). Use C3012686 (C3313167 is a duplicate listing). Do NOT substitute CDBQC0240LR-HF (Vf 0.58V)."
+			(at 81.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a952b79-fb7b-453b-9958-31945daf4898")
 		)
@@ -10885,7 +11748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:PESD5V0S2BT,215")
+		(lib_id "sb-tpu:TPD2E009DBZR")
 		(at 104.14 34.29 270)
 		(unit 1)
 		(body_style 1)
@@ -10907,7 +11770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0S2BT,215"
+		(property "Value" "TPD2E009DBZR"
 			(at 107.95 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +11781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SOT95P230X110-3N"
+		(property "Footprint" "footprints:TPD2E009DBZR"
 			(at 9.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10930,7 +11793,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S2BT.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf"
 			(at -90.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10942,7 +11805,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Nexperia PESD5V0S2BT,215, Dual Bi-Directional TVS Diode, 130W, 3-Pin SOT-23"
+		(property "Description" "TI TPD2E009DBZR, 2-channel ESD protection for high-speed differential lines, 0.9 pF typ, 5.5 V VRWM, IEC 61000-4-2 +/-8 kV, 3-pin SOT-23 (DBZ)"
 			(at 110.236 33.782 0)
 			(hide yes)
 			(show_name no)
@@ -10953,7 +11816,7 @@
 				)
 			)
 		)
-		(property "Height" "1.1"
+		(property "Height" "1.12"
 			(at -290.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10965,7 +11828,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
+		(property "Manufacturer_Name" "Texas Instruments"
 			(at -390.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10977,7 +11840,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD5V0S2BT,215"
+		(property "Manufacturer_Part_Number" "TPD2E009DBZR"
 			(at -490.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10989,7 +11852,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD5V0S2BT-T/R"
+		(property "Mouser Part Number" "595-TPD2E009DBZR"
 			(at -590.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11001,7 +11864,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0S2BT215?qs=LOCUfHb8d9vg1bGYYJyeQQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at -690.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11013,7 +11876,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "PESD5V0S2BT,215"
+		(property "Arrow Part Number" "TPD2E009DBZR"
 			(at -790.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11025,7 +11888,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pesd5v0s2bt215/nexperia?region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tpd2e009dbzr/texas-instruments.html"
 			(at -890.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11035,6 +11898,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2871371"
+			(at 104.14 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "USB 2.0 HS 2-channel ESD array, SOT-23-3. TI original only: TECH PUBLIC/BORN/UMW/ElecSuper clones are not approved."
+			(at 104.14 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11208,6 +12093,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C672069"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C151598"
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "N-MOSFET 30V 0.65A, X2-DFN0806-3; low-side LED/boot-mode switches driven by 1.8-3.3V GPIO. LCSC stock is thin: approved alt DMN2990UFA-7B (C151598, 20V, same package and pinout, Vgs(th) 1V)."
+			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a353794d-f6af-4fee-b8d5-535ea2a53eec")
 		)
@@ -11374,6 +12292,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C221896"
+			(at 27.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C221895"
+			(at 27.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "SPST tact switch 4.2x3.2mm SMD J-lead, 2.6N. Approved alt PTS810SJG250SMTRLFS (C221895): identical except 4N actuation force."
+			(at 27.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11549,6 +12500,17 @@
 				(justify left top)
 			)
 		)
+		(property "Sourcing_Notes" "4-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. Not stocked by LCSC in G plating: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 256.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f328c05e-7072-46cd-80cf-06a681a2ca22")
 		)
@@ -11648,7 +12610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM188Z71C475KE21D")
 		(at 72.39 34.29 270)
 		(unit 1)
 		(body_style 1)
@@ -11659,7 +12621,7 @@
 		(dnp no)
 		(uuid "847ff710-142d-4e17-8047-b3cabda0a247")
 		(property "Reference" "C97"
-			(at 78.74 43.18 0)
+			(at 73.152 37.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11669,8 +12631,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
-			(at 76.2 43.18 0)
+		(property "Value" "GRM188Z71C475KE21D"
+			(at 69.596 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11680,7 +12642,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X70N"
+		(property "Footprint" "footprints:GRM18x"
 			(at -23.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11692,7 +12654,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
 			(at -123.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11704,7 +12666,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 16V X7R 10% 0603"
 			(at 72.39 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11715,7 +12677,7 @@
 				)
 			)
 		)
-		(property "Height" "0.7"
+		(property "Height" "0.9"
 			(at -323.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11739,7 +12701,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM188Z71C475KE21D"
 			(at -523.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11751,7 +12713,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM188Z71C475KE1D"
 			(at -623.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11763,7 +12725,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71C475KE21D?qs=d0WKAl%252BL4KajNOvalhHKtQ%3D%3D"
 			(at -723.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11775,7 +12737,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM188Z71C475KE21D"
 			(at -823.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11787,7 +12749,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71c475ke21d/murata-manufacturing.html?utm_currency=USD&region=nac"
 			(at -923.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11797,6 +12759,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C389010"
+			(at 72.39 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 16V X7R 10% 0603. Substitute only 0603 4.7uF >=16V X7R/X7S."
+			(at 72.39 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12042,6 +13026,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C5572904"
+			(at 187.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "16-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. LCSC listing is usually 0 stock: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 187.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "f9951bfa-8790-495f-93dd-eaa67937b872")
 		)
@@ -12247,6 +13253,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Sourcing_Notes" "4-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. Not stocked by LCSC in G plating: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 168.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12576,6 +13593,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C482245"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100k 5% 0402. Any 0402 100k <=5% is acceptable."
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac745ae9-6e22-4551-ac6d-2da16048145a")
 		)
@@ -12897,6 +13936,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C2651889"
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "USB Type-C CC logic, X2QFN-12 1.6x1.6mm. No approved alternate."
+			(at 62.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24454bcb-da4a-44cc-b386-f44ba91260b9")
 		)
@@ -13152,7 +14213,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Common-mode choke 90R@100MHz 330mA 0805, USB 2.0"
 			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13199,7 +14260,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Murata"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13208,7 +14269,39 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DLW21HN900SQ2L"
+			(at 132.08 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C80529"
+			(at 132.08 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "USB 2.0 common-mode choke. Use C80529 (C97235 is a duplicate listing). No approved alternate without signal-integrity review."
+			(at 132.08 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13618,6 +14711,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C482245"
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100k 5% 0402. Any 0402 100k <=5% is acceptable."
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "084cc24f-3bcd-4a24-ae50-26efa8707494")
 		)
@@ -13779,18 +14894,6 @@
 				)
 			)
 		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 115.57 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "0.4"
 			(at 507.95 167.64 0)
 			(hide yes)
@@ -13873,6 +14976,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 111.76 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7k 1% 1/16W 0402. JLC Basic part. Any 0402 4.7k 1% thick film is acceptable."
+			(at 111.76 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14040,6 +15165,39 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C221896"
+			(at 36.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C221895"
+			(at 36.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "SPST tact switch 4.2x3.2mm SMD J-lead, 2.6N. Approved alt PTS810SJG250SMTRLFS (C221895): identical except 4N actuation force."
+			(at 36.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5a1d13b-5a62-4f83-b7c8-51717fde35b8")
 		)
@@ -14194,7 +15352,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Type-C receptacle USB 2.0, 16-pin, right angle, SMT + THT shell"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14203,57 +15361,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" "JAE Electronics"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 48.26 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DX07S016JA1R1500/JAE+Electronics/view-part/?ref=eda"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14301,7 +15411,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DX07S016JA1R1500"
+		(property "Manufacturer_Name" "JAE Electronics"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14310,10 +15420,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Description_1" "\n                        \n                            USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole\n                        \n"
+		(property "Manufacturer_Part_Number" "DX07S016JA1R1500"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14322,10 +15431,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "LCSC" "C3197885"
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14334,10 +15442,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "JAE Industry Ltd."
+		(property "Sourcing_Notes" "USB-C receptacle, USB 2.0, SMT signal pins with through-hole shell tabs. JAE original only (ignore the C9900016186 placeholder)."
 			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14346,7 +15453,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(pin "5"
@@ -14480,18 +15586,6 @@
 				)
 			)
 		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 137.16 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "0.4"
 			(at 529.54 140.97 0)
 			(hide yes)
@@ -14574,6 +15668,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 133.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7k 1% 1/16W 0402. JLC Basic part. Any 0402 4.7k 1% thick film is acceptable."
+			(at 133.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14741,6 +15857,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Sourcing_Notes" "4-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. Not stocked by LCSC in G plating: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
+			(at 256.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15224,6 +16351,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C3012686"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Schottky 40V 200mA, Vf 0.48V@200mA, 0402 (SOD-923F). Use C3012686 (C3313167 is a duplicate listing). Do NOT substitute CDBQC0240LR-HF (Vf 0.58V)."
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb291fcf-c11d-4519-8c58-3a9247b9c451")
 		)
@@ -15477,7 +16626,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

@@ -298,7 +298,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+			(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -333,7 +333,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "06033C104JAT4A"
+			(property "Manufacturer_Part_Number" "04023C104JAT2A"
 				(at 8.89 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -345,7 +345,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "581-06033C104JAT4A"
+			(property "Mouser Part Number" ""
 				(at 8.89 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -357,7 +357,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+			(property "Mouser Price/Stock" ""
 				(at 8.89 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -369,7 +369,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "06033C104JAT4A"
+			(property "Arrow Part Number" ""
 				(at 8.89 -896.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -381,7 +381,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+			(property "Arrow Price/Stock" ""
 				(at 8.89 -996.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -391,6 +391,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+				)
+			)
+			(property "LCSC" "C2169023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "04023C104JAT2A_1_1"
@@ -2364,6 +2375,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:CL05B224KO5NNNC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL05B224KO5NNNC"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X55N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B224KO5NNNC_Spec.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 220nF 16V X7R 10% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.55"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL05B224KO5NNNC"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "187-CL05B224KO5NNNC"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B224KO5NNNC?qs=X6jEic%2FHinCN6V6mK7LtLg%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "CL05B224KO5NNNC"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05b224ko5nnnc/samsung-electro-mechanics?utm_currency=USD&region=europe"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C16772"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL05B224KO5NNNC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:CL05X226MR6NUW8"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL05X226MR6NUW8"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C6150048.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 22uF 4V X6S 20% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL05X226MR6NUW8"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C6150048"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL05X226MR6NUW8_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:DCDC_1V8_OUT"
 			(power global)
 			(exclude_from_sim no)
@@ -2548,6 +3057,218 @@
 						)
 					)
 					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:ERJ-3BWFR100V"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJ-3BWFR100V"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:ERJ3_B_BQ_BW_LW__0603_"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current sense resistor 0.1R 1% 0.33W 0603 thick film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJ-3BWFR100V"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "667-ERJ-3BWFR100V"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3BWFR100V?qs=ob%252BdNz2%252BYEjAMRvh2K5PaA%3D%3D"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "ERJ-3BWFR100V"
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj3bwfr100v/panasonic?region=nac"
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C2074922"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ERJ-3BWFR100V_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3282,6 +4003,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:GRM155C71A225KE11D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155C71A225KE11D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155C71A225KE1D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM155C71A225KE11D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C385030"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155C71A225KE11D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM155C80J475MEAAD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155C80J475MEAAD"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CAPC1005X70N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155C80J475MEAD"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM155C80J475MEAAD"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C464981"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155C80J475MEAAD_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:GRM155R60J475KE96D"
 			(pin_names
 				(hide yes)
@@ -3433,6 +4652,1251 @@
 				)
 			)
 			(symbol "GRM155R60J475KE96D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM155Z71A105KE01D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155Z71A105KE01D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM15x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 1uF 10V X7R 10% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.33"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155Z71A105KE01D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM155Z71A105KE1D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155Z71A105KE01D?qs=%252B6g0mu59x7LZ5VDL%2FTet%2Fg%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C528974"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155Z71A105KE01D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM188C80J226ME15D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188C80J226ME15D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM18x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J226ME15-02A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 22uF 6.3V X6S 20% 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188C80J226ME15D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM188C80J226ME5D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188C80J226ME15D?qs=K0Sa7bCb58I9yTIvpI1jlg%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM188C80J226ME15D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188c80j226me15d/murata-manufacturing?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C393031"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM188C80J226ME15D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM188Z71A106KA73D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188Z71A106KA73D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM18x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 10uF 10V X7R 10% 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188Z71A106KA73D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM188Z71A106KA3D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM188Z71A106KA73D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71a106ka73d/murata-manufacturing?utm_currency=USD&region=europe"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C2959727"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM188Z71A106KA73D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM188Z71A475KE15D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188Z71A475KE15D"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM18x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475KE15-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 4.7uF 10V X7R 10% 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188Z71A475KE15D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM188Z71A475KE5D"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71A475KE15D?qs=Ey7%2FXF42M3f4zgfhxcfIIw%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM188Z71A475KE15D"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71a475ke15d/murata-manufacturing"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C913474"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM188Z71A475KE15D_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:GRM21BZ71A226ME15L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM21BZ71A226ME15L"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM21BR60J226ME39L"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71A226ME15-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 22uF 10V X7R 20% 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.45"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM21BZ71A226ME15L"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM21BZ71A226ME5L"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71A226ME15L?qs=Ey7%2FXF42M3ejDq7iqlmWWw%3D%3D"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM21BZ71A226ME15L"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71a226me15l/murata-manufacturing?region=europe"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C907991"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM21BZ71A226ME15L_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -10491,9 +12955,559 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:WSLP0603R1000FEA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "WSLP0603R1000FEA"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:RESC1608X60N"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current sense resistor 0.1R 1% 0.4W 0603 metal strip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "WSLP0603R1000FEA"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "71-WSLP0603R1000FEA"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R1000FEA?qs=3QSWoE95KdmqkNwCJbgK1Q%3D%3D"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "WSLP0603R1000FEA"
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r1000fea/vishay"
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C2084234"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WSLP0603R1000FEA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "0402\n220nF\n16V"
+		(exclude_from_sim no)
+		(at 84.836 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "05f287f2-a9cc-46bf-b8c0-6423f229fe5e")
+	)
+	(text "0402\n1µF\n10V"
+		(exclude_from_sim no)
+		(at 193.04 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0fa84647-40c8-4955-967c-d6c2116c775a")
+	)
+	(text "0402\n1µF\n10V"
+		(exclude_from_sim no)
+		(at 92.964 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1d1c06d7-a600-454a-a4ff-f17009701323")
+	)
+	(text "0402\n22µF\n4V"
+		(exclude_from_sim no)
+		(at 198.374 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "1f78d7d3-32e4-4c94-844e-cda9d235eb25")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 90.932 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "2095c8c9-5c4c-4bd7-94bb-bf6be4fc2a6e")
+	)
+	(text "0603\n0.1Ω\n0.33W"
+		(exclude_from_sim no)
+		(at 209.296 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3468a270-c944-43c1-b3c6-2b30010b3ae7")
+	)
+	(text "0603\n10µF\n10V"
+		(exclude_from_sim no)
+		(at 178.054 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3e07e0f1-8ca7-4d00-b74d-8a7309b33df5")
+	)
+	(text "0603\n10µF\n10V"
+		(exclude_from_sim no)
+		(at 178.308 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4692e8de-068f-495a-a1d9-6d53b1a125c3")
+	)
+	(text "0603\n22µF\n6.3V"
+		(exclude_from_sim no)
+		(at 198.628 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6981e612-dba9-4f87-9f2c-19a2755d2415")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 164.846 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "70bef8d9-805e-489a-9a95-656d8da3cf48")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 113.792 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8c1dd859-2b47-4d79-92ae-c207f4ee6f37")
+	)
+	(text "0603\n0.1Ω/0.4W"
+		(exclude_from_sim no)
+		(at 27.178 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8c743c65-d065-4e5d-a829-3461f6b801ad")
+	)
+	(text "0603\n22µF\n6.3V"
+		(exclude_from_sim no)
+		(at 66.548 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8d063c97-b2b1-46a4-995c-b01d5544776c")
+	)
+	(text "0402\n1µF\n10V"
+		(exclude_from_sim no)
+		(at 103.632 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "99bf5724-fe8b-4d16-8571-f4295ce79d18")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 258.826 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b5bfbd5d-e33d-412d-b092-9f59e8f44fb0")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 110.49 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b761ca5a-11f2-46f6-9061-a37e390563ed")
+	)
+	(text "0805\n22µF\n10V"
+		(exclude_from_sim no)
+		(at 38.354 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b8fb734a-99ba-4e43-9ded-4b4be2535673")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 74.93 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bdb0a95b-3638-4a8a-984d-297826508358")
+	)
+	(text "0603\n4.7µF\n10V"
+		(exclude_from_sim no)
+		(at 74.676 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c15c7388-7cfd-4467-b2de-58ad5b8cae0d")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 123.444 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c60d2f95-ad0c-4484-9e1a-0c1018a75139")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 20.828 177.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c7a2429a-3447-4cf0-ac1c-d41027062688")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 204.978 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c8f1b0fa-8a6a-4964-9755-2cd79d118f0f")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 165.862 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d0cc431e-2187-487b-bf55-a207de25e3b1")
+	)
+	(text "0402\n2.2µF\n10V"
+		(exclude_from_sim no)
+		(at 160.528 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d5971894-b554-4629-9a9a-a1b33cbcd6a3")
+	)
+	(text "0402\n1µF\n10V"
+		(exclude_from_sim no)
+		(at 221.742 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d8658695-12d2-47ba-971f-f1b2805a5e4c")
+	)
+	(text "0402\n4.7µF\n6.3V"
+		(exclude_from_sim no)
+		(at 71.882 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d96a5918-f36f-4e67-b752-5a4372b5c0fa")
 	)
 	(junction
-		(at 92.71 63.5)
+		(at 92.71 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02a5e49c-927e-45fd-899e-ebac559a1316")
@@ -10541,7 +13555,7 @@
 		(uuid "10bf5935-46a6-41c5-a094-0170b8e9869c")
 	)
 	(junction
-		(at 232.41 40.64)
+		(at 232.41 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11d91c7c-c9d7-47ef-881a-26ffc7035a7b")
@@ -10697,7 +13711,7 @@
 		(uuid "56d62cc5-1325-4d32-b54a-0df84146b7c8")
 	)
 	(junction
-		(at 74.93 63.5)
+		(at 74.93 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c3d6ae0-28ff-4a30-b9cb-70eaccd52705")
@@ -10733,7 +13747,7 @@
 		(uuid "640f4ccc-39d2-4cc3-85a3-c4dd80e34fc2")
 	)
 	(junction
-		(at 83.82 63.5)
+		(at 83.82 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "660c808d-aa3a-4beb-92e3-954235fc9c9b")
@@ -11003,7 +14017,7 @@
 		(uuid "c1ccfe05-a384-4797-9eb3-aaa47a7b99f0")
 	)
 	(junction
-		(at 102.87 63.5)
+		(at 102.87 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c84889c7-ff2f-4766-9154-43fb45621466")
@@ -11039,7 +14053,7 @@
 		(uuid "c99f8f28-5f13-473f-9ea1-818e6d9edc48")
 	)
 	(junction
-		(at 113.03 63.5)
+		(at 113.03 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0e90482-d66b-4158-912a-76519976494a")
@@ -11121,6 +14135,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3438695-4325-4e64-8eca-0b53cf9ab4f3")
+	)
+	(junction
+		(at 66.04 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f582be98-bbc5-4ac0-817d-f3adbd104e91")
 	)
 	(junction
 		(at 74.93 50.8)
@@ -11272,7 +14292,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 40.64) (xy 232.41 40.64)
+			(xy 220.98 41.91) (xy 232.41 41.91)
 		)
 		(stroke
 			(width 0)
@@ -11292,7 +14312,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 83.82 63.5)
+			(xy 74.93 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11312,7 +14332,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 63.5) (xy 74.93 63.5)
+			(xy 66.04 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11339,6 +14359,16 @@
 			(type default)
 		)
 		(uuid "15ab41cd-fa96-4197-92f2-1df78f9ef346")
+	)
+	(wire
+		(pts
+			(xy 220.98 41.91) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177e7b6f-9374-4ffa-b8cc-144868320bcf")
 	)
 	(wire
 		(pts
@@ -11542,13 +14572,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 63.5) (xy 113.03 63.5)
+			(xy 102.87 66.04) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3285f2d1-b2a8-4b93-9400-374b44ed8fa6")
+	)
+	(wire
+		(pts
+			(xy 232.41 41.91) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e7fff6-ef32-429e-8210-1b5419f9d18a")
 	)
 	(wire
 		(pts
@@ -11962,6 +15002,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 66.04) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f66db5-bc21-4977-8f85-08174cc9ff0b")
+	)
+	(wire
+		(pts
 			(xy 127 38.1) (xy 127 40.64)
 		)
 		(stroke
@@ -12162,6 +15212,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 66.04) (xy 102.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d264e24-b034-4c38-8b85-14fda803dd81")
+	)
+	(wire
+		(pts
 			(xy 152.4 140.97) (xy 152.4 146.05)
 		)
 		(stroke
@@ -12222,16 +15282,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 100.33) (xy 92.71 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882633c9-82d1-46a3-b179-0e0558c53211")
-	)
-	(wire
-		(pts
 			(xy 191.77 45.72) (xy 191.77 38.1)
 		)
 		(stroke
@@ -12249,6 +15299,16 @@
 			(type default)
 		)
 		(uuid "8bf58fe3-743d-4465-b9ed-b7bc8adc0c41")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c16c001-090e-4ee4-ad68-1670a8d00585")
 	)
 	(wire
 		(pts
@@ -12342,7 +15402,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 92.71 63.5)
+			(xy 83.82 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12402,6 +15462,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 66.04) (xy 123.19 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12107dd-18fe-41a5-9603-7a6018daee42")
+	)
+	(wire
+		(pts
 			(xy 207.01 88.9) (xy 228.6 88.9)
 		)
 		(stroke
@@ -12412,7 +15482,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 63.5) (xy 102.87 63.5)
+			(xy 92.71 66.04) (xy 102.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12452,7 +15522,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 123.19 63.5)
+			(xy 113.03 66.04) (xy 123.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12529,16 +15599,6 @@
 			(type default)
 		)
 		(uuid "b53572d0-816b-4362-ac7c-2e05dc697271")
-	)
-	(wire
-		(pts
-			(xy 66.04 63.5) (xy 66.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b567d835-6d43-4cec-9e92-2330a5b7f978")
 	)
 	(wire
 		(pts
@@ -12852,6 +15912,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 66.04) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8f6fe5-bcf1-4015-91eb-2b8d50c53ff9")
+	)
+	(wire
+		(pts
 			(xy 146.05 158.75) (xy 146.05 161.29)
 		)
 		(stroke
@@ -12879,6 +15949,36 @@
 			(type default)
 		)
 		(uuid "de0403d0-c004-4585-b4fb-ef0e75a53445")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e476ea5c-e131-4006-83e5-c80c73c84507")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ea3c15-93a8-4e48-9829-35bb09f470fa")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e0d51c-af96-41bf-a4f5-0dd098c1d387")
 	)
 	(wire
 		(pts
@@ -13472,7 +16572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036C105MAT2A")
+		(lib_id "sb-tpu:GRM155Z71A105KE01D")
 		(at 102.87 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -13493,7 +16593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D105KAT2A"
+		(property "Value" "GRM155Z71A105KE01D"
 			(at 99.568 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +16604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM15x"
 			(at 6.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13516,7 +16616,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at -93.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13528,7 +16628,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
+		(property "Description" "MLCC 1uF 10V X7R 10% 0402"
 			(at 102.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13539,7 +16639,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.33"
 			(at -293.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13551,7 +16651,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -393.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13563,7 +16663,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036C105MAT2A"
+		(property "Manufacturer_Part_Number" "GRM155Z71A105KE01D"
 			(at -493.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13575,7 +16675,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036C105MAT2A"
+		(property "Mouser Part Number" "81-GRM155Z71A105KE1D"
 			(at -593.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13587,7 +16687,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155Z71A105KE01D?qs=%252B6g0mu59x7LZ5VDL%2FTet%2Fg%3D%3D"
 			(at -693.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13599,7 +16699,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06036C105MAT2A"
+		(property "Arrow Part Number" ""
 			(at -793.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13611,7 +16711,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
+		(property "Arrow Price/Stock" ""
 			(at -893.32 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13621,6 +16721,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C528974"
+			(at 102.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1uF 10V X7R 10% 0402. Substitute only 0402 1uF >=10V X7R/X7S."
+			(at 102.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13695,7 +16817,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13730,7 +16852,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 794.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13742,7 +16864,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 894.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13754,7 +16876,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 994.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13766,7 +16888,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1094.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13778,7 +16900,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1194.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13788,6 +16910,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13960,7 +17115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:0603ZW106MAT2A")
+		(lib_id "sb-tpu:GRM188Z71A106KA73D")
 		(at 177.8 99.06 270)
 		(unit 1)
 		(body_style 1)
@@ -13981,7 +17136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0603ZW106MAT2A"
+		(property "Value" "GRM188Z71A106KA73D"
 			(at 174.498 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13992,7 +17147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "footprints:GRM18x"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14004,7 +17159,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
 			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14016,7 +17171,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X6S 0603 20%"
+		(property "Description" "MLCC 10uF 10V X7R 10% 0603"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14025,18 +17180,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X6S 0603 20%"
-			(at 173.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Height" "0.9"
@@ -14051,7 +17194,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14063,7 +17206,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603ZW106MAT2A"
+		(property "Manufacturer_Part_Number" "GRM188Z71A106KA73D"
 			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14075,7 +17218,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "581-0603ZW106MAT2A"
+		(property "Mouser Part Number" "81-GRM188Z71A106KA3D"
 			(at 163.83 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14087,7 +17230,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0603ZW106MAT2A?qs=BZBei1rCqCDILT8BMORbpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
 			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14099,7 +17242,7 @@
 				(justify left)
 			)
 		)
-		(property "Arrow Part Number" "0603ZW106MAT2A"
+		(property "Arrow Part Number" "GRM188Z71A106KA73D"
 			(at 158.75 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +17254,7 @@
 				(justify left)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zw106mat2a/avx?region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71a106ka73d/murata-manufacturing?utm_currency=USD&region=europe"
 			(at 156.21 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14121,6 +17264,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2959727"
+			(at 177.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "10uF 10V X7R 10% 0603. Substitute only 0603 10uF >=10V X7R/X7S."
+			(at 177.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14282,18 +17447,6 @@
 				)
 			)
 		)
-		(property "Description_1" "VISHAY - MCT06030C3002FP500 - SMD Chip Resistor, 0603 [1608 Metric], 30 kohm, MCT Series, 75 V, Thin Film, 125 mW"
-			(at 88.9 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "0.55"
 			(at 88.9 99.06 0)
 			(hide yes)
@@ -14378,6 +17531,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C4085715"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "30k 1% 50ppm thin film 0603. Substitute only 1% <=50ppm thin film."
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97e93458-ca9a-49d9-90a7-0793e835ce84")
 		)
@@ -14399,7 +17574,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14607,7 +17782,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick Film Surface Mount Chip Resistors,"
+		(property "Description" "Thick film resistor 0.1R 5% 0.125W 0402 low-ohm"
 			(at 49.53 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14700,6 +17875,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C1706621"
+			(at 49.53 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low-ohm 0.1R 5% 0.125W 0402. Substitute only 0402 0.1R >=0.125W, 5% or better."
+			(at 49.53 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14873,7 +18070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036C105MAT2A")
+		(lib_id "sb-tpu:GRM155Z71A105KE01D")
 		(at 191.77 45.72 270)
 		(unit 1)
 		(body_style 1)
@@ -14894,8 +18091,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D105KAT2A"
-			(at 197.612 51.562 0)
+		(property "Value" "GRM155Z71A105KE01D"
+			(at 197.358 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14905,7 +18102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM15x"
 			(at 95.58 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14917,7 +18114,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at -4.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14929,7 +18126,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
+		(property "Description" "MLCC 1uF 10V X7R 10% 0402"
 			(at 191.77 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14940,7 +18137,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.33"
 			(at -204.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14952,7 +18149,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -304.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14964,7 +18161,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036C105MAT2A"
+		(property "Manufacturer_Part_Number" "GRM155Z71A105KE01D"
 			(at -404.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14976,7 +18173,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036C105MAT2A"
+		(property "Mouser Part Number" "81-GRM155Z71A105KE1D"
 			(at -504.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14988,7 +18185,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155Z71A105KE01D?qs=%252B6g0mu59x7LZ5VDL%2FTet%2Fg%3D%3D"
 			(at -604.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15000,7 +18197,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06036C105MAT2A"
+		(property "Arrow Part Number" ""
 			(at -704.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15012,7 +18209,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
+		(property "Arrow Price/Stock" ""
 			(at -804.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15022,6 +18219,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C528974"
+			(at 191.77 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1uF 10V X7R 10% 0402. Substitute only 0402 1uF >=10V X7R/X7S."
+			(at 191.77 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15172,7 +18391,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick Film Surface Mount Chip Resistors,"
+		(property "Description" "Thick film resistor 0.1R 5% 0.125W 0402 low-ohm"
 			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15267,6 +18486,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C1706621"
+			(at 212.09 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low-ohm 0.1R 5% 0.125W 0402. Substitute only 0402 0.1R >=0.125W, 5% or better."
+			(at 212.09 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bcfb18c-58ba-44ce-85cf-59784e58895f")
 		)
@@ -15303,7 +18544,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 219.71 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15336,7 +18577,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 205.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 205.74 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16224,7 +19520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:RCWE0402R100JNEA")
+		(lib_id "sb-tpu:WSLP0603R1000FEA")
 		(at 27.94 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -16245,7 +19541,7 @@
 				)
 			)
 		)
-		(property "Value" "RCWE0402R100JNEA"
+		(property "Value" "WSLP0603R1000FEA"
 			(at 36.83 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16255,7 +19551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1006X45N"
+		(property "Footprint" "footprints:RESC1608X60N"
 			(at 41.91 182.55 0)
 			(hide yes)
 			(show_name no)
@@ -16267,7 +19563,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+		(property "Datasheet" ""
 			(at 41.91 282.55 0)
 			(hide yes)
 			(show_name no)
@@ -16279,7 +19575,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick Film Surface Mount Chip Resistors,"
+		(property "Description" "Current sense resistor 0.1R 1% 0.4W 0603 metal strip"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16290,7 +19586,7 @@
 				)
 			)
 		)
-		(property "Height" "0.45"
+		(property "Height" ""
 			(at 41.91 482.55 0)
 			(hide yes)
 			(show_name no)
@@ -16314,7 +19610,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
+		(property "Manufacturer_Part_Number" "WSLP0603R1000FEA"
 			(at 41.91 682.55 0)
 			(hide yes)
 			(show_name no)
@@ -16326,7 +19622,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "71-WSLP0603R1000FEA"
 			(at 41.91 782.55 0)
 			(hide yes)
 			(show_name no)
@@ -16338,7 +19634,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R1000FEA?qs=3QSWoE95KdmqkNwCJbgK1Q%3D%3D"
 			(at 41.91 882.55 0)
 			(hide yes)
 			(show_name no)
@@ -16350,7 +19646,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "WSLP0603R1000FEA"
 			(at 41.91 982.55 0)
 			(hide yes)
 			(show_name no)
@@ -16362,7 +19658,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r1000fea/vishay"
 			(at 41.91 1082.55 0)
 			(hide yes)
 			(show_name no)
@@ -16372,6 +19668,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2084234"
+			(at 27.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Current sense 0.1R 1% 0.4W metal strip 0603 (R34). No approved alternate: the land is sized for this part."
+			(at 27.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16390,7 +19708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 173.99 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -16411,8 +19729,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
-			(at 177.8 59.69 0)
+		(property "Value" "GRM155C71A225KE11D"
+			(at 178.308 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16422,7 +19740,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 77.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16434,7 +19752,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -22.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16446,7 +19764,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16457,7 +19775,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -222.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16469,7 +19787,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -322.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16481,7 +19799,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -422.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16493,7 +19811,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -522.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16505,7 +19823,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -622.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16517,7 +19835,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -722.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16529,7 +19847,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -822.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16539,6 +19857,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16821,7 +20161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "footprints:RESC1005X40N"
 			(at 55.88 207.95 0)
 			(hide yes)
 			(show_name no)
@@ -17053,7 +20393,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 57.15 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -17086,7 +20426,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 34.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 34.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 34.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 34.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 34.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 34.29 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17979,7 +21374,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -18202,6 +21597,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C85936"
+			(at 193.04 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "16pF 50V C0G 5% 0402: Y2 load caps sized for crystal CL=10pF. Any 0402 16pF C0G 5% >=25V; change together with Y2 if its CL changes."
+			(at 193.04 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18552,7 +21969,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 73.66 118.11 0)
+			(at 80.772 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18586,7 +22003,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -18621,7 +22038,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 673.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18633,7 +22050,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 773.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18645,7 +22062,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 873.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18657,7 +22074,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 973.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18669,7 +22086,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1073.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18679,6 +22096,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 77.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18929,7 +22379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 74.93 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -18950,8 +22400,9 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
-			(at 71.882 58.928 0)
+		(property "Value" "GRM155C80J475MEAAD"
+			(at 72.898 51.054 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18973,7 +22424,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -121.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18985,7 +22436,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 74.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19020,7 +22471,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -521.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19032,7 +22483,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -621.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19044,7 +22495,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -721.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19056,7 +22507,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -821.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19068,7 +22519,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -921.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19078,6 +22529,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 74.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 74.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19096,7 +22569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036C105MAT2A")
+		(lib_id "sb-tpu:GRM155Z71A105KE01D")
 		(at 92.71 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -19117,7 +22590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D105KAT2A"
+		(property "Value" "GRM155Z71A105KE01D"
 			(at 89.662 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19128,7 +22601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM15x"
 			(at -3.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19140,7 +22613,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at -103.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19152,7 +22625,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
+		(property "Description" "MLCC 1uF 10V X7R 10% 0402"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19163,7 +22636,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.33"
 			(at -303.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19175,7 +22648,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -403.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19187,7 +22660,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036C105MAT2A"
+		(property "Manufacturer_Part_Number" "GRM155Z71A105KE01D"
 			(at -503.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19199,7 +22672,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036C105MAT2A"
+		(property "Mouser Part Number" "81-GRM155Z71A105KE1D"
 			(at -603.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19211,7 +22684,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155Z71A105KE01D?qs=%252B6g0mu59x7LZ5VDL%2FTet%2Fg%3D%3D"
 			(at -703.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19223,7 +22696,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06036C105MAT2A"
+		(property "Arrow Part Number" ""
 			(at -803.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19235,7 +22708,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
+		(property "Arrow Price/Stock" ""
 			(at -903.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19245,6 +22718,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C528974"
+			(at 92.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1uF 10V X7R 10% 0402. Substitute only 0402 1uF >=10V X7R/X7S."
+			(at 92.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19263,7 +22758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 24.13 168.91 270)
 		(unit 1)
 		(body_style 1)
@@ -19284,7 +22779,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 27.94 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19295,7 +22790,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at -72.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19307,7 +22802,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -172.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19319,7 +22814,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 24.13 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19330,7 +22825,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -372.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19342,7 +22837,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -472.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19354,7 +22849,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -572.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19366,7 +22861,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -672.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19378,7 +22873,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -772.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19390,7 +22885,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -872.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19402,7 +22897,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -972.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19412,6 +22907,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 24.13 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 24.13 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19430,7 +22947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM188Z71A475KE15D")
 		(at 68.58 99.06 90)
 		(unit 1)
 		(body_style 1)
@@ -19451,7 +22968,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM188Z71A475KE15D"
 			(at 64.77 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19462,7 +22979,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X70N"
+		(property "Footprint" "footprints:GRM18x"
 			(at 164.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19474,7 +22991,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475KE15-01A.pdf"
 			(at 264.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19486,7 +23003,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 10V X7R 10% 0603"
 			(at 68.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19497,7 +23014,7 @@
 				)
 			)
 		)
-		(property "Height" "0.7"
+		(property "Height" "0.9"
 			(at 464.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19521,7 +23038,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM188Z71A475KE15D"
 			(at 664.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19533,7 +23050,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM188Z71A475KE5D"
 			(at 764.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19545,7 +23062,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71A475KE15D?qs=Ey7%2FXF42M3f4zgfhxcfIIw%3D%3D"
 			(at 864.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19557,7 +23074,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM188Z71A475KE15D"
 			(at 964.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19569,7 +23086,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71a475ke15d/murata-manufacturing"
 			(at 1064.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19579,6 +23096,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C913474"
+			(at 68.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 10V X7R 10% 0603. Substitute only 0603 4.7uF >=10V X7R/X7S."
+			(at 68.58 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19602,7 +23141,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19733,7 +23272,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 57.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19768,7 +23307,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 653.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19780,7 +23319,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 753.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19792,7 +23331,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 853.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19804,7 +23343,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 953.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19816,7 +23355,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1053.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19826,6 +23365,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 57.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 57.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 57.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20020,7 +23592,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 123.952 121.158 0)
 			(hide yes)
 			(show_name no)
@@ -20053,7 +23625,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 123.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 123.19 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -20997,7 +24624,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 242.57 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21032,7 +24659,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 838.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21044,7 +24671,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 938.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21056,7 +24683,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 1038.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21068,7 +24695,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1138.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21080,7 +24707,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1238.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21090,6 +24717,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 242.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 242.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 242.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21108,7 +24768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 167.64 99.06 270)
 		(unit 1)
 		(body_style 1)
@@ -21129,7 +24789,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 171.45 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21140,7 +24800,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 71.45 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21152,7 +24812,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -28.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21164,7 +24824,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 167.64 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21175,7 +24835,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -228.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21187,7 +24847,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -328.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21199,7 +24859,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -428.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21211,7 +24871,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -528.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21223,7 +24883,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -628.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21235,7 +24895,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -728.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21247,7 +24907,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -828.55 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21257,6 +24917,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 167.64 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21276,7 +24958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 40.64 0)
+		(at 232.41 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21286,7 +24968,7 @@
 		(dnp no)
 		(uuid "5c022a43-b645-42b3-bcd7-a2e0a557ead5")
 		(property "Reference" "#PWR0139"
-			(at 232.41 46.99 0)
+			(at 232.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21297,7 +24979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 44.196 0)
+			(at 232.41 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21307,7 +24989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 40.64 0)
+			(at 232.41 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21318,7 +25000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 40.64 0)
+			(at 232.41 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21329,7 +25011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 40.64 0)
+			(at 232.41 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21352,7 +25034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:RCWE0402R100JNEA")
+		(lib_id "sb-tpu:ERJ-3BWFR100V")
 		(at 203.2 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -21372,7 +25054,7 @@
 				)
 			)
 		)
-		(property "Value" "RCWE0402R100JNEA"
+		(property "Value" "ERJ-3BWFR100V"
 			(at 212.09 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21382,7 +25064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:RESC1006X45N"
+		(property "Footprint" "footprints:ERJ3_B_BQ_BW_LW__0603_"
 			(at 217.17 195.25 0)
 			(hide yes)
 			(show_name no)
@@ -21394,7 +25076,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 217.17 295.25 0)
 			(hide yes)
 			(show_name no)
@@ -21406,7 +25088,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick Film Surface Mount Chip Resistors,"
+		(property "Description" "Current sense resistor 0.1R 1% 0.33W 0603 thick film"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21417,7 +25099,7 @@
 				)
 			)
 		)
-		(property "Height" "0.45"
+		(property "Height" ""
 			(at 217.17 495.25 0)
 			(hide yes)
 			(show_name no)
@@ -21429,7 +25111,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 217.17 595.25 0)
 			(hide yes)
 			(show_name no)
@@ -21441,7 +25123,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
+		(property "Manufacturer_Part_Number" "ERJ-3BWFR100V"
 			(at 217.17 695.25 0)
 			(hide yes)
 			(show_name no)
@@ -21453,7 +25135,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "667-ERJ-3BWFR100V"
 			(at 217.17 795.25 0)
 			(hide yes)
 			(show_name no)
@@ -21465,7 +25147,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3BWFR100V?qs=ob%252BdNz2%252BYEjAMRvh2K5PaA%3D%3D"
 			(at 217.17 895.25 0)
 			(hide yes)
 			(show_name no)
@@ -21477,7 +25159,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "ERJ-3BWFR100V"
 			(at 217.17 995.25 0)
 			(hide yes)
 			(show_name no)
@@ -21489,7 +25171,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj3bwfr100v/panasonic?region=nac"
 			(at 217.17 1095.25 0)
 			(hide yes)
 			(show_name no)
@@ -21499,6 +25181,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2074922"
+			(at 203.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Current sense 0.1R 1% 0.33W 0603 (R39, short courtyard between R40 and TP5). No approved alternate."
+			(at 203.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21651,7 +25355,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 198.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21686,7 +25390,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 794.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21698,7 +25402,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 894.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21710,7 +25414,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 994.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21722,7 +25426,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1094.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21734,7 +25438,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1194.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21744,6 +25448,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 198.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 198.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 198.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21840,7 +25577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036W226MAT2A")
+		(lib_id "sb-tpu:GRM21BZ71A226ME15L")
 		(at 48.26 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -21861,7 +25598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D226MAT2A"
+		(property "Value" "GRM21BZ71A226ME15L"
 			(at 44.704 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21872,7 +25609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM21BR60J226ME39L"
 			(at -47.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21884,7 +25621,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71A226ME15-01A.pdf"
 			(at -147.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21896,7 +25633,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC 22uF 6.3V - SMD/SMT NEW GLOBAL PN KGM15CS60J226MT"
+		(property "Description" "MLCC 22uF 10V X7R 20% 0805"
 			(at 48.26 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -21907,7 +25644,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "1.45"
 			(at -347.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21919,7 +25656,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -447.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21931,7 +25668,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036W226MAT2A"
+		(property "Manufacturer_Part_Number" "GRM21BZ71A226ME15L"
 			(at -547.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21943,7 +25680,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036W226MAT2A"
+		(property "Mouser Part Number" "81-GRM21BZ71A226ME5L"
 			(at -647.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21955,7 +25692,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036W226MAT2A?qs=5aG0NVq1C4wpjqNFtHykgQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71A226ME15L?qs=Ey7%2FXF42M3ejDq7iqlmWWw%3D%3D"
 			(at -747.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21967,7 +25704,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM21BZ71A226ME15L"
 			(at -847.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21979,7 +25716,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71a226me15l/murata-manufacturing?region=europe"
 			(at -947.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21989,6 +25726,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C907991"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 10V X7R 20% 0805. Substitute only 0805 22uF >=10V X7R/X7S."
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22007,7 +25766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:0603ZW106MAT2A")
+		(lib_id "sb-tpu:GRM188Z71A106KA73D")
 		(at 177.8 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -22028,8 +25787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0603ZW106MAT2A"
-			(at 174.498 80.01 0)
+		(property "Value" "GRM188Z71A106KA73D"
+			(at 174.244 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22039,7 +25798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1608X90N"
+		(property "Footprint" "footprints:GRM18x"
 			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22051,7 +25810,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
 			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22063,7 +25822,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X6S 0603 20%"
+		(property "Description" "MLCC 10uF 10V X7R 10% 0603"
 			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -22072,18 +25831,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description_1" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X6S 0603 20%"
-			(at 173.99 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Height" "0.9"
@@ -22098,7 +25845,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22110,7 +25857,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0603ZW106MAT2A"
+		(property "Manufacturer_Part_Number" "GRM188Z71A106KA73D"
 			(at 166.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22122,7 +25869,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Part Number" "581-0603ZW106MAT2A"
+		(property "Mouser Part Number" "81-GRM188Z71A106KA3D"
 			(at 163.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22134,7 +25881,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0603ZW106MAT2A?qs=BZBei1rCqCDILT8BMORbpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
 			(at 161.29 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22146,7 +25893,7 @@
 				(justify left)
 			)
 		)
-		(property "Arrow Part Number" "0603ZW106MAT2A"
+		(property "Arrow Part Number" "GRM188Z71A106KA73D"
 			(at 158.75 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22158,7 +25905,7 @@
 				(justify left)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0603zw106mat2a/avx?region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71a106ka73d/murata-manufacturing?utm_currency=USD&region=europe"
 			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -22168,6 +25915,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2959727"
+			(at 177.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "10uF 10V X7R 10% 0603. Substitute only 0603 10uF >=10V X7R/X7S."
+			(at 177.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22341,7 +26110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036W226MAT2A")
+		(lib_id "sb-tpu:GRM188C80J226ME15D")
 		(at 66.04 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -22362,8 +26131,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D226MAT2A"
+		(property "Value" "GRM188C80J226ME15D"
 			(at 61.976 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22373,7 +26143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM18x"
 			(at -30.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22385,7 +26155,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J226ME15-02A.pdf"
 			(at -130.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22397,7 +26167,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC 22uF 6.3V - SMD/SMT NEW GLOBAL PN KGM15CS60J226MT"
+		(property "Description" "MLCC 22uF 6.3V X6S 20% 0603"
 			(at 66.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22420,7 +26190,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -430.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22432,7 +26202,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036W226MAT2A"
+		(property "Manufacturer_Part_Number" "GRM188C80J226ME15D"
 			(at -530.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22444,7 +26214,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036W226MAT2A"
+		(property "Mouser Part Number" "81-GRM188C80J226ME5D"
 			(at -630.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22456,7 +26226,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036W226MAT2A?qs=5aG0NVq1C4wpjqNFtHykgQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188C80J226ME15D?qs=K0Sa7bCb58I9yTIvpI1jlg%3D%3D"
 			(at -730.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22468,7 +26238,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM188C80J226ME15D"
 			(at -830.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22480,7 +26250,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188c80j226me15d/murata-manufacturing?utm_currency=USD&region=nac"
 			(at -930.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22490,6 +26260,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C393031"
+			(at 66.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 6.3V X6S 20% 0603. Substitute only 0603 22uF >=6.3V X6S/X7S/X7R (no X5R)."
+			(at 66.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22576,18 +26368,6 @@
 				)
 			)
 		)
-		(property "Description_1" "Low Body Height: 0.016 (0.4 mm); Small Body Outline Dimensions: 0.039 x 0.024 (1.00 mm x 0.60 mm); UltraLow Leakage < 1 nA; UltraLow Capacitance 0.5 pF; Low Clamping Voltage; Standoff Voltage: 3.3 V; Response Time < 1.0 ns; IEC6100042 Level 4 ESD Protection; This is a PbFree and HalogenFree Device"
-			(at 243.84 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "0.4"
 			(at 241.3 161.29 0)
 			(hide yes)
@@ -22672,6 +26452,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C233388"
+			(at 248.92 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "ESD diode 3.3V standoff, <1pF, SOD-923, on DAC_OUT. onsemi original only (ElecSuper clone C55067985 not approved)."
+			(at 248.92 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8bc16dd4-7721-467e-bbb5-457541610125")
 		)
@@ -22753,18 +26555,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description_1" "Thick Film Resistors - SMD 4.7K  OHM   5%"
-			(at 68.58 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Height" "0.4"
@@ -22851,6 +26641,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7k 1% 1/16W 0402. JLC Basic part. Any 0402 4.7k 1% thick film is acceptable."
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "164d70e2-4894-48c3-8308-84d63d1b4223")
 		)
@@ -22867,7 +26679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 104.14 33.02 270)
 		(unit 1)
 		(body_style 1)
@@ -22878,7 +26690,7 @@
 		(dnp no)
 		(uuid "81cdbd03-e6d0-493c-97b0-8e3bf9a06fc1")
 		(property "Reference" "C57"
-			(at 110.49 41.91 0)
+			(at 104.648 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22888,8 +26700,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
-			(at 107.95 41.91 0)
+		(property "Value" "GRM155C71A225KE11D"
+			(at 95.758 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22899,7 +26711,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 7.95 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22911,7 +26723,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -92.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22923,7 +26735,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 104.14 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22934,7 +26746,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -292.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22946,7 +26758,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -392.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22958,7 +26770,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -492.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22970,7 +26782,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -592.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22982,7 +26794,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -692.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -22994,7 +26806,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -792.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -23006,7 +26818,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -892.05 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -23016,6 +26828,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 104.14 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 104.14 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -23112,7 +26946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 204.47 43.18 270)
 		(unit 1)
 		(body_style 1)
@@ -23133,7 +26967,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
+		(property "Value" "GRM155C71A225KE11D"
 			(at 208.28 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23144,7 +26978,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 108.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23156,7 +26990,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at 8.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23168,7 +27002,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 204.47 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -23179,7 +27013,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -191.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23191,7 +27025,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -291.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23203,7 +27037,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -391.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23215,7 +27049,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -491.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23227,7 +27061,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -591.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23239,7 +27073,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -691.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23251,7 +27085,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -791.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23261,6 +27095,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 204.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23279,7 +27135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:JMK105BJ224KV-F")
+		(lib_id "sb-tpu:CL05B224KO5NNNC")
 		(at 92.71 92.71 270)
 		(unit 1)
 		(body_style 1)
@@ -23299,8 +27155,8 @@
 				)
 			)
 		)
-		(property "Value" "JMK105BJ224KV-F"
-			(at 90.17 104.14 0)
+		(property "Value" "CL05B224KO5NNNC"
+			(at 95.758 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23309,7 +27165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:cap_UMK105 CG080CV-F_TAY"
+		(property "Footprint" "footprints:CAPC1005X55N"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23321,7 +27177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "JMK105BJ224KV-F"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B224KO5NNNC_Spec.pdf"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23333,7 +27189,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V .22uF X5R 0603 10% Tol"
+		(property "Description" "MLCC 220nF 16V X7R 10% 0402"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23344,7 +27200,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.55"
 			(at -303.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23356,7 +27212,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "SAMSUNG"
 			(at -403.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23368,7 +27224,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036D224KAT2A"
+		(property "Manufacturer_Part_Number" "CL05B224KO5NNNC"
 			(at -503.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23380,7 +27236,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036D224KAT2A"
+		(property "Mouser Part Number" "187-CL05B224KO5NNNC"
 			(at -603.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23392,7 +27248,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-06036D224KAT2A"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B224KO5NNNC?qs=X6jEic%2FHinCN6V6mK7LtLg%3D%3D"
 			(at -703.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23404,7 +27260,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "CL05B224KO5NNNC"
 			(at -803.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23416,7 +27272,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05b224ko5nnnc/samsung-electro-mechanics?utm_currency=USD&region=europe"
 			(at -903.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23426,6 +27282,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C16772"
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "220nF 16V X7R 10% 0402. JLC Basic part. Any 0402 220nF >=16V X7R is acceptable."
+			(at 92.71 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -23511,18 +27389,6 @@
 				)
 			)
 		)
-		(property "Description_1" "Wurth WE-LQS Series Shielded Wire-wound SMD Inductor 4.7 uH Moulded 1.55A Idc"
-			(at 96.52 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Height" "1.2"
 			(at 93.98 110.49 0)
 			(hide yes)
@@ -23583,6 +27449,28 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C1331119"
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uH 20%, 1.3A rated / 1.55A sat, 91mR, WE-LQS 4012 (4x4x1.2mm): RT1176 internal DCDC_LP inductor. Often 0 stock. Conditional alt Wurth 74404042047 (C2046389): same 4x4 land, higher current, but a TALLER body - check stack clearance first."
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5029f962-d4a6-4e7a-b7c5-a7ce6b2638cf")
 		)
@@ -23599,7 +27487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 113.03 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -23620,7 +27508,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 111.252 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23643,7 +27531,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -83.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23655,7 +27543,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 113.03 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23690,7 +27578,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -483.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23702,7 +27590,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -583.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23714,7 +27602,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -683.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23726,7 +27614,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -783.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23738,7 +27626,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -883.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -23748,6 +27636,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 113.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 113.03 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24132,7 +28042,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 182.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -24167,7 +28077,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 779.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24179,7 +28089,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 879.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24191,7 +28101,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 979.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24203,7 +28113,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1079.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24215,7 +28125,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1179.07 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24225,6 +28135,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 182.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 182.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 182.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -24320,7 +28263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036C105MAT2A")
+		(lib_id "sb-tpu:GRM155Z71A105KE01D")
 		(at 220.98 27.94 270)
 		(unit 1)
 		(body_style 1)
@@ -24341,7 +28284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D105KAT2A"
+		(property "Value" "GRM155Z71A105KE01D"
 			(at 217.424 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24352,7 +28295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM15x"
 			(at 124.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24364,7 +28307,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf"
 			(at 24.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24376,7 +28319,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 1uF X7R 0603 20%"
+		(property "Description" "MLCC 1uF 10V X7R 10% 0402"
 			(at 220.98 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -24387,7 +28330,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.33"
 			(at -175.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24399,7 +28342,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -275.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24411,7 +28354,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036C105MAT2A"
+		(property "Manufacturer_Part_Number" "GRM155Z71A105KE01D"
 			(at -375.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24423,7 +28366,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036C105MAT2A"
+		(property "Mouser Part Number" "81-GRM155Z71A105KE1D"
 			(at -475.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24435,7 +28378,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036C105MAT2A?qs=1X9trZCrWl0x0jW7AUsrpw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155Z71A105KE01D?qs=%252B6g0mu59x7LZ5VDL%2FTet%2Fg%3D%3D"
 			(at -575.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24447,7 +28390,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06036C105MAT2A"
+		(property "Arrow Part Number" ""
 			(at -675.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24459,7 +28402,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06036c105mat2a/avx"
+		(property "Arrow Price/Stock" ""
 			(at -775.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24469,6 +28412,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C528974"
+			(at 220.98 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1uF 10V X7R 10% 0402. Substitute only 0402 1uF >=10V X7R/X7S."
+			(at 220.98 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24565,7 +28530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:CL05A225MQ5NSNC")
+		(lib_id "sb-tpu:GRM155C71A225KE11D")
 		(at 167.64 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -24576,7 +28541,7 @@
 		(dnp no)
 		(uuid "b4b26a7d-3fa7-464f-8169-6a13f8eb9697")
 		(property "Reference" "C60"
-			(at 173.99 88.9 0)
+			(at 168.148 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24586,8 +28551,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL05A225MQ5NSNC"
-			(at 171.45 88.9 0)
+		(property "Value" "GRM155C71A225KE11D"
+			(at 171.45 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24597,7 +28562,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X57N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 71.45 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24609,7 +28574,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-19/372932.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71A225KE11-01A.pdf"
 			(at -28.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24621,7 +28586,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Cap Ceramic 2.2uF 6.3V X5R 20% Pad SMD 0402 85C T/R"
+		(property "Description" "MLCC 2.2uF 10V X7S 10% 0402"
 			(at 167.64 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -24632,7 +28597,7 @@
 				)
 			)
 		)
-		(property "Height" "0.57"
+		(property "Height" "0.7"
 			(at -228.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24644,7 +28609,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "SAMSUNG"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -328.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24656,7 +28621,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A225MQ5NSNC"
+		(property "Manufacturer_Part_Number" "GRM155C71A225KE11D"
 			(at -428.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24668,7 +28633,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "187-CL05A225MQ5NSNC"
+		(property "Mouser Part Number" "81-GRM155C71A225KE1D"
 			(at -528.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24680,7 +28645,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A225MQ5NSNC?qs=X6jEic%2FHinC0eBcvtpjFyQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C71A225KE11D?qs=hNud%2FORuBR1WTMd%2FnRwa3Q%3D%3D"
 			(at -628.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24692,7 +28657,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A225MQ5NSNC"
+		(property "Arrow Part Number" "GRM155C71A225KE11D"
 			(at -728.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24704,7 +28669,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a225mq5nsnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c71a225ke11d/murata-manufacturing?region=nac"
 			(at -828.55 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24714,6 +28679,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C385030"
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "2.2uF 10V X7S 10% 0402. Substitute only 0402 2.2uF >=10V X7R/X7S, height <=0.7mm."
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -24809,7 +28796,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 257.81 54.61 270)
 		(unit 1)
 		(body_style 1)
@@ -24830,7 +28817,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 261.62 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24853,7 +28840,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at 61.62 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24865,7 +28852,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -24900,7 +28887,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -338.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24912,7 +28899,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -438.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24924,7 +28911,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -538.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24936,7 +28923,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -638.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24948,7 +28935,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -738.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24958,6 +28945,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 257.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 257.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -25130,7 +29139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 123.19 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -25151,7 +29160,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 121.666 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25174,7 +29183,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -73 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25186,7 +29195,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -25221,7 +29230,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -473 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25233,7 +29242,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -573 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25245,7 +29254,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -673 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25257,7 +29266,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -773 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25269,7 +29278,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -873 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25279,6 +29288,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25351,7 +29382,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead 120R@100MHz 550mA 0402"
+			(at 237.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 237.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM15AG121SN1D"
+			(at 237.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85812"
+			(at 237.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Ferrite bead 120R@100MHz, 0.19R DCR, 550mA, 0402. Any substitute needs <=0.19R DCR and >=500mA."
 			(at 237.49 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -25398,7 +29473,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 148.59 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -25431,7 +29506,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 132.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 132.08 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -26473,7 +30603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 74.93 20.32 270)
 		(unit 1)
 		(body_style 1)
@@ -26494,7 +30624,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
+		(property "Value" "GRM155C80J475MEAAD"
 			(at 78.994 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26517,7 +30647,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -121.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26529,7 +30659,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 74.93 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -26564,7 +30694,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -521.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26576,7 +30706,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -621.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26588,7 +30718,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -721.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26600,7 +30730,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -821.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26612,7 +30742,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -921.26 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -26622,6 +30752,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 74.93 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 74.93 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26640,7 +30792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:GRM155R60J475KE96D")
+		(lib_id "sb-tpu:GRM155C80J475MEAAD")
 		(at 85.09 26.67 270)
 		(unit 1)
 		(body_style 1)
@@ -26661,8 +30813,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM155R60J475KE96D"
-			(at 91.948 27.432 0)
+		(property "Value" "GRM155C80J475MEAAD"
+			(at 92.964 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26684,7 +30836,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C80J475MEAA-01A.pdf"
 			(at -111.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26696,7 +30848,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Chip Capacitor value 475"
+		(property "Description" "MLCC 4.7uF 6.3V X6S 20% 0402"
 			(at 85.09 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -26731,7 +30883,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM155R60J475KE96D"
+		(property "Manufacturer_Part_Number" "GRM155C80J475MEAAD"
 			(at -511.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26743,7 +30895,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "81-GRM155C80J475MEAD"
 			(at -611.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26755,7 +30907,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155C80J475MEAAD?qs=Vn3Si3NHuBxKMCNUYJ3YWw%3D%3D"
 			(at -711.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26767,7 +30919,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM155C80J475MEAAD"
 			(at -811.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26779,7 +30931,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm155c80j475meaad/murata-manufacturing?region=nac"
 			(at -911.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -26789,6 +30941,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C464981"
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "4.7uF 6.3V X6S 20% 0402. Substitute only 0402 4.7uF >=6.3V X6S/X7S (no X5R); C49 already runs at 54% voltage stress."
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26958,6 +31132,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C85936"
+			(at 193.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "16pF 50V C0G 5% 0402: Y2 load caps sized for crystal CL=10pF. Any 0402 16pF C0G 5% >=25V; change together with Y2 if its CL changes."
+			(at 193.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51d14941-0626-4b48-9555-11a16a06ca46")
 		)
@@ -27107,7 +31303,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 24MHz 10pF 20ppm -40..85C 2.5x2.0mm"
 			(at 152.4 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -27119,18 +31315,6 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 152.4 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics"
 			(at 152.4 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -27178,7 +31362,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Epson Timing"
+		(property "Manufacturer_Name" "Seiko Epson"
 			(at 189.23 633.35 0)
 			(hide yes)
 			(show_name no)
@@ -27250,6 +31434,28 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C1986537"
+			(at 152.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "MCU main crystal 24MHz, CL 10pF, 10ppm/20ppm, -40..85C, 2.5x2.0mm 4-pad. Often 0 stock. Conditional alt Epson Q24FA20H00153 (C255951, FA-20H 24MHz CL 12pF): requires changing C69/C70 from 16pF to ~20pF."
+			(at 152.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b08a3018-36c4-4799-89c5-cd8fb8496a21")
 		)
@@ -27294,7 +31500,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 80.264 75.438 0)
+			(at 84.582 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27328,7 +31534,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -27363,7 +31569,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 680.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27375,7 +31581,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 780.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27387,7 +31593,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 880.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27399,7 +31605,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 980.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27411,7 +31617,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1080.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27421,6 +31627,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -27493,7 +31732,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead 120R@100MHz 550mA 0402"
+			(at 236.22 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 236.22 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM15AG121SN1D"
+			(at 236.22 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85812"
+			(at 236.22 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Ferrite bead 120R@100MHz, 0.19R DCR, 550mA, 0402. Any substitute needs <=0.19R DCR and >=500mA."
 			(at 236.22 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -27520,7 +31803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036W226MAT2A")
+		(lib_id "sb-tpu:CL05X226MR6NUW8")
 		(at 187.96 99.06 270)
 		(unit 1)
 		(body_style 1)
@@ -27541,7 +31824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D226MAT2A"
+		(property "Value" "CL05X226MR6NUW8"
 			(at 184.15 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27552,7 +31835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:CAPC1005X70N"
 			(at 91.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27564,7 +31847,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6150048.pdf"
 			(at -8.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27576,7 +31859,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC 22uF 6.3V - SMD/SMT NEW GLOBAL PN KGM15CS60J226MT"
+		(property "Description" "MLCC 22uF 4V X6S 20% 0402"
 			(at 187.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -27587,7 +31870,7 @@
 				)
 			)
 		)
-		(property "Height" "0.9"
+		(property "Height" "0.7"
 			(at -208.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27599,7 +31882,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at -308.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27611,7 +31894,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036W226MAT2A"
+		(property "Manufacturer_Part_Number" "CL05X226MR6NUW8"
 			(at -408.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27623,7 +31906,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036W226MAT2A"
+		(property "Mouser Part Number" ""
 			(at -508.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27635,7 +31918,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036W226MAT2A?qs=5aG0NVq1C4wpjqNFtHykgQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at -608.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27669,6 +31952,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C6150048"
+			(at 187.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 4V X6S 20% 0402 on DCDC_DIG (<=1.25V) under U4. Substitute only 0402 22uF >=4V X6S/X7S, height <=0.7mm."
+			(at 187.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27743,7 +32048,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 228.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -27778,7 +32083,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 824.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27790,7 +32095,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 924.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27802,7 +32107,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 1024.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27814,7 +32119,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1124.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27826,7 +32131,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1224.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -27836,6 +32141,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -27874,7 +32212,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MIMXRT1176CVM8A"
 			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -27907,7 +32245,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "i.MX RT1176 MCU, Cortex-M7 800MHz + M4, industrial -40..105C Tj, MAPBGA-289 14x14mm 0.8mm pitch"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP Semiconductors"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MIMXRT1176CVM8A"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3220108"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C1020239"
+			(at 113.03 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "Low LCSC stock. Approved alt MIMXRT1176AVM8A (C1020239, automotive -40..125C Tj, same package and ball map). NEVER substitute the DVMAA (commercial 0..95C). BGA: JLC needs X-ray inspection."
 			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -28894,7 +33287,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 228.854 45.212 0)
+			(at 237.998 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28928,7 +33321,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 0.1uF 5% X7R 0402"
+		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
 			(at 232.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -28963,7 +33356,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06033C104JAT4A"
+		(property "Manufacturer_Part_Number" "04023C104JAT2A"
 			(at 828.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28975,7 +33368,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06033C104JAT4A"
+		(property "Mouser Part Number" ""
 			(at 928.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28987,7 +33380,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06033C104JAT4A?qs=8C2chATdSPhpRQ%252BiHO4eeg%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 1028.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -28999,7 +33392,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "06033C104JAT4A"
+		(property "Arrow Part Number" ""
 			(at 1128.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -29011,7 +33404,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/06033c104jat4a/avx"
+		(property "Arrow Price/Stock" ""
 			(at 1228.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -29021,6 +33414,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C2169023"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C343042"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -29116,7 +33542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:06036W226MAT2A")
+		(lib_id "sb-tpu:GRM188C80J226ME15D")
 		(at 187.96 80.01 270)
 		(unit 1)
 		(body_style 1)
@@ -29137,8 +33563,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "04026D226MAT2A"
-			(at 184.15 80.518 0)
+		(property "Value" "GRM188C80J226ME15D"
+			(at 184.658 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29148,7 +33574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC1005X56N"
+		(property "Footprint" "footprints:GRM18x"
 			(at 91.77 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29160,7 +33586,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188C80J226ME15-02A.pdf"
 			(at -8.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29172,7 +33598,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC 22uF 6.3V - SMD/SMT NEW GLOBAL PN KGM15CS60J226MT"
+		(property "Description" "MLCC 22uF 6.3V X6S 20% 0603"
 			(at 187.96 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -29195,7 +33621,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Kyocera AVX"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at -308.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29207,7 +33633,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "06036W226MAT2A"
+		(property "Manufacturer_Part_Number" "GRM188C80J226ME15D"
 			(at -408.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29219,7 +33645,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "581-06036W226MAT2A"
+		(property "Mouser Part Number" "81-GRM188C80J226ME5D"
 			(at -508.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29231,7 +33657,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06036W226MAT2A?qs=5aG0NVq1C4wpjqNFtHykgQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188C80J226ME15D?qs=K0Sa7bCb58I9yTIvpI1jlg%3D%3D"
 			(at -608.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29243,7 +33669,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
+		(property "Arrow Part Number" "GRM188C80J226ME15D"
 			(at -708.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29255,7 +33681,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188c80j226me15d/murata-manufacturing?utm_currency=USD&region=nac"
 			(at -808.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29265,6 +33691,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC" "C393031"
+			(at 187.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 6.3V X6S 20% 0603. Substitute only 0603 22uF >=6.3V X6S/X7S/X7R (no X5R)."
+			(at 187.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
