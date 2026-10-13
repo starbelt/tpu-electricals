@@ -1,6 +1,6 @@
 # KiCad Project — sb-tpu
 
-The `sb-tpu` KiCad 8 project: schematics, PCB layout, project libraries, and manufacturing outputs for the board described in the [top-level README](../README.md).
+The `sb-tpu` KiCad 10 project: schematics, PCB layout, project libraries, and manufacturing outputs for the board described in the [top-level README](../README.md).
 
 ## Opening the project
 
