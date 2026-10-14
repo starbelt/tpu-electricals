@@ -12075,6 +12075,430 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:PE0402FRF470R01L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PE0402FRF470R01L"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:RESC1006X45N"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211101_YAGEO-PE0402FRF470R01L_C851613.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current sense resistor 10mR 1% 0.25W 0402 metal, AEC-Q200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.35"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "YAGEO"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PE0402FRF470R01L"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C851613"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PE0402FRF470R01L_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:PE0603FRF570R01L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PE0603FRF570R01L"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:ERJ3_B_BQ_BW_LW__0603_"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211101_YAGEO-PE0603FRF570R01L_C1730607.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current sense resistor 10mR 1% 0.5W 0603 metal, AEC-Q200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "YAGEO"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PE0603FRF570R01L"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C1730607"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PE0603FRF570R01L_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:RCWE0402R100JNEA"
 			(pin_names
 				(hide yes)
@@ -12955,6 +13379,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:WSLP0603R0100FEA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "WSLP0603R0100FEA"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:RESC1608X60N"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212301230_Vishay-Intertech-WSLP0603R0100FEA_C5334451.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current sense resistor 10mR 1% 0.4W 0603 metal strip, AEC-Q200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "WSLP0603R0100FEA"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "71-WSLP0603R0100FEA"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R0100FEA?qs=d9nEWKVlhwurXMV2GPI1Lw%3D%3D"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "WSLP0603R0100FEA"
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r0100fea/vishay?region=nac"
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C5334451"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WSLP0603R0100FEA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:WSLP0603R1000FEA"
 			(pin_names
 				(hide yes)
@@ -13233,7 +13869,7 @@
 		)
 		(uuid "2095c8c9-5c4c-4bd7-94bb-bf6be4fc2a6e")
 	)
-	(text "0603\n0.1Ω\n0.33W"
+	(text "0603\n10mΩ\n0.5W"
 		(exclude_from_sim no)
 		(at 209.296 106.172 0)
 		(effects
@@ -13245,6 +13881,19 @@
 			(justify left)
 		)
 		(uuid "3468a270-c944-43c1-b3c6-2b30010b3ae7")
+	)
+	(text "0402\n10mΩ\n0.25W"
+		(exclude_from_sim no)
+		(at 58.42 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "3c2c52e8-e1c5-471f-ace9-fb929846adc5")
 	)
 	(text "0603\n10µF\n10V"
 		(exclude_from_sim no)
@@ -13271,6 +13920,19 @@
 			(justify left)
 		)
 		(uuid "4692e8de-068f-495a-a1d9-6d53b1a125c3")
+	)
+	(text "0402\n10mΩ\n0.25W"
+		(exclude_from_sim no)
+		(at 220.98 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "49e24b96-cdb3-4256-841d-05d635a2f9b4")
 	)
 	(text "0603\n22µF\n6.3V"
 		(exclude_from_sim no)
@@ -13311,7 +13973,7 @@
 		)
 		(uuid "8c1dd859-2b47-4d79-92ae-c207f4ee6f37")
 	)
-	(text "0603\n0.1Ω/0.4W"
+	(text "0603\n10mΩ/0.4W"
 		(exclude_from_sim no)
 		(at 27.178 89.408 0)
 		(effects
@@ -17727,7 +18389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:RCWE0402R100JNEA")
+		(lib_id "sb-tpu:PE0402FRF470R01L")
 		(at 49.53 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -17748,7 +18410,7 @@
 				)
 			)
 		)
-		(property "Value" "RCWE0402R100JNEA"
+		(property "Value" "PE0402FRF470R01L"
 			(at 58.42 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17770,7 +18432,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211101_YAGEO-PE0402FRF470R01L_C851613.pdf"
 			(at 63.5 216.51 0)
 			(hide yes)
 			(show_name no)
@@ -17782,7 +18444,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick film resistor 0.1R 5% 0.125W 0402 low-ohm"
+		(property "Description" "Current sense resistor 10mR 1% 0.25W 0402 metal, AEC-Q200"
 			(at 49.53 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17793,7 +18455,7 @@
 				)
 			)
 		)
-		(property "Height" "0.45"
+		(property "Height" "0.35"
 			(at 63.5 416.51 0)
 			(hide yes)
 			(show_name no)
@@ -17805,7 +18467,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 63.5 516.51 0)
 			(hide yes)
 			(show_name no)
@@ -17817,7 +18479,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
+		(property "Manufacturer_Part_Number" "PE0402FRF470R01L"
 			(at 63.5 616.51 0)
 			(hide yes)
 			(show_name no)
@@ -17877,7 +18539,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC" "C1706621"
+		(property "LCSC" "C851613"
 			(at 49.53 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17888,7 +18550,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Notes" "Low-ohm 0.1R 5% 0.125W 0402. Substitute only 0402 0.1R >=0.125W, 5% or better."
+		(property "Sourcing_Notes" "Current sense 10mR 1% 0.25W metal 0402, AEC-Q200, -55..170C (R36 VDD_LPSR_IN <=75mA, R40 DCDC_ANA <=150mA). Coral uses the 5% PE0402JRF470R01L. Conditional alt YAGEO PE0402FRF070R01L (C2089431, 62.5mW): adequate for these currents (<1mW), check stock."
 			(at 49.53 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -18337,7 +18999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:RCWE0402R100JNEA")
+		(lib_id "sb-tpu:PE0402FRF470R01L")
 		(at 212.09 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -18348,7 +19010,7 @@
 		(dnp no)
 		(uuid "29e69334-8b06-4d7c-b40f-d76a01487388")
 		(property "Reference" "R40"
-			(at 218.948 77.47 0)
+			(at 220.98 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18357,8 +19019,8 @@
 				)
 			)
 		)
-		(property "Value" "RCWE0402R100JNEA"
-			(at 219.964 82.804 0)
+		(property "Value" "PE0402FRF470R01L"
+			(at 220.98 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18379,7 +19041,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211101_YAGEO-PE0402FRF470R01L_C851613.pdf"
 			(at 226.06 276.2 0)
 			(hide yes)
 			(show_name no)
@@ -18391,7 +19053,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Thick film resistor 0.1R 5% 0.125W 0402 low-ohm"
+		(property "Description" "Current sense resistor 10mR 1% 0.25W 0402 metal, AEC-Q200"
 			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18402,7 +19064,7 @@
 				)
 			)
 		)
-		(property "Height" "0.45"
+		(property "Height" "0.35"
 			(at 226.06 476.2 0)
 			(hide yes)
 			(show_name no)
@@ -18414,7 +19076,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 226.06 576.2 0)
 			(hide yes)
 			(show_name no)
@@ -18426,7 +19088,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RCWE0402R100JNEA"
+		(property "Manufacturer_Part_Number" "PE0402FRF470R01L"
 			(at 226.06 676.2 0)
 			(hide yes)
 			(show_name no)
@@ -18486,7 +19148,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC" "C1706621"
+		(property "LCSC" "C851613"
 			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18497,7 +19159,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Notes" "Low-ohm 0.1R 5% 0.125W 0402. Substitute only 0402 0.1R >=0.125W, 5% or better."
+		(property "Sourcing_Notes" "Current sense 10mR 1% 0.25W metal 0402, AEC-Q200, -55..170C (R36 VDD_LPSR_IN <=75mA, R40 DCDC_ANA <=150mA). Coral uses the 5% PE0402JRF470R01L. Conditional alt YAGEO PE0402FRF070R01L (C2089431, 62.5mW): adequate for these currents (<1mW), check stock."
 			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19520,7 +20182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:WSLP0603R1000FEA")
+		(lib_id "sb-tpu:WSLP0603R0100FEA")
 		(at 27.94 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -19541,7 +20203,7 @@
 				)
 			)
 		)
-		(property "Value" "WSLP0603R1000FEA"
+		(property "Value" "WSLP0603R0100FEA"
 			(at 36.83 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19563,7 +20225,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212301230_Vishay-Intertech-WSLP0603R0100FEA_C5334451.pdf"
 			(at 41.91 282.55 0)
 			(hide yes)
 			(show_name no)
@@ -19575,7 +20237,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Current sense resistor 0.1R 1% 0.4W 0603 metal strip"
+		(property "Description" "Current sense resistor 10mR 1% 0.4W 0603 metal strip, AEC-Q200"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19610,7 +20272,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "WSLP0603R1000FEA"
+		(property "Manufacturer_Part_Number" "WSLP0603R0100FEA"
 			(at 41.91 682.55 0)
 			(hide yes)
 			(show_name no)
@@ -19622,7 +20284,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "71-WSLP0603R1000FEA"
+		(property "Mouser Part Number" "71-WSLP0603R0100FEA"
 			(at 41.91 782.55 0)
 			(hide yes)
 			(show_name no)
@@ -19634,7 +20296,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R1000FEA?qs=3QSWoE95KdmqkNwCJbgK1Q%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSLP0603R0100FEA?qs=d9nEWKVlhwurXMV2GPI1Lw%3D%3D"
 			(at 41.91 882.55 0)
 			(hide yes)
 			(show_name no)
@@ -19646,7 +20308,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "WSLP0603R1000FEA"
+		(property "Arrow Part Number" "WSLP0603R0100FEA"
 			(at 41.91 982.55 0)
 			(hide yes)
 			(show_name no)
@@ -19658,7 +20320,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r1000fea/vishay"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/wslp0603r0100fea/vishay?region=nac"
 			(at 41.91 1082.55 0)
 			(hide yes)
 			(show_name no)
@@ -19670,7 +20332,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC" "C2084234"
+		(property "LCSC" "C5334451"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19681,7 +20343,18 @@
 				)
 			)
 		)
-		(property "Sourcing_Notes" "Current sense 0.1R 1% 0.4W metal strip 0603 (R34). No approved alternate: the land is sized for this part."
+		(property "Sourcing_Notes" "Current sense 10mR 1% 0.4W metal strip 0603, AEC-Q200, -65..170C (R34, MCU DCDC_IN, <=1A). Same WSLP0603 land as the 0.1R part it replaced. Approved alt WSLP0603R0100FEB (C3926884): packaging code only. Conditional alt: any AEC-Q200 0603 10mR 1% >=0.25W metal/metal-strip."
+			(at 27.94 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C3926884"
 			(at 27.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -25034,7 +25707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sb-tpu:ERJ-3BWFR100V")
+		(lib_id "sb-tpu:PE0603FRF570R01L")
 		(at 203.2 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -25054,7 +25727,7 @@
 				)
 			)
 		)
-		(property "Value" "ERJ-3BWFR100V"
+		(property "Value" "PE0603FRF570R01L"
 			(at 212.09 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25076,7 +25749,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211101_YAGEO-PE0603FRF570R01L_C1730607.pdf"
 			(at 217.17 295.25 0)
 			(hide yes)
 			(show_name no)
@@ -25088,7 +25761,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Current sense resistor 0.1R 1% 0.33W 0603 thick film"
+		(property "Description" "Current sense resistor 10mR 1% 0.5W 0603 metal, AEC-Q200"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25111,7 +25784,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 217.17 595.25 0)
 			(hide yes)
 			(show_name no)
@@ -25123,7 +25796,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-3BWFR100V"
+		(property "Manufacturer_Part_Number" "PE0603FRF570R01L"
 			(at 217.17 695.25 0)
 			(hide yes)
 			(show_name no)
@@ -25135,7 +25808,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-3BWFR100V"
+		(property "Mouser Part Number" ""
 			(at 217.17 795.25 0)
 			(hide yes)
 			(show_name no)
@@ -25147,7 +25820,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3BWFR100V?qs=ob%252BdNz2%252BYEjAMRvh2K5PaA%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 217.17 895.25 0)
 			(hide yes)
 			(show_name no)
@@ -25159,7 +25832,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "ERJ-3BWFR100V"
+		(property "Arrow Part Number" ""
 			(at 217.17 995.25 0)
 			(hide yes)
 			(show_name no)
@@ -25171,7 +25844,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj3bwfr100v/panasonic?region=nac"
+		(property "Arrow Price/Stock" ""
 			(at 217.17 1095.25 0)
 			(hide yes)
 			(show_name no)
@@ -25183,7 +25856,7 @@
 				(justify left top)
 			)
 		)
-		(property "LCSC" "C2074922"
+		(property "LCSC" "C1730607"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25194,7 +25867,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Notes" "Current sense 0.1R 1% 0.33W 0603 (R39, short courtyard between R40 and TP5). No approved alternate."
+		(property "Sourcing_Notes" "Current sense 10mR 1% 0.5W metal 0603, AEC-Q200, -55..170C (R39, DCDC_DIG -> VDD_SOC_IN, <=850mA). Kept on the short ERJ3 0603 land (courtyard between R40 and TP5). Conditional alt ROHM PMR03EZPFU10L0 (C308571, AEC-Q200 10mR 1% 0.25W): standard 0603 land, check courtyard."
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)

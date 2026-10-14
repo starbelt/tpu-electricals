@@ -6284,6 +6284,18 @@
 		(uuid "055c7f6c-9e6f-4ac5-b0f4-9ccb91ae5d51")
 	)
 	(rectangle
+		(start 93.98 73.66)
+		(end 157.48 115.57)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "079d71c5-30b7-42e2-8ca7-0610aa1fb871")
+	)
+	(rectangle
 		(start 184.912 107.95)
 		(end 204.978 121.92)
 		(stroke
@@ -6459,7 +6471,7 @@
 	)
 	(rectangle
 		(start 13.97 73.66)
-		(end 157.48 115.57)
+		(end 92.71 115.57)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6528,6 +6540,16 @@
 			)
 		)
 		(uuid "33821298-2fc0-4169-aee0-432b16e4d16b")
+	)
+	(text "UART and SWD Protection"
+		(exclude_from_sim no)
+		(at 107.442 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35146848-f4af-44ca-9dd9-1d0d6bd3eb5a")
 	)
 	(text "0.9pF"
 		(exclude_from_sim no)
@@ -6612,6 +6634,17 @@
 			)
 		)
 		(uuid "957242d5-3d75-478f-b913-94fd74b2a9d9")
+	)
+	(text "NXP Runs these at 1.8V vs Starbelts ST and NRF boards run 3.3V.\nThese resistors allow our UART/SWD to be driven at 3.3V. You may not\nneed these for your own design.\n"
+		(exclude_from_sim no)
+		(at 95.25 112.268 0)
+		(effects
+			(font
+				(size 0.9398 0.9398)
+			)
+			(justify left)
+		)
+		(uuid "958f1323-fab8-4150-b522-25c0c3965f15")
 	)
 	(text "Muxable pins broken out.\nDefault mode is LPSPI"
 		(exclude_from_sim no)
@@ -6724,13 +6757,13 @@
 		(uuid "3b3d2459-26e7-4111-a4e1-ab650f71b62f")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 78.74 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441e07ee-092d-468e-a854-74ae8f78f9b1")
 	)
 	(junction
-		(at 105.41 96.52)
+		(at 74.93 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4afc30ee-2b4f-4ba5-ab75-1a1867507bee")
@@ -6822,7 +6855,7 @@
 		(uuid "14047756-a43f-4f8f-adf1-55681cafd4ea")
 	)
 	(no_connect
-		(at 105.41 93.98)
+		(at 74.93 92.71)
 		(uuid "1d7cae18-5662-4963-9110-6c75722a164d")
 	)
 	(no_connect
@@ -6866,7 +6899,7 @@
 		(uuid "7be6a693-4a6b-4b60-993b-4e1ac40f2cd2")
 	)
 	(no_connect
-		(at 105.41 83.82)
+		(at 74.93 82.55)
 		(uuid "8320592d-2b93-4bb9-80fa-bd4fc4ce2007")
 	)
 	(no_connect
@@ -6886,7 +6919,7 @@
 		(uuid "9f048ea6-613d-481d-8421-d80ce39a8a32")
 	)
 	(no_connect
-		(at 62.23 93.98)
+		(at 31.75 92.71)
 		(uuid "a448d5c6-afb2-4f6e-9da7-3da5b5eb156b")
 	)
 	(no_connect
@@ -6910,7 +6943,7 @@
 		(uuid "b5b426bd-de70-4efc-97e3-25ff0238c14b")
 	)
 	(no_connect
-		(at 62.23 96.52)
+		(at 31.75 95.25)
 		(uuid "b6a479bc-787b-4bd9-a8c0-9ec0c65a063a")
 	)
 	(no_connect
@@ -6922,7 +6955,7 @@
 		(uuid "c3185bb9-ce61-4c76-bec6-f3fca4dd69b9")
 	)
 	(no_connect
-		(at 105.41 86.36)
+		(at 74.93 85.09)
 		(uuid "c43eee32-cc69-4413-b356-351fe3bd0486")
 	)
 	(no_connect
@@ -6977,7 +7010,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 115.57 96.52)
+			(xy 74.93 95.25) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7077,17 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 119.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241a03d3-a41a-451f-9828-b66f76056600")
-	)
-	(wire
-		(pts
-			(xy 59.69 91.44) (xy 59.69 102.87)
+			(xy 29.21 90.17) (xy 29.21 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7277,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 102.87) (xy 105.41 102.87)
+			(xy 29.21 101.6) (xy 74.93 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7297,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 109.22 91.44)
+			(xy 74.93 90.17) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7497,7 +7520,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 111.76 88.9)
+			(xy 74.93 87.63) (xy 76.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7567,7 +7590,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 62.23 86.36)
+			(xy 27.94 85.09) (xy 31.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7767,7 +7790,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 62.23 83.82)
+			(xy 27.94 82.55) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7817,7 +7840,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 102.87) (xy 105.41 96.52)
+			(xy 74.93 101.6) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7857,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 91.44) (xy 59.69 91.44)
+			(xy 31.75 90.17) (xy 29.21 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7867,7 +7890,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 62.23 88.9)
+			(xy 20.32 87.63) (xy 31.75 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7916,7 +7939,7 @@
 		(uuid "54c1505d-8693-4aa5-8466-a78faef232bb")
 	)
 	(label "USB_CC2"
-		(at 58.42 86.36 180)
+		(at 27.94 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7956,7 +7979,7 @@
 		(uuid "cb20061e-18be-4ea0-8fdc-afbece24e454")
 	)
 	(label "USB_CC1"
-		(at 58.42 83.82 180)
+		(at 27.94 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8131,7 +8154,7 @@
 	)
 	(global_label "USB_OTG1_ID"
 		(shape output)
-		(at 111.76 88.9 0)
+		(at 76.2 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8141,7 +8164,7 @@
 		)
 		(uuid "610a05b6-6c5d-4e9c-9314-d52c954c6556")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1428 88.9 0)
+			(at 91.5828 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10697,7 +10720,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:04023C104JAT2A")
-		(at 115.57 109.22 90)
+		(at 78.74 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10707,7 +10730,7 @@
 		(dnp no)
 		(uuid "5261b570-b911-41fd-a50b-bb1db204035c")
 		(property "Reference" "C98"
-			(at 121.158 101.6 90)
+			(at 84.328 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10718,7 +10741,7 @@
 			)
 		)
 		(property "Value" "04023C104JAT2A"
-			(at 121.666 114.3 0)
+			(at 84.836 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10729,7 +10752,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC1005X56N"
-			(at 211.76 100.33 0)
+			(at 174.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10741,7 +10764,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0025936016/AVXC-S-A0025936026-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at 311.76 100.33 0)
+			(at 274.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10753,7 +10776,7 @@
 			)
 		)
 		(property "Description" "MLCC 0.1uF 25V X7R 5% 0402"
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10764,7 +10787,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 511.76 100.33 0)
+			(at 474.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,7 +10799,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 611.76 100.33 0)
+			(at 574.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10788,7 +10811,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "04023C104JAT2A"
-			(at 711.76 100.33 0)
+			(at 674.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10800,7 +10823,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 811.76 100.33 0)
+			(at 774.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10812,7 +10835,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 911.76 100.33 0)
+			(at 874.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10824,7 +10847,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 1011.76 100.33 0)
+			(at 974.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +10859,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1111.76 100.33 0)
+			(at 1074.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10848,7 +10871,7 @@
 			)
 		)
 		(property "LCSC" "C2169023"
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +10882,7 @@
 			)
 		)
 		(property "LCSC_Alt" "C343042"
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +10893,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "100nF 25V X7R 5% 0402 decoupling, 37 per board; LCSC stock is thin. Approved alt TDK CGA2B3X7R1H104KT0Y0F (C343042, 50V X7R AEC-Q200). Any 0402 100nF >=25V X7R is acceptable."
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11051,7 +11074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 91.44 0)
+		(at 78.74 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11061,7 +11084,7 @@
 		(dnp no)
 		(uuid "58857378-a554-438f-834e-b9eebc9e3caa")
 		(property "Reference" "#PWR0207"
-			(at 109.22 97.79 0)
+			(at 78.74 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11072,7 +11095,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 94.996 0)
+			(at 78.74 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11082,7 +11105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 91.44 0)
+			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11093,7 +11116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 91.44 0)
+			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,7 +11127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 91.44 0)
+			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11206,7 +11229,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:CRCW040210K0FKEE")
-		(at 50.8 88.9 270)
+		(at 20.32 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11216,7 +11239,7 @@
 		(dnp no)
 		(uuid "5a3c1ce9-1ff1-4249-809e-7b4df43c785d")
 		(property "Reference" "R48"
-			(at 52.07 93.218 90)
+			(at 21.59 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11227,7 +11250,7 @@
 			)
 		)
 		(property "Value" "CRCW040210K0FKEE"
-			(at 46.99 87.63 0)
+			(at 16.51 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11238,7 +11261,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at -45.39 102.87 0)
+			(at -75.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11273,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0025774705/VISH-S-A0025774688-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
-			(at -145.39 102.87 0)
+			(at -175.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,7 +11285,7 @@
 			)
 		)
 		(property "Description" "Thick film resistor 10k 1% 63mW 0402 AEC-Q200"
-			(at 50.8 88.9 0)
+			(at 20.32 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11273,7 +11296,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at -345.39 102.87 0)
+			(at -375.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11308,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -445.39 102.87 0)
+			(at -475.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,7 +11320,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW040210K0FKEE"
-			(at -545.39 102.87 0)
+			(at -575.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11309,7 +11332,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -645.39 102.87 0)
+			(at -675.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11321,7 +11344,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -745.39 102.87 0)
+			(at -775.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11356,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -845.39 102.87 0)
+			(at -875.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +11368,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -945.39 102.87 0)
+			(at -975.87 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11380,7 @@
 			)
 		)
 		(property "LCSC" "C843837"
-			(at 50.8 88.9 0)
+			(at 20.32 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11391,7 @@
 			)
 		)
 		(property "LCSC_Alt" "C71617"
-			(at 50.8 88.9 0)
+			(at 20.32 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11379,7 +11402,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "10k 1% 0402 AEC-Q200. Approved alt CRCW040210K0FKED (C71617): packaging code only."
-			(at 50.8 88.9 0)
+			(at 20.32 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +13732,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VUSB")
-		(at 119.38 96.52 270)
+		(at 82.55 95.25 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13720,7 +13743,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cdd2bc9-24ee-4926-9911-7b7dce6f7970")
 		(property "Reference" "#PWR0211"
-			(at 119.38 96.266 0)
+			(at 82.55 94.996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,7 +13754,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 123.19 96.5199 90)
+			(at 86.36 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13742,7 +13765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 96.52 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +13776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 96.52 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13764,7 +13787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 96.52 0)
+			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13788,7 +13811,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:PTN5150AHXMP")
-		(at 62.23 83.82 0)
+		(at 31.75 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13798,7 +13821,7 @@
 		(dnp no)
 		(uuid "a1b6582d-0680-4963-86c7-ebc38b90bba4")
 		(property "Reference" "IC8"
-			(at 68.834 80.01 0)
+			(at 38.354 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13808,7 +13831,7 @@
 			)
 		)
 		(property "Value" "PTN5150AHXMP"
-			(at 74.676 100.584 0)
+			(at 44.196 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13818,7 +13841,7 @@
 			)
 		)
 		(property "Footprint" "footprints:PTN5150AHXMP"
-			(at 101.6 178.74 0)
+			(at 71.12 177.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13830,7 +13853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/products/PTN5150?linkline=Data%20Sheet#documentation"
-			(at 101.6 278.74 0)
+			(at 71.12 277.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13842,7 +13865,7 @@
 			)
 		)
 		(property "Description" "USB Controller USB Interface 12-X2QFN (1.6x1.6), 2.7V ~ 5.5V , 100 uA , -40C ~ 85C"
-			(at 62.23 83.82 0)
+			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13853,7 +13876,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 101.6 478.74 0)
+			(at 71.12 477.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13865,7 +13888,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 101.6 578.74 0)
+			(at 71.12 577.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13877,7 +13900,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTN5150AHXMP"
-			(at 101.6 678.74 0)
+			(at 71.12 677.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13889,7 +13912,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-PTN5150AHXMP"
-			(at 101.6 778.74 0)
+			(at 71.12 777.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13901,7 +13924,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PTN5150AHXMP?qs=GIi83qBHgikdzCs4%252ByCwLg%3D%3D"
-			(at 101.6 878.74 0)
+			(at 71.12 877.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13913,7 +13936,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PTN5150AHXMP"
-			(at 101.6 978.74 0)
+			(at 71.12 977.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13925,7 +13948,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ptn5150ahxmp/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 101.6 1078.74 0)
+			(at 71.12 1077.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13937,7 +13960,7 @@
 			)
 		)
 		(property "LCSC" "C2651889"
-			(at 62.23 83.82 0)
+			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +13971,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "USB Type-C CC logic, X2QFN-12 1.6x1.6mm. No approved alternate."
-			(at 62.23 83.82 0)
+			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +15994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 106.68 0)
+		(at 20.32 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15981,7 +16004,7 @@
 		(dnp no)
 		(uuid "d941ef98-79c0-4a2f-bd84-e2ba8d180381")
 		(property "Reference" "#PWR0194"
-			(at 50.8 113.03 0)
+			(at 20.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +16015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 110.236 0)
+			(at 20.32 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16002,7 +16025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 106.68 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16013,7 +16036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 106.68 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16024,7 +16047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 106.68 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16125,7 +16148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 109.22 0)
+		(at 78.74 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16135,7 +16158,7 @@
 		(dnp no)
 		(uuid "e2985a83-064e-4328-8ff1-c3d7b39f5c55")
 		(property "Reference" "#PWR0210"
-			(at 115.57 115.57 0)
+			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16146,7 +16169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 112.776 0)
+			(at 78.74 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16156,7 +16179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16167,7 +16190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16178,7 +16201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 109.22 0)
+			(at 78.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
