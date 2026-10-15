@@ -5,218 +5,6 @@
 	(uuid "4481befa-79db-4c04-a624-c6e49af917c9")
 	(paper "USLetter")
 	(lib_symbols
-		(symbol "sb-tpu:CRCW04021K00FKED"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CRCW04021K00FKED"
-				(at 13.97 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "footprints:CRCW0402200KFKED"
-				(at 13.97 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
-				(at 13.97 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.6"
-				(at 13.97 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
-				(at 13.97 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "71-CRCW04021K00FKED"
-				(at 13.97 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 13.97 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 13.97 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 13.97 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "LCSC" "C71623"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRCW04021K00FKED_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2993,6 +2781,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:CRCW04021K00FKED"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CRCW04021K00FKED"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:CRCW0402200KFKED"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.6"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "71-CRCW04021K00FKED"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C71623"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRCW04021K00FKED_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:DLW21HN900SQ2L"
 			(pin_names
 				(offset 1.016)
@@ -4710,6 +4710,255 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:GRM31CZ71C226ME15L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM31CZ71C226ME15L"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:GRM31x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CZ71C226ME15-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC 22uF 16V X7R 20% 1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.25"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM31CZ71C226ME15L"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM31CZ71C226ME5L"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM31CZ71C226ME5L"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "GRM31CZ71C226ME15L"
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm31cz71c226me15l/murata-manufacturing.html?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C909845"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM31CZ71C226ME15L_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:LTST-C190AKT"
 			(pin_names
 				(offset 1.016)
@@ -5770,6 +6019,450 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sb-tpu:PTVS5V0S1UR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS5V0S1UR"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:Nexperia_CFP3_SOD-123W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0S1UR.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TVS diode, unidirectional, VRWM 5 V, VBR 6.4 V min, 400 W (10/1000 us), IR 5 uA max, SOD-123W (CFP3)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTVS5V0S1UR,115"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Part Number" "771-PTVS5V0S1UR115"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C478011"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTVS5V0S1UR_0_1"
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS5V0S1UR_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sb-tpu:SR732BTTDR330F"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SR732BTTDR330F"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "footprints:R_1206_3216Metric"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C186609.html"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Current-sense resistor 0.33R 1% 0.33W 1206, metal glaze thick film, AEC-Q200, -55..155C (VBUS snubber)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.6"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer Electronics"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SR732BTTDR330F"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "660-SR732BTTDR330F"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSC" "C186609"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SR732BTTDR330F_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sb-tpu:TPD2E009DBZR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6508,8 +7201,8 @@
 		(uuid "079d71c5-30b7-42e2-8ca7-0610aa1fb871")
 	)
 	(rectangle
-		(start 184.912 107.95)
-		(end 204.978 121.92)
+		(start 184.912 105.41)
+		(end 204.978 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -6520,9 +7213,9 @@
 		(uuid "0e70482a-f49b-4695-8989-921c6aeb9ef3")
 	)
 	(arc
-		(start 213.61 122.684)
-		(mid 212.712 122.312)
-		(end 212.34 121.414)
+		(start 213.356 120.144)
+		(mid 212.458 119.772)
+		(end 212.086 118.874)
 		(stroke
 			(width 0)
 			(type default)
@@ -6546,8 +7239,8 @@
 		(uuid "1aab07cf-e176-4b95-b0d7-6f91db22c4fb")
 	)
 	(rectangle
-		(start 194.818 126.238)
-		(end 220.218 131.572)
+		(start 195.072 125.222)
+		(end 220.472 130.556)
 		(stroke
 			(width 0)
 			(type default)
@@ -6571,9 +7264,9 @@
 		(uuid "3074f046-990f-4d75-b828-011a038d00bc")
 	)
 	(arc
-		(start 246.126 89.408)
-		(mid 246.498 88.51)
-		(end 247.396 88.138)
+		(start 243.84 89.662)
+		(mid 244.212 88.764)
+		(end 245.11 88.392)
 		(stroke
 			(width 0)
 			(type default)
@@ -6608,9 +7301,9 @@
 		(uuid "5628dbe4-9a0f-409d-b0b3-5be72a2327fa")
 	)
 	(arc
-		(start 224.786 121.414)
-		(mid 224.4133 122.3107)
-		(end 223.516 122.684)
+		(start 224.786 118.874)
+		(mid 224.4133 119.7707)
+		(end 223.516 120.144)
 		(stroke
 			(width 0)
 			(type default)
@@ -6657,9 +7350,9 @@
 		(uuid "ae01d6df-d80e-4446-a171-4f0fe7adf10b")
 	)
 	(arc
-		(start 223.516 122.684)
-		(mid 222.618 122.312)
-		(end 222.246 121.414)
+		(start 223.516 120.144)
+		(mid 222.618 119.772)
+		(end 222.246 118.874)
 		(stroke
 			(width 0)
 			(type default)
@@ -6670,8 +7363,8 @@
 		(uuid "b43ccf8a-bebf-4ff8-b417-98f4ea688a4f")
 	)
 	(rectangle
-		(start 222.25 123.444)
-		(end 234.188 128.778)
+		(start 222.25 120.904)
+		(end 234.188 126.238)
 		(stroke
 			(width 0)
 			(type default)
@@ -6694,9 +7387,9 @@
 		(uuid "c239dcd3-58a2-4369-8b67-5742d2067cda")
 	)
 	(arc
-		(start 222.246 121.414)
-		(mid 221.874 122.312)
-		(end 220.976 122.684)
+		(start 221.992 118.874)
+		(mid 221.62 119.772)
+		(end 220.722 120.144)
 		(stroke
 			(width 0)
 			(type default)
@@ -6707,9 +7400,9 @@
 		(uuid "d2c5ec25-8848-44c3-a2c2-58e84db1687f")
 	)
 	(arc
-		(start 247.396 94.488)
-		(mid 246.498 94.116)
-		(end 246.126 93.218)
+		(start 245.11 94.742)
+		(mid 244.212 94.37)
+		(end 243.84 93.472)
 		(stroke
 			(width 0)
 			(type default)
@@ -6721,7 +7414,7 @@
 	)
 	(text "0603\n4.7µF\n16V"
 		(exclude_from_sim no)
-		(at 73.66 45.466 0)
+		(at 68.58 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,9 +7425,33 @@
 		)
 		(uuid "093c39b7-5246-4b42-b864-b79d690058dc")
 	)
+	(text "MCU side"
+		(exclude_from_sim no)
+		(at 110.49 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c4bd5ef-a76d-4bdd-bec4-789e47c1e81e")
+	)
+	(text "0.33Ω\n1206"
+		(exclude_from_sim no)
+		(at 92.964 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2cdf783d-a56a-44b4-9d68-81ce9c37d5e0")
+	)
 	(text "UART Console Not\nAvailable During\nBoot. Attempts to\nconnect via UART \nduring boot may \ninterrupt boot seq."
 		(exclude_from_sim no)
-		(at 185.928 115.316 0)
+		(at 185.928 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6828,7 +7545,7 @@
 	)
 	(text "NRST\nFloats High"
 		(exclude_from_sim no)
-		(at 222.758 126.492 0)
+		(at 222.758 123.952 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,9 +7575,33 @@
 		)
 		(uuid "958f1323-fab8-4150-b522-25c0c3965f15")
 	)
+	(text "1206\n22µF\n16V"
+		(exclude_from_sim no)
+		(at 87.63 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a0fb31e0-772e-4640-bcb5-85dade7d4619")
+	)
+	(text "VBUS hot-plug damping: R70 + C108/C109\n(GRM31CZ71C226ME15L) are an RC snubber,\nR ~ cable Z0. Hot plugging a dumb usb host\ncould inrush 7-8 V, over the 6 V abs max \nof U2/IC8/U3. Could fail boot, \ncould brick the usb path.\nD13 (TVS) is for ESD/surge only."
+		(exclude_from_sim no)
+		(at 108.966 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac115dba-77c0-44a2-81b1-669d336d7318")
+	)
 	(text "Muxable pins broken out.\nDefault mode is LPSPI"
 		(exclude_from_sim no)
-		(at 195.326 129.032 0)
+		(at 195.58 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6868,6 +7609,17 @@
 			(justify left)
 		)
 		(uuid "b01d7ef4-9601-497c-99d7-35b9d763f2a6")
+	)
+	(text "Header side"
+		(exclude_from_sim no)
+		(at 135.89 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b473d0fd-8b10-4eb2-b7da-cf5136a3ae69")
 	)
 	(text "USB CONTROLLER"
 		(exclude_from_sim no)
@@ -6899,6 +7651,19 @@
 		)
 		(uuid "e01bde00-1262-4e83-bbd7-78e7afabc4b1")
 	)
+	(text "1206\n22µF\n16V"
+		(exclude_from_sim no)
+		(at 78.74 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e3016cf0-7583-47fb-931c-91e4135bba99")
+	)
 	(text "LEDS\n\n"
 		(exclude_from_sim no)
 		(at 161.798 16.764 0)
@@ -6921,10 +7686,22 @@
 		(uuid "f1f7cf94-1763-4e4f-9767-ecff7fcc41fe")
 	)
 	(junction
+		(at 86.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "040e800d-34fb-4a8e-a5fb-ce7d865d464e")
+	)
+	(junction
 		(at 71.12 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0518a518-5989-4ef4-ad75-3c75912490ec")
+	)
+	(junction
+		(at 77.47 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05381449-8b18-4ca3-a041-003cb424753e")
 	)
 	(junction
 		(at 133.35 154.94)
@@ -7023,13 +7800,13 @@
 		(uuid "c78a5503-e6a5-4184-9af1-af86561658a6")
 	)
 	(junction
-		(at 72.39 34.29)
+		(at 67.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde15ec6-2b0e-42d9-93c4-e65cb4aa308c")
 	)
 	(junction
-		(at 63.5 52.07)
+		(at 58.42 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edc94cad-f485-4f90-a3e4-2c81a87e8dce")
@@ -7055,15 +7832,15 @@
 		(uuid "02ec26e9-3157-4f7c-a5a7-35389cb19cdc")
 	)
 	(no_connect
-		(at 198.12 105.41)
+		(at 198.12 102.87)
 		(uuid "09153a28-bf64-461a-b45e-33e7b69b0558")
 	)
 	(no_connect
-		(at 33.02 39.37)
+		(at 27.94 36.83)
 		(uuid "11fdf596-3bc2-460a-9bf7-65b3f9f037b7")
 	)
 	(no_connect
-		(at 203.2 105.41)
+		(at 203.2 102.87)
 		(uuid "14047756-a43f-4f8f-adf1-55681cafd4ea")
 	)
 	(no_connect
@@ -7151,7 +7928,7 @@
 		(uuid "b338867e-2bd7-48dc-9b73-f6c6b73997a8")
 	)
 	(no_connect
-		(at 205.74 105.41)
+		(at 205.74 102.87)
 		(uuid "b5b426bd-de70-4efc-97e3-25ff0238c14b")
 	)
 	(no_connect
@@ -7159,7 +7936,7 @@
 		(uuid "b6a479bc-787b-4bd9-a8c0-9ec0c65a063a")
 	)
 	(no_connect
-		(at 193.04 105.41)
+		(at 193.04 102.87)
 		(uuid "baa6c391-cb72-4730-8c5f-84b345b14da9")
 	)
 	(no_connect
@@ -7175,24 +7952,34 @@
 		(uuid "c48dfd1b-c7a0-408f-9025-eed70566c8a9")
 	)
 	(no_connect
-		(at 195.58 105.41)
+		(at 195.58 102.87)
 		(uuid "e71c9d54-015c-4452-b791-5e746c95e00e")
 	)
 	(no_connect
-		(at 190.5 105.41)
+		(at 190.5 102.87)
 		(uuid "e9bd00b0-a42b-4543-abcd-d147115fcc38")
 	)
 	(no_connect
-		(at 200.66 105.41)
+		(at 200.66 102.87)
 		(uuid "ea9f3e88-c9ff-4d5b-98be-e3c8601e649c")
 	)
 	(no_connect
-		(at 33.02 46.99)
+		(at 27.94 44.45)
 		(uuid "fcb9927e-ff5f-4d34-93fe-b4e6f61c3d25")
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 72.39 34.29)
+			(xy 110.49 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01db7454-3634-4887-8c58-0689498e5a50")
+	)
+	(wire
+		(pts
+			(xy 67.31 29.21) (xy 67.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7232,7 +8019,7 @@
 	)
 	(polyline
 		(pts
-			(xy 245.364 91.186) (xy 246.126 91.186)
+			(xy 243.078 91.44) (xy 243.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7252,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 34.29) (xy 72.39 34.29)
+			(xy 58.42 31.75) (xy 67.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7269,6 +8056,16 @@
 			(type default)
 		)
 		(uuid "17cfbc65-0ae9-4afe-b3ba-3d80da7a8119")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193e599f-14f8-4506-9c0d-c9d4ce4df42e")
 	)
 	(wire
 		(pts
@@ -7312,7 +8109,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 122.682) (xy 213.61 122.684)
+			(xy 220.726 120.142) (xy 213.356 120.144)
 		)
 		(stroke
 			(width 0)
@@ -7332,6 +8129,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 106.68) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297ea722-68c3-44df-9b93-05320dc6f51e")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1577f-e982-4871-ab74-357c8696bf58")
+	)
+	(wire
+		(pts
 			(xy 58.42 186.69) (xy 58.42 182.88)
 		)
 		(stroke
@@ -7342,7 +8159,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 106.68) (xy 218.44 105.41)
+			(xy 218.44 104.14) (xy 218.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7372,7 +8189,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45) (xy 33.02 44.45)
+			(xy 132.08 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348ce524-5882-449a-8858-325c4f3123f8")
+	)
+	(wire
+		(pts
+			(xy 25.4 41.91) (xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7392,6 +8219,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406090d3-6eaa-4157-992f-25311e872bbb")
+	)
+	(wire
+		(pts
 			(xy 163.83 129.54) (xy 163.83 132.08)
 		)
 		(stroke
@@ -7399,6 +8236,16 @@
 			(type default)
 		)
 		(uuid "40b1260b-7a80-4d50-850c-856fffa05070")
+	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 86.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4239ada8-beb9-40b2-8333-34bbf7252894")
 	)
 	(wire
 		(pts
@@ -7422,7 +8269,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 31.75) (xy 101.6 31.75)
+			(xy 96.52 31.75) (xy 101.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7442,7 +8289,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 105.41) (xy 182.88 106.68)
+			(xy 182.88 102.87) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7472,7 +8319,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 49.53) (xy 63.5 52.07)
+			(xy 58.42 46.99) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7482,7 +8329,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 105.41) (xy 182.88 105.41)
+			(xy 187.96 102.87) (xy 182.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7522,7 +8369,7 @@
 	)
 	(polyline
 		(pts
-			(xy 245.364 107.95) (xy 245.364 91.186)
+			(xy 243.078 107.95) (xy 243.078 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7552,7 +8399,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 220.98 105.41)
+			(xy 220.98 104.14) (xy 220.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7562,7 +8409,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 213.36 105.41)
+			(xy 213.36 104.14) (xy 213.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7582,7 +8429,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 126.238) (xy 207.01 124.714)
+			(xy 207.264 125.222) (xy 207.264 123.952)
 		)
 		(stroke
 			(width 0)
@@ -7642,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 105.41) (xy 226.06 105.41)
+			(xy 231.14 102.87) (xy 226.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7679,6 +8526,16 @@
 			(type default)
 		)
 		(uuid "8a84377f-eaf9-457f-9206-8cfbadd01a5a")
+	)
+	(wire
+		(pts
+			(xy 77.47 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b970a4e-7c87-48a5-8fd2-b055ff3a28ce")
 	)
 	(wire
 		(pts
@@ -7752,7 +8609,7 @@
 	)
 	(polyline
 		(pts
-			(xy 217.678 124.714) (xy 217.678 122.682)
+			(xy 216.916 123.952) (xy 216.916 120.142)
 		)
 		(stroke
 			(width 0)
@@ -7762,7 +8619,7 @@
 	)
 	(polyline
 		(pts
-			(xy 207.01 124.714) (xy 217.678 124.714)
+			(xy 207.264 123.952) (xy 216.916 123.952)
 		)
 		(stroke
 			(width 0)
@@ -7802,6 +8659,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a211c3ef-ea54-45b0-b113-19daa4af1097")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40fcc88-cb59-4f8b-b616-dcc427a627de")
+	)
+	(wire
+		(pts
 			(xy 27.94 85.09) (xy 31.75 85.09)
 		)
 		(stroke
@@ -7812,7 +8689,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.126 93.218) (xy 246.126 89.408)
+			(xy 243.84 93.472) (xy 243.84 89.662)
 		)
 		(stroke
 			(width 0)
@@ -7832,13 +8709,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 106.68) (xy 215.9 105.41)
+			(xy 215.9 104.14) (xy 215.9 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0dd46c6-52d0-45b3-9683-33e8afd43949")
+	)
+	(wire
+		(pts
+			(xy 67.31 31.75) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19d8e15-458b-4ea7-8287-fad2be074f44")
 	)
 	(wire
 		(pts
@@ -7852,7 +8739,7 @@
 	)
 	(polyline
 		(pts
-			(xy 223.52 123.444) (xy 223.52 122.682)
+			(xy 223.52 120.904) (xy 223.52 120.142)
 		)
 		(stroke
 			(width 0)
@@ -7862,7 +8749,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 41.91) (xy 33.02 41.91)
+			(xy 25.4 39.37) (xy 27.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7922,7 +8809,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 33.02 36.83)
+			(xy 25.4 34.29) (xy 27.94 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7950,6 +8837,16 @@
 		)
 		(uuid "ccb1f742-4da6-4039-8f0f-c683f9fd1d07")
 	)
+	(polyline
+		(pts
+			(xy 194.564 120.904) (xy 194.564 123.444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfabd7a-875e-4bf9-9ab4-84e6cbd96e7f")
+	)
 	(wire
 		(pts
 			(xy 133.35 187.96) (xy 133.35 189.23)
@@ -7972,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 49.53) (xy 33.02 49.53)
+			(xy 25.4 46.99) (xy 27.94 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8112,7 +9009,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.564 121.92) (xy 194.564 123.444)
+			(xy 194.564 119.38) (xy 194.564 120.904)
 		)
 		(stroke
 			(width 0)
@@ -8122,7 +9019,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 111.76) (xy 223.52 105.41)
+			(xy 223.52 109.22) (xy 223.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8141,7 +9038,7 @@
 		(uuid "fe7222aa-49a8-4ffa-9b44-c4851198da6e")
 	)
 	(label "USB_P"
-		(at 30.48 44.45 180)
+		(at 25.4 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8161,7 +9058,7 @@
 		(uuid "7dc5d525-5d96-43a3-898a-ca70e59d249d")
 	)
 	(label "USB_CC1"
-		(at 30.48 36.83 180)
+		(at 25.4 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8171,7 +9068,7 @@
 		(uuid "acc3f118-97b7-4bd2-b9ea-379e65294c92")
 	)
 	(label "USB_P"
-		(at 97.79 31.75 180)
+		(at 96.52 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8181,7 +9078,7 @@
 		(uuid "c8716081-a2c8-45fa-8633-bb43c91058f6")
 	)
 	(label "USB_CC2"
-		(at 30.48 49.53 180)
+		(at 25.4 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8211,7 +9108,7 @@
 		(uuid "db6117a7-ff07-4ca8-b2a2-446e5cad5da8")
 	)
 	(label "USB_N"
-		(at 30.48 41.91 180)
+		(at 25.4 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8219,6 +9116,78 @@
 			(justify right bottom)
 		)
 		(uuid "fd4583a2-6647-405a-887d-ba64cb01e1df")
+	)
+	(global_label "LPUART6_RXD"
+		(shape bidirectional)
+		(at 110.49 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "237e62e7-e60e-4bb5-b04f-3cf2b5498529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 110.49 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24cfb0b8-c36f-4460-9e76-bd1135fd99d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWCLK_J7"
+		(shape input)
+		(at 135.89 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31c1e932-41b5-485f-912d-c77d69630683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "DA_nONKEY"
 		(shape output)
@@ -8244,9 +9213,33 @@
 			)
 		)
 	)
+	(global_label "LPUART6_TXD_J5"
+		(shape bidirectional)
+		(at 135.89 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d5e508a-eec0-43f6-bdc6-e0deb7417f5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LPUART6_RXD_J5"
 		(shape bidirectional)
-		(at 208.28 105.41 270)
+		(at 208.28 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8256,7 +9249,7 @@
 		)
 		(uuid "3f14147b-4d27-445b-81bf-0df1bb9d4237")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 122.3879 90)
+			(at 208.28 119.8479 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8390,7 +9383,7 @@
 	)
 	(global_label "LPSPI6_CS0"
 		(shape bidirectional)
-		(at 213.36 106.68 270)
+		(at 213.36 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8400,7 +9393,7 @@
 		)
 		(uuid "7dadb07c-c819-4429-b455-9901468b7357")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 122.025 90)
+			(at 213.36 119.485 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +9407,7 @@
 	)
 	(global_label "POR_B"
 		(shape output)
-		(at 223.52 111.76 270)
+		(at 223.52 109.22 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8424,7 +9417,7 @@
 		)
 		(uuid "93ef1c13-3521-4c01-aca8-564e0435fa8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 120.8533 90)
+			(at 223.52 118.3133 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +9431,7 @@
 	)
 	(global_label "LPUART6_TXD_J5"
 		(shape bidirectional)
-		(at 210.82 105.41 270)
+		(at 210.82 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8448,7 +9441,7 @@
 		)
 		(uuid "9c49169c-0c7c-4a10-9c64-6af4cf2891be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 122.0855 90)
+			(at 210.82 119.5455 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,6 +9474,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LPUART6_RXD_J5"
+		(shape bidirectional)
+		(at 135.89 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9cb3448-c2d4-4abc-bd10-89f26625cde1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8534,7 +9551,7 @@
 	)
 	(global_label "LPSPI6_SDI"
 		(shape bidirectional)
-		(at 220.98 106.68 270)
+		(at 220.98 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8544,7 +9561,7 @@
 		)
 		(uuid "c29839ce-7be5-4d64-aae7-304581a71423")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 121.4203 90)
+			(at 220.98 118.8803 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8582,7 +9599,7 @@
 	)
 	(global_label "LPSPI6_SDO"
 		(shape bidirectional)
-		(at 218.44 106.68 270)
+		(at 218.44 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8592,7 +9609,7 @@
 		)
 		(uuid "d41beb4e-75be-448a-92df-00d89c6c91b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 122.146 90)
+			(at 218.44 119.606 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,6 +9618,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SWDIO_J7"
+		(shape input)
+		(at 135.89 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8acb41f-a91e-42ee-92bd-a98945cc4194")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8628,9 +9669,57 @@
 			)
 		)
 	)
+	(global_label "LPUART6_TXD"
+		(shape bidirectional)
+		(at 110.49 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc48c8bb-45dc-4306-a1a2-c26c8209c740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 110.49 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0c53a3b-6746-4b53-ac25-51600e96f7a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LPSPI6_SCK"
 		(shape bidirectional)
-		(at 215.9 106.68 270)
+		(at 215.9 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8640,7 +9729,7 @@
 		)
 		(uuid "f8f89e87-8136-4f7f-aaa2-223b4dcdeef8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 122.0855 90)
+			(at 215.9 119.5455 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,6 +9762,204 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW04021K00FKED")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00db1db2-d558-4fe5-b47d-745128119e69")
+		(property "Reference" "R66"
+			(at 123.19 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW04021K00FKED"
+			(at 123.19 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 171.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
+			(at 271.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 471.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 571.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
+			(at 671.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04021K00FKED"
+			(at 771.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 871.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 971.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1071.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C71623"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C4269559"
+			(at 114.3 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f0b0cf5-e72d-4e1d-afd2-cc8c9e02409e")
+		)
+		(pin "1"
+			(uuid "25231d11-da4e-4c81-9cb0-0e5becee2cda")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R66")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10313,6 +11600,204 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:CRCW04021K00FKED")
+		(at 114.3 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37304636-b46c-49d8-bee6-f645733e1ebe")
+		(property "Reference" "R67"
+			(at 123.19 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW04021K00FKED"
+			(at 123.19 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 171.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
+			(at 271.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 471.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 571.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
+			(at 671.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04021K00FKED"
+			(at 771.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 871.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 971.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1071.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C71623"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C4269559"
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7323722a-787f-4680-96f6-cb26f28eea9c")
+		)
+		(pin "1"
+			(uuid "173bcd60-af2a-4a63-ba7e-44e03b2853f1")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 186.69 0)
 		(unit 1)
@@ -10573,6 +12058,204 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:CRCW04021K00FKED")
+		(at 114.3 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f21189e-d9bb-432b-bde3-d310b7a3bb15")
+		(property "Reference" "R68"
+			(at 123.19 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW04021K00FKED"
+			(at 123.19 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 171.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
+			(at 271.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 471.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 571.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
+			(at 671.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04021K00FKED"
+			(at 771.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 871.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 971.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1071.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C71623"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C4269559"
+			(at 114.3 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "386b2b3c-c406-41e7-ab9a-61fb473b76d1")
+		)
+		(pin "1"
+			(uuid "ad6e40d1-efcb-47b3-b0fc-cbc1c4a22aaf")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -11209,7 +12892,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 105.41 0)
+		(at 231.14 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11219,7 +12902,7 @@
 		(dnp no)
 		(uuid "5452ffa9-6df3-411d-b2e3-276a1d656aa9")
 		(property "Reference" "#PWR0220"
-			(at 231.14 111.76 0)
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +12913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 230.886 109.474 0)
+			(at 230.886 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11240,7 +12923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 105.41 0)
+			(at 231.14 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11251,7 +12934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 105.41 0)
+			(at 231.14 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,7 +12945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 105.41 0)
+			(at 231.14 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11356,6 +13039,84 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5911b7ac-4bd8-41b7-bc03-11dc7bd35967")
+		(property "Reference" "#PWR0250"
+			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91e574ae-637f-4d13-9b17-82769341b74e")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -11641,7 +13402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 46.99 0)
+		(at 67.31 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11652,7 +13413,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b56e306-f29b-413d-bf68-eb912bc10476")
 		(property "Reference" "#PWR0202"
-			(at 72.39 53.34 0)
+			(at 67.31 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,7 +13424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 52.07 0)
+			(at 67.31 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11673,7 +13434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 46.99 0)
+			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11684,7 +13445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 46.99 0)
+			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11695,7 +13456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 46.99 0)
+			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11900,6 +13661,195 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:GRM31CZ71C226ME15L")
+		(at 86.36 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62d1652e-6568-4b23-9cce-20f6a578448b")
+		(property "Reference" "C108"
+			(at 87.122 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "GRM31CZ71C226ME15L"
+			(at 83.82 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:GRM31x"
+			(at -9.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CZ71C226ME15-01A.pdf"
+			(at -109.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC 22uF 16V X7R 20% 1206"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.25"
+			(at -309.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -409.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM31CZ71C226ME15L"
+			(at -509.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM31CZ71C226ME5L"
+			(at -609.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM31CZ71C226ME5L"
+			(at -709.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "GRM31CZ71C226ME15L"
+			(at -809.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm31cz71c226me15l/murata-manufacturing.html?utm_currency=USD&region=nac"
+			(at -909.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C909845"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 16V X7R 20% 1206, 1.6mm tall. Substitute only 1206 22uF >=16V X7R/X7S."
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27dcea59-cefd-49eb-85f8-97f2d40bd1d3")
+		)
+		(pin "1"
+			(uuid "c3ecf7d3-3e4b-489e-a71d-e8518c4a4244")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -12170,6 +14120,194 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sb-tpu:SR732BTTDR330F")
+		(at 86.36 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e1d708d-613e-4c38-8a0b-4f6216a03dab")
+		(property "Reference" "R70"
+			(at 87.884 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SR732BTTDR330F"
+			(at 83.566 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_1206_3216Metric"
+			(at 166.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C186609.html"
+			(at 266.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Current-sense resistor 0.33R 1% 0.33W 1206, metal glaze thick film, AEC-Q200, -55..155C (VBUS snubber)"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 466.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer Electronics"
+			(at 566.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR732BTTDR330F"
+			(at 666.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "660-SR732BTTDR330F"
+			(at 766.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 866.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 966.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1066.04 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C186609"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "0.33R 1% 0.33W 1206 metal glaze, AEC-Q200, -55..155C: R70, the VBUS hot-plug snubber resistor (in series with C108/C109). Sees ~9-17A for a few us and ~0.4mJ per plug-in, no DC: keep a 1206 thick/metal-film or metal-element part, never 0805 or smaller. Value matters (0.22-0.33R, ~cable Z0). Conditional alt TA-I RL12FTNR330 (C912788, 0.5W metal film, not confirmed AEC-Q200)."
+			(at 86.36 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "005d8090-dddb-400f-9f77-41327bae6a71")
+		)
+		(pin "1"
+			(uuid "e716542b-962f-49a9-8c04-cfc9e0fecfff")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -12846,7 +14984,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:GRM188Z71C475KE21D")
-		(at 72.39 34.29 270)
+		(at 67.31 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12856,7 +14994,7 @@
 		(dnp no)
 		(uuid "847ff710-142d-4e17-8047-b3cabda0a247")
 		(property "Reference" "C97"
-			(at 73.152 37.846 90)
+			(at 68.072 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12867,7 +15005,7 @@
 			)
 		)
 		(property "Value" "GRM188Z71C475KE21D"
-			(at 69.596 46.228 0)
+			(at 64.516 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12878,7 +15016,7 @@
 			)
 		)
 		(property "Footprint" "footprints:GRM18x"
-			(at -23.8 43.18 0)
+			(at -28.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12890,7 +15028,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
-			(at -123.8 43.18 0)
+			(at -128.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12902,7 +15040,7 @@
 			)
 		)
 		(property "Description" "MLCC 4.7uF 16V X7R 10% 0603"
-			(at 72.39 34.29 0)
+			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,7 +15051,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -323.8 43.18 0)
+			(at -328.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +15063,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -423.8 43.18 0)
+			(at -428.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +15075,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188Z71C475KE21D"
-			(at -523.8 43.18 0)
+			(at -528.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12949,7 +15087,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM188Z71C475KE1D"
-			(at -623.8 43.18 0)
+			(at -628.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12961,7 +15099,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188Z71C475KE21D?qs=d0WKAl%252BL4KajNOvalhHKtQ%3D%3D"
-			(at -723.8 43.18 0)
+			(at -728.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12973,7 +15111,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM188Z71C475KE21D"
-			(at -823.8 43.18 0)
+			(at -828.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12985,7 +15123,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm188z71c475ke21d/murata-manufacturing.html?utm_currency=USD&region=nac"
-			(at -923.8 43.18 0)
+			(at -928.88 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12997,7 +15135,7 @@
 			)
 		)
 		(property "LCSC" "C389010"
-			(at 72.39 34.29 0)
+			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +15146,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "4.7uF 16V X7R 10% 0603. Substitute only 0603 4.7uF >=16V X7R/X7S."
-			(at 72.39 34.29 0)
+			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13113,7 +15251,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:CES-116-02-G-S")
-		(at 187.96 105.41 90)
+		(at 187.96 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13123,7 +15261,7 @@
 		(dnp no)
 		(uuid "92f6666e-ec8c-42c9-88e1-6c8d271e62cd")
 		(property "Reference" "J5"
-			(at 187.198 92.964 90)
+			(at 187.198 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13133,7 +15271,7 @@
 			)
 		)
 		(property "Value" "CES-116-02-G-S"
-			(at 219.456 92.964 90)
+			(at 219.456 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13143,7 +15281,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CES-116-XX-Y-S"
-			(at 282.88 88.9 0)
+			(at 282.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13155,7 +15293,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/ces-1xx-xx-x-s-xx-mkt.pdf"
-			(at 382.88 88.9 0)
+			(at 382.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13167,7 +15305,7 @@
 			)
 		)
 		(property "Description" "16 Position, .100&quot; Closed Entry Low Profile Socket Strip"
-			(at 187.96 105.41 0)
+			(at 187.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13178,7 +15316,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 582.88 88.9 0)
+			(at 582.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13190,7 +15328,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMTEC"
-			(at 682.88 88.9 0)
+			(at 682.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13202,7 +15340,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CES-116-02-G-S"
-			(at 782.88 88.9 0)
+			(at 782.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13214,7 +15352,7 @@
 			)
 		)
 		(property "Mouser Part Number" "200-CES11602GS"
-			(at 882.88 88.9 0)
+			(at 882.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13226,7 +15364,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/CES-116-02-G-S?qs=0lQeLiL1qyaUwk%252BbRriGZA%3D%3D"
-			(at 982.88 88.9 0)
+			(at 982.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13238,7 +15376,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 1082.88 88.9 0)
+			(at 1082.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13250,7 +15388,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1182.88 88.9 0)
+			(at 1182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13262,7 +15400,7 @@
 			)
 		)
 		(property "LCSC" "C5572904"
-			(at 187.96 105.41 0)
+			(at 187.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13273,7 +15411,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "16-position 2.54mm closed-entry socket strip, gold (G), through-hole stack connector. LCSC listing is usually 0 stock: consign or hand-solder. Gold must mate with gold on the stack header, so do not substitute tin (-T/-L) versions."
-			(at 187.96 105.41 0)
+			(at 187.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14022,6 +16160,204 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:CRCW04021K00FKED")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d8216b3-811d-42fb-b573-785f090fc1be")
+		(property "Reference" "R69"
+			(at 123.19 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW04021K00FKED"
+			(at 123.19 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CRCW0402200KFKED"
+			(at 171.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
+			(at 271.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 471.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 571.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
+			(at 671.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW04021K00FKED"
+			(at 771.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 871.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 971.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1071.12 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C71623"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_Alt" "C4269559"
+			(at 114.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab71a9e1-1dff-4063-812a-720b10dddd03")
+		)
+		(pin "1"
+			(uuid "40c6a77e-af68-445f-89f1-dbe78cf2002d")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sb-tpu:PTN5150AHXMP")
 		(at 31.75 82.55 0)
 		(unit 1)
@@ -14562,7 +16898,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 52.07 0)
+		(at 58.42 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14573,7 +16909,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab3f67b2-915a-4d2c-889c-7499efc46104")
 		(property "Reference" "#PWR0199"
-			(at 63.5 58.42 0)
+			(at 58.42 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14584,7 +16920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 57.15 0)
+			(at 58.42 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14594,7 +16930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 52.07 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,7 +16941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 52.07 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14616,7 +16952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 52.07 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14985,7 +17321,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:VUSB")
-		(at 72.39 31.75 0)
+		(at 67.31 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14996,7 +17332,7 @@
 		(fields_autoplaced yes)
 		(uuid "c563c8af-d9d0-4b35-98ed-437ffd0f5749")
 		(property "Reference" "#PWR0201"
-			(at 72.136 31.75 0)
+			(at 67.056 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +17343,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 72.39 26.67 0)
+			(at 67.31 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15017,7 +17353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 31.75 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +17364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 31.75 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +17375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 31.75 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,6 +17392,84 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c78425-9e0d-419e-af99-f6b864a68ee4")
+		(property "Reference" "#PWR0251"
+			(at 77.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d96ff36-f0b1-449c-861f-d723e51995ca")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -15534,7 +17948,7 @@
 	)
 	(symbol
 		(lib_id "sb-tpu:DX07S016JA1R1500")
-		(at 48.26 41.91 0)
+		(at 43.18 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15545,7 +17959,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2c6d05a-3064-4ed8-890a-9cc18b65556e")
 		(property "Reference" "J1"
-			(at 48.26 26.67 0)
+			(at 43.18 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15555,7 +17969,7 @@
 			)
 		)
 		(property "Value" "DX07S016JA1R1500"
-			(at 48.26 29.21 0)
+			(at 43.18 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15565,7 +17979,7 @@
 			)
 		)
 		(property "Footprint" "footprints:JAE_DX07S016JA1R1500"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15577,7 +17991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +18002,7 @@
 			)
 		)
 		(property "Description" "USB Type-C receptacle USB 2.0, 16-pin, right angle, SMT + THT shell"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15599,7 +18013,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15611,7 +18025,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15623,7 +18037,7 @@
 			)
 		)
 		(property "PARTREV" "1"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15635,7 +18049,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DX07S016JA1R1500/JAE+Electronics/view-part/?ref=snap"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15647,7 +18061,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JAE Electronics"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15658,7 +18072,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DX07S016JA1R1500"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15669,7 +18083,7 @@
 			)
 		)
 		(property "LCSC" "C3197885"
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15680,7 +18094,7 @@
 			)
 		)
 		(property "Sourcing_Notes" "USB-C receptacle, USB 2.0, SMT signal pins with through-hole shell tabs. JAE original only (ignore the C9900016186 placeholder)."
-			(at 48.26 41.91 0)
+			(at 43.18 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16205,6 +18619,194 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:PTVS5V0S1UR")
+		(at 77.47 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8ebe7e2-4bdc-4723-9b88-cc91a1018e45")
+		(property "Reference" "D13"
+			(at 78.994 35.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS5V0S1UR"
+			(at 74.93 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Nexperia_CFP3_SOD-123W"
+			(at -28.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0S1UR.pdf"
+			(at -128.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TVS diode unidirectional 5V 400W SOD-123W"
+			(at 67.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.0"
+			(at -328.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at -428.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTVS5V0S1UR,115"
+			(at -528.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-PTVS5V0S1UR115"
+			(at -628.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -728.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -828.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -928.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C478011"
+			(at 67.31 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "TVS 5V VRWM unidirectional, VBR 6.4V min, 400W 10/1000us, IR 5uA max, SOD-123W/CFP3 (D13, VUSB at J1). Low leakage matters: SMF5.0A-class parts leak up to 400uA at 5V. Nexperia original only (FUXINSEMI/MSKSEMI/JSMSEMI PTVS5V0S1UR clones are not approved). Conditional alt Littelfuse SMF5.0A (C151296, SOD-123FL, needs a new land, 400uA leakage)."
+			(at 77.47 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb894410-ce40-4e3a-83e4-fd1ebb4edf4c")
+		)
+		(pin "1"
+			(uuid "da3aac01-5aad-4e02-8b13-42881cec30ae")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 105.41 0)
 		(unit 1)
@@ -16353,6 +18955,84 @@
 			(project "sb-tpu"
 				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
 					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc63c8ce-f2ef-4a5b-bd32-2e3cb2af0b81")
+		(property "Reference" "#PWR0249"
+			(at 77.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fbc1dc6-da59-46e5-ab1e-f0684075129d")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -16702,7 +19382,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 106.68 0)
+		(at 182.88 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16712,7 +19392,7 @@
 		(dnp no)
 		(uuid "e6bbdbe9-6d39-4592-8c2f-36788ba7f186")
 		(property "Reference" "#PWR0216"
-			(at 182.88 113.03 0)
+			(at 182.88 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16723,7 +19403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.626 110.744 0)
+			(at 182.626 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16733,7 +19413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 106.68 0)
+			(at 182.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16744,7 +19424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 106.68 0)
+			(at 182.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16755,7 +19435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 106.68 0)
+			(at 182.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16856,6 +19536,195 @@
 		)
 	)
 	(symbol
+		(lib_id "sb-tpu:GRM31CZ71C226ME15L")
+		(at 77.47 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eafe9608-3ac9-478b-8dcc-13812b5f560b")
+		(property "Reference" "C109"
+			(at 78.232 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "GRM31CZ71C226ME15L"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:GRM31x"
+			(at -18.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CZ71C226ME15-01A.pdf"
+			(at -118.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC 22uF 16V X7R 20% 1206"
+			(at 77.47 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.25"
+			(at -318.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at -418.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM31CZ71C226ME15L"
+			(at -518.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM31CZ71C226ME5L"
+			(at -618.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM31CZ71C226ME5L"
+			(at -718.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "GRM31CZ71C226ME15L"
+			(at -818.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm31cz71c226me15l/murata-manufacturing.html?utm_currency=USD&region=nac"
+			(at -918.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC" "C909845"
+			(at 77.47 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Notes" "22uF 16V X7R 20% 1206, 1.6mm tall. Substitute only 1206 22uF >=16V X7R/X7S."
+			(at 77.47 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eee4a3ae-4714-48da-b055-8ed88fe55123")
+		)
+		(pin "1"
+			(uuid "a8006450-1ce8-4dad-94bc-0038161716d4")
+		)
+		(instances
+			(project "sb-tpu"
+				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 168.91 127 0)
 		(unit 1)
@@ -16942,1091 +19811,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04021K00FKED")
-		(at 114.3 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00db1db2-d558-4fe5-b47d-745128119e69")
-		(property "Reference" "R66"
-			(at 123.19 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW04021K00FKED"
-			(at 123.19 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 171.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
-			(at 271.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.6"
-			(at 471.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 571.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
-			(at 671.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04021K00FKED"
-			(at 771.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 871.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 971.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1071.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "LCSC" "C71623"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Alt" "C4269559"
-			(at 114.3 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f0b0cf5-e72d-4e1d-afd2-cc8c9e02409e")
-		)
-		(pin "1"
-			(uuid "25231d11-da4e-4c81-9cb0-0e5becee2cda")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 110.49 83.82) (xy 114.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a211c3ef-ea54-45b0-b113-19daa4af1097")
-	)
-	(global_label "SWCLK"
-		(shape input)
-		(at 110.49 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0c53a3b-6746-4b53-ac25-51600e96f7a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 132.08 83.82) (xy 135.89 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406090d3-6eaa-4157-992f-25311e872bbb")
-	)
-	(global_label "SWCLK_J7"
-		(shape input)
-		(at 135.89 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31c1e932-41b5-485f-912d-c77d69630683")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04021K00FKED")
-		(at 114.3 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37304636-b46c-49d8-bee6-f645733e1ebe")
-		(property "Reference" "R67"
-			(at 123.19 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW04021K00FKED"
-			(at 123.19 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 171.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
-			(at 271.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.6"
-			(at 471.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 571.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
-			(at 671.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04021K00FKED"
-			(at 771.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 871.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 971.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1071.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "LCSC" "C71623"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Alt" "C4269559"
-			(at 114.3 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7323722a-787f-4680-96f6-cb26f28eea9c")
-		)
-		(pin "1"
-			(uuid "173bcd60-af2a-4a63-ba7e-44e03b2853f1")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 110.49 91.44) (xy 114.3 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01db7454-3634-4887-8c58-0689498e5a50")
-	)
-	(global_label "SWDIO"
-		(shape input)
-		(at 110.49 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24cfb0b8-c36f-4460-9e76-bd1135fd99d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 132.08 91.44) (xy 135.89 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "193e599f-14f8-4506-9c0d-c9d4ce4df42e")
-	)
-	(global_label "SWDIO_J7"
-		(shape input)
-		(at 135.89 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8acb41f-a91e-42ee-92bd-a98945cc4194")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04021K00FKED")
-		(at 114.3 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f21189e-d9bb-432b-bde3-d310b7a3bb15")
-		(property "Reference" "R68"
-			(at 123.19 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW04021K00FKED"
-			(at 123.19 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 171.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
-			(at 271.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.6"
-			(at 471.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 571.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
-			(at 671.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04021K00FKED"
-			(at 771.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 871.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 971.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1071.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "LCSC" "C71623"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Alt" "C4269559"
-			(at 114.3 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "386b2b3c-c406-41e7-ab9a-61fb473b76d1")
-		)
-		(pin "1"
-			(uuid "ad6e40d1-efcb-47b3-b0fc-cbc1c4a22aaf")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 110.49 99.06) (xy 114.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a40fcc88-cb59-4f8b-b616-dcc427a627de")
-	)
-	(global_label "LPUART6_TXD"
-		(shape bidirectional)
-		(at 110.49 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc48c8bb-45dc-4306-a1a2-c26c8209c740")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb1577f-e982-4871-ab74-357c8696bf58")
-	)
-	(global_label "LPUART6_TXD_J5"
-		(shape bidirectional)
-		(at 135.89 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d5e508a-eec0-43f6-bdc6-e0deb7417f5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sb-tpu:CRCW04021K00FKED")
-		(at 114.3 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d8216b3-811d-42fb-b573-785f090fc1be")
-		(property "Reference" "R69"
-			(at 123.19 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW04021K00FKED"
-			(at 123.19 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CRCW0402200KFKED"
-			(at 171.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131754_Vishay-Intertech-CRCW04021K00FKED_C71623.pdf"
-			(at 271.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Thick film resistor 1k 1% 63mW 0402 AEC-Q200"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.6"
-			(at 471.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 571.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04021K00FKED"
-			(at 671.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW04021K00FKED"
-			(at 771.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 871.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 971.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1071.12 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "LCSC" "C71623"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sourcing_Notes" "1k 1% 0402 AEC-Q200, series protection on SWD/UART header lines (limits clamp current when 3.3V logic drives the 1.8V I/O banks to <1mA). Approved alt CRCW04021K00FKEE (C4269559): packaging code only. Any 0402 1k <=5% is acceptable."
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_Alt" "C4269559"
-			(at 114.3 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab71a9e1-1dff-4063-812a-720b10dddd03")
-		)
-		(pin "1"
-			(uuid "40c6a77e-af68-445f-89f1-dbe78cf2002d")
-		)
-		(instances
-			(project "sb-tpu"
-				(path "/c966acfe-220f-43d0-8cfe-96d860fbaac6/39784770-42fe-4518-b91a-824a7df0a449"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 110.49 106.68) (xy 114.3 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297ea722-68c3-44df-9b93-05320dc6f51e")
-	)
-	(global_label "LPUART6_RXD"
-		(shape bidirectional)
-		(at 110.49 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "237e62e7-e60e-4bb5-b04f-3cf2b5498529")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 132.08 106.68) (xy 135.89 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348ce524-5882-449a-8858-325c4f3123f8")
-	)
-	(global_label "LPUART6_RXD_J5"
-		(shape bidirectional)
-		(at 135.89 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9cb3448-c2d4-4abc-bd10-89f26625cde1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(text "MCU side"
-		(exclude_from_sim no)
-		(at 110.49 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c4bd5ef-a76d-4bdd-bec4-789e47c1e81e")
-	)
-	(text "Header side"
-		(exclude_from_sim no)
-		(at 135.89 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b473d0fd-8b10-4eb2-b7da-cf5136a3ae69")
 	)
 )
